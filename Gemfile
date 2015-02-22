@@ -28,6 +28,7 @@ group :development do
   gem 'pry-byebug', '~> 3.0.1'
   gem 'quiet_assets', '~> 1.1.0'
   gem 'rack-mini-profiler', '~> 0.9.2'
+  gem 'rails_layout', '~> 1.0.24'
   gem 'view_source_map', '~> 0.1.0'
 end
 
@@ -45,6 +46,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+
+gem 'font-awesome-rails', '~> 4.3.0.0'
+gem 'bootstrap-sass', '~> 3.3.3'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'
