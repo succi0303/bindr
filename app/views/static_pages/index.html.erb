@@ -2,14 +2,14 @@
 
   <h1>Gather Web Page</br />Into Bindr.</h1>
 
-  <p>"Bindr"は、書類をバインダーに綴じるように、<br />ウェブ上のバラバラな記事をまとめて管理するサービスです。</p>
+  <p class="lead">ウェブ上の連載記事を集めて検索するサイト。</p>
 
 </div>
 
 <div class="home_search_wrap text-center">
   <%= form_tag({controller: :static_pages, action: :index}, method: :get) do %>
     <div class="input-group input-group-lg">
-      <%= search_field_tag :keyword, '', placeholder: 'バインダーを検索する..',
+      <%= search_field_tag :keyword, '', placeholder: '連載記事を検索する..',
         class: 'form-control' %>
       <span class="input-group-btn">
         <%= button_tag(type: 'submit', class: 'btn btn-default') do %>
