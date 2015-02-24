@@ -47,14 +47,17 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
+gem 'bcrypt', '~> 3.1.10'
 gem 'font-awesome-rails', '~> 4.3.0.0'
 gem 'bootstrap-sass', '~> 3.3.3'
+gem 'simple_form', '~> 3.1.0.rc2', github: 'plataformatec/simple_form'
+gem 'validates_email_format_of', '~> 1.6.2'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'
 end
 
 group :production do
-  gem 'pg', '0.18.1'
-  gem 'rails_12factor', '0.0.3'
+  gem 'pg', '~> 0.18.1'
+  gem 'rails_12factor', '~> 0.0.3'
 end
