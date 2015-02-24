@@ -1,6 +1,14 @@
 language: ruby
 rvm:
-  - 2.1.5
-bundler_args: --jobs=2
+- 2.1.5
+bundler_args: "--jobs=2"
 script:
-  - bundle exec bin/rspec
+- bundle exec bin/rspec
+deploy:
+  provider: heroku
+  api_key:
+    secure: aV5VSBDOh0BY00rKb/iO4fgA/WKQyL+/rTlzwrsAnmwcfQtG8I/UzCab6ehoTKjWtGUQHqhwg8KNBUYfPvYXWHe8vGtTEsf6+DzNJ59GZoBDEiQ3S2rISS8hn3Ty3eu1EMs+t/sFkobtcvSV5x7rUY56iuu+Tr8pwyVjHco2PLw=
+  app:
+    master: bindr-app
+  on:
+    repo: succi0303/bindr
