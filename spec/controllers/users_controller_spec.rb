@@ -4,6 +4,11 @@ RSpec.describe UsersController, type: :controller do
 
   let(:user) { create(:user) }
 
+  before :each do
+    allow(controller).to receive(:signed_in?).and_return(true)
+    allow(controller).to receive(:current_user?).and_return(true)
+  end
+
   describe 'GET #show' do
     before :each do
       get :show, id: user
