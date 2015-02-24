@@ -1,0 +1,10 @@
+<%= simple_form_for(@user) do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :name, label: 'ユーザー名', autofocus: true %>
+  <%= f.input :email, label: 'メールアドレス' %>
+  <%= f.input :password, label: 'パスワード' %>
+  <%= f.input :password_confirmation, label: 'パスワード確認' %>
+  <%= f.button :submit, value: '登録する', class: 'btn-primary',
+    data: { disable_with: '登録中...' } %>
+<% end %>
