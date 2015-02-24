@@ -1,5 +1,11 @@
+<% provide(:title, 'ユーザー登録') %>
+
 <div class="page-header">
   <h1>ユーザー登録</h1>
 </div>
+
+<p>
+  <%= link_to 'すでに登録済みですか？', login_path %>
+</p>
 
 <%= render 'form' %>
