@@ -40,11 +40,11 @@
       </dl>
     </div>
 
-    <button class="btn btn-default">
-      <% if binder.user == current_user %>
+    <% if binder.user == current_user %>
+      <button class="btn btn-default">
         <%= link_to '編集する', edit_binder_path(binder) %>
-      <% end %>
-    </button>
+      </button>
+    <% end %>
   </div>
 
   <hr />
