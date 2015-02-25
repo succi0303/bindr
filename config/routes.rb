@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get 'binders/index'
+
   resources :users, except: [:index]
   resources :sessions, only: [:new, :create, :destroy]
+  resources :binders, only: [:index]
 
   get 'static_pages/index'
 
