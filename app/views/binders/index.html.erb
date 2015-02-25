@@ -17,7 +17,7 @@
       </h2>
 
       <p class="lead"><%= binder.description %></p>
-      
+
       <p>
         <% binder.tag_list.each do |tag| %>
           <span class="label label-info"><%= tag %></span>
@@ -39,6 +39,12 @@
         <dd><%= binder.view_count %></dd>
       </dl>
     </div>
+
+    <button class="btn btn-default">
+      <% if binder.user == current_user %>
+        <%= link_to '編集する', edit_binder_path(binder) %>
+      <% end %>
+    </button>
   </div>
 
   <hr />
