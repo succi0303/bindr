@@ -9,7 +9,13 @@
     <div class="col-sm-9">
       <h2>
         <%= link_to binder.title, '#' %>
+        <% if binder.complete? %>
+          <small><span class="label label-success">完結済</span></small>
+        <% else %>
+          <small><span class="label label-warning">進行中</span></small>
+        <% end %>
       </h2>
+
       <p class="lead"><%= binder.description %></p>
       
       <p>
