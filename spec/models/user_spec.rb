@@ -34,6 +34,10 @@ RSpec.describe User, type: :model do
       expect(user).to respond_to(:remember_token)
     end
 
+    it "has binders" do
+      expect(user).to respond_to(:binders)
+    end
+
   end
 
   it "is invalid without name" do
