@@ -4,7 +4,7 @@
   <div class="form-gourp">
     <%= f.label :tag_list, 'タグ' %><br />
     <%= text_field_tag 'binder[tag_list]', @binder.tag_list.join(','),
-      class: 'form-control', "data-role" => 'tagsinput' %>
+      class: 'form-control' %>
   </div>
   <%= f.input :complete, label: '完結済' %>
   <%= f.button :submit, '登録する', class: 'btn btn-primary' %>
