@@ -7,4 +7,10 @@ module ApplicationHelper
       "#{page_title} | #{base_title}"
     end
   end
+
+  def tag_link(tag_string)
+    content_tag(:span, class: 'label label-info') do
+      link_to(tag_string, binders_path(tag: tag_string))
+    end
+  end
 end

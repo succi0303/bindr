@@ -2,7 +2,13 @@ class BindersController < ApplicationController
   before_action :signed_in_user, only: [:new]
 
   def index
-    @binders = Binder.all.order('updated_at DESC')
+    if params[:tag].nil?
+      @title = '連載記事一覧'
+      @binders = Binder.all.order('updated_at DESC')
+    else
+      @title = "タグ: #{params[:tag]}"
+      @binders = Binder.tagged_with(params[:tag]).order('updated_at DESC')
+    end
   end
 
   def show
