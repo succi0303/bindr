@@ -8,9 +8,9 @@ module ApplicationHelper
     end
   end
 
-  def tag_link(tag_string)
+  def tag_link(tag_obj)
     content_tag(:span, class: 'label label-info') do
-      link_to(tag_string, binders_path(tag: tag_string))
+      link_to("#{tag_obj.name} (#{tag_obj.taggings_count})", binders_path(tag: tag_obj.name))
     end
   end
 end

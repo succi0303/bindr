@@ -23,6 +23,6 @@
 <div class="home_tags_wrap text-center text-info">
   <h3>よく使われているタグ</h3>
   <% @tags.each do |tag_obj| %>
-    <%= tag_link(tag_obj.name) %>
+    <%= tag_link(tag_obj) %>
   <% end %>
 </div>

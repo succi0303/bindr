@@ -4,6 +4,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @binders = @user.binders.order('updated_at DESC')
   end
 
   def new

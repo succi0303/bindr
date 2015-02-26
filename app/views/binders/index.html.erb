@@ -19,20 +19,20 @@
       <p class="lead"><%= binder.description %></p>
 
       <p>
-        <% binder.tag_list.each do |tag_string| %>
-          <%= tag_link(tag_string) %>
+        <% binder.tags.each do |tag_obj| %>
+          <%= tag_link(tag_obj) %>
         <% end %>
       </p>
 
       <p class="text-info">
-        <span>更新日: <%= time_ago_in_words binder.updated_at %></span>
+        <span>更新日時: <%= time_ago_in_words binder.updated_at %></span>
       </p>
     </div>
 
     <div class="col-sm-3">
       <dl>
         <dt>登録者</dt>
-        <dd><%= binder.user.name %></dd>
+        <dd><%= link_to binder.user.name, user_path(binder.user) %></dd>
       </dl>
       <dl>
         <dt>閲覧数</dt>
