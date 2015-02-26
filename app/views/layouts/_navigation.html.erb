@@ -11,9 +11,21 @@
       <%= link_to 'Bindr', root_path, class: 'navbar-brand' %>
     </div>
     <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><%= link_to '連載記事一覧', binders_path %></li>
-      </ul>
+
+      <% unless request.path_info == root_path %>
+        <%= form_tag(search_binders_path, method: :get, class: 'navbar-form navbar-left') do %>
+          <div class="input-group">
+            <%= search_field_tag :q, '', placeholder: '連載記事を検索する..',
+              class: 'form-control', value: params[:q], role: 'search', value: params[:q] %>
+            <span class="input-group-btn">
+              <%= button_tag(type: 'submit', class: 'btn btn-default') do %>
+                <%= fa_icon 'search' %>
+              <% end %>
+            </span>
+          </div>
+        <% end %>
+      <% end %>
+
       <ul class="nav navbar-nav navbar-right">
         <%= render 'layouts/navigation_links' %>
       </ul>

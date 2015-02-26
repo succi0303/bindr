@@ -5,47 +5,5 @@
 </div>
 
 <% @binders.each do |binder| %>
-  <div class="row">
-    <div class="col-sm-9">
-      <h2>
-        <%= link_to binder.title, binder_path(binder) %>
-        <% if binder.complete? %>
-          <small><span class="label label-success">完結済</span></small>
-        <% else %>
-          <small><span class="label label-warning">進行中</span></small>
-        <% end %>
-      </h2>
-
-      <p class="lead"><%= binder.description %></p>
-
-      <p>
-        <% binder.tags.each do |tag_obj| %>
-          <%= tag_link(tag_obj) %>
-        <% end %>
-      </p>
-
-      <p class="text-info">
-        <span>更新日時: <%= time_ago_in_words binder.updated_at %></span>
-      </p>
-    </div>
-
-    <div class="col-sm-3">
-      <dl>
-        <dt>登録者</dt>
-        <dd><%= link_to binder.user.name, user_path(binder.user) %></dd>
-      </dl>
-      <dl>
-        <dt>閲覧数</dt>
-        <dd><%= binder.view_count %></dd>
-      </dl>
-    </div>
-
-    <% if binder.user == current_user %>
-      <button class="btn btn-default">
-        <%= link_to '編集する', edit_binder_path(binder) %>
-      </button>
-    <% end %>
-  </div>
-
-  <hr />
+  <%= render 'binder', binder: binder %>
 <% end %>
