@@ -46,7 +46,7 @@ RSpec.describe BindersController, type: :controller do
     end
 
     it "assigns new binder to @binder" do
-      expect(assigns(:binder)).to be_a_new(Binder)
+      expect(assigns(:binder)).to be_a_new(Form::Binder)
     end
 
     it "renders :new template" do
@@ -61,12 +61,12 @@ RSpec.describe BindersController, type: :controller do
       it "does not save binder in database" do
         expect{
           post :create,
-          binder: attributes_for(:binder, title: nil)
+          form_binder: attributes_for(:binder, title: nil)
         }.to_not change(Binder, :count)
       end
 
       it "re-renders :new template" do
-        post :create, binder: attributes_for(:binder, title: nil)
+        post :create, form_binder: attributes_for(:binder, title: nil)
         expect(response).to render_template :new
       end
     end
@@ -79,12 +79,12 @@ RSpec.describe BindersController, type: :controller do
 
       it "saves binder in database" do
         expect{
-          post :create, binder: attributes_for(:binder)
+          post :create, form_binder: attributes_for(:binder)
         }.to change(Binder, :count).by(1)
       end
 
       it "redirects to binder#show" do
-        post :create, binder: attributes_for(:binder)
+        post :create, form_binder: attributes_for(:binder)
         expect(response).to redirect_to binder_path(assigns(:binder))
       end
     end
@@ -97,7 +97,8 @@ RSpec.describe BindersController, type: :controller do
     end
 
     it "assigns the requested binder to @binder" do
-      expect(assigns(:binder)).to eq(binder)
+      form_binder = Form::Binder.find(binder)
+      expect(assigns(:binder)).to eq(form_binder)
     end
 
     it "renders :edit template" do
@@ -115,7 +116,7 @@ RSpec.describe BindersController, type: :controller do
     context "with invalid attributes" do
 
       before :each do
-        patch :update, id: @binder, binder: attributes_for(:binder, title: nil)
+        patch :update, id: @binder, form_binder: attributes_for(:binder, title: nil)
       end
 
       it "does'nt change @binder's attributes" do
@@ -131,7 +132,7 @@ RSpec.describe BindersController, type: :controller do
     context "with valid attributes" do
 
       before :each do
-        patch :update, id: @binder, binder: attributes_for(:binder, title: 'update')
+        patch :update, id: @binder, form_binder: attributes_for(:binder, title: 'update')
       end
 
       it "changes @binder's attributes" do

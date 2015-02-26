@@ -4,7 +4,11 @@
   <h1>連載記事の編集</h1>
 </div>
 
-<%= render 'form' %>
+<%= simple_form_for @binder, url: binder_path(@binder) do |f| %>
+  <%= render 'form', f: f %>
+  <%= f.button :submit, '更新する', class: 'btn btn-primary',
+    data: { disable_with: '更新中...' } %>
+<% end %>
 
 <br />
 

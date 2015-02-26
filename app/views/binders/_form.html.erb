@@ -1,12 +1,8 @@
-<%= simple_form_for @binder do |f| %>
-  <%= f.input :title, label: 'タイトル', autofocus: true %>
-  <%= f.input :description, label: '説明' %>
-  <div class="form-gourp">
-    <%= f.label :tag_list, 'タグ' %><br />
-    <%= text_field_tag 'binder[tag_list]', @binder.tag_list.join(','),
-      class: 'form-control' %>
-  </div>
-  <%= f.input :complete, label: '完結済' %>
-  <%= f.button :submit, '登録する', class: 'btn btn-primary',
-    data: { disable_with: '登録中...' } %>
-<% end %>
+<%= f.input :title, label: 'タイトル', autofocus: true %>
+<%= f.input :description, label: '説明' %>
+<div class="form-gourp">
+  <%= f.label :tag_list, 'タグ' %><br />
+  <%= text_field_tag 'binder[tag_list]', @binder.tag_list.join(','),
+    class: 'form-control' %>
+</div>
+<%= f.input :complete, label: '完結済' %>

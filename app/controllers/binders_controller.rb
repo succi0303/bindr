@@ -16,11 +16,11 @@ class BindersController < ApplicationController
   end
 
   def new
-    @binder = Binder.new(user: current_user)
+    @binder = Form::Binder.new(user: current_user)
   end
 
   def create
-    @binder = Binder.new(binder_params)
+    @binder = Form::Binder.new(binder_params)
     @binder.user = current_user
 
     if @binder.save
@@ -31,13 +31,13 @@ class BindersController < ApplicationController
   end
 
   def edit
-    @binder = Binder.find(params[:id])
+    @binder = Form::Binder.find(params[:id])
   end
 
   def update
-    @binder = Binder.find(params[:id])
+    @binder = Form::Binder.find(params[:id])
 
-    if @binder.update(binder_params)
+    if @binder.update_attributes(binder_params)
       redirect_to binder_path(@binder), notice: '連載記事を更新しました。'
     else
       render 'edit'
@@ -62,6 +62,8 @@ class BindersController < ApplicationController
   private
 
   def binder_params
-    params.require(:binder).permit(:title, :description, :tag_list, :complete)
+    params.require(:form_binder).permit(
+      Form::Binder::REGISTARABLE_ATTRIBUTES
+    )
   end
 end
