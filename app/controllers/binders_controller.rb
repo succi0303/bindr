@@ -3,7 +3,7 @@ class BindersController < ApplicationController
 
   def index
     if params[:tag].nil?
-      @title = '連載記事一覧'
+      @title = '連載一覧'
       @binders = Binder.all.order('updated_at DESC')
     else
       @title = "タグ: #{params[:tag]}"

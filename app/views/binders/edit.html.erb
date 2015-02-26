@@ -1,4 +1,4 @@
-<% provide(:title, '連載記事の編集') %>
+<% provide(:title, '連載の編集') %>
 
 <div class="page-header">
   <h1>連載記事の編集</h1>
@@ -14,10 +14,10 @@
 
 <div class="panel panel-danger">
   <div class="panel-heading">
-    <h3 class="panel-title">連載記事の削除</h3>
+    <h3 class="panel-title"><%= fa_icon 'exclamation-triangle' %> 連載記事の削除</h3>
   </div>
   <div class="panel-body">
-    連載記事を削除します。この操作は取り消しできませんので注意してください。<br />
+    連載記事を削除します。この操作は取り消しできませんので注意してください。<br /><br />
     <%=
       link_to '連載記事の削除', binder_path(@binder),
         method: :delete,

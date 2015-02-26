@@ -5,28 +5,24 @@
     </div>
 
     <dl>
-      <dt>ユーザー名</dt>
+      <dt><%= fa_icon 'smile-o' %> ユーザー名</dt>
       <dd><%= @user.name %></dd>
     </dl>
     <dl>
-      <dt>投稿した記事数</dt>
+      <dt><%= fa_icon 'files-o' %> 登録した連載数</dt>
       <dd><%= @binders.count %></dd>
     </dl>
   </div>
 
   <div class="col-sm-9">
     <div class="page-header">
-      <h1>登録した連載記事</h1>
+      <h1>登録した連載</h1>
     </div>
 
     <% @binders.each do |binder| %>
       <h2>
-        <%= link_to(binder.title, binder_path(binder)) %>
-        <% if binder.complete? %>
-          <small><span class="label label-success">完了済</span></small>
-        <% else %>
-          <small><span class="label label-warning">進行中</span></small>
-        <% end %>
+        <%= link_to(fa_icon('book') + ' ' + binder.title, binder_path(binder)) %>
+        <%= complete_tag(binder.complete) %>
       </h2>
 
       <p class="lead"><%= binder.description %></p>
