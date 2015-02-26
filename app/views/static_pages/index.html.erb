@@ -7,10 +7,10 @@
 </div>
 
 <div class="home_search_wrap text-center">
-  <%= form_tag({controller: :static_pages, action: :index}, method: :get) do %>
+  <%= form_tag(search_binders_path, method: :get) do %>
     <div class="input-group input-group-lg">
-      <%= search_field_tag :keyword, '', placeholder: '連載記事を検索する..',
-        class: 'form-control', autofocus: true %>
+      <%= search_field_tag :q, '', placeholder: '連載記事を検索する..',
+        class: 'form-control', value: params[:q], role: 'search', autofocus: true %>
       <span class="input-group-btn">
         <%= button_tag(type: 'submit', class: 'btn btn-default') do %>
           <%= fa_icon 'search' %>

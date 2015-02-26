@@ -163,4 +163,30 @@ RSpec.describe BindersController, type: :controller do
     end
   end
 
+  describe "GET #search" do
+
+    before do
+      @binder = create(:binder)
+    end
+
+    it "renders :search template" do
+      get :search, q: @binder.title
+      expect(response).to render_template :search
+    end
+
+    context "with valid attributes" do
+      it "assigns one binder to @binders" do
+        get :search, q: @binder.title
+        expect(assigns(:binders).count).to eq(1)
+      end
+    end
+
+    context "with invalid attributes" do
+      it "assigns zero binder to @binders" do
+        get :search, q: @binder.title + "hogehoge"
+        expect(assigns(:binders).count).to eq(0)
+      end
+    end
+  end
+
 end

@@ -50,6 +50,15 @@ class BindersController < ApplicationController
     redirect_to user_path(@binder.user), notice: '連載記事を削除しました。'
   end
 
+  def search
+    @queries = params[:q].split(/\s+/)
+    @binders = Binder.all
+    @queries.each do |query|
+      @binders = @binders.where('title LIKE ? OR description LIKE ?', "%#{query}%", "%#{query}%")
+    end
+    @binders.order('updated_at DESC')
+  end
+
   private
 
   def binder_params
