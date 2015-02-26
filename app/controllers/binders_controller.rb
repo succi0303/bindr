@@ -5,11 +5,48 @@ class BindersController < ApplicationController
     @binders = Binder.all.order('updated_at DESC')
   end
 
+  def show
+    @binder = Binder.find(params[:id])
+  end
+
   def new
     @binder = Binder.new(user: current_user)
   end
 
+  def create
+    @binder = Binder.new(binder_params)
+    @binder.user = current_user
+
+    if @binder.save
+      redirect_to binder_path(@binder), notice: '連載記事を登録しました。'
+    else
+      render 'new'
+    end
+  end
+
   def edit
     @binder = Binder.find(params[:id])
+  end
+
+  def update
+    @binder = Binder.find(params[:id])
+
+    if @binder.update(binder_params)
+      redirect_to binder_path(@binder), notice: '連載記事を更新しました。'
+    else
+      render 'edit'
+    end
+  end
+
+  def destroy
+    @binder = Binder.find(params[:id])
+    @binder.destroy
+    redirect_to user_path(@binder.user), notice: '連載記事を削除しました。'
+  end
+
+  private
+
+  def binder_params
+    params.require(:binder).permit(:title, :description, :tag_list, :complete)
   end
 end

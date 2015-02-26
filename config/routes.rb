@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   resources :users, except: [:index]
   resources :sessions, only: [:new, :create, :destroy]
-  resources :binders, only: [:index, :new, :create, :edit, :update, :destroy]
+  resources :binders
 
   get 'static_pages/index'
 
