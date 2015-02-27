@@ -30,7 +30,7 @@
 
       <% if binder.user == current_user %>
         <p>
-          <%= link_to '編集する', edit_binder_path(binder) %>
+          <%= link_to '編集する', edit_binder_path(binder), class: 'btn btn-default btn-sm' %>
         </p>
       <% end %>
     </div>

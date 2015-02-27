@@ -13,6 +13,7 @@ class BindersController < ApplicationController
 
   def show
     @binder = Binder.find(params[:id])
+    @pages = @binder.pages
   end
 
   def new

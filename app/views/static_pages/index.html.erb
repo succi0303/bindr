@@ -1,21 +1,12 @@
 <div class="home_image_wrap text-center">
 
-  <h1>Gather Web Page</br />Into Bindr.</h1>
-
-  <p class="lead">
-    <%= fa_icon 'files-o' %>
-    <%= fa_icon 'angle-right' %>
-    <%= fa_icon 'book' %>
-    <%= fa_icon 'angle-right' %>
-    <%= fa_icon 'search' %>
-  </p>
-
-
+  <h1>Bindr.</h1>
   <p class="lead">IT系の連載記事を集めて検索するサイト。</p>
 
 </div>
 
 <div class="home_search_wrap text-center">
+
   <%= form_tag(search_binders_path, method: :get) do %>
     <div class="input-group input-group-lg">
       <%= search_field_tag :q, '', placeholder: '連載記事を検索する..',
@@ -27,11 +18,14 @@
       </span>
     </div>
   <% end %>
+
 </div>
 
 <div class="home_tags_wrap text-center text-info">
+
   <h3>よく使われているタグ</h3>
   <% @tags.each do |tag_obj| %>
     <%= tag_link(tag_obj) %>
   <% end %>
+
 </div>

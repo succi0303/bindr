@@ -1,6 +1,6 @@
 class Binder < ActiveRecord::Base
   belongs_to :user
-  has_many :pages, -> { order 'number ASC, title ASC'},
+  has_many :pages, -> { order 'number ASC, id ASC, title ASC'},
     dependent: :destroy
   accepts_nested_attributes_for :pages, reject_if: :all_blank, allow_destroy: true
 

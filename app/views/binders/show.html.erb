@@ -4,4 +4,67 @@
   <h1><%= fa_icon 'book' %> <%= @binder.title %></h1>
 </div>
 
-<p class="lead"><%= @binder.description %></p>
+<div class="row">
+  <div class="col-sm-8">
+    <p><%= @binder.description %></p>
+
+    <hr />
+
+    <% @pages.each do |page| %>
+      <div class="row">
+        <div class="col-xs-1">
+          <% if page.number %>
+            <h4><%= page.number %>.</h4>
+          <% end %>
+        </div>
+
+        <div class="col-xs-11">
+          <h4><%= page.title %></h4>
+        </div>
+        <div class="col-xs-11 col-xs-offset-1">
+          <%= link_to page.url, page.url, target: '_blank' %>
+        </div>
+      </div>
+
+      </p>
+
+    <% end %>
+  </div>
+
+
+  <div class="col-sm-4">
+    <dl>
+      <dt>タグ</dt>
+      <dd>
+        <% @binder.tags.each do |tag_obj| %>
+          <%= tag_link(tag_obj) %>
+        <% end %>
+      </dd>
+    </dl>
+    <dl>
+      <dt>ステータス</dt>
+      <dd><%= complete_tag(@binder.complete) %></dd>
+    </dl>
+    <dl>
+      <dt><%= fa_icon 'smile-o' %> 登録者</dt>
+      <dd><%= @binder.user.name %></dd>
+    </dl>
+    <dl>
+      <dt><%= fa_icon 'line-chart' %> 閲覧数</dt>
+      <dd><%= @binder.view_count %></dd>
+    </dl>
+    <dl>
+      <dt>更新日時</dt>
+      <dd><%= @binder.updated_at.to_s(:datetime) %></dd>
+    </dl>
+    <dl>
+      <dt>登録日時</dt>
+      <dd><%= @binder.created_at.to_s(:datetime) %></dd>
+    </dl>
+
+    <% if @binder.user = current_user %>
+      <%= link_to '編集する', edit_binder_path(@binder), class: 'btn btn-default' %>
+    <% end %>
+  </div>
+</div>
+
