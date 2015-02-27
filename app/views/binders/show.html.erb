@@ -19,14 +19,17 @@
         </div>
 
         <div class="col-xs-11">
-          <h4><%= page.title %></h4>
-        </div>
-        <div class="col-xs-11 col-xs-offset-1">
-          <%= link_to page.url, page.url, target: '_blank' %>
+          <h4>
+            <%= page.title %>
+            <%= link_to fa_icon('external-link'), page.url %>
+          </h4>
+          <p>
+            <small>
+              <%= link_to page.url, page.url, target: '_blank' %>
+            </small>
+          </p>
         </div>
       </div>
-
-      </p>
 
     <% end %>
   </div>

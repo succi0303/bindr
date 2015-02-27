@@ -1,12 +1,18 @@
 <div class="container text-center">
   <hr />
 
+  <p class="text-muted">
+    <%= fa_icon 'book' %>
+    Bindr. created by
+    <%= link_to 'succi0303', 'http://twitter.com/succi0303', target: '_blank' %>
+  </p>
+
   <p class="text-muted">Copyright &copy; 2015 Bindr. All Rights Reserved.</p>
 
   <p>
-    <%= link_to 'Github', 'https://github.com/succi0303/bindr', target: '_blank' %>
+    <%= link_to fa_icon('github') + ' Github Project', 'https://github.com/succi0303/bindr', target: '_blank' %>
     -
-    <%= link_to 'Issues', 'https://github.com/succi0303/bindr/issues', target: '_blank' %>
+    <%= link_to fa_icon('exclamation-circle') + ' Issues', 'https://github.com/succi0303/bindr/issues', target: '_blank' %>
   </p>
 
 </div>
