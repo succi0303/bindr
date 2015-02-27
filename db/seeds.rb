@@ -21,7 +21,6 @@ unless User.first
     complete: true,
     user_id: example_user.id
   )
-
   binder.pages.create(
     number: 1,
     url: 'http://gihyo.jp/dev/feature/01/rails2/0001',
@@ -41,6 +40,255 @@ unless User.first
     number: 4,
     url: 'http://gihyo.jp/dev/feature/01/rails2/0004',
     title: '第4回　Railsアプリケーションをもっと速く'
+  )
+
+  binder = Binder.create(
+    title: 'Ruby on Railsで作られたプロジェクト管理ツールredMineを使ってみよう！',
+    description: 'Ruby on Railsで作られたプロジェクト管理ツールredMineの，環境構築からセッティング，運用方法まで解説します。
+    ※Redmineの新機能（0.6.3～0.7.1）や運用管理機能を紹介している連載「Redmineを運用するためのイロハを身につけよう」もご覧ください。',
+    tag_list: 'Rails, Redmine',
+    complete: true,
+    user_id: example_user.id
+  )
+  binder.pages.create(
+    number: 1,
+    url: 'http://gihyo.jp/dev/serial/01/redmine/0001',
+    title: '第1回　プロジェクト管理ツールの必要性／Tracとの違い／redMineがオススメな理由'
+  )
+  binder.pages.create(
+    number: 2,
+    url: 'http://gihyo.jp/dev/serial/01/redmine/0002',
+    title: '第2回　環境構築／redMineのインストール・初期設定'
+  )
+  binder.pages.create(
+    number: 3,
+    url: 'http://gihyo.jp/dev/serial/01/redmine/0003',
+    title: '第3回　redMineを使ったプロジェクト管理（その1）'
+  )
+  binder.pages.create(
+    number: 4,
+    url: 'http://gihyo.jp/dev/serial/01/redmine/0004',
+    title: '第4回　redMineを使ったプロジェクト管理（その2）'
+  )
+
+  binder = Binder.create(
+    title: 'Herokuで作るFacebookアプリ',
+    description: '本連載では，Ruby on Railsのホスティング環境であるHerokuを活用して，Facebookアプリを開発する手順を解説します',
+    tag_list: 'Rails, Heroku',
+    complete: true,
+    user_id: example_user.id
+  )
+  binder.pages.create(
+    number: 1,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0001',
+    title: '第1回　Herokuを使ってFacebookアプリを作ろう'
+  )
+  binder.pages.create(
+    number: 2,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0002',
+    title: '第2回　HerokuでRailsアプリを動かそう'
+  )
+  binder.pages.create(
+    number: 3,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0003',
+    title: '第3回　Facebookアプリを作ろう'
+  )
+  binder.pages.create(
+    number: 4,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0004',
+    title: '第4回　Facebookとの認証の連携'
+  )
+  binder.pages.create(
+    number: 5,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0005',
+    title: '第5回　Facebook APIを学ぼう'
+  )
+  binder.pages.create(
+    number: 6,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0006',
+    title: '第6回　Facebookに投稿してみよう'
+  )
+  binder.pages.create(
+    number: 7,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0007',
+    title: '第7回　Herokuをもっと活用しよう！'
+  )
+  binder.pages.create(
+    number: 8,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0008',
+    title: '第8回　Herokuのアドオンエコシステム'
+  )
+  binder.pages.create(
+    number: 9,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0009',
+    title: '第9回　Facebookの「いいね！」と連携しよう'
+  )
+  binder.pages.create(
+    number: 10,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0010',
+    title: '第10回　Herokuコマンドを拡張しよう'
+  )
+  binder.pages.create(
+    number: 11,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0011',
+    title: '第11回　Herokuでファイルアップロードを実装しよう'
+  )
+  binder.pages.create(
+    number: 12,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0012',
+    title: '第12回　Herokuで非同期処理を実装しよう'
+  )
+  binder.pages.create(
+    number: 13,
+    url: 'http://gihyo.jp/dev/serial/01/heroku/0013',
+    title: '第13回　Herokuの今後の可能性'
+  )
+
+  binder = Binder.create(
+    title: 'VPSでRuby開発をしよう',
+    description: '本連載では，レンタルサーバ技術の1つであるVPS（Virtual Private Server）を使って，Ruby開発をするための手順，ノウハウについて紹介します。使用環境は，アット・ワイエムシーが提供するサービスを対象とします。',
+    tag_list: 'Ruby',
+    complete: true,
+    user_id: example_user.id
+  )
+  binder.pages.create(
+    number: 1,
+    url: 'http://gihyo.jp/dev/serial/01/vps_ruby/0001',
+    title: '第1回　言語に見るVPS活用最新動向'
+  )
+  binder.pages.create(
+    number: 2,
+    url: 'http://gihyo.jp/dev/serial/01/vps_ruby/0002',
+    title: '第2回　最新Ruby & Ruby on Rails 環境構築'
+  )
+  binder.pages.create(
+    number: 3,
+    url: 'http://gihyo.jp/dev/serial/01/vps_ruby/0003',
+    title: '第3回　MySQLを使った簡単Webアプリ構築（準備編）'
+  )
+  binder.pages.create(
+    number: 4,
+    url: 'http://gihyo.jp/dev/serial/01/vps_ruby/0004',
+    title: '第4回　Railsでの開発は本当に簡単か?'
+  )
+  binder.pages.create(
+    number: 5,
+    url: 'http://gihyo.jp/dev/serial/01/vps_ruby/0005',
+    title: '第5回　MySQLを使った簡単Webアプリ構築（完結編）'
+  )
+
+  binder = Binder.create(
+    title: 'Railsコードリーディング～scaffoldのその先へ～',
+    description: '優れたプログラマはコードを書くのと同じくらい、読みこなす。優れたコードを読むことで自身のスキルも上達するのだ',
+    tag_list: 'Rails',
+    complete: true,
+    user_id: example_user.id
+  )
+  binder.pages.create(
+    number: 1,
+    url: 'http://www.atmarkit.co.jp/fcoding/articles/reading/01/reading01a.html',
+    title: '第1回 コードリーディングを始めよう'
+  )
+  binder.pages.create(
+    number: 2,
+    url: 'http://www.atmarkit.co.jp/fcoding/articles/reading/02/reading02a.html',
+    title: '第2回 RSpecを使ったテストコードを読もう'
+  )
+  binder.pages.create(
+    number: 3,
+    url: 'http://www.atmarkit.co.jp/fcoding/articles/reading/03/reading03a.html',
+    title: '第3回 ActiveRecordを使ったソースコードを読もう'
+  )
+  binder.pages.create(
+    number: 4,
+    url: 'http://www.atmarkit.co.jp/fcoding/articles/reading/04/reading04a.html',
+    title: '第4回 ActionViewを使ったソースコードを読もう'
+  )
+  binder.pages.create(
+    number: 5,
+    url: 'http://www.atmarkit.co.jp/fcoding/articles/reading/05/reading05a.html',
+    title: '第5回 OpenIDを実装したソースコードを読もう'
+  )
+  binder.pages.create(
+    number: 6,
+    url: 'http://www.atmarkit.co.jp/fcoding/articles/reading/06/reading06a.html',
+    title: '最終回 全文検索を実装したソースコードを読もう'
+  )
+
+  binder = Binder.create(
+    title: 'Ruby on Rails3で学ぶWeb開発のキホン',
+    description: 'Web開発フレームワークとして人気の高いRuby on Railsの最新版、バージョン3を使ってWebアプリ開発の基本を学ぼう',
+    tag_list: 'Rails',
+    complete: true,
+    user_id: example_user.id
+  )
+  binder.pages.create(
+    number: 1,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/rails3/01/rails301a.html',
+    title: '第1回 MVCとRailsの基本構成を学ぼう'
+  )
+  binder.pages.create(
+    number: 2,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/rails3/02/rails302a.html',
+    title: '第2回 Railsの全体像を知ろう'
+  )
+  binder.pages.create(
+    number: 3,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/rails3/03/rails303a.html',
+    title: '第3回 「ActiveRecord」の基本とデータの参照'
+  )
+
+  binder = Binder.create(
+    title: 'Railsで目指せ、情熱エンジニア',
+    description: 'ロンドン在住のRailsエンジニア、井上真氏が自身の体験を振り返りながら、初中級者向けにRails関連のエッセイ、技術トピックをお届けします。連載第1回目はRailsを始めるきっかけについてです',
+    tag_list: 'Rails',
+    complete: false,
+    user_id: example_user.id
+  )
+  binder.pages.create(
+    number: 1,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/01/passionate01a.html',
+    title: '第1回 Railsを始めたきっかけ'
+  )
+  binder.pages.create(
+    number: 2,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/02/passionate02a.html',
+    title: '第2回 Ruby on Railsの学び方'
+  )
+  binder.pages.create(
+    number: 3,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/03/passionate03a.html',
+    title: '第3回 DojoとKataでRubyを学ぼう'
+  )
+  binder.pages.create(
+    number: 4,
+    url: 'http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/04/passionate04a.html',
+    title: '第4回 忘れやすい人のためのRailsリファレンスガイド'
+  )
+  binder.pages.create(
+    number: 5,
+    url: 'http://www.atmarkit.co.jp/ait/articles/1103/08/news096.html',
+    title: '第5回 なぜリファクタリングは必要なのか？'
+  )
+  binder.pages.create(
+    number: 6,
+    url: 'http://www.atmarkit.co.jp/ait/articles/1103/11/news084.html',
+    title: '第6回 Railsの人気テストフレームワーク6選！'
+  )
+  binder.pages.create(
+    number: 7,
+    url: 'http://www.atmarkit.co.jp/ait/articles/1105/26/news117.html',
+    title: '第7回 実例アプリで学ぶ“Railsらしさ”の基礎'
+  )
+  binder.pages.create(
+    number: 8,
+    url: 'http://www.atmarkit.co.jp/ait/articles/1112/22/news132.html',
+    title: '第8回 実例で学ぶRailsアプリのテスト方法'
+  )
+  binder.pages.create(
+    number: 9,
+    url: 'http://www.atmarkit.co.jp/ait/articles/1208/06/news119.html',
+    title: '第9回 Railsのコントローラをテストする'
   )
 
   binder = Binder.create(
