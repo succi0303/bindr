@@ -1,7 +1,7 @@
 <%# add navigation links to this file %>
 <li><%= link_to fa_icon('list') + ' 連載一覧', binders_path %></li>
 <% if signed_in? %>
-  <li><%= link_to fa_icon('edit') + ' 連載の登録', new_binder_path %></li>
+  <li><%= link_to fa_icon('edit') + ' 連載記事の登録', new_binder_path %></li>
   <li class="dropdown">
     <a class="dropdown-toggle" href="#" data-toggle="dropdown">
       <%= current_user.name %> <b class="caret"></b>

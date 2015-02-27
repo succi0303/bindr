@@ -56,14 +56,15 @@ class BindersController < ApplicationController
     @queries.each do |query|
       @binders = @binders.where('title LIKE ? OR description LIKE ?', "%#{query}%", "%#{query}%")
     end
-    @binders.order('updated_at DESC')
+    @binders = @binders.order('updated_at DESC')
   end
 
   private
 
   def binder_params
     params.require(:form_binder).permit(
-      Form::Binder::REGISTARABLE_ATTRIBUTES
+      Form::Binder::REGISTARABLE_ATTRIBUTES +
+      [pages_attributes: Form::Page::REGISTARABLE_ATTRIBUTES]
     )
   end
 end

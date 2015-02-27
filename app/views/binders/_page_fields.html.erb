@@ -1,0 +1,18 @@
+<div class="nested-fields">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-3">
+          <%= f.input :number, label: '番号' %>
+        </div>
+        <div class="col-xs-9">
+          <%= f.input :url, label: 'URL' %>
+        </div>
+      </div>
+      <%= f.input :title, label: '記事タイトル' %>
+      <div class="text-right">
+        <%= link_to_remove_association "記事を削除する", f, class: 'btn btn-warning' %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,6 +3,7 @@ require 'rails_helper'
 RSpec.describe BindersController, type: :controller do
 
   let(:binder) { create(:binder) }
+  let(:page) { create(:page, binder: binder) }
 
   before :each do
     allow(controller).to receive(:signed_in_user).and_return(true)

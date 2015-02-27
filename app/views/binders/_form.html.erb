@@ -1,8 +1,39 @@
-<%= f.input :title, label: '連載タイトル', autofocus: true %>
-<%= f.input :description, label: '説明' %>
-<div class="form-gourp">
-  <%= f.label :tag_list, 'タグ' %><br />
-  <%= text_field_tag 'binder[tag_list]', @binder.tag_list.join(','),
-    class: 'form-control' %>
+<div class="row">
+
+  <div class="col-md-5">
+    <%= f.input :title, label: '連載タイトル', autofocus: true %>
+    <%= f.input :description, label: '説明', input_html: { rows: "5" } %>
+    <div class="form-gourp">
+      <%= f.label :tag_list, 'タグ' %><br />
+      <%= text_field_tag 'form_binder[tag_list]', @binder.tag_list.join(','),
+        class: 'form-control' %>
+    </div>
+    <%= f.input :complete, label: '完結済' %>
+  </div>
+
+  <div class="col-md-7">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">記事の登録</div>
+      </div>
+      <div class="panel-body">
+        <%= f.simple_fields_for :pages do |page| %>
+          <%= render 'page_fields', f: page %>
+        <% end %>
+
+        <div id="pages-association-insertion-point"></div>
+
+        <div class="text-right">
+          <%= link_to_add_association '記事を追加する', f, :pages,
+            class: 'btn btn-default',
+            data: {
+              association_insertion_node: '#pages-association-insertion-point',
+              association_insertion_method: 'append'
+            }
+          %>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
-<%= f.input :complete, label: '完結済' %>
