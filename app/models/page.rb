@@ -8,6 +8,4 @@ class Page < ActiveRecord::Base
     url: { message: 'URLの形式が正しくありません' }
   validates :title,
     presence: true
-  validates :binder,
-    presence: true
 end

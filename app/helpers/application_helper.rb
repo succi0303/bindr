@@ -17,11 +17,11 @@ module ApplicationHelper
   def complete_tag(complete)
     if complete
       content_tag(:small) do
-        content_tag(:span, '完結済', class: 'label label-success')
+        content_tag(:span, '連載終了', class: 'label label-success')
       end
     else
       content_tag(:small) do
-        content_tag(:span, '進行中', class: 'label label-warning')
+        content_tag(:span, '連載進行中', class: 'label label-warning')
       end
     end
   end
