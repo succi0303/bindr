@@ -20,12 +20,12 @@
     </div>
 
     <% @binders.each do |binder| %>
-      <h2>
+      <h3>
         <%= link_to(fa_icon('book') + ' ' + binder.title, binder_path(binder)) %>
         <%= complete_tag(binder.complete) %>
-      </h2>
+      </h3>
 
-      <p class="lead"><%= binder.description %></p>
+      <p><%= binder.description %></p>
 
       <p>
         <% binder.tags.each do |tag_obj| %>
