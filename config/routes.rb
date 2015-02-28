@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   resources :binders do
     collection do
       get :search
+      get 'page/:page', action: :index
+      get 'page/:page', action: :search
     end
   end
 

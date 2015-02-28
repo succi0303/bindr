@@ -4,11 +4,17 @@
     <%= @queries.join(" ") %>
     の検索結果
     <small>
-      <%= @binders.count %> 件
+      <%= @binders_count %> 件
     </small>
   </h1>
 </div>
 
+<p class="text-info">
+  <%= page_entries_info @binders %>
+</p>
+
 <% @binders.each do |binder| %>
   <%= render 'binder', binder: binder %>
 <% end %>
+
+<%= paginate @binders %>

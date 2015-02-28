@@ -4,10 +4,12 @@ class BindersController < ApplicationController
   def index
     if params[:tag].nil?
       @title = '連載一覧'
-      @binders = Binder.all.order('updated_at DESC')
+      @binders_count = Binder.all.count
+      @binders = Binder.all.order('updated_at DESC').page params[:page]
     else
       @title = "タグ: #{params[:tag]}"
-      @binders = Binder.tagged_with(params[:tag]).order('updated_at DESC')
+      @binders_count = Binder.tagged_with(params[:tag]).count
+      @binders = Binder.tagged_with(params[:tag]).order('updated_at DESC').page params[:page]
     end
   end
 
@@ -57,7 +59,8 @@ class BindersController < ApplicationController
     @queries.each do |query|
       @binders = @binders.where('title LIKE ? OR description LIKE ?', "%#{query}%", "%#{query}%")
     end
-    @binders = @binders.order('updated_at DESC')
+    @binders_count = @binders.count
+    @binders = @binders.order('updated_at DESC').page params[:page]
   end
 
   private

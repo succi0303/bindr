@@ -1,9 +1,20 @@
 <% provide(:title, @title) %>
 
 <div class="page-header">
-  <h1><%= @title %></h1>
+  <h1>
+    <%= @title %>
+    <small>
+      <%= @binders_count %> 件
+    </small>
+  </h1>
 </div>
+
+<p class="text-info">
+  <%= page_entries_info @binders %>
+</p>
 
 <% @binders.each do |binder| %>
   <%= render 'binder', binder: binder %>
 <% end %>
+
+<%= paginate @binders %>
