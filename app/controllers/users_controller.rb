@@ -4,7 +4,8 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @binders = @user.binders.order('updated_at DESC')
+    @binders_count = @user.binders.count
+    @binders = @user.binders.order('updated_at DESC').page params[:page]
   end
 
   def new
