@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       get :search
     end
   end
+  resource :sitemaps, only: :show
 
   get 'static_pages/index'
 
