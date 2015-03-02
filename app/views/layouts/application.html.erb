@@ -7,6 +7,7 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= Gon::Base.render_data({}) %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= yield :rss %>
     <%= csrf_meta_tags %>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   </head>

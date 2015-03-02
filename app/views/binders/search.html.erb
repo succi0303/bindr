@@ -1,4 +1,9 @@
 <% provide(:title, "#{@queries.join(" ")} の検索結果") %>
+
+<% content_for :rss do %>
+  <%= auto_discovery_link_tag(:rss, @rss_path) %>
+<% end %>
+
 <div class="page-header">
   <h1>
     <%= @queries.join(" ") %>
@@ -8,6 +13,10 @@
     </small>
   </h1>
 </div>
+
+<p>
+  <%= link_to fa_icon('rss-square') + " #{@queries.join(" ")} の検索結果のRSS", @rss_path %>
+</p>
 
 <p class="text-info">
   <%= page_entries_info @binders %>

@@ -1,17 +1,11 @@
 Rails.application.routes.draw do
   get 'binders/index'
 
-  resources :users, except: [:index] do
-    member do
-      get 'page/:page', action: :show
-    end
-  end
+  resources :users, except: [:index]
   resources :sessions, only: [:new, :create, :destroy]
   resources :binders do
     collection do
       get :search
-      get 'page/:page', action: :index
-      get 'page/:page', action: :search
     end
   end
 

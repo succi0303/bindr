@@ -6,6 +6,13 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @binders_count = @user.binders.count
     @binders = @user.binders.order('updated_at DESC').page params[:page]
+
+    @rss_path = user_path(@user) + '.rss'
+
+    respond_to do |format|
+      format.html
+      format.rss { render :layout => false }
+    end
   end
 
   def new
