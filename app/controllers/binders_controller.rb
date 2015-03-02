@@ -16,6 +16,10 @@ class BindersController < ApplicationController
   def show
     @binder = Binder.find(params[:id])
     @pages = @binder.pages
+
+    @binder.view_count = @binder.view_count + 1
+    @binder.record_timestamps = false
+    @binder.save
   end
 
   def new
