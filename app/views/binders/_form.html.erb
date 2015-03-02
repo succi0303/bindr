@@ -6,7 +6,7 @@
     <div class="form-gourp">
       <%= f.label :tag_list, 'タグ' %><br />
       <%= text_field_tag 'form_binder[tag_list]', @binder.tag_list.join(','),
-        class: 'form-control' %>
+        class: 'form-control tokenfield' %>
     </div>
     <%= f.input :complete, label: '連載終了' %>
   </div>

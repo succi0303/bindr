@@ -71,4 +71,5 @@ class BindersController < ApplicationController
       [pages_attributes: Form::Page::REGISTARABLE_ATTRIBUTES]
     )
   end
+
 end
