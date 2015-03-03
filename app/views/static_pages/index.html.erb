@@ -21,14 +21,49 @@
 
 </div>
 
-<div class="home_tags_wrap text-center text-info">
+<div class="home_tags_wrap text-center">
 
-  <h3>人気のあるタグ</h3>
+  <h3 class="text-info">人気のタグ</h3>
 
   <p>
     <% @tags.each do |tag_obj| %>
       <%= tag_link(tag_obj) %>
     <% end %>
   </p>
+
+</div>
+
+<div class="home_binders_wrap">
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4 class="panel-title">最近更新された連載記事</h4>
+        </div>
+        <div class="panel-body">
+        <ul class="list-unstyled">
+          <% @recent_binders.each do |recent_binder| %>
+            <li><%= link_to(recent_binder.title, binder_path(recent_binder)) %></li>
+          <% end %>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4 class="panel-title">人気の連載記事</h4>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            <% @popular_binders.each do |popular_binder| %>
+              <li><%= link_to(popular_binder.title, binder_path(popular_binder)) %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
