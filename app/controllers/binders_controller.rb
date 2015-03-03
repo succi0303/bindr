@@ -4,17 +4,17 @@ class BindersController < ApplicationController
   def index
     if params[:tag].nil?
       @title = '連載記事一覧'
-      @rss_path = binders_path + '.rss'
+      @rss_path = binders_path(format: :rss)
       @binders = Binder.all.order('updated_at DESC').page params[:page]
     else
       @title = "タグ: #{params[:tag]} の連載記事一覧"
-      @rss_path = binders_path + '.rss' + "?tag=#{params[:tag]}"
+      @rss_path = binders_path(format: :rss, tag: params[:tag])
       @binders = Binder.tagged_with(params[:tag]).order('updated_at DESC').page params[:page]
     end
 
     respond_to do |format|
       format.html
-      format.rss { render :layout => false}
+      format.rss { render :layout => false }
     end
   end
 
@@ -25,6 +25,13 @@ class BindersController < ApplicationController
     @binder.view_count = @binder.view_count + 1
     @binder.record_timestamps = false
     @binder.save
+
+    @rss_path = binder_path(format: :rss)
+
+    respond_to do |format|
+      format.html
+      format.rss { render :layout => false }
+    end
   end
 
   def new
@@ -70,7 +77,7 @@ class BindersController < ApplicationController
     end
     @binders = @binders.order('updated_at DESC').page params[:page]
 
-    @rss_path = search_binders_path + '.rss' + "?q=#{params[:q]}"
+    @rss_path = search_binders_path(format: :rss, q: params[:q])
 
     respond_to do |format|
       format.html

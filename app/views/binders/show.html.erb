@@ -1,5 +1,9 @@
 <% provide(:title, @binder.title) %>
 
+<% content_for :rss do %>
+  <%= auto_discovery_link_tag(:rss, @rss_path) %>
+<% end %>
+
 <div class="page-header">
   <h1><%= fa_icon 'book' %> <%= @binder.title %></h1>
 </div>
@@ -64,6 +68,10 @@
       <dt>登録日時</dt>
       <dd><%= @binder.created_at.to_s(:datetime) %></dd>
     </dl>
+
+    <p>
+      <%= link_to fa_icon('rss-square') + ' 連載記事のRSS', @rss_path %>
+    </p>
 
     <% if @binder.user = current_user %>
       <%= link_to '編集する', edit_binder_path(@binder), class: 'btn btn-default' %>
