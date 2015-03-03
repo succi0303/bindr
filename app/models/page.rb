@@ -1,5 +1,5 @@
 class Page < ActiveRecord::Base
-  belongs_to :binder
+  belongs_to :binder, touch: true
 
   validates :number,
     numericality: { only_integer: true, allow_nil: true }
