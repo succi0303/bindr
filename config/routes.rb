@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       get :search
     end
   end
-  resource :sitemaps, only: :show
+  resource :sitemap, only: :show, defaults: { format: "xml" }
 
   get 'static_pages/index'
 
