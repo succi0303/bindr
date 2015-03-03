@@ -18,18 +18,17 @@
       <div class="row">
         <div class="col-xs-1">
           <% if page.number %>
-            <h4><%= page.number %>.</h4>
+            <p><small><%= page.number %></small></p>
           <% end %>
         </div>
 
         <div class="col-xs-11">
-          <h4>
+          <p>
             <%= page.title %>
             <%= link_to fa_icon('external-link'), page.url, target: '_blank' %>
-          </h4>
-          <p>
+            <br />
             <small>
-              <%= link_to page.url, page.url, target: '_blank' %>
+              <%= link_to page.url, page.url, class: 'break-word', target: '_blank' %>
             </small>
           </p>
         </div>
@@ -54,7 +53,7 @@
     </dl>
     <dl>
       <dt><%= fa_icon 'smile-o' %> 登録者</dt>
-      <dd><%= @binder.user.name %></dd>
+      <dd><%= link_to(@binder.user.name, user_path(@binder.user)) %></dd>
     </dl>
     <dl>
       <dt><%= fa_icon 'line-chart' %> 閲覧数</dt>
