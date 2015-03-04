@@ -48,11 +48,11 @@
       </p>
 
       <p class="text-info">
-        <span>更新日時: <%= time_ago_in_words binder.updated_at %></span>
+        <span>更新: <%= time_ago_in_words binder.updated_at %>前</span>
         /
-        <span>記事数: <%= binder.pages.count %></span>
+        <span>記事数: <%= binder.pages.count %>件</span>
         /
-        <span>閲覧数: <%= binder.view_count %></span>
+        <span>閲覧数: <%= binder.view_count %> View</span>
       </p>
 
       <% if binder.user == current_user %>
