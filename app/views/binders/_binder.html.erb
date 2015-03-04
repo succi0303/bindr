@@ -1,9 +1,11 @@
   <div class="row">
     <div class="col-sm-9">
-      <h3>
+      <h4>
         <%= link_to fa_icon('book') + ' ' + binder.title, binder_path(binder) %>
-        <%= complete_tag(binder.complete) %>
-      </h3>
+        <small>
+          <%= complete_tag(binder.complete) %>
+        </small>
+      </h4>
 
       <p><%= binder.description %></p>
 
@@ -14,9 +16,9 @@
       </p>
 
       <p class="text-info">
-        <span>更新日時: <%= time_ago_in_words binder.updated_at %></span>
+        <span>更新: <%= time_ago_in_words binder.updated_at %>前</span>
         /
-        <span>記事数: <%= binder.pages.count %></span>
+        <span>記事数: <%= binder.pages.count %>件</span>
       </p>
     </div>
 
@@ -24,15 +26,13 @@
       <dl>
         <dt><%= fa_icon 'smile-o' %>  登録者</dt>
         <dd><%= link_to binder.user.name, user_path(binder.user) %></dd>
-      </dl>
-      <dl>
         <dt><%= fa_icon 'line-chart' %> 閲覧数</dt>
-        <dd><%= binder.view_count %></dd>
+        <dd><%= binder.view_count %> View</dd>
       </dl>
 
       <% if binder.user == current_user %>
         <p>
-          <%= link_to '編集する', edit_binder_path(binder), class: 'btn btn-default btn-sm' %>
+          <%= link_to '編集する', edit_binder_path(binder), class: 'btn btn-default btn-xs' %>
         </p>
       <% end %>
     </div>
@@ -40,3 +40,4 @@
   </div>
 
   <hr />
+

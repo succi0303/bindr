@@ -16,13 +16,9 @@ module ApplicationHelper
 
   def complete_tag(complete)
     if complete
-      content_tag(:small) do
-        content_tag(:span, '連載終了', class: 'label label-success')
-      end
+      content_tag(:span, '連載終了', class: 'label label-success')
     else
-      content_tag(:small) do
-        content_tag(:span, '連載進行中', class: 'label label-warning')
-      end
+      content_tag(:span, '連載進行中', class: 'label label-warning')
     end
   end
 end

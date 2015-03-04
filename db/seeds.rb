@@ -23,7 +23,7 @@ end
 
 gihyo_serials = YAML.load_file('db/gihyo.serials.yml')
 codezine_serials = YAML.load_file('db/codezine.serials.yml')
-serials = gihyo_serials + codezine_serials
+serials = gihyo_serials[0...250] + codezine_serials[0...250]
 
 serials.each do |serial|
   if serial[:articles][0][:date] == ""
