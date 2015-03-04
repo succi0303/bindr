@@ -34,10 +34,12 @@
     </p>
 
     <% @binders.each do |binder| %>
-      <h3>
+      <h4>
         <%= link_to(fa_icon('book') + ' ' + binder.title, binder_path(binder)) %>
-        <%= complete_tag(binder.complete) %>
-      </h3>
+        <small>
+          <%= complete_tag(binder.complete) %>
+        </small>
+      </h4>
 
       <p><%= binder.description %></p>
 
@@ -57,11 +59,12 @@
 
       <% if binder.user == current_user %>
         <p>
-          <%= link_to '編集する', edit_binder_path(binder), class: 'btn btn-default btn-sm' %>
+          <%= link_to '編集する', edit_binder_path(binder), class: 'btn btn-default btn-xs' %>
         </p>
       <% end %>
 
       <hr />
+
     <% end %>
 
     <%= paginate @binders %>
