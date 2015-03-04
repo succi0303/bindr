@@ -1,0 +1,2034 @@
+---
+- :url: http://gihyo.jp/dev/clip/01/orangenews
+  :title: "濃縮還元オレンジニュース"
+  :description: "ブログで盛り上がっている記事や旬な技術情報をキャッチアップし，URLをクリッピングしていくWebサイト『オレンジニュース』の運営者がお贈りする，厳選ニュース集（現在、Webサイトは訳あって休止中）。本誌読者に向けてWEB+DB開発の「今」がわかるものを選りすぐり，解説付きで紹介します。"
+  :tag: URL,Web,WEB,DB
+  :articles:
+  - :title: "【最終回】連載を振り返って"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0010
+    :date: 2012年3月1日
+  - :title: "音楽制作を通じてプログラミングを学ぶ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0009
+    :date: 2012年3月1日
+  - :title: MITにてSICPのクラスが復活!?
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0008
+    :date: 2012年2月29日
+  - :title: "スナップショット Viaweb 1998年6月"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0007
+    :date: 2012年2月29日
+  - :title: "英語によるメーリングリストへのバグレポート提出ガイド"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0006
+    :date: 2012年2月28日
+  - :title: "コードを書けることで僕は本当に救われている"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0005
+    :date: 2012年2月28日
+  - :title: Scala 2.9のハッシュテーブルにおいて大量の衝突を引き起こした事例
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0004
+    :date: 2012年2月27日
+  - :title: Haskellで書かれたWebフレームワーク「Yesod」のチュートリアル
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0003
+    :date: 2012年2月27日
+  - :title: Mozilla，新プログラミング言語「Rust」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0002
+    :date: 2012年2月24日
+  - :title: XMLをjQuery風に操作できるJavaライブラリ「jOOX」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0001
+    :date: 2012年2月24日
+  - :title: Webは数式を表現する力が乏しい
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0009
+    :date: 2011年12月29日
+  - :title: PerlエンジニアがPerlエンジニアのために作るPerl検定試験「Perl道場」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0008
+    :date: 2011年12月29日
+  - :title: FizzBuzz問題を使って社内プログラミングコンテストを開催してみた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0007
+    :date: 2011年12月29日
+  - :title: "ダメなデイリースタンドアップ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0006
+    :date: 2011年12月28日
+  - :title: Steve YeggeのGoogleとプラットフォームに関するぶっちゃけ話を訳した
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0005
+    :date: 2011年12月28日
+  - :title: "データマイニングで使われるトップ10アルゴリズム"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0004
+    :date: 2011年12月27日
+  - :title: "匿名による告発「MongoDBは使ってはいけない」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0003
+    :date: 2011年12月27日
+  - :title: Apache Hadoop 0.23リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0002
+    :date: 2011年12月26日
+  - :title: Apache Cassandra 1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol66/0001
+    :date: 2011年12月26日
+  - :title: "「何ができるのか」を考えてみる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0009
+    :date: 2011年10月28日
+  - :title: "海外企業の役職別平均年収がわかる「TechCompanyPay」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0008
+    :date: 2011年10月27日
+  - :title: Twitter社採用面接受験記
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0007
+    :date: 2011年10月27日
+  - :title: "日本企業のソフトウェア開発はなぜ成長しないのか"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0006
+    :date: 2011年10月26日
+  - :title: PHP 5.3.7のcrypt関数のバグはこうして生まれた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0005
+    :date: 2011年10月26日
+  - :title: PostgreSQL勉強会発表資料「削除フラグのはなし」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0004
+    :date: 2011年10月25日
+  - :title: Twitterエンジニア向けScala学習サイト「Scala School!」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0003
+    :date: 2011年10月25日
+  - :title: "分散Key-Valueストア「Riak 1.0」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0002
+    :date: 2011年10月24日
+  - :title: Twitter，分散リアルタイム処理システム「Storm」公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0001
+    :date: 2011年10月24日
+  - :title: "嫌いになる必要はない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0009
+    :date: 2011年8月30日
+  - :title: SVMの定番入門書「サポートベクターマシン入門（赤本）」の読み方
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0008
+    :date: 2011年8月29日
+  - :title: "大いに沸いた1文字のバグ修正"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0007
+    :date: 2011年8月29日
+  - :title: "実力を測るのにFizzBuzzも二分探索も使えない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0006
+    :date: 2011年8月26日
+  - :title: "女性がIT勉強会に行かない7つの理由"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0005
+    :date: 2011年8月26日
+  - :title: Herokuが公式にClojureをサポート開始
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0003
+    :date: 2011年8月25日
+  - :title: Hadoopによるテキストマイニングで著者の寿命を推定する
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0004
+    :date: 2011年8月25日
+  - :title: HTTPでHDFS操作が行える「Hoop」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0002
+    :date: 2011年8月24日
+  - :title: "分散Key-Valueストア「Voldemort 0.90」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0001
+    :date: 2011年8月24日
+  - :title: "新しい技術を社内アプリケーションで試す"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0008
+    :date: 2011年6月29日
+  - :title: "マウンテンビューガイド"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0007
+    :date: 2011年6月29日
+  - :title: "画期的（？）なソートアルゴリズム「Sleep Sort」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0006
+    :date: 2011年6月28日
+  - :title: "海外企業の役職別平均年収がわかる「TechCompanyPay」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0008
+    :date: 2011年10月27日
+  - :title: Twitter社採用面接受験記
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0007
+    :date: 2011年10月27日
+  - :title: "日本企業のソフトウェア開発はなぜ成長しないのか"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0006
+    :date: 2011年10月26日
+  - :title: PHP 5.3.7のcrypt関数のバグはこうして生まれた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0005
+    :date: 2011年10月26日
+  - :title: PostgreSQL勉強会発表資料「削除フラグのはなし」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0004
+    :date: 2011年10月25日
+  - :title: Twitterエンジニア向けScala学習サイト「Scala School!」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0003
+    :date: 2011年10月25日
+  - :title: "分散Key-Valueストア「Riak 1.0」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0002
+    :date: 2011年10月24日
+  - :title: Twitter，分散リアルタイム処理システム「Storm」公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol65/0001
+    :date: 2011年10月24日
+  - :title: "嫌いになる必要はない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0009
+    :date: 2011年8月30日
+  - :title: SVMの定番入門書「サポートベクターマシン入門（赤本）」の読み方
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0008
+    :date: 2011年8月29日
+  - :title: "大いに沸いた1文字のバグ修正"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0007
+    :date: 2011年8月29日
+  - :title: "実力を測るのにFizzBuzzも二分探索も使えない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0006
+    :date: 2011年8月26日
+  - :title: "女性がIT勉強会に行かない7つの理由"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0005
+    :date: 2011年8月26日
+  - :title: Herokuが公式にClojureをサポート開始
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0003
+    :date: 2011年8月25日
+  - :title: Hadoopによるテキストマイニングで著者の寿命を推定する
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0004
+    :date: 2011年8月25日
+  - :title: HTTPでHDFS操作が行える「Hoop」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0002
+    :date: 2011年8月24日
+  - :title: "分散Key-Valueストア「Voldemort 0.90」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol64/0001
+    :date: 2011年8月24日
+  - :title: "新しい技術を社内アプリケーションで試す"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0008
+    :date: 2011年6月29日
+  - :title: "マウンテンビューガイド"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0007
+    :date: 2011年6月29日
+  - :title: "画期的（？）なソートアルゴリズム「Sleep Sort」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0006
+    :date: 2011年6月28日
+  - :title: AWSの障害に起因したHerokuの障害レポート
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0005
+    :date: 2011年6月28日
+  - :title: JavaFX 2.0 ー Javaによるリッチクライアント基盤
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0004
+    :date: 2011年6月27日
+  - :title: The dark side of Hadoop
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0003
+    :date: 2011年6月27日
+  - :title: Groovy 1.8リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0002
+    :date: 2011年6月24日
+  - :title: Google，軽量key-valueデータベースライブラリ「LevelDB」公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0001
+    :date: 2011年6月24日
+  - :title: "震災後，私たちに何ができるか"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0009
+    :date: 2011年4月29日
+  - :title: "オライリー，すべての電子書籍を半額にする災害支援キャンペーン開催"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0008
+    :date: 2011年4月28日
+  - :title: "中学2年生の日本人，Ruby最年少コミッタに就任"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0007
+    :date: 2011年4月28日
+  - :title: Common LispがWeb業界を駆逐するとき
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0006
+    :date: 2011年4月27日
+  - :title: XMLの第一人者Tim Bray氏「URLに#!入れるな」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0005
+    :date: 2011年4月27日
+  - :title: HTTPサーバにJava NIOは必要か
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0004
+    :date: 2011年4月26日
+  - :title: "「非同期プログラミングの改善」のエッセンス"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0003
+    :date: 2011年4月26日
+  - :title: C#でMac OS Xアプリが開発できる「MonoMac 1.0」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0002
+    :date: 2011年4月25日
+  - :title: Sinatra 1.2.0 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0001
+    :date: 2011年4月25日
+  - :title: "「時間管理のマトリックス」を意識してみる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0008
+    :date: 2011年3月1日
+  - :title: "モテるエンジニア"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0007
+    :date: 2011年3月1日
+  - :title: Microsoft Researchが開催するスペル修正コンテスト「Speller Challenge」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0006
+    :date: 2011年2月28日
+  - :title: "優れたPerlプログラマを見分ける27の質問"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0005
+    :date: 2011年2月28日
+  - :title: CIツールのHudson，Oracleと交渉決裂しJenkinsに改名へ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0004
+    :date: 2011年2月25日
+  - :title: Cassandra，MongoDB，Redisなど主要NoSQL比較
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0003
+    :date: 2011年2月25日
+  - :title: AWSの障害に起因したHerokuの障害レポート
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0005
+    :date: 2011年6月28日
+  - :title: JavaFX 2.0 ー Javaによるリッチクライアント基盤
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0004
+    :date: 2011年6月27日
+  - :title: The dark side of Hadoop
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0003
+    :date: 2011年6月27日
+  - :title: Groovy 1.8リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0002
+    :date: 2011年6月24日
+  - :title: Google，軽量key-valueデータベースライブラリ「LevelDB」公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol63/0001
+    :date: 2011年6月24日
+  - :title: "震災後，私たちに何ができるか"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0009
+    :date: 2011年4月29日
+  - :title: "オライリー，すべての電子書籍を半額にする災害支援キャンペーン開催"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0008
+    :date: 2011年4月28日
+  - :title: "中学2年生の日本人，Ruby最年少コミッタに就任"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0007
+    :date: 2011年4月28日
+  - :title: Common LispがWeb業界を駆逐するとき
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0006
+    :date: 2011年4月27日
+  - :title: XMLの第一人者Tim Bray氏「URLに#!入れるな」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0005
+    :date: 2011年4月27日
+  - :title: HTTPサーバにJava NIOは必要か
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0004
+    :date: 2011年4月26日
+  - :title: "「非同期プログラミングの改善」のエッセンス"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0003
+    :date: 2011年4月26日
+  - :title: C#でMac OS Xアプリが開発できる「MonoMac 1.0」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0002
+    :date: 2011年4月25日
+  - :title: Sinatra 1.2.0 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol62/0001
+    :date: 2011年4月25日
+  - :title: "「時間管理のマトリックス」を意識してみる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0008
+    :date: 2011年3月1日
+  - :title: "モテるエンジニア"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0007
+    :date: 2011年3月1日
+  - :title: Microsoft Researchが開催するスペル修正コンテスト「Speller Challenge」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0006
+    :date: 2011年2月28日
+  - :title: "優れたPerlプログラマを見分ける27の質問"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0005
+    :date: 2011年2月28日
+  - :title: CIツールのHudson，Oracleと交渉決裂しJenkinsに改名へ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0004
+    :date: 2011年2月25日
+  - :title: Cassandra，MongoDB，Redisなど主要NoSQL比較
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0003
+    :date: 2011年2月25日
+  - :title: Apache Pig 0.8 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0002
+    :date: 2011年2月24日
+  - :title: Apache HBase 0.90.0 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0001
+    :date: 2011年2月24日
+  - :title: "周りの意見に流されない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0009
+    :date: 2010年12月28日
+  - :title: "エンジニアを幸福にしないヤフーというシステム"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0008
+    :date: 2010年12月28日
+  - :title: glibcの実装変更にて引き起こしたFlash不具合
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0007
+    :date: 2010年12月28日
+  - :title: MapReduceを使わない大規模分散データ更新システム「Percolator」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0006
+    :date: 2010年12月27日
+  - :title: Scalable System Design Patterns
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0005
+    :date: 2010年12月27日
+  - :title: "（（Pythonで）書く（Lisp）インタプリタ）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0004
+    :date: 2010年12月24日
+  - :title: Google，Sawzallの処理系「Szl」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0003
+    :date: 2010年12月24日
+  - :title: "米Yahoo!，リアルタイムなMapReduceフレームワーク「S4」公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0002
+    :date: 2010年12月22日
+  - :title: "技術系電子書籍出版サービス「達人出版会」試験公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0001
+    :date: 2010年12月22日
+  - :title: "置いてけぼりさんがいないようにする方法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0009
+    :date: 2010年10月29日
+  - :title: DHH氏，超高級スーパーカーをオーダーメイド
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0008
+    :date: 2010年10月28日
+  - :title: "最初の一歩は始めること"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0007
+    :date: 2010年10月28日
+  - :title: Paul Graham氏エッセイ「Yahoo! に起きてしまったこと」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0006
+    :date: 2010年10月27日
+  - :title: Online Python Tutor
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0005
+    :date: 2010年10月27日
+  - :title: NoSQLの成功は1:10問題にかかっている
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0004
+    :date: 2010年10月26日
+  - :title: "クロージャなどが先送りされた「Java 7リリース計画」発表"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0003
+    :date: 2010年10月26日
+  - :title: "高速key-valueストア「Redis 2.0」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0002
+    :date: 2010年10月25日
+  - :title: "プログラミング言語「Clojure 1.2」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0001
+    :date: 2010年10月25日
+  - :title: Apache Pig 0.8 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0002
+    :date: 2011年2月24日
+  - :title: Apache HBase 0.90.0 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol61/0001
+    :date: 2011年2月24日
+  - :title: "周りの意見に流されない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0009
+    :date: 2010年12月28日
+  - :title: "エンジニアを幸福にしないヤフーというシステム"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0008
+    :date: 2010年12月28日
+  - :title: glibcの実装変更にて引き起こしたFlash不具合
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0007
+    :date: 2010年12月28日
+  - :title: MapReduceを使わない大規模分散データ更新システム「Percolator」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0006
+    :date: 2010年12月27日
+  - :title: Scalable System Design Patterns
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0005
+    :date: 2010年12月27日
+  - :title: "（（Pythonで）書く（Lisp）インタプリタ）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0004
+    :date: 2010年12月24日
+  - :title: Google，Sawzallの処理系「Szl」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0003
+    :date: 2010年12月24日
+  - :title: "米Yahoo!，リアルタイムなMapReduceフレームワーク「S4」公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0002
+    :date: 2010年12月22日
+  - :title: "技術系電子書籍出版サービス「達人出版会」試験公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol60/0001
+    :date: 2010年12月22日
+  - :title: "置いてけぼりさんがいないようにする方法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0009
+    :date: 2010年10月29日
+  - :title: DHH氏，超高級スーパーカーをオーダーメイド
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0008
+    :date: 2010年10月28日
+  - :title: "最初の一歩は始めること"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0007
+    :date: 2010年10月28日
+  - :title: Paul Graham氏エッセイ「Yahoo! に起きてしまったこと」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0006
+    :date: 2010年10月27日
+  - :title: Online Python Tutor
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0005
+    :date: 2010年10月27日
+  - :title: NoSQLの成功は1:10問題にかかっている
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0004
+    :date: 2010年10月26日
+  - :title: "クロージャなどが先送りされた「Java 7リリース計画」発表"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0003
+    :date: 2010年10月26日
+  - :title: "高速key-valueストア「Redis 2.0」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0002
+    :date: 2010年10月25日
+  - :title: "プログラミング言語「Clojure 1.2」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol59/0001
+    :date: 2010年10月25日
+  - :title: "自身の直感をあまり信用しない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0009
+    :date: 2010年8月30日
+  - :title: "「明日昼までにエヴァカメラと同等のiPhoneアプリを開発できる方を探してます」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0008
+    :date: 2010年8月27日
+  - :title: C++の話（本当にあった怖い話）
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0007
+    :date: 2010年8月27日
+  - :title: "プログラミング未経験から発表まで「漫画で読む未踏ユース」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0006
+    :date: 2010年8月26日
+  - :title: Zed Shaw氏の考える「プログラミングの入門書はどうあるべきか」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0005
+    :date: 2010年8月26日
+  - :title: DSLの使用
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0004
+    :date: 2010年8月25日
+  - :title: PHPで大規模ブラウザゲームを開発してわかったこと
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0003
+    :date: 2010年8月25日
+  - :title: Scala 2.8.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0002
+    :date: 2010年8月24日
+  - :title: "米Yahoo!「Hadoop with Security」「Oozie」をオープンソースで公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0001
+    :date: 2010年8月24日
+  - :title: "クーソーしてから，仕事してください"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0008
+    :date: 2010年6月29日
+  - :title: "社員の辞職願いへのとってもまずい対応の例"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0007
+    :date: 2010年6月29日
+  - :title: "フリーソフト作者の自衛のためのオープンソース化と寄付拒否"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0006
+    :date: 2010年6月28日
+  - :title: Derek Sivers氏によるTED Talks「社会運動はどうやって起こすか」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0005
+    :date: 2010年6月28日
+  - :title: ThoughtWorks Technology Radar
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0004
+    :date: 2010年6月25日
+  - :title: iPadに関するユーザビリティレポート「Usability of iPad Apps and Websites」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0003
+    :date: 2010年6月25日
+  - :title: Twitter，分散フレームワーク「Gizzard」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0002
+    :date: 2010年6月24日
+  - :title: Rubyで書かれたRuby「Rubinius 1.0」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0001
+    :date: 2010年6月24日
+  - :title: "プログラミングの「初心」の在りか"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0011
+    :date: 2010年4月30日
+  - :title: Webコミック「21日でC++を習得する方法」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0009
+    :date: 2010年4月30日
+  - :title: "「完全な6」の数式パズル"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0010
+    :date: 2010年4月30日
+  - :title: "自身の直感をあまり信用しない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0009
+    :date: 2010年8月30日
+  - :title: "「明日昼までにエヴァカメラと同等のiPhoneアプリを開発できる方を探してます」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0008
+    :date: 2010年8月27日
+  - :title: C++の話（本当にあった怖い話）
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0007
+    :date: 2010年8月27日
+  - :title: "プログラミング未経験から発表まで「漫画で読む未踏ユース」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0006
+    :date: 2010年8月26日
+  - :title: Zed Shaw氏の考える「プログラミングの入門書はどうあるべきか」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0005
+    :date: 2010年8月26日
+  - :title: DSLの使用
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0004
+    :date: 2010年8月25日
+  - :title: PHPで大規模ブラウザゲームを開発してわかったこと
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0003
+    :date: 2010年8月25日
+  - :title: Scala 2.8.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0002
+    :date: 2010年8月24日
+  - :title: "米Yahoo!「Hadoop with Security」「Oozie」をオープンソースで公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol58/0001
+    :date: 2010年8月24日
+  - :title: "クーソーしてから，仕事してください"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0008
+    :date: 2010年6月29日
+  - :title: "社員の辞職願いへのとってもまずい対応の例"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0007
+    :date: 2010年6月29日
+  - :title: "フリーソフト作者の自衛のためのオープンソース化と寄付拒否"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0006
+    :date: 2010年6月28日
+  - :title: Derek Sivers氏によるTED Talks「社会運動はどうやって起こすか」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0005
+    :date: 2010年6月28日
+  - :title: ThoughtWorks Technology Radar
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0004
+    :date: 2010年6月25日
+  - :title: iPadに関するユーザビリティレポート「Usability of iPad Apps and Websites」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0003
+    :date: 2010年6月25日
+  - :title: Twitter，分散フレームワーク「Gizzard」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0002
+    :date: 2010年6月24日
+  - :title: Rubyで書かれたRuby「Rubinius 1.0」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol57/0001
+    :date: 2010年6月24日
+  - :title: "プログラミングの「初心」の在りか"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0011
+    :date: 2010年4月30日
+  - :title: Webコミック「21日でC++を習得する方法」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0009
+    :date: 2010年4月30日
+  - :title: "「完全な6」の数式パズル"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0010
+    :date: 2010年4月30日
+  - :title: Joel Spolsky氏，分散バージョン管理システムの良さを認める
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0008
+    :date: 2010年4月28日
+  - :title: "仕事でLispを使うこと"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0007
+    :date: 2010年4月28日
+  - :title: FoursquareがScala製Webフレームワーク「lift」に移行
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0006
+    :date: 2010年4月27日
+  - :title: "並行実行を制御できない言語は実システムには向かない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0005
+    :date: 2010年4月27日
+  - :title: Data-Intensive Text Processing with MapReduce
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0004
+    :date: 2010年4月26日
+  - :title: Google，日本語教材「Google App Engine Code Lab for Java」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0003
+    :date: 2010年4月26日
+  - :title: "分散データベースの「Cassandra」，Apacheのトップレベルプロジェクトに昇格"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0002
+    :date: 2010年4月24日
+  - :title: Apache Avro 1.3.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0001
+    :date: 2010年4月24日
+  - :title: "プログラミングと音楽の共通性"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0010
+    :date: 2010年3月2日
+  - :title: "最短経路を求める試験問題"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0009
+    :date: 2010年3月2日
+  - :title: "論文「なぜ私たちはいつも締め切りに追われるのか」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0008
+    :date: 2010年3月1日
+  - :title: "スタンフォード大学のiPhoneアプリ開発講座2010年版が公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0007
+    :date: 2010年3月1日
+  - :title: "成長しないプログラマの7つの悪習慣"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0006
+    :date: 2010年2月26日
+  - :title: "何よりも製品を予定どおりにリリースすることを優先する「ダクトテーププログラマ」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0005
+    :date: 2010年2月26日
+  - :title: Windows Azure Platformの概要
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0004
+    :date: 2010年2月25日
+  - :title: "机上の計算上，5,000万PV/月までならアプリケーションサーバ1台でさばける"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0003
+    :date: 2010年2月25日
+  - :title: symfonyの中級者向けチュートリアル「More with symfony」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0002
+    :date: 2010年2月24日
+  - :title: Spring Framework 3.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0001
+    :date: 2010年2月24日
+  - :title: Column　調べてみると案外シンプル
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0008
+    :date: 2009年12月29日
+  - :title: Gerald M. Weinberg氏，胸腺癌で余命わずか
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0007
+    :date: 2009年12月29日
+  - :title: Joel Spolsky氏，分散バージョン管理システムの良さを認める
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0008
+    :date: 2010年4月28日
+  - :title: "仕事でLispを使うこと"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0007
+    :date: 2010年4月28日
+  - :title: FoursquareがScala製Webフレームワーク「lift」に移行
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0006
+    :date: 2010年4月27日
+  - :title: "並行実行を制御できない言語は実システムには向かない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0005
+    :date: 2010年4月27日
+  - :title: Data-Intensive Text Processing with MapReduce
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0004
+    :date: 2010年4月26日
+  - :title: Google，日本語教材「Google App Engine Code Lab for Java」を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0003
+    :date: 2010年4月26日
+  - :title: "分散データベースの「Cassandra」，Apacheのトップレベルプロジェクトに昇格"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0002
+    :date: 2010年4月24日
+  - :title: Apache Avro 1.3.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol56/0001
+    :date: 2010年4月24日
+  - :title: "プログラミングと音楽の共通性"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0010
+    :date: 2010年3月2日
+  - :title: "最短経路を求める試験問題"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0009
+    :date: 2010年3月2日
+  - :title: "論文「なぜ私たちはいつも締め切りに追われるのか」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0008
+    :date: 2010年3月1日
+  - :title: "スタンフォード大学のiPhoneアプリ開発講座2010年版が公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0007
+    :date: 2010年3月1日
+  - :title: "成長しないプログラマの7つの悪習慣"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0006
+    :date: 2010年2月26日
+  - :title: "何よりも製品を予定どおりにリリースすることを優先する「ダクトテーププログラマ」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0005
+    :date: 2010年2月26日
+  - :title: Windows Azure Platformの概要
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0004
+    :date: 2010年2月25日
+  - :title: "机上の計算上，5,000万PV/月までならアプリケーションサーバ1台でさばける"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0003
+    :date: 2010年2月25日
+  - :title: symfonyの中級者向けチュートリアル「More with symfony」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0002
+    :date: 2010年2月24日
+  - :title: Spring Framework 3.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol55/0001
+    :date: 2010年2月24日
+  - :title: Column　調べてみると案外シンプル
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0008
+    :date: 2009年12月29日
+  - :title: Gerald M. Weinberg氏，胸腺癌で余命わずか
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0007
+    :date: 2009年12月29日
+  - :title: "バグを受け入れてもらうにはどうすればよいか "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0006
+    :date: 2009年12月28日
+  - :title: Aaron Swartz氏「みんなそろそろD.J. Bernsteinが世界史上最高のプログラマだというのを思い出すべき」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0005
+    :date: 2009年12月28日
+  - :title: JavaでLL風な開発を実現するWebフレームワーク「Play Framework」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0004
+    :date: 2009年12月25日
+  - :title: My SQLのエンジンはInnoDBとInnoDBのどちらを使うべきか?
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0003
+    :date: 2009年12月25日
+  - :title: "米Yahoo!，社内で使われているWebプロキシキャッシュ「Traffic Server」をオープンソース化"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0002
+    :date: 2009年12月24日
+  - :title: Google，JavaScriptプログラミングツール群「Closure Tools」をリリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0001
+    :date: 2009年12月24日
+  - :title: "質問のウラを読みとる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0009
+    :date: 2009年10月30日
+  - :title: "イギリス首相がAlan Turing氏に公式謝罪"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0008
+    :date: 2009年10月29日
+  - :title: UNIX系OSのサーバに対するイタズラ集
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0007
+    :date: 2009年10月29日
+  - :title: 'Facebookのデザインチームの体制 '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0006
+    :date: 2009年10月28日
+  - :title: "やる気に関する驚きの科学"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0005
+    :date: 2009年10月28日
+  - :title: QuickSilverが実装しているAlcorの「Abbreviation Scoring」解説
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0004
+    :date: 2009年10月27日
+  - :title: "リアルタイムな更新通知プロトコル「PubSubHubbub」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0003
+    :date: 2009年10月27日
+  - :title: MySpace，MapReduceフレームワーク「MySpace Qizmt」をオープンソースで公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0001
+    :date: 2009年10月26日
+  - :title: 'Facebook，オープンソースのノンブロッキングなWebフレームワーク「Tornado」を公開 '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0002
+    :date: 2009年10月26日
+  - :title: "相手の理解を確認する"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0010
+    :date: 2009年8月28日
+  - :title: "早めにかかっておいたほうが良い「プログラマの麻疹」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0009
+    :date: 2009年8月28日
+  - :title: Twitterへの攻撃手口はGmailのパスワードリマインダ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0008
+    :date: 2009年8月27日
+  - :title: "「オープンソース」の2つの意味"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0007
+    :date: 2009年8月27日
+  - :title: "シンプル&タイプセーフなJava用モックライブラリ「Mockito」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0006
+    :date: 2009年8月26日
+  - :title: "バグを受け入れてもらうにはどうすればよいか "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0006
+    :date: 2009年12月28日
+  - :title: Aaron Swartz氏「みんなそろそろD.J. Bernsteinが世界史上最高のプログラマだというのを思い出すべき」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0005
+    :date: 2009年12月28日
+  - :title: JavaでLL風な開発を実現するWebフレームワーク「Play Framework」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0004
+    :date: 2009年12月25日
+  - :title: My SQLのエンジンはInnoDBとInnoDBのどちらを使うべきか?
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0003
+    :date: 2009年12月25日
+  - :title: "米Yahoo!，社内で使われているWebプロキシキャッシュ「Traffic Server」をオープンソース化"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0002
+    :date: 2009年12月24日
+  - :title: Google，JavaScriptプログラミングツール群「Closure Tools」をリリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol54/0001
+    :date: 2009年12月24日
+  - :title: "質問のウラを読みとる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0009
+    :date: 2009年10月30日
+  - :title: "イギリス首相がAlan Turing氏に公式謝罪"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0008
+    :date: 2009年10月29日
+  - :title: UNIX系OSのサーバに対するイタズラ集
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0007
+    :date: 2009年10月29日
+  - :title: 'Facebookのデザインチームの体制 '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0006
+    :date: 2009年10月28日
+  - :title: "やる気に関する驚きの科学"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0005
+    :date: 2009年10月28日
+  - :title: QuickSilverが実装しているAlcorの「Abbreviation Scoring」解説
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0004
+    :date: 2009年10月27日
+  - :title: "リアルタイムな更新通知プロトコル「PubSubHubbub」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0003
+    :date: 2009年10月27日
+  - :title: MySpace，MapReduceフレームワーク「MySpace Qizmt」をオープンソースで公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0001
+    :date: 2009年10月26日
+  - :title: 'Facebook，オープンソースのノンブロッキングなWebフレームワーク「Tornado」を公開 '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol53/0002
+    :date: 2009年10月26日
+  - :title: "相手の理解を確認する"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0010
+    :date: 2009年8月28日
+  - :title: "早めにかかっておいたほうが良い「プログラマの麻疹」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0009
+    :date: 2009年8月28日
+  - :title: Twitterへの攻撃手口はGmailのパスワードリマインダ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0008
+    :date: 2009年8月27日
+  - :title: "「オープンソース」の2つの意味"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0007
+    :date: 2009年8月27日
+  - :title: "シンプル&タイプセーフなJava用モックライブラリ「Mockito」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0006
+    :date: 2009年8月26日
+  - :title: Google Speedプロジェクトの記事「Let's make the web faster」翻訳
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0005
+    :date: 2009年8月26日
+  - :title: ThoughtWorksでのRuby
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0004
+    :date: 2009年8月25日
+  - :title: Web Hook対応サイトのフックを受けて別のイベントを発生させることができるサービス「hookhub」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0003
+    :date: 2009年8月25日
+  - :title: "検索ユーザインタフェースの書籍　『Search User Interfaces』全文公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0002
+    :date: 2009年8月24日
+  - :title: "『Domain Driven Design Quickly』日本語版，無料ダウンロード"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0001
+    :date: 2009年8月24日
+  - :title: "勉強会と独習のバランス"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0008
+    :date: 2009年6月29日
+  - :title: "押下，筐体，輻輳……って読める?  漢字検定エンジニア版"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0007
+    :date: 2009年6月29日
+  - :title: Debianがglibcからeglibcに変更したきっかけはUlrich Drepper氏の問題行為
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0006
+    :date: 2009年6月26日
+  - :title: "次のアジャイルソフトウェアプロジェクトに使える10の契約"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0005
+    :date: 2009年6月26日
+  - :title: John Resig氏による記事「Web開発者の責任」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0004
+    :date: 2009年6月25日
+  - :title: "スタンフォード大学，iPhoneアプリ開発講座をiTunes Uで無料公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0003
+    :date: 2009年6月25日
+  - :title: Rails風のアプリケーション作成コマンドが追加された「Zend Framework 1.8.0」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0002
+    :date: 2009年6月24日
+  - :title: Amazon，ウィザードだけで使えるHadoopサービス「Amazon Elastic MapReduce」開始
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0001
+    :date: 2009年6月24日
+  - :title: "出版の未来"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0007
+    :date: 2009年4月28日
+  - :title: "ギャル専門マーケティング会社社長に，ギャルのケータイ最新事情を聞く"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0006
+    :date: 2009年4月27日
+  - :title: "オープンソースソフトウェアの育て方"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0005
+    :date: 2009年4月27日
+  - :title: Googleによる「大規模な検索システム構築の課題」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0004
+    :date: 2009年4月26日
+  - :title: FriendFeedではMy-SQLを使い，どのようにスキーマレスのデータを保存しているのか
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0003
+    :date: 2009年4月26日
+  - :title: "「Jaiku」がGoogle Codeでオープンソース化"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0002
+    :date: 2009年4月24日
+  - :title: Apple，新JavaScriptエンジン「Nitro」を搭載した「Safari 4」パブリックベータ版を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0001
+    :date: 2009年4月24日
+  - :title: Google Speedプロジェクトの記事「Let's make the web faster」翻訳
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0005
+    :date: 2009年8月26日
+  - :title: ThoughtWorksでのRuby
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0004
+    :date: 2009年8月25日
+  - :title: Web Hook対応サイトのフックを受けて別のイベントを発生させることができるサービス「hookhub」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0003
+    :date: 2009年8月25日
+  - :title: "検索ユーザインタフェースの書籍　『Search User Interfaces』全文公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0002
+    :date: 2009年8月24日
+  - :title: "『Domain Driven Design Quickly』日本語版，無料ダウンロード"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol52/0001
+    :date: 2009年8月24日
+  - :title: "勉強会と独習のバランス"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0008
+    :date: 2009年6月29日
+  - :title: "押下，筐体，輻輳……って読める?  漢字検定エンジニア版"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0007
+    :date: 2009年6月29日
+  - :title: Debianがglibcからeglibcに変更したきっかけはUlrich Drepper氏の問題行為
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0006
+    :date: 2009年6月26日
+  - :title: "次のアジャイルソフトウェアプロジェクトに使える10の契約"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0005
+    :date: 2009年6月26日
+  - :title: John Resig氏による記事「Web開発者の責任」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0004
+    :date: 2009年6月25日
+  - :title: "スタンフォード大学，iPhoneアプリ開発講座をiTunes Uで無料公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0003
+    :date: 2009年6月25日
+  - :title: Rails風のアプリケーション作成コマンドが追加された「Zend Framework 1.8.0」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0002
+    :date: 2009年6月24日
+  - :title: Amazon，ウィザードだけで使えるHadoopサービス「Amazon Elastic MapReduce」開始
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol51/0001
+    :date: 2009年6月24日
+  - :title: "出版の未来"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0007
+    :date: 2009年4月28日
+  - :title: "ギャル専門マーケティング会社社長に，ギャルのケータイ最新事情を聞く"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0006
+    :date: 2009年4月27日
+  - :title: "オープンソースソフトウェアの育て方"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0005
+    :date: 2009年4月27日
+  - :title: Googleによる「大規模な検索システム構築の課題」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0004
+    :date: 2009年4月26日
+  - :title: FriendFeedではMy-SQLを使い，どのようにスキーマレスのデータを保存しているのか
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0003
+    :date: 2009年4月26日
+  - :title: "「Jaiku」がGoogle Codeでオープンソース化"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0002
+    :date: 2009年4月24日
+  - :title: Apple，新JavaScriptエンジン「Nitro」を搭載した「Safari 4」パブリックベータ版を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol50/0001
+    :date: 2009年4月24日
+  - :title: "若い人の考えが聞きたい"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0009
+    :date: 2009年3月2日
+  - :title: ReadWriteWebによる2009年予測「FacebookのOpenSocial加入」「健康に関するWebアプリが注目される」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0008
+    :date: 2009年2月27日
+  - :title: Googleの面接を受けてみた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0007
+    :date: 2009年2月27日
+  - :title: "竹内郁雄氏によるプログラミング言語「Cyan」を設計した高校生へのインタビュー"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0006
+    :date: 2009年2月26日
+  - :title: "コードレビューによる人間同士の交流に対する影響をまとめた「Your Code Sucks and I Hate You」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0005
+    :date: 2009年2月26日
+  - :title: "他人がソースコードを書く様子を見る「よりそいプログラミング」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0004
+    :date: 2009年2月25日
+  - :title: Yahoo! JAPANがyimg.jpドメインを使うのは，悪意あるFlashから自社ドメインのCookieを守るため
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0003
+    :date: 2009年2月25日
+  - :title: "新はてなブックマークでも使われているComplement Naive Bayesを解説する"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0002
+    :date: 2009年2月24日
+  - :title: Google，C/C++コードをブラウザ上で動作させる「Native Client」プロジェクトを公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0001
+    :date: 2009年2月24日
+  - :title: "分母が年々増える"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0009
+    :date: 2008年12月30日
+  - :title: Knuth先生がTeXや書籍のバグ報告に対する小切手の支払いをやめることに
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0008
+    :date: 2008年12月29日
+  - :title: "海外の「フェルミ推定」問題をまとめてみた"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0007
+    :date: 2008年12月29日
+  - :title: DHH曰く，「高まった生産性を，仕事を余計にこなすためではなく自分の将来に向けて使おう」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0006
+    :date: 2008年12月26日
+  - :title: Javaフレームワークの比較検討資料公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0005
+    :date: 2008年12月26日
+  - :title: DTraceのJava版「BTrace」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0004
+    :date: 2008年12月25日
+  - :title: Sunの8コアマシンで，45Gバイトのログの解析を各プログラミング言語でベンチマーク対決する「Wide Finder」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0003
+    :date: 2008年12月25日
+  - :title: Ruby on Rails 2.2リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0002
+    :date: 2008年12月24日
+  - :title: Python 2.6リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0001
+    :date: 2008年12月24日
+  - :title: "ズバリな名言"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0010
+    :date: 2008年10月30日
+  - :title: "スタンフォード大学，コンピュータサイエンスなどの授業ビデオやテキストをオンライン公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0009
+    :date: 2008年10月30日
+  - :title: "若い人の考えが聞きたい"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0009
+    :date: 2009年3月2日
+  - :title: ReadWriteWebによる2009年予測「FacebookのOpenSocial加入」「健康に関するWebアプリが注目される」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0008
+    :date: 2009年2月27日
+  - :title: Googleの面接を受けてみた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0007
+    :date: 2009年2月27日
+  - :title: "竹内郁雄氏によるプログラミング言語「Cyan」を設計した高校生へのインタビュー"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0006
+    :date: 2009年2月26日
+  - :title: "コードレビューによる人間同士の交流に対する影響をまとめた「Your Code Sucks and I Hate You」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0005
+    :date: 2009年2月26日
+  - :title: "他人がソースコードを書く様子を見る「よりそいプログラミング」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0004
+    :date: 2009年2月25日
+  - :title: Yahoo! JAPANがyimg.jpドメインを使うのは，悪意あるFlashから自社ドメインのCookieを守るため
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0003
+    :date: 2009年2月25日
+  - :title: "新はてなブックマークでも使われているComplement Naive Bayesを解説する"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0002
+    :date: 2009年2月24日
+  - :title: Google，C/C++コードをブラウザ上で動作させる「Native Client」プロジェクトを公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol49/0001
+    :date: 2009年2月24日
+  - :title: "分母が年々増える"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0009
+    :date: 2008年12月30日
+  - :title: Knuth先生がTeXや書籍のバグ報告に対する小切手の支払いをやめることに
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0008
+    :date: 2008年12月29日
+  - :title: "海外の「フェルミ推定」問題をまとめてみた"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0007
+    :date: 2008年12月29日
+  - :title: DHH曰く，「高まった生産性を，仕事を余計にこなすためではなく自分の将来に向けて使おう」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0006
+    :date: 2008年12月26日
+  - :title: Javaフレームワークの比較検討資料公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0005
+    :date: 2008年12月26日
+  - :title: DTraceのJava版「BTrace」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0004
+    :date: 2008年12月25日
+  - :title: Sunの8コアマシンで，45Gバイトのログの解析を各プログラミング言語でベンチマーク対決する「Wide Finder」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0003
+    :date: 2008年12月25日
+  - :title: Ruby on Rails 2.2リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0002
+    :date: 2008年12月24日
+  - :title: Python 2.6リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol48/0001
+    :date: 2008年12月24日
+  - :title: "ズバリな名言"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0010
+    :date: 2008年10月30日
+  - :title: "スタンフォード大学，コンピュータサイエンスなどの授業ビデオやテキストをオンライン公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0009
+    :date: 2008年10月30日
+  - :title: "米最大のDVDレンタル企業，Netflixが行っている協調フィルタリングコンテスト「Netflix Prize」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0008
+    :date: 2008年10月29日
+  - :title: "毎週ユーザテストを行うべき5つの理由"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0007
+    :date: 2008年10月29日
+  - :title: "質より量に学ぶ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0006
+    :date: 2008年10月28日
+  - :title: "ログイン処理は意外とあなどれない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0005
+    :date: 2008年10月28日
+  - :title: Tomcatのディレクトリトラバーサル問題の調査ドキュメント「Apache-Tomcatと冗長なUTF-8表現」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0004
+    :date: 2008年10月27日
+  - :title: PFIとNTTレゾナント，Hadoopに関する解析資料を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0003
+    :date: 2008年10月27日
+  - :title: HotCocoaが導入された「MacRuby 0.3」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0002
+    :date: 2008年10月24日
+  - :title: Google Chromeリリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0001
+    :date: 2008年10月24日
+  - :title: "調査と実践のバランス"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0009
+    :date: 2008年8月29日
+  - :title: "会社の甘いささやき翻訳辞典「いい経験になる」「これが最後」「流用できる」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0008
+    :date: 2008年8月28日
+  - :title: Microsoftの開発現場ではVSSではなくCVSが，プロジェクト管理はMS ProjectではなくExcelが使われている
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0007
+    :date: 2008年8月28日
+  - :title: "ミラクル・リナックスの吉岡弘隆氏，取締役を退任してプログラマへ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0006
+    :date: 2008年8月27日
+  - :title: Perl「言語」初心者がモダンなPerlを高速に学ぶ方法
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0005
+    :date: 2008年8月27日
+  - :title: "伊藤直也氏によるKansai.pmでの発表資料「Hadoop StreamingでMapReduce」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0004
+    :date: 2008年8月26日
+  - :title: PHP 5.3の無名関数を試してみた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0003
+    :date: 2008年8月26日
+  - :title: "ソーシャルニュースサイト「reddit」がソースコードを公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0002
+    :date: 2008年8月25日
+  - :title: Rails 2.1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0001
+    :date: 2008年8月25日
+  - :title: "苦手意識に立ち向かう"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0010
+    :date: 2008年6月30日
+  - :title: "日本語字幕付きRandy Pausch教授の「最後の授業」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0009
+    :date: 2008年6月30日
+  - :title: "「GoogleSatTrack」を作ったらNASAから招待状をもらった"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0008
+    :date: 2008年6月27日
+  - :title: "米最大のDVDレンタル企業，Netflixが行っている協調フィルタリングコンテスト「Netflix Prize」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0008
+    :date: 2008年10月29日
+  - :title: "毎週ユーザテストを行うべき5つの理由"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0007
+    :date: 2008年10月29日
+  - :title: "質より量に学ぶ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0006
+    :date: 2008年10月28日
+  - :title: "ログイン処理は意外とあなどれない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0005
+    :date: 2008年10月28日
+  - :title: Tomcatのディレクトリトラバーサル問題の調査ドキュメント「Apache-Tomcatと冗長なUTF-8表現」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0004
+    :date: 2008年10月27日
+  - :title: PFIとNTTレゾナント，Hadoopに関する解析資料を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0003
+    :date: 2008年10月27日
+  - :title: HotCocoaが導入された「MacRuby 0.3」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0002
+    :date: 2008年10月24日
+  - :title: Google Chromeリリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol47/0001
+    :date: 2008年10月24日
+  - :title: "調査と実践のバランス"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0009
+    :date: 2008年8月29日
+  - :title: "会社の甘いささやき翻訳辞典「いい経験になる」「これが最後」「流用できる」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0008
+    :date: 2008年8月28日
+  - :title: Microsoftの開発現場ではVSSではなくCVSが，プロジェクト管理はMS ProjectではなくExcelが使われている
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0007
+    :date: 2008年8月28日
+  - :title: "ミラクル・リナックスの吉岡弘隆氏，取締役を退任してプログラマへ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0006
+    :date: 2008年8月27日
+  - :title: Perl「言語」初心者がモダンなPerlを高速に学ぶ方法
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0005
+    :date: 2008年8月27日
+  - :title: "伊藤直也氏によるKansai.pmでの発表資料「Hadoop StreamingでMapReduce」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0004
+    :date: 2008年8月26日
+  - :title: PHP 5.3の無名関数を試してみた
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0003
+    :date: 2008年8月26日
+  - :title: "ソーシャルニュースサイト「reddit」がソースコードを公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0002
+    :date: 2008年8月25日
+  - :title: Rails 2.1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol46/0001
+    :date: 2008年8月25日
+  - :title: "苦手意識に立ち向かう"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0010
+    :date: 2008年6月30日
+  - :title: "日本語字幕付きRandy Pausch教授の「最後の授業」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0009
+    :date: 2008年6月30日
+  - :title: "「GoogleSatTrack」を作ったらNASAから招待状をもらった"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0008
+    :date: 2008年6月27日
+  - :title: "プログラミング言語の選び方"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0007
+    :date: 2008年6月27日
+  - :title: APIのユーザビリティ評価
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0006
+    :date: 2008年6月26日
+  - :title: "マルチコア時代のサーバ設計"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0005
+    :date: 2008年6月26日
+  - :title: "サウンドハウス，不正アクセスの経緯と原因についての詳細な報告書を公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0004
+    :date: 2008年6月25日
+  - :title: "日本のPerlユーザのためのハブサイト「perl-users.jp」開設"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0003
+    :date: 2008年6月25日
+  - :title: "モバゲーのWebアプリフレームワーク「MobaSiF」がオープンソースとして公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0002
+    :date: 2008年6月24日
+  - :title: Webアプリケーションのインフラを提供する「Google App Engine」公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0001
+    :date: 2008年6月24日
+  - :title: "他人と比べる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0010
+    :date: 2008年4月30日
+  - :title: "スクリーンショットつきGoogleの社内ツール一覧"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0009
+    :date: 2008年4月30日
+  - :title: "数学の問題を好きなプログラミング言語で解く「Project Euler」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0008
+    :date: 2008年4月29日
+  - :title: Kevin Kelly氏の「Better Than Free」の日本語訳，「無料より優れたもの」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0007
+    :date: 2008年4月29日
+  - :title: "プログラミングのスピードを上げる方法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0006
+    :date: 2008年4月28日
+  - :title: Joel Spolsky氏の講演「素晴らしいソフトウェアを作るということ」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0005
+    :date: 2008年4月28日
+  - :title: "個人で簡単に使える分散バージョン管理ツール「Mercurial」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0004
+    :date: 2008年4月25日
+  - :title: "最もタメになる「初心者用言語」まとめ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0003
+    :date: 2008年4月25日
+  - :title: livedoor Readerの海外版「Fastladder」がオープンソース化
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0002
+    :date: 2008年4月24日
+  - :title: Apple，iPhone SDK β版を発表
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0001
+    :date: 2008年4月24日
+  - :title: "キーを数回タイプするだけ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0013
+    :date: 2008年3月3日
+  - :title: IT業界を震撼させた2chスレ「ブラック会社に勤めてるんだが…」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0012
+    :date: 2008年3月3日
+  - :title: "平成20年度センター試験「現代ウェブ社会」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0011
+    :date: 2008年3月3日
+  - :title: "プログラミング言語の選び方"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0007
+    :date: 2008年6月27日
+  - :title: APIのユーザビリティ評価
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0006
+    :date: 2008年6月26日
+  - :title: "マルチコア時代のサーバ設計"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0005
+    :date: 2008年6月26日
+  - :title: "サウンドハウス，不正アクセスの経緯と原因についての詳細な報告書を公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0004
+    :date: 2008年6月25日
+  - :title: "日本のPerlユーザのためのハブサイト「perl-users.jp」開設"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0003
+    :date: 2008年6月25日
+  - :title: "モバゲーのWebアプリフレームワーク「MobaSiF」がオープンソースとして公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0002
+    :date: 2008年6月24日
+  - :title: Webアプリケーションのインフラを提供する「Google App Engine」公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol45/0001
+    :date: 2008年6月24日
+  - :title: "他人と比べる"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0010
+    :date: 2008年4月30日
+  - :title: "スクリーンショットつきGoogleの社内ツール一覧"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0009
+    :date: 2008年4月30日
+  - :title: "数学の問題を好きなプログラミング言語で解く「Project Euler」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0008
+    :date: 2008年4月29日
+  - :title: Kevin Kelly氏の「Better Than Free」の日本語訳，「無料より優れたもの」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0007
+    :date: 2008年4月29日
+  - :title: "プログラミングのスピードを上げる方法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0006
+    :date: 2008年4月28日
+  - :title: Joel Spolsky氏の講演「素晴らしいソフトウェアを作るということ」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0005
+    :date: 2008年4月28日
+  - :title: "個人で簡単に使える分散バージョン管理ツール「Mercurial」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0004
+    :date: 2008年4月25日
+  - :title: "最もタメになる「初心者用言語」まとめ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0003
+    :date: 2008年4月25日
+  - :title: livedoor Readerの海外版「Fastladder」がオープンソース化
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0002
+    :date: 2008年4月24日
+  - :title: Apple，iPhone SDK β版を発表
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol44/0001
+    :date: 2008年4月24日
+  - :title: "キーを数回タイプするだけ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0013
+    :date: 2008年3月3日
+  - :title: IT業界を震撼させた2chスレ「ブラック会社に勤めてるんだが…」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0012
+    :date: 2008年3月3日
+  - :title: "平成20年度センター試験「現代ウェブ社会」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0011
+    :date: 2008年3月3日
+  - :title: "イチローに学んだルーチンへのこだわり"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0010
+    :date: 2008年2月29日
+  - :title: Martin Fowler's Bliki「設計力」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0009
+    :date: 2008年2月29日
+  - :title: Aaron Swartz氏による「私のような仕事につく方法」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0008
+    :date: 2008年2月28日
+  - :title: amachang氏によるプレゼン資料「IT戦士の作り方」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0007
+    :date: 2008年2月28日
+  - :title: Mongrelの作者によるRuby&Railsコミュニティ批判記事「Railsは吹き溜まりだね」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0006
+    :date: 2008年2月27日
+  - :title: "ブラウザ上で実行して試せるJavaScriptチュートリアルサイト「Eloquent JavaScript」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0005
+    :date: 2008年2月27日
+  - :title: Java 7で登場するフォーク／ジョインを使って細粒度並列処理
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0004
+    :date: 2008年2月26日
+  - :title: "メモリリークの解析に役立つJava VMのオプション「-XX:+PrintClassHistogram」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0003
+    :date: 2008年2月26日
+  - :title: Ruby 1.9.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0002
+    :date: 2008年2月25日
+  - :title: ZDNet Japan、技術者向け情報コミュニティサイト「builder」オープン
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0001
+    :date: 2008年2月25日
+  - :title: "毎日はしない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0009
+    :date: 2007年12月28日
+  - :title: "英語を勉強したい人が集まるSNS風サービス「iKnow」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0008
+    :date: 2007年12月28日
+  - :title: IPAフォーラム2007の討論会に参加した東大生の感想
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0007
+    :date: 2007年12月27日
+  - :title: 37signalsのJason Fried氏ブログの翻訳「デザイナがプロダクト事業を起こす方法」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0006
+    :date: 2007年12月27日
+  - :title: Google Collections Libraryのサンプルコード一覧
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0005
+    :date: 2007年12月26日
+  - :title: "ビヘイビア駆動開発を舞台にした冒険"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0004
+    :date: 2007年12月26日
+  - :title: Fluent Interfaceを取り入れた新「S2JDBC」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0003
+    :date: 2007年12月26日
+  - :title: "楽天，分散ストレージ「Roma」と分散処理基盤「Fairy」の概要を公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0002
+    :date: 2007年12月25日
+  - :title: Google，モバイルデバイス向けのオープンソースプラットフォーム「Android」を発表
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0001
+    :date: 2007年12月25日
+  - :title: "コードを書き直さずに理解できる開発者というのはごくわずかしかいない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0009
+    :date: 2007年10月29日
+  - :title: "イチローに学んだルーチンへのこだわり"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0010
+    :date: 2008年2月29日
+  - :title: Martin Fowler's Bliki「設計力」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0009
+    :date: 2008年2月29日
+  - :title: Aaron Swartz氏による「私のような仕事につく方法」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0008
+    :date: 2008年2月28日
+  - :title: amachang氏によるプレゼン資料「IT戦士の作り方」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0007
+    :date: 2008年2月28日
+  - :title: Mongrelの作者によるRuby&Railsコミュニティ批判記事「Railsは吹き溜まりだね」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0006
+    :date: 2008年2月27日
+  - :title: "ブラウザ上で実行して試せるJavaScriptチュートリアルサイト「Eloquent JavaScript」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0005
+    :date: 2008年2月27日
+  - :title: Java 7で登場するフォーク／ジョインを使って細粒度並列処理
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0004
+    :date: 2008年2月26日
+  - :title: "メモリリークの解析に役立つJava VMのオプション「-XX:+PrintClassHistogram」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0003
+    :date: 2008年2月26日
+  - :title: Ruby 1.9.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0002
+    :date: 2008年2月25日
+  - :title: ZDNet Japan、技術者向け情報コミュニティサイト「builder」オープン
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol43/0001
+    :date: 2008年2月25日
+  - :title: "毎日はしない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0009
+    :date: 2007年12月28日
+  - :title: "英語を勉強したい人が集まるSNS風サービス「iKnow」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0008
+    :date: 2007年12月28日
+  - :title: IPAフォーラム2007の討論会に参加した東大生の感想
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0007
+    :date: 2007年12月27日
+  - :title: 37signalsのJason Fried氏ブログの翻訳「デザイナがプロダクト事業を起こす方法」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0006
+    :date: 2007年12月27日
+  - :title: Google Collections Libraryのサンプルコード一覧
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0005
+    :date: 2007年12月26日
+  - :title: "ビヘイビア駆動開発を舞台にした冒険"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0004
+    :date: 2007年12月26日
+  - :title: Fluent Interfaceを取り入れた新「S2JDBC」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0003
+    :date: 2007年12月26日
+  - :title: "楽天，分散ストレージ「Roma」と分散処理基盤「Fairy」の概要を公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0002
+    :date: 2007年12月25日
+  - :title: Google，モバイルデバイス向けのオープンソースプラットフォーム「Android」を発表
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol42/0001
+    :date: 2007年12月25日
+  - :title: "コードを書き直さずに理解できる開発者というのはごくわずかしかいない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0009
+    :date: 2007年10月29日
+  - :title: "オープンソースのコードを読もう"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0011
+    :date: 2007年10月28日
+  - :title: Yahoo! Design Innovation Team
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0010
+    :date: 2007年10月28日
+  - :title: Paul Graham氏のエッセイ翻訳「死なないために」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0008
+    :date: 2007年10月27日
+  - :title: "任天堂の岩田社長が遊びに来たので，みんなでご飯を食べながら話を聞いたのだ。"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0007
+    :date: 2007年10月27日
+  - :title: PHP 5でマルチタスク動作のアプリケーションを開発する
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0006
+    :date: 2007年10月26日
+  - :title: "大規模サイト構築のノウハウに関するポータルサイト「High Scalability」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0005
+    :date: 2007年10月26日
+  - :title: ActiveRecordに触発されて作られた軽量Java O/Rマッパ「ActiveObjects」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0004
+    :date: 2007年10月25日
+  - :title: "携帯電話スペック一覧"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0003
+    :date: 2007年10月25日
+  - :title: InfoQの日本語版「InfoQ Japan」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0002
+    :date: 2007年10月24日
+  - :title: Microsoft、「Silverlight 1.0」正式版リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0001
+    :date: 2007年10月24日
+  - :title: "デバイスの特性を活かす"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0012
+    :date: 2007年8月31日
+  - :title: "東京ミッドタウンに移転したYahoo! JAPANのオフィス風景"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0011
+    :date: 2007年8月31日
+  - :title: "鵜飼文敏氏による「Googleのソフトウェアエンジニア」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0010
+    :date: 2007年8月30日
+  - :title: Subversion，Trac，Wikiを徹底活用した「masuidrive的プロジェクトの方針」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0009
+    :date: 2007年8月30日
+  - :title: "社内ライブラリやフレームワークを浸透させるには，「チュートリアル」「小さなサンプル」「レビュー」が必要"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0008
+    :date: 2007年8月29日
+  - :title: "江島健太郎氏「日本のITイノベーションに足りないのは失敗経験」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0007
+    :date: 2007年8月29日
+  - :title: "「DDD難民に捧げるDomain-Driven Designのエッセンス」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0005
+    :date: 2007年8月28日
+  - :title: PHP 4のサポート，2007年末で終了
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0006
+    :date: 2007年8月28日
+  - :title: "モバイル勉強会レポート"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0004
+    :date: 2007年8月27日
+  - :title: "オライリー本『AIR for JavaScript Developers Pocket Guide』PDFで無料公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0003
+    :date: 2007年8月27日
+  - :title: "オープンソースのコードを読もう"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0011
+    :date: 2007年10月28日
+  - :title: Yahoo! Design Innovation Team
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0010
+    :date: 2007年10月28日
+  - :title: Paul Graham氏のエッセイ翻訳「死なないために」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0008
+    :date: 2007年10月27日
+  - :title: "任天堂の岩田社長が遊びに来たので，みんなでご飯を食べながら話を聞いたのだ。"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0007
+    :date: 2007年10月27日
+  - :title: PHP 5でマルチタスク動作のアプリケーションを開発する
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0006
+    :date: 2007年10月26日
+  - :title: "大規模サイト構築のノウハウに関するポータルサイト「High Scalability」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0005
+    :date: 2007年10月26日
+  - :title: ActiveRecordに触発されて作られた軽量Java O/Rマッパ「ActiveObjects」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0004
+    :date: 2007年10月25日
+  - :title: "携帯電話スペック一覧"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0003
+    :date: 2007年10月25日
+  - :title: InfoQの日本語版「InfoQ Japan」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0002
+    :date: 2007年10月24日
+  - :title: Microsoft、「Silverlight 1.0」正式版リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol41/0001
+    :date: 2007年10月24日
+  - :title: "デバイスの特性を活かす"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0012
+    :date: 2007年8月31日
+  - :title: "東京ミッドタウンに移転したYahoo! JAPANのオフィス風景"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0011
+    :date: 2007年8月31日
+  - :title: "鵜飼文敏氏による「Googleのソフトウェアエンジニア」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0010
+    :date: 2007年8月30日
+  - :title: Subversion，Trac，Wikiを徹底活用した「masuidrive的プロジェクトの方針」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0009
+    :date: 2007年8月30日
+  - :title: "社内ライブラリやフレームワークを浸透させるには，「チュートリアル」「小さなサンプル」「レビュー」が必要"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0008
+    :date: 2007年8月29日
+  - :title: "江島健太郎氏「日本のITイノベーションに足りないのは失敗経験」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0007
+    :date: 2007年8月29日
+  - :title: "「DDD難民に捧げるDomain-Driven Designのエッセンス」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0005
+    :date: 2007年8月28日
+  - :title: PHP 4のサポート，2007年末で終了
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0006
+    :date: 2007年8月28日
+  - :title: "モバイル勉強会レポート"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0004
+    :date: 2007年8月27日
+  - :title: "オライリー本『AIR for JavaScript Developers Pocket Guide』PDFで無料公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0003
+    :date: 2007年8月27日
+  - :title: Zend Framework 1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0002
+    :date: 2007年8月24日
+  - :title: JRuby 1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0001
+    :date: 2007年8月24日
+  - :title: "初学者にはグラフィカルな体験を"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0012
+    :date: 2007年6月28日
+  - :title: "よく眠るために覚えておきたい17のTips"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0011
+    :date: 2007年6月27日
+  - :title: 1週間に4時間しか働かない人の仕事術
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0010
+    :date: 2007年6月27日
+  - :title: "経営・ITコンサルタントが語る，「採用面接時にアピールしてほしい点」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0009
+    :date: 2007年6月26日
+  - :title: "「Lisp脳」の謎に迫る－Schemeプログラマの発想"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0008
+    :date: 2007年6月26日
+  - :title: Appleのヒューマンインタフェース ガイドライン
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0007
+    :date: 2007年6月26日
+  - :title: "プログラマ職に応募してくる人間のほとんどが書けない「Fizz-Buzz問題」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0006
+    :date: 2007年6月25日
+  - :title: Yahoo!のSteve Souders氏による「あなたのページを最速にする14の掟」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0005
+    :date: 2007年6月25日
+  - :title: "これから15分でErlangを始めるための資料"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0004
+    :date: 2007年6月25日
+  - :title: MySQL Conference & Expoでの，Digg，Flickr，Youtubeのセッションレポート
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0003
+    :date: 2007年6月22日
+  - :title: 37signals，『Getting Real』日本語第一版リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0002
+    :date: 2007年6月22日
+  - :title: Sun Microsystems、GUI作成向けスクリプト言語「JavaFX」発表
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0001
+    :date: 2007年6月22日
+  - :title: "「車輪の再発明」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0014
+    :date: 2007年5月1日
+  - :title: "はてなの伊藤直也氏による「あるWebプログラマーの作業環境 前編」（Screen，Emacsの紹介）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0013
+    :date: 2007年4月27日
+  - :title: tokuhiromこと松野徳大氏の記事「社内IRCを駆使するエンジニアの仕事術」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0012
+    :date: 2007年4月27日
+  - :title: "バグにプライオリティなんかない。バグの優先度は，意思決定プロセスの結果なんだ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0011
+    :date: 2007年4月26日
+  - :title: "新しい技術に没頭するというのは，同じ場所に居続けるために全力で走っているに過ぎない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0010
+    :date: 2007年4月26日
+  - :title: "顧客の機能要求に折れないこと！"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0009
+    :date: 2007年4月26日
+  - :title: Zend Framework 1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0002
+    :date: 2007年8月24日
+  - :title: JRuby 1.0リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol40/0001
+    :date: 2007年8月24日
+  - :title: "初学者にはグラフィカルな体験を"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0012
+    :date: 2007年6月28日
+  - :title: "よく眠るために覚えておきたい17のTips"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0011
+    :date: 2007年6月27日
+  - :title: 1週間に4時間しか働かない人の仕事術
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0010
+    :date: 2007年6月27日
+  - :title: "経営・ITコンサルタントが語る，「採用面接時にアピールしてほしい点」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0009
+    :date: 2007年6月26日
+  - :title: "「Lisp脳」の謎に迫る－Schemeプログラマの発想"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0008
+    :date: 2007年6月26日
+  - :title: Appleのヒューマンインタフェース ガイドライン
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0007
+    :date: 2007年6月26日
+  - :title: "プログラマ職に応募してくる人間のほとんどが書けない「Fizz-Buzz問題」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0006
+    :date: 2007年6月25日
+  - :title: Yahoo!のSteve Souders氏による「あなたのページを最速にする14の掟」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0005
+    :date: 2007年6月25日
+  - :title: "これから15分でErlangを始めるための資料"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0004
+    :date: 2007年6月25日
+  - :title: MySQL Conference & Expoでの，Digg，Flickr，Youtubeのセッションレポート
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0003
+    :date: 2007年6月22日
+  - :title: 37signals，『Getting Real』日本語第一版リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0002
+    :date: 2007年6月22日
+  - :title: Sun Microsystems、GUI作成向けスクリプト言語「JavaFX」発表
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol39/0001
+    :date: 2007年6月22日
+  - :title: "「車輪の再発明」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0014
+    :date: 2007年5月1日
+  - :title: "はてなの伊藤直也氏による「あるWebプログラマーの作業環境 前編」（Screen，Emacsの紹介）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0013
+    :date: 2007年4月27日
+  - :title: tokuhiromこと松野徳大氏の記事「社内IRCを駆使するエンジニアの仕事術」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0012
+    :date: 2007年4月27日
+  - :title: "バグにプライオリティなんかない。バグの優先度は，意思決定プロセスの結果なんだ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0011
+    :date: 2007年4月26日
+  - :title: "新しい技術に没頭するというのは，同じ場所に居続けるために全力で走っているに過ぎない"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0010
+    :date: 2007年4月26日
+  - :title: "顧客の機能要求に折れないこと！"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0009
+    :date: 2007年4月26日
+  - :title: Lispの美しさ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0008
+    :date: 2007年4月25日
+  - :title: secondlifeこと舘野祐一氏の発表資料「fcwrapを使ったAS3オールドタイプ開発」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0007
+    :date: 2007年4月25日
+  - :title: C10K問題
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0006
+    :date: 2007年4月25日
+  - :title: "新しいプログラミング言語を習得するための15の方法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0005
+    :date: 2007年4月25日
+  - :title: Tomcat 6系の安定版「Apache Tomcat 6.0.10」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0004
+    :date: 2007年4月24日
+  - :title: Adobe，Apolloのα版を一般公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0003
+    :date: 2007年4月24日
+  - :title: "軽量Java DIコンテナ「google-guice 1.0」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0002
+    :date: 2007年4月24日
+  - :title: symfony 1.0 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0001
+    :date: 2007年4月24日
+  - :title: "「目標を宣言する」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0011
+    :date: 2007年3月2日
+  - :title: Microsoft社の入社面接問題「ボートに乗って，手荷物を船外に放り出すと，水位は上がるか，下がるか」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0010
+    :date: 2007年3月1日
+  - :title: "ソフトウェア開発者の生産性を向上させるには大きな画面を与えよ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0009
+    :date: 2007年3月1日
+  - :title: "年収250万円未満で働く30代エンジニアの胸の内"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0008
+    :date: 2007年3月1日
+  - :title: "女性エンジニアを育てるために"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0007
+    :date: 2007年2月28日
+  - :title: "任天堂岩田社長「私たちが戦っているのはライバルメーカではなく，お客さんの無関心」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0006
+    :date: 2007年2月28日
+  - :title: Steve Jobsはなぜ説得力があるのか
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0005
+    :date: 2007年2月28日
+  - :title: "便利過ぎて困るほどのFireBug 1.0機能プレビュー"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0004
+    :date: 2007年2月27日
+  - :title: 15MバイトのSubversionソースリポジトリが無料で使用可能なサービス「Unfuddle」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0003
+    :date: 2007年2月27日
+  - :title: "セキュリティの観点から見たソースコードレビューのガイドライン「OWASP Code Review Guide」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0002
+    :date: 2007年2月27日
+  - :title: ma.la氏によるライブドアテクノロジーセミナーのプレゼン資料「Technologies for UI」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0001
+    :date: 2007年2月27日
+  - :title: "「クックブックが好き」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0010
+    :date: 2006年12月22日
+  - :title: Lispの美しさ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0008
+    :date: 2007年4月25日
+  - :title: secondlifeこと舘野祐一氏の発表資料「fcwrapを使ったAS3オールドタイプ開発」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0007
+    :date: 2007年4月25日
+  - :title: C10K問題
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0006
+    :date: 2007年4月25日
+  - :title: "新しいプログラミング言語を習得するための15の方法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0005
+    :date: 2007年4月25日
+  - :title: Tomcat 6系の安定版「Apache Tomcat 6.0.10」リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0004
+    :date: 2007年4月24日
+  - :title: Adobe，Apolloのα版を一般公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0003
+    :date: 2007年4月24日
+  - :title: "軽量Java DIコンテナ「google-guice 1.0」リリース"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0002
+    :date: 2007年4月24日
+  - :title: symfony 1.0 リリース
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol38/0001
+    :date: 2007年4月24日
+  - :title: "「目標を宣言する」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0011
+    :date: 2007年3月2日
+  - :title: Microsoft社の入社面接問題「ボートに乗って，手荷物を船外に放り出すと，水位は上がるか，下がるか」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0010
+    :date: 2007年3月1日
+  - :title: "ソフトウェア開発者の生産性を向上させるには大きな画面を与えよ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0009
+    :date: 2007年3月1日
+  - :title: "年収250万円未満で働く30代エンジニアの胸の内"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0008
+    :date: 2007年3月1日
+  - :title: "女性エンジニアを育てるために"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0007
+    :date: 2007年2月28日
+  - :title: "任天堂岩田社長「私たちが戦っているのはライバルメーカではなく，お客さんの無関心」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0006
+    :date: 2007年2月28日
+  - :title: Steve Jobsはなぜ説得力があるのか
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0005
+    :date: 2007年2月28日
+  - :title: "便利過ぎて困るほどのFireBug 1.0機能プレビュー"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0004
+    :date: 2007年2月27日
+  - :title: 15MバイトのSubversionソースリポジトリが無料で使用可能なサービス「Unfuddle」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0003
+    :date: 2007年2月27日
+  - :title: "セキュリティの観点から見たソースコードレビューのガイドライン「OWASP Code Review Guide」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0002
+    :date: 2007年2月27日
+  - :title: ma.la氏によるライブドアテクノロジーセミナーのプレゼン資料「Technologies for UI」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol37/0001
+    :date: 2007年2月27日
+  - :title: "「クックブックが好き」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0010
+    :date: 2006年12月22日
+  - :title: "『Life Hacks PRESS』の記事「勉強会のススメ」PDF公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0009
+    :date: 2006年12月22日
+  - :title: "高林哲氏主催，スルー力カンファレンス（スルカン）開催決定（？）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0008
+    :date: 2006年12月22日
+  - :title: "プログラムには「アルゴリズム」「データ構造」「インタフェース」の3つを揃えるべきである"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0007
+    :date: 2006年12月22日
+  - :title: "いいアジャイルと悪いアジャイル"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0006
+    :date: 2006年12月22日
+  - :title: "上層部からアジャイルを押しつけられるのは完全に原則に反している"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0005
+    :date: 2006年12月22日
+  - :title: Subversionベストプラクティス
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0004
+    :date: 2006年12月22日
+  - :title: symfonyチュートリアル実践まとめ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0003
+    :date: 2006年12月22日
+  - :title: "『アート・オブ・プロジェクトマネジメント』読書感想文まとめ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0002
+    :date: 2006年12月22日
+  - :title: "継続的インテグレーションサーバの選択"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0001
+    :date: 2006年12月22日
+  - :title: "「複数の言語を学ぶこと」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0006
+    :date: 2006年10月20日
+  - :title: "子どもを叱るとき，やってはいけない10か条"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0009
+    :date: 2006年10月20日
+  - :title: "「会社はいつだって自分をクビにできるから会社を辞めることに躊躇を感じるのはおかしい」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0005
+    :date: 2006年10月20日
+  - :title: "文書を作ることができない症候群"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0011
+    :date: 2006年10月20日
+  - :title: "「Stiffと偉大なプログラマ達」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0004
+    :date: 2006年10月20日
+  - :title: Kent Beck氏「XPは押しつけるものではない。自分が変われば必ず伝わる」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0001
+    :date: 2006年10月20日
+  - :title: "勉強できない人向けプログラミング学習法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0008
+    :date: 2006年10月20日
+  - :title: "学校では教えてくれないエンジニアリング英語 #1"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0010
+    :date: 2006年10月20日
+  - :title: Rakeのソースはコードリーディングや教材に適している
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0003
+    :date: 2006年10月20日
+  - :title: LLRingの動画を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0002
+    :date: 2006年10月20日
+  - :title: "第一線の技術者が参考にするWebサイト101"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0012
+    :date: 2006年10月20日
+  - :title: "『Life Hacks PRESS』の記事「勉強会のススメ」PDF公開"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0009
+    :date: 2006年12月22日
+  - :title: "高林哲氏主催，スルー力カンファレンス（スルカン）開催決定（？）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0008
+    :date: 2006年12月22日
+  - :title: "プログラムには「アルゴリズム」「データ構造」「インタフェース」の3つを揃えるべきである"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0007
+    :date: 2006年12月22日
+  - :title: "いいアジャイルと悪いアジャイル"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0006
+    :date: 2006年12月22日
+  - :title: "上層部からアジャイルを押しつけられるのは完全に原則に反している"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0005
+    :date: 2006年12月22日
+  - :title: Subversionベストプラクティス
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0004
+    :date: 2006年12月22日
+  - :title: symfonyチュートリアル実践まとめ
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0003
+    :date: 2006年12月22日
+  - :title: "『アート・オブ・プロジェクトマネジメント』読書感想文まとめ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0002
+    :date: 2006年12月22日
+  - :title: "継続的インテグレーションサーバの選択"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol36/0001
+    :date: 2006年12月22日
+  - :title: "「複数の言語を学ぶこと」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0006
+    :date: 2006年10月20日
+  - :title: "子どもを叱るとき，やってはいけない10か条"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0009
+    :date: 2006年10月20日
+  - :title: "「会社はいつだって自分をクビにできるから会社を辞めることに躊躇を感じるのはおかしい」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0005
+    :date: 2006年10月20日
+  - :title: "文書を作ることができない症候群"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0011
+    :date: 2006年10月20日
+  - :title: "「Stiffと偉大なプログラマ達」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0004
+    :date: 2006年10月20日
+  - :title: Kent Beck氏「XPは押しつけるものではない。自分が変われば必ず伝わる」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0001
+    :date: 2006年10月20日
+  - :title: "勉強できない人向けプログラミング学習法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0008
+    :date: 2006年10月20日
+  - :title: "学校では教えてくれないエンジニアリング英語 #1"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0010
+    :date: 2006年10月20日
+  - :title: Rakeのソースはコードリーディングや教材に適している
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0003
+    :date: 2006年10月20日
+  - :title: LLRingの動画を公開
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0002
+    :date: 2006年10月20日
+  - :title: "第一線の技術者が参考にするWebサイト101"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0012
+    :date: 2006年10月20日
+  - :title: "オープンソースのJPA実装のテストコードステップ数比較"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0007
+    :date: 2006年10月20日
+  - :title: "今どきの『UNIXプログラミング環境』が読みたい "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0005
+    :date: 2006年8月23日
+  - :title: "米Lifehacker編集者3人が毎日使っているツール&サイト"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0009
+    :date: 2006年8月23日
+  - :title: "椅子で寝る技術 "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0008
+    :date: 2006年8月23日
+  - :title: "飲み会のお店決めや会計をパターン化した「幹事パターン」 "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0010
+    :date: 2006年8月23日
+  - :title: "梅田望夫氏「勤めてお金を稼ぎながら知的生活を送るか，セミリタイアしてから知的生活に入るか」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0007
+    :date: 2006年8月23日
+  - :title: "まつもとゆきひろ氏「現状に甘んじる気持ちが一番危険」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0004
+    :date: 2006年8月23日
+  - :title: "「PHP best practices」スピーチ資料 "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0002
+    :date: 2006年8月23日
+  - :title: 'Java SE 6 MustangにJava DBがバンドル '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0001
+    :date: 2006年8月23日
+  - :title: "『Rubyist Magazine 日本Rubyカンファレンス2006 特別号』"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0003
+    :date: 2006年8月23日
+  - :title: "日本で公開されているWeb API一覧"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0006
+    :date: 2006年8月23日
+  - :title: "「読書会のススメ」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0005
+    :date: 2006年6月19日
+  - :title: 'Bill Gates氏は3つのモニタを使い分け仕事をこなしている '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0001
+    :date: 2006年6月19日
+  - :title: GoogleではC++，Python，Java以外の言語を使う場合は特別に許可が必要
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0002
+    :date: 2006年6月19日
+  - :title: "プレゼンテクニックまとめのまとめ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0008
+    :date: 2006年6月19日
+  - :title: 'Joel Spolsky選定のマネジメントトレーニング用課題読書リストの邦訳版 '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0003
+    :date: 2006年6月19日
+  - :title: "はてなに入りたくても入れないみなさんへ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0006
+    :date: 2006年6月19日
+  - :title: "平易な英語本の多読で英語力を身につける「SSS（Start with Simple Stories）英語学習法」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0010
+    :date: 2006年6月19日
+  - :title: "関数型言語の勉強法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0012
+    :date: 2006年6月19日
+  - :title: "エイプリルフール用なのに内容は本気な『Perlish Magazine 20060401号』"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0007
+    :date: 2006年6月19日
+  - :title: "オープンソースのJPA実装のテストコードステップ数比較"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol35/0007
+    :date: 2006年10月20日
+  - :title: "今どきの『UNIXプログラミング環境』が読みたい "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0005
+    :date: 2006年8月23日
+  - :title: "米Lifehacker編集者3人が毎日使っているツール&サイト"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0009
+    :date: 2006年8月23日
+  - :title: "椅子で寝る技術 "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0008
+    :date: 2006年8月23日
+  - :title: "飲み会のお店決めや会計をパターン化した「幹事パターン」 "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0010
+    :date: 2006年8月23日
+  - :title: "梅田望夫氏「勤めてお金を稼ぎながら知的生活を送るか，セミリタイアしてから知的生活に入るか」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0007
+    :date: 2006年8月23日
+  - :title: "まつもとゆきひろ氏「現状に甘んじる気持ちが一番危険」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0004
+    :date: 2006年8月23日
+  - :title: "「PHP best practices」スピーチ資料 "
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0002
+    :date: 2006年8月23日
+  - :title: 'Java SE 6 MustangにJava DBがバンドル '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0001
+    :date: 2006年8月23日
+  - :title: "『Rubyist Magazine 日本Rubyカンファレンス2006 特別号』"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0003
+    :date: 2006年8月23日
+  - :title: "日本で公開されているWeb API一覧"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol34/0006
+    :date: 2006年8月23日
+  - :title: "「読書会のススメ」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0005
+    :date: 2006年6月19日
+  - :title: 'Bill Gates氏は3つのモニタを使い分け仕事をこなしている '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0001
+    :date: 2006年6月19日
+  - :title: GoogleではC++，Python，Java以外の言語を使う場合は特別に許可が必要
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0002
+    :date: 2006年6月19日
+  - :title: "プレゼンテクニックまとめのまとめ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0008
+    :date: 2006年6月19日
+  - :title: 'Joel Spolsky選定のマネジメントトレーニング用課題読書リストの邦訳版 '
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0003
+    :date: 2006年6月19日
+  - :title: "はてなに入りたくても入れないみなさんへ"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0006
+    :date: 2006年6月19日
+  - :title: "平易な英語本の多読で英語力を身につける「SSS（Start with Simple Stories）英語学習法」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0010
+    :date: 2006年6月19日
+  - :title: "関数型言語の勉強法"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0012
+    :date: 2006年6月19日
+  - :title: "エイプリルフール用なのに内容は本気な『Perlish Magazine 20060401号』"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0007
+    :date: 2006年6月19日
+  - :title: "「IBMがRubyをサポートするならば，すなわちRubyはエンタープライジー（enterprisey）であるということだ」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0004
+    :date: 2006年6月19日
+  - :title: "レガシーシステムのエクストリームメンテナンスプログラミング"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0009
+    :date: 2006年6月19日
+  - :title: "開発者のための正しいCSRF対策"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol33/0011
+    :date: 2006年6月19日
+  - :title: "「技術雑誌が続々休刊」"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0011
+    :date: 2006年4月21日
+  - :title: "シリコンバレーの「普通の」エンジニアの給与は1100万～1500万円（ボーナス別）"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0012
+    :date: 2006年4月21日
+  - :title: Googleエンジニアの応募資格の敷居が低くなっている
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0002
+    :date: 2006年4月21日
+  - :title: Paul Grahamのエッセイと和訳一覧
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0006
+    :date: 2006年4月21日
+  - :title: lsコマンドのソース（FreeBSD版）
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0004
+    :date: 2006年4月21日
+  - :title: Microsoft「ファイル共有ソフトによる情報の流出について」
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0005
+    :date: 2006年4月21日
+  - :title: JUnit 4の現状を紹介する
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0003
+    :date: 2006年4月21日
+  - :title: "「J2EE design decisions」の日本語要約"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0010
+    :date: 2006年4月21日
+  - :title: PHPプログラマはSession Fixation（セッションIDの固定化）問題を認識できているか？
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0008
+    :date: 2006年4月21日
+  - :title: PHPフレームワークのレビュー
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0007
+    :date: 2006年4月21日
+  - :title: "各言語のRuby on Railsライクなフレームワーク"
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0013
+    :date: 2006年4月21日
+  - :title: del.icio.usが明かす大規模アプリケーション構築のポイント
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0001
+    :date: 2006年4月21日
+  - :title: Yahoo!の独自カスタマイズApache（yapache）とPHPについての資料
+    :url: http://gihyo.jp/dev/clip/01/orangenews/vol32/0009
+    :date: 2006年4月21日
