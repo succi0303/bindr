@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20150227004024) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "binders", force: :cascade do |t|
     t.string   "title",                       null: false
     t.text     "description"
@@ -23,7 +26,7 @@ ActiveRecord::Schema.define(version: 20150227004024) do
     t.datetime "updated_at",                  null: false
   end
 
-  add_index "binders", ["user_id"], name: "index_binders_on_user_id"
+  add_index "binders", ["user_id"], name: "index_binders_on_user_id", using: :btree
 
   create_table "pages", force: :cascade do |t|
     t.integer  "number"
@@ -34,7 +37,7 @@ ActiveRecord::Schema.define(version: 20150227004024) do
     t.datetime "updated_at", null: false
   end
 
-  add_index "pages", ["binder_id"], name: "index_pages_on_binder_id"
+  add_index "pages", ["binder_id"], name: "index_pages_on_binder_id", using: :btree
 
   create_table "taggings", force: :cascade do |t|
     t.integer  "tag_id"
@@ -46,15 +49,15 @@ ActiveRecord::Schema.define(version: 20150227004024) do
     t.datetime "created_at"
   end
 
-  add_index "taggings", ["tag_id", "taggable_id", "taggable_type", "context", "tagger_id", "tagger_type"], name: "taggings_idx", unique: true
-  add_index "taggings", ["taggable_id", "taggable_type", "context"], name: "index_taggings_on_taggable_id_and_taggable_type_and_context"
+  add_index "taggings", ["tag_id", "taggable_id", "taggable_type", "context", "tagger_id", "tagger_type"], name: "taggings_idx", unique: true, using: :btree
+  add_index "taggings", ["taggable_id", "taggable_type", "context"], name: "index_taggings_on_taggable_id_and_taggable_type_and_context", using: :btree
 
   create_table "tags", force: :cascade do |t|
     t.string  "name"
     t.integer "taggings_count", default: 0
   end
 
-  add_index "tags", ["name"], name: "index_tags_on_name", unique: true
+  add_index "tags", ["name"], name: "index_tags_on_name", unique: true, using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
@@ -65,7 +68,9 @@ ActiveRecord::Schema.define(version: 20150227004024) do
     t.string   "remember_token"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true
-  add_index "users", ["remember_token"], name: "index_users_on_remember_token"
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
 
+  add_foreign_key "binders", "users"
+  add_foreign_key "pages", "binders"
 end
