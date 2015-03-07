@@ -1,6 +1,7 @@
 source "https://supermarket.chef.io"
 
 cookbook 'nodejs', '~> 2.2.0'
+cookbook 'postgresql', '~> 3.4.18'
 cookbook 'rbenv', '~> 1.7.1'
 cookbook 'sqlite', '~> 1.1.0'
 cookbook 'vim', '~> 1.1.2'

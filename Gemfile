@@ -57,6 +57,7 @@ gem 'gon', '~> 5.2.3'
 gem 'jquery-turbolinks', '~> 2.1.0'
 gem 'jquery-ui-rails', '~> 5.0.3'
 gem 'kaminari', '~> 0.16.3'
+gem 'pg', '~> 0.18.1'
 gem 'simple_form', '~> 3.1.0.rc2', github: 'plataformatec/simple_form'
 gem 'validate_url', '~> 1.0.0'
 gem 'validates_email_format_of', '~> 1.6.2'
@@ -66,6 +67,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '~> 0.18.1'
   gem 'rails_12factor', '~> 0.0.3'
 end

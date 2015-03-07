@@ -21,12 +21,37 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.cookbooks_path = ["chef-repo/cookbooks", "chef-repo/site-cookbooks"]
 
     chef.add_recipe "nodejs"
+    chef.add_recipe "postgresql::server"
     chef.add_recipe "rbenv::default"
     chef.add_recipe "rbenv::ruby_build"
     chef.add_recipe "sqlite"
     chef.add_recipe "vim"
 
     chef.add_recipe "base"
+
+    chef.json = {
+      postgresql: {
+        enable_pgdg_yum: true,
+        version: "9.3",
+        password: {
+          postgres: 'postgres'
+        },
+        client: {
+          packages: [
+            'postgresql-devel'
+          ]
+        },
+        pg_hba: [
+          {
+            type: 'local',
+            db: 'all',
+            user: 'vagrant',
+            addr: nil,
+            method: 'md5'
+          }
+        ]
+      }
+    }
   end
 
 end
