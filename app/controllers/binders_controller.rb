@@ -73,7 +73,7 @@ class BindersController < ApplicationController
     @queries = params[:q].split(/\s+/)
     @binders = Binder.all
     @queries.each do |query|
-      @binders = @binders.where('title LIKE ? OR description LIKE ?', "%#{query}%", "%#{query}%")
+      @binders = @binders.where('title ILIKE ? OR description ILIKE ?', "%#{query}%", "%#{query}%")
     end
     @binders = @binders.order('updated_at DESC').page params[:page]
 
