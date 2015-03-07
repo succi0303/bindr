@@ -2,6 +2,13 @@ language: ruby
 rvm:
 - 2.1.5
 bundler_args: "--jobs=2"
+addons:
+  postgresql: "9.3"
+before_script:
+  - psql -c 'CREATE DATABASE travis_ci_test;' -U postgres
+  - cp config/database.yml.travis config/database.yml
+  - bundle exec bin/rake db:create
+  - bundle exec bin/rake db:migrate
 script:
 - bundle exec bin/rspec
 deploy:
