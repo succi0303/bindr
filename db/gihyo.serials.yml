@@ -1,523 +1,12 @@
 ---
-- :url: http://gihyo.jp/design/serial/01/away3d-typescript
-  :title: Away3D TypeScriptではじめる3次元表現
-  :description: Away3DはFlashプラットフォーム由来のオープンソースのリアルタイム3Dエンジンです。このAway3DエンジンがJavaScriptライブラリ「Away3D
-    TypeScript」として移植されはじめています。本連載では，このAway3D TypeScriptによる3次元表現を解説していきます。
-  :tag: Away3D,Flash,JavaScript,Away3D TypeScript
-  :articles:
-  - :title: "第9回　マウスイベントを扱う"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0009
-    :date: 2015年3月3日
-  - :title: "第8回　オブジェクトの位置と大きさをランダムにする"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0008
-    :date: 2015年2月16日
-  - :title: "第7回　回り込むカメラの真ん中にオブジェクトを捉える"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0007
-    :date: 2015年2月2日
-  - :title: "第6回　スカイボックスの中に置いたドーナッツ型をカメラで追う"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0006
-    :date: 2015年1月19日
-  - :title: "第5回　スカイボックスで3次元空間に背景をつくる"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0005
-    :date: 2015年1月5日
-  - :title: "第4回　床の追加とカメラのパン・チルト"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0004
-    :date: 2014年12月19日
-  - :title: "第3回　ライブラリとクラスの読込みが変わった"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0003
-    :date: 2014年12月10日
-  - :title: "第2回　物体にテクスチャを貼って回す"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0002
-    :date: 2014年11月4日
-  - :title: "第1回　Away3D TypeScriptで基本的な3次元の形状をつくる"
-    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0001
-    :date: 2014年10月20日
-- :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale
-  :title: MySQLをチューニング，そしてスケールアップ／スケールアウトへ
-  :description: "本連載では，現在MySQLを利用していて，チューニングやより大規模な環境に向けた構成の拡張を体系的に説明することを目的としています。MySQLのこれまでの開発と最新の動向から，チューニングやスケールアップ／スケールアウトの注意点を解説します。"
-  :tag: MySQL
-  :articles:
-  - :title: "第3回　MySQLチューニング（2）　設定項目と稼働状況の確認"
-    :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale/0003
-    :date: 2015年3月3日
-  - :title: "第2回　MySQLチューニング（1）　MySQLチューニング，その前に"
-    :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale/0002
-    :date: 2015年2月17日
-  - :title: "第1回　MySQLにおける開発の歴史と最新動向"
-    :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale/0001
-    :date: 2015年2月3日
-- :url: http://gihyo.jp/dev/serial/01/readers-forum
-  :title: "はまちちゃんとわかばちゃんのREADER'S FORUM―読者のページ"
-  :description: WEB+DB PRESS特別編集部員，さわやか笑顔のスーパーハカーはまちちゃんとネット大好き14歳わかばちゃんが，毎号，読者の皆さんから寄せられたおたよりを紹介します。皆さんの日頃の悩みにも答えちゃいますよ。
-  :tag: WEB,DB PRESS
-  :articles:
-  - :title: WEB+DB PRESS Vol.84へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol85
-    :date: 2015年3月2日
-  - :title: WEB+DB PRESS Vol.83へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol84
-    :date: 2015年1月5日
-  - :title: WEB+DB PRESS Vol.82へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol83
-    :date: 2014年10月31日
-  - :title: WEB+DB PRESS Vol.81へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol82
-    :date: 2014年9月1日
-  - :title: WEB+DB PRESS Vol.80へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol81
-    :date: 2014年7月1日
-  - :title: WEB+DB PRESS Vol.79へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol80
-    :date: 2014年4月30日
-  - :title: WEB+DB PRESS Vol.78へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol79
-    :date: 2014年2月28日
-  - :title: WEB+DB PRESS Vol.77へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol78
-    :date: 2014年1月6日
-  - :title: WEB+DB PRESS Vol.76へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol77
-    :date: 2013年10月30日
-  - :title: WEB+DB PRESS Vol.75へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol76
-    :date: 2013年8月30日
-  - :title: WEB+DB PRESS Vol.74へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol75
-    :date: 2013年7月1日
-  - :title: WEB+DB PRESS Vol.73へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol74
-    :date: 2013年4月30日
-  - :title: WEB+DB PRESS Vol.72へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol73
-    :date: 2013年2月28日
-  - :title: WEB+DB PRESS Vol.71へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol72
-    :date: 2013年1月7日
-  - :title: WEB+DB PRESS Vol.70へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol71
-    :date: 2012年10月30日
-  - :title: WEB+DB PRESS Vol.69へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol70
-    :date: 2012年8月31日
-  - :title: WEB+DB PRESS Vol.68へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol69
-    :date: 2012年7月2日
-  - :title: WEB+DB PRESS Vol.67へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol68
-    :date: 2012年5月1日
-  - :title: WEB+DB PRESS Vol.66へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol67
-    :date: 2012年3月1日
-  - :title: WEB+DB PRESS Vol.65へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol66
-    :date: 2012年1月10日
-  - :title: WEB+DB PRESS Vol.64へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol65
-    :date: 2011年11月1日
-  - :title: WEB+DB PRESS Vol.63へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol64
-    :date: 2011年9月1日
-  - :title: WEB+DB PRESS Vol.62へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol63
-    :date: 2011年7月1日
-  - :title: WEB+DB PRESS Vol.61へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol62
-    :date: 2011年4月29日
-  - :title: WEB+DB PRESS Vol.60へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol61
-    :date: 2011年3月1日
-  - :title: WEB+DB PRESS Vol.59へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol60
-    :date: 2011年1月4日
-  - :title: WEB+DB PRESS Vol.58へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol59
-    :date: 2010年11月1日
-  - :title: WEB+DB PRESS Vol.57へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol58
-    :date: 2010年9月1日
-  - :title: WEB+DB PRESS Vol.56へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol57
-    :date: 2010年7月1日
-  - :title: WEB+DB PRESS Vol.55へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol56
-    :date: 2010年5月1日
-  - :title: WEB+DB PRESS Vol.54へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol55
-    :date: 2010年3月1日
-  - :title: WEB+DB PRESS Vol.53へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol54
-    :date: 2010年1月4日
-  - :title: 'WEB＋DB PRESS Vol.52へのお便り '
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol53
-    :date: 2009年11月2日
-  - :title: 'WEB＋DB PRESS Vol.51へのお便り '
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol52
-    :date: 2009年9月1日
-  - :title: WEB+DB PRESS　Vol.50へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol51
-    :date: 2009年7月1日
-  - :title: WEB+DB PRESS　Vol.49へのお便り
-    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol.50
-    :date: 2009年5月1日
-- :url: http://gihyo.jp/lifestyle/serial/01/redpen
-  :title: RedPenを使って技術文書を手軽に校正しよう
-  :description: "本連載ではRedPenという自動文書検査ツールの紹介と，このRedPenを利用した技術文書の校正方法について説明します 。"
-  :tag: RedPen
-  :articles:
-  - :title: "第6回　RedPenの機能追加と今後"
-    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0006
-    :date: 2015年2月27日
-  - :title: "第5回　RedPenの内部"
-    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0005
-    :date: 2015年2月3日
-  - :title: "第4回　RedPenの利用方法"
-    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0004
-    :date: 2015年1月19日
-  - :title: "第3回　文書執筆で気をつける点とRedPenを利用した予防方法"
-    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0003
-    :date: 2014年12月24日
-  - :title: "第2回　RedPenを利用した文書の継続的検査への取り組み"
-    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0002
-    :date: 2014年12月1日
-  - :title: "第1回　自動文書検査ツールRedPenとは？"
-    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0001
-    :date: 2014年11月17日
-- :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi
-  :title: "玩式草子─ソフトウェアとたわむれる日々"
-  :description: Plamo Linuxのメンテナンスの傍ら，Linuxやオープンソースソフトと日々を過ごす著者が，その魅力とつきあい方を，エッセイ風味でお届けします。
-  :tag: Plamo Linux,Linux
-  :articles:
-  - :title: "第67回　Plamo-5.3.1とget_pkginfoスクリプト［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0067
-    :date: 2015年2月27日
-  - :title: "第66回　Plamo-5.3.1とget_pkginfoスクリプト"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0066
-    :date: 2015年1月30日
-  - :title: "第65回　やっと出ましたPlamo-5.3"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0065
-    :date: 2015年1月5日
-  - :title: "第64回　お家通信カラオケシステムを作ろう［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0064
-    :date: 2014年11月28日
-  - :title: "第63回　お家通信カラオケシステムを作ろう［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0063
-    :date: 2014年10月30日
-  - :title: "第62回　お家通信カラオケシステムを作ろう［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0062
-    :date: 2014年10月3日
-  - :title: "第61回　いまさらながらVNC［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0061
-    :date: 2014年8月29日
-  - :title: "第60回　いまさらながらVNC［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0060
-    :date: 2014年7月31日
-  - :title: "第59回　いまさらながらVNC［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0059
-    :date: 2014年6月30日
-  - :title: "第58回　「らじる★らじる」をもう一度（その3）"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0058
-    :date: 2014年5月30日
-  - :title: "第57回　「らじる★らじる」をもう一度（その2）"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0057
-    :date: 2014年4月30日
-  - :title: "第56回　「らじる★らじる」をもう一度（その1）"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0056
-    :date: 2014年3月28日
-  - :title: "第55回　Plamo-5.2へのアップデート用スクリプト"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0055
-    :date: 2014年2月28日
-  - :title: "第54回　Plamo-5.2と更新されたパッケージ"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0054
-    :date: 2014年1月31日
-  - :title: "第53回　近日公開 Plamo-5.2"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053
-    :date: 2013年12月27日
-  - :title: "第52回　X，MesaそしてLLVM［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0052
-    :date: 2013年11月29日
-  - :title: "第51回　X，MesaそしてLLVM［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0051
-    :date: 2013年10月29日
-  - :title: "第50回　X，MesaそしてLLVM［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0050
-    :date: 2013年10月7日
-  - :title: "第49回　自炊データとnetpbm"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0049
-    :date: 2013年8月30日
-  - :title: "第48回　電子書籍と資料としての本"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0048
-    :date: 2013年8月2日
-  - :title: "第47回　Plamo-5.1 after"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0047
-    :date: 2013年6月28日
-  - :title: "第46回　Plamo-5.1 released"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046
-    :date: 2013年5月31日
-  - :title: "第45回　Nexus 7とMTP［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0045
-    :date: 2013年5月2日
-  - :title: "第44回　Nexus 7とMTP［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0044
-    :date: 2013年4月2日
-  - :title: "第43回　SANEを用いた書籍の電子化"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0043
-    :date: 2013年3月1日
-  - :title: "第42回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その4］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0042
-    :date: 2013年2月1日
-  - :title: "第41回　Plamo Linux-5.0"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0041
-    :date: 2013年1月7日
-  - :title: "第40回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0040
-    :date: 2012年12月4日
-  - :title: "第39回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0039
-    :date: 2012年11月1日
-  - :title: "第38回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0038
-    :date: 2012年10月1日
-  - :title: "第37回 　「らじる☆らじる」再び"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0037
-    :date: 2012年8月31日
-  - :title: "第36回　プロジェクトの分岐と智のゲーム"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0036
-    :date: 2012年7月30日
-  - :title: "第35回　Plamo-5.0の最新動向"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0035
-    :date: 2012年6月29日
-  - :title: "第34回　C++とGCCの-fvisibilityオプション"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0034
-    :date: 2012年5月30日
-  - :title: "第33回　SQLiteでRDB再入門［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0033
-    :date: 2012年5月1日
-  - :title: "第32回　SQLiteでRDB再入門［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0032
-    :date: 2012年3月30日
-  - :title: "第31回　SQLiteでRDB再入門［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0031
-    :date: 2012年3月1日
-  - :title: "第30回　64ビット化への遠い道程［まとめ］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0030
-    :date: 2012年1月30日
-  - :title: "第29回　Plamo Linuxで音楽三昧［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0029
-    :date: 2011年12月28日
-  - :title: "第28回　Plamo Linuxで音楽三昧［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0028
-    :date: 2011年12月6日
-  - :title: "第27回　Plamo Linuxで音楽三昧［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0027
-    :date: 2011年11月2日
-  - :title: "第26回　64ビット化への遠い道程［その4］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0026
-    :date: 2011年10月4日
-  - :title: "第25回　猛暑とCPUの発熱対策［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0025
-    :date: 2011年8月15日
-  - :title: "第24回　猛暑とCPUの発熱対策［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0024
-    :date: 2011年7月22日
-  - :title: "第23回　Linux-3.0に寄せて"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0023
-    :date: 2011年6月30日
-  - :title: "第22回　情報社会と智のゲーム"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0022
-    :date: 2011年5月30日
-  - :title: "第21回　64ビット化への遠い道程［その3］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0021
-    :date: 2011年4月21日
-  - :title: "第20回　Linuxとマルチメディア環境［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0020
-    :date: 2011年3月17日
-  - :title: "第19回　Linuxとマルチメディア環境［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0019
-    :date: 2011年2月14日
-  - :title: "第18回　「温故知新」"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0018
-    :date: 2011年1月17日
-  - :title: "第17回　64ビット化への遠い道程［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0017
-    :date: 2010年12月22日
-  - :title: "第16回　64ビット化への遠い道程［その1］ "
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0016
-    :date: 2010年11月16日
-  - :title: "第15回　久しぶりの新PC"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0015
-    :date: 2010年10月13日
-  - :title: "第14回　Plamo-4.73と共有ライブラリのトラブル"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0014
-    :date: 2010年9月10日
-  - :title: "第13回　TotemのYouTubeプラグイン再び"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0013
-    :date: 2010年8月9日
-  - :title: "第12回　P-Plamoのカスタマイズ［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0012
-    :date: 2010年7月13日
-  - :title: "第11回　P-Plamoのカスタマイズ［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0011
-    :date: 2010年6月17日
-  - :title: "第10回　P-Plamoの内部構造［その2］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0010
-    :date: 2010年5月11日
-  - :title: "第9回　P-Plamoの内部構造［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0009
-    :date: 2010年4月12日
-  - :title: "第8回　Plamo Linux 4.72とP-Plamo"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0008
-    :date: 2010年3月10日
-  - :title: "第7回　ビルド，ビルド，ビルド! ─あるいは賽の河原の小石積み［その2］ "
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0007
-    :date: 2010年2月1日
-  - :title: "第6回　ビルド，ビルド，ビルド! ─あるいは賽の河原の小石積み［その1］"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0006
-    :date: 2010年1月8日
-  - :title: "第5回　Plamo Linux 4.71とメタ・ビルドスクリプト"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0005
-    :date: 2009年12月7日
-  - :title: "第4回　Plamo Linux 4.7とPlamoのビルドスクリプト "
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0004
-    :date: 2009年11月6日
-  - :title: "第3回　みんなでテスト，みんなでデバッグ。～あるいはLinusの法則 "
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0003
-    :date: 2009年10月2日
-  - :title: "第2回　「あなたを，犯人です」  ─ デバッグという名のミステリー"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0002
-    :date: 2009年9月3日
-  - :title: "第1回　ソフトウェア・ツールズとLinux"
-    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0001
-    :date: 2009年8月3日
-- :url: http://gihyo.jp/admin/serial/01/hatohol
-  :title: OpenStack Days Tokyo：ミラクル・リナックスが考えるクラウド管理の決め手
-  :description: 2月3，4日に開催される「OpenStack Days Tokyo 2015」。同イベントでミラクル・リナックスが提案するOpenStackの運用管理の新しい形を2回に渡って紹介します。
-  :tag: OpenStack Days Tokyo 2015,OpenStack
-  :articles:
-  - :title: "第2回　運用フェーズに入ったOpenStack─「OpenStack Days Tokyo 2015」セッションから"
-    :url: http://gihyo.jp/admin/serial/01/hatohol/0002
-    :date: 2015年2月26日
-  - :title: "第1回　「Hatohol」でOpenStackの運用管理が大きく変わる"
-    :url: http://gihyo.jp/admin/serial/01/hatohol/0001
-    :date: 2015年1月22日
-- :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing
-  :title: Processingで学ぶ 実践的プログラミング専門課程
-  :description: "プログラミング言語の文法を学習するだけではプログラミングが「できる」ようにはなりません。プログラミングができるようになるためには，様々な専門知識とそれを使いこなす訓練が必要です。本連載ではProcessing言語を使って，プログラミングの初心者向けに，実践的なプログラミング技術の学習を行います。"
-  :tag: Processing
-  :articles:
-  - :title: "第11回　サーチ"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0011
-    :date: 2015年2月26日
-  - :title: "第10回　ソート"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0010
-    :date: 2015年2月12日
-  - :title: "第9回　配列とコレクション"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0009
-    :date: 2015年1月28日
-  - :title: "第8回　変数の使える範囲を限定する　スコープ"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0008
-    :date: 2015年1月14日
-  - :title: "第7回　共通部分をまとめる　流れ図とメソッド"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0007
-    :date: 2014年12月24日
-  - :title: "第6回　共通部分をまとめる"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0006
-    :date: 2014年12月10日
-  - :title: "第5回　制御構造を整理する"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0005
-    :date: 2014年11月26日
-  - :title: "第4回　コードフォーマットのルール"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0004
-    :date: 2014年11月12日
-  - :title: "第3回　ネーミングルールを持とう"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0003
-    :date: 2014年10月22日
-  - :title: "第2回　動く絵を描く，あるいはマウスやキーボードに反応するプログラムを書く"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0002
-    :date: 2014年10月8日
-  - :title: "第1回　開発環境の使い方と基本的文法のおさらい"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0001
-    :date: 2014年9月24日
-  - :title: "第0回　はじめに　プログラミングが「できる」ようになろう"
-    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0000
-    :date: 2014年9月10日
-- :url: http://gihyo.jp/dev/serial/01/emberjs
-  :title: "実践入門 Ember.js"
-  :description: Web開発におけるJavaScriptの重要性は年々高まり，多くのライブラリやフレームワークが登場しています。私たちがリッチなアプリケーションを作る際，何らかの仕組みを選択することが開発の助けになるでしょう。
-  :tag: Web,JavaScript
-  :articles:
-  - :title: "第6回　実践：ショッピングカート②（Ember.Object, Observer）"
-    :url: http://gihyo.jp/dev/serial/01/emberjs/0006
-    :date: 2015年2月25日
-  - :title: "第5回　実践：ショッピングカート①（Array, Computed Property）"
-    :url: http://gihyo.jp/dev/serial/01/emberjs/0005
-    :date: 2015年2月10日
-  - :title: "第4回　ユーザのインタラクション（Controller, Component）"
-    :url: http://gihyo.jp/dev/serial/01/emberjs/0004
-    :date: 2015年1月27日
-  - :title: "第3回　画面遷移（Routing）"
-    :url: http://gihyo.jp/dev/serial/01/emberjs/0003
-    :date: 2015年1月14日
-  - :title: "第2回　URLと画面表示（RoutingとTemplates）"
-    :url: http://gihyo.jp/dev/serial/01/emberjs/0002
-    :date: 2014年12月22日
-  - :title: "第1回　Ember.jsの世界"
-    :url: http://gihyo.jp/dev/serial/01/emberjs/0001
-    :date: 2014年12月9日
-- :url: http://gihyo.jp/dev/serial/01/openSsack_day_t
-  :title: OpenStack Days Tokyoの歩き方
-  :description: "「OpenStack Days Tokyo 2015」が2月3，4日に開催されます。前回よりも規模が拡大されるほか，秋には国際カンファレンス「OpenStack
-    Summit Tokyo」が日本で初めて開催されます。そこで，関係者の方々に見どころと意気込みをお聞きしました。"
-  :tag: OpenStack Days Tokyo 2015,OpenStack Summit Tokyo
-  :articles:
-  - :title: "第3回　ますます関心の高まるOpenStackを体感！「OpenStack Days Tokyo 2015」レポート"
-    :url: http://gihyo.jp/dev/serial/01/openSsack_day_t/0003
-    :date: 2015年2月25日
-  - :title: "第2回　「OpenStack Days Tokyo 2015」は国際サミットへつながるイベント（後編）"
-    :url: http://gihyo.jp/dev/serial/01/openSsack_day_t/0002
-    :date: 2015年1月6日
-  - :title: "第1回　「OpenStack Days Tokyo 2015」は国際サミットへつながるイベント（前編）"
-    :url: http://gihyo.jp/dev/serial/01/openSsack_day_t/0001
-    :date: 2014年12月19日
-- :url: http://gihyo.jp/design/serial/01/ui-ux
-  :title: UI/UX 未来志向―進化の方向を予測し，今必要なことを知る
-  :description: UI/UXは進化が激しく，個別に技術を学んでもその多くは陳腐化してしまいます。本コラムでは，UI/UXの根源的な部分を学びながらこれから向かう未来を見据え，今何を学ぶべきかを分析，考察していきます。
-  :tag: UI/UX
-  :articles:
-  - :title: "第10回　Internet of Things時代のデザイン"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0010
-    :date: 2015年2月25日
-  - :title: "第9回　ジェスチャ入力は未来のインタフェース？"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0009
-    :date: 2014年12月22日
-  - :title: "第8回　視点により異なるUXのとらえ方"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0008
-    :date: 2014年10月20日
-  - :title: "第7回　行為を主体としたデザイン"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0007
-    :date: 2014年8月20日
-  - :title: "第6回　UI/UXの発想を広げるキーワード"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0006
-    :date: 2014年6月20日
-  - :title: "第5回　ググるは易く行うは難し―実世界に直接働きかけるインタフェースへ"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0005
-    :date: 2014年4月21日
-  - :title: "第4回　学びどころの多いゲームデザインの世界"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0004
-    :date: 2014年2月21日
-  - :title: "第3回　フラットデザイン―スキュアモーフィズムのメタファによる表現からの脱却"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0003
-    :date: 2013年12月20日
-  - :title: "第2回　そのデザインはユーザの時間をどう使うか"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0002
-    :date: 2013年10月23日
-  - :title: "第1回　気持ち良さはどこからくるのか～身体に近づくUIへ"
-    :url: http://gihyo.jp/design/serial/01/ui-ux/0001
-    :date: 2013年8月20日
 - :url: http://gihyo.jp/admin/serial/01/ubuntu-recipe
   :title: Ubuntu Weekly Recipe
   :description: Ubuntuの強力なデスクトップ機能を活用するための，いろいろなレシピをお届けします。
   :tag: Ubuntu
   :articles:
+  - :title: "第364回　Raspberry Pi 2でDockerとownCloudを動かす"
+    :url: http://gihyo.jp/admin/serial/01/ubuntu-recipe/0364
+    :date: 2015年3月4日
   - :title: "第363回　CSVエディターとしてのLibreOffice Calc"
     :url: http://gihyo.jp/admin/serial/01/ubuntu-recipe/0363
     :date: 2015年2月25日
@@ -1607,6 +1096,520 @@
   - :title: "第1回　OEMインストール"
     :url: http://gihyo.jp/admin/serial/01/ubuntu-recipe/0001
     :date: 2008年1月16日
+- :url: http://gihyo.jp/design/serial/01/away3d-typescript
+  :title: Away3D TypeScriptではじめる3次元表現
+  :description: Away3DはFlashプラットフォーム由来のオープンソースのリアルタイム3Dエンジンです。このAway3DエンジンがJavaScriptライブラリ「Away3D
+    TypeScript」として移植されはじめています。本連載では，このAway3D TypeScriptによる3次元表現を解説していきます。
+  :tag: Away3D,Flash,JavaScript,Away3D TypeScript
+  :articles:
+  - :title: "第9回　マウスイベントを扱う"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0009
+    :date: 2015年3月3日
+  - :title: "第8回　オブジェクトの位置と大きさをランダムにする"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0008
+    :date: 2015年2月16日
+  - :title: "第7回　回り込むカメラの真ん中にオブジェクトを捉える"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0007
+    :date: 2015年2月2日
+  - :title: "第6回　スカイボックスの中に置いたドーナッツ型をカメラで追う"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0006
+    :date: 2015年1月19日
+  - :title: "第5回　スカイボックスで3次元空間に背景をつくる"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0005
+    :date: 2015年1月5日
+  - :title: "第4回　床の追加とカメラのパン・チルト"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0004
+    :date: 2014年12月19日
+  - :title: "第3回　ライブラリとクラスの読込みが変わった"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0003
+    :date: 2014年12月10日
+  - :title: "第2回　物体にテクスチャを貼って回す"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0002
+    :date: 2014年11月4日
+  - :title: "第1回　Away3D TypeScriptで基本的な3次元の形状をつくる"
+    :url: http://gihyo.jp/design/serial/01/away3d-typescript/0001
+    :date: 2014年10月20日
+- :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale
+  :title: MySQLをチューニング，そしてスケールアップ／スケールアウトへ
+  :description: "本連載では，現在MySQLを利用していて，チューニングやより大規模な環境に向けた構成の拡張を体系的に説明することを目的としています。MySQLのこれまでの開発と最新の動向から，チューニングやスケールアップ／スケールアウトの注意点を解説します。"
+  :tag: MySQL
+  :articles:
+  - :title: "第3回　MySQLチューニング（2）　設定項目と稼働状況の確認"
+    :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale/0003
+    :date: 2015年3月3日
+  - :title: "第2回　MySQLチューニング（1）　MySQLチューニング，その前に"
+    :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale/0002
+    :date: 2015年2月17日
+  - :title: "第1回　MySQLにおける開発の歴史と最新動向"
+    :url: http://gihyo.jp/dev/serial/01/MySQL-tuning-scale/0001
+    :date: 2015年2月3日
+- :url: http://gihyo.jp/dev/serial/01/readers-forum
+  :title: "はまちちゃんとわかばちゃんのREADER'S FORUM―読者のページ"
+  :description: WEB+DB PRESS特別編集部員，さわやか笑顔のスーパーハカーはまちちゃんとネット大好き14歳わかばちゃんが，毎号，読者の皆さんから寄せられたおたよりを紹介します。皆さんの日頃の悩みにも答えちゃいますよ。
+  :tag: WEB+DB PRESS
+  :articles:
+  - :title: WEB+DB PRESS Vol.84へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol85
+    :date: 2015年3月2日
+  - :title: WEB+DB PRESS Vol.83へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol84
+    :date: 2015年1月5日
+  - :title: WEB+DB PRESS Vol.82へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol83
+    :date: 2014年10月31日
+  - :title: WEB+DB PRESS Vol.81へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol82
+    :date: 2014年9月1日
+  - :title: WEB+DB PRESS Vol.80へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol81
+    :date: 2014年7月1日
+  - :title: WEB+DB PRESS Vol.79へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol80
+    :date: 2014年4月30日
+  - :title: WEB+DB PRESS Vol.78へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol79
+    :date: 2014年2月28日
+  - :title: WEB+DB PRESS Vol.77へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol78
+    :date: 2014年1月6日
+  - :title: WEB+DB PRESS Vol.76へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol77
+    :date: 2013年10月30日
+  - :title: WEB+DB PRESS Vol.75へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol76
+    :date: 2013年8月30日
+  - :title: WEB+DB PRESS Vol.74へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol75
+    :date: 2013年7月1日
+  - :title: WEB+DB PRESS Vol.73へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol74
+    :date: 2013年4月30日
+  - :title: WEB+DB PRESS Vol.72へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol73
+    :date: 2013年2月28日
+  - :title: WEB+DB PRESS Vol.71へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol72
+    :date: 2013年1月7日
+  - :title: WEB+DB PRESS Vol.70へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol71
+    :date: 2012年10月30日
+  - :title: WEB+DB PRESS Vol.69へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol70
+    :date: 2012年8月31日
+  - :title: WEB+DB PRESS Vol.68へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol69
+    :date: 2012年7月2日
+  - :title: WEB+DB PRESS Vol.67へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol68
+    :date: 2012年5月1日
+  - :title: WEB+DB PRESS Vol.66へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol67
+    :date: 2012年3月1日
+  - :title: WEB+DB PRESS Vol.65へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol66
+    :date: 2012年1月10日
+  - :title: WEB+DB PRESS Vol.64へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol65
+    :date: 2011年11月1日
+  - :title: WEB+DB PRESS Vol.63へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol64
+    :date: 2011年9月1日
+  - :title: WEB+DB PRESS Vol.62へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol63
+    :date: 2011年7月1日
+  - :title: WEB+DB PRESS Vol.61へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol62
+    :date: 2011年4月29日
+  - :title: WEB+DB PRESS Vol.60へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol61
+    :date: 2011年3月1日
+  - :title: WEB+DB PRESS Vol.59へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol60
+    :date: 2011年1月4日
+  - :title: WEB+DB PRESS Vol.58へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol59
+    :date: 2010年11月1日
+  - :title: WEB+DB PRESS Vol.57へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol58
+    :date: 2010年9月1日
+  - :title: WEB+DB PRESS Vol.56へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol57
+    :date: 2010年7月1日
+  - :title: WEB+DB PRESS Vol.55へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol56
+    :date: 2010年5月1日
+  - :title: WEB+DB PRESS Vol.54へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol55
+    :date: 2010年3月1日
+  - :title: WEB+DB PRESS Vol.53へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol54
+    :date: 2010年1月4日
+  - :title: 'WEB＋DB PRESS Vol.52へのお便り '
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol53
+    :date: 2009年11月2日
+  - :title: 'WEB＋DB PRESS Vol.51へのお便り '
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol52
+    :date: 2009年9月1日
+  - :title: WEB+DB PRESS　Vol.50へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol51
+    :date: 2009年7月1日
+  - :title: WEB+DB PRESS　Vol.49へのお便り
+    :url: http://gihyo.jp/dev/serial/01/readers-forum/vol.50
+    :date: 2009年5月1日
+- :url: http://gihyo.jp/lifestyle/serial/01/redpen
+  :title: RedPenを使って技術文書を手軽に校正しよう
+  :description: "本連載ではRedPenという自動文書検査ツールの紹介と，このRedPenを利用した技術文書の校正方法について説明します 。"
+  :tag: RedPen
+  :articles:
+  - :title: "第6回　RedPenの機能追加と今後"
+    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0006
+    :date: 2015年2月27日
+  - :title: "第5回　RedPenの内部"
+    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0005
+    :date: 2015年2月3日
+  - :title: "第4回　RedPenの利用方法"
+    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0004
+    :date: 2015年1月19日
+  - :title: "第3回　文書執筆で気をつける点とRedPenを利用した予防方法"
+    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0003
+    :date: 2014年12月24日
+  - :title: "第2回　RedPenを利用した文書の継続的検査への取り組み"
+    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0002
+    :date: 2014年12月1日
+  - :title: "第1回　自動文書検査ツールRedPenとは？"
+    :url: http://gihyo.jp/lifestyle/serial/01/redpen/0001
+    :date: 2014年11月17日
+- :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi
+  :title: "玩式草子─ソフトウェアとたわむれる日々"
+  :description: Plamo Linuxのメンテナンスの傍ら，Linuxやオープンソースソフトと日々を過ごす著者が，その魅力とつきあい方を，エッセイ風味でお届けします。
+  :tag: Plamo Linux,Linux
+  :articles:
+  - :title: "第67回　Plamo-5.3.1とget_pkginfoスクリプト［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0067
+    :date: 2015年2月27日
+  - :title: "第66回　Plamo-5.3.1とget_pkginfoスクリプト"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0066
+    :date: 2015年1月30日
+  - :title: "第65回　やっと出ましたPlamo-5.3"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0065
+    :date: 2015年1月5日
+  - :title: "第64回　お家通信カラオケシステムを作ろう［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0064
+    :date: 2014年11月28日
+  - :title: "第63回　お家通信カラオケシステムを作ろう［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0063
+    :date: 2014年10月30日
+  - :title: "第62回　お家通信カラオケシステムを作ろう［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0062
+    :date: 2014年10月3日
+  - :title: "第61回　いまさらながらVNC［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0061
+    :date: 2014年8月29日
+  - :title: "第60回　いまさらながらVNC［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0060
+    :date: 2014年7月31日
+  - :title: "第59回　いまさらながらVNC［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0059
+    :date: 2014年6月30日
+  - :title: "第58回　「らじる★らじる」をもう一度（その3）"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0058
+    :date: 2014年5月30日
+  - :title: "第57回　「らじる★らじる」をもう一度（その2）"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0057
+    :date: 2014年4月30日
+  - :title: "第56回　「らじる★らじる」をもう一度（その1）"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0056
+    :date: 2014年3月28日
+  - :title: "第55回　Plamo-5.2へのアップデート用スクリプト"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0055
+    :date: 2014年2月28日
+  - :title: "第54回　Plamo-5.2と更新されたパッケージ"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0054
+    :date: 2014年1月31日
+  - :title: "第53回　近日公開 Plamo-5.2"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053
+    :date: 2013年12月27日
+  - :title: "第52回　X，MesaそしてLLVM［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0052
+    :date: 2013年11月29日
+  - :title: "第51回　X，MesaそしてLLVM［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0051
+    :date: 2013年10月29日
+  - :title: "第50回　X，MesaそしてLLVM［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0050
+    :date: 2013年10月7日
+  - :title: "第49回　自炊データとnetpbm"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0049
+    :date: 2013年8月30日
+  - :title: "第48回　電子書籍と資料としての本"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0048
+    :date: 2013年8月2日
+  - :title: "第47回　Plamo-5.1 after"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0047
+    :date: 2013年6月28日
+  - :title: "第46回　Plamo-5.1 released"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046
+    :date: 2013年5月31日
+  - :title: "第45回　Nexus 7とMTP［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0045
+    :date: 2013年5月2日
+  - :title: "第44回　Nexus 7とMTP［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0044
+    :date: 2013年4月2日
+  - :title: "第43回　SANEを用いた書籍の電子化"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0043
+    :date: 2013年3月1日
+  - :title: "第42回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その4］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0042
+    :date: 2013年2月1日
+  - :title: "第41回　Plamo Linux-5.0"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0041
+    :date: 2013年1月7日
+  - :title: "第40回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0040
+    :date: 2012年12月4日
+  - :title: "第39回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0039
+    :date: 2012年11月1日
+  - :title: "第38回　Plamo Linuxのビルドスクリプトとパッケージ管理ツール［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0038
+    :date: 2012年10月1日
+  - :title: "第37回 　「らじる☆らじる」再び"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0037
+    :date: 2012年8月31日
+  - :title: "第36回　プロジェクトの分岐と智のゲーム"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0036
+    :date: 2012年7月30日
+  - :title: "第35回　Plamo-5.0の最新動向"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0035
+    :date: 2012年6月29日
+  - :title: "第34回　C++とGCCの-fvisibilityオプション"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0034
+    :date: 2012年5月30日
+  - :title: "第33回　SQLiteでRDB再入門［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0033
+    :date: 2012年5月1日
+  - :title: "第32回　SQLiteでRDB再入門［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0032
+    :date: 2012年3月30日
+  - :title: "第31回　SQLiteでRDB再入門［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0031
+    :date: 2012年3月1日
+  - :title: "第30回　64ビット化への遠い道程［まとめ］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0030
+    :date: 2012年1月30日
+  - :title: "第29回　Plamo Linuxで音楽三昧［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0029
+    :date: 2011年12月28日
+  - :title: "第28回　Plamo Linuxで音楽三昧［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0028
+    :date: 2011年12月6日
+  - :title: "第27回　Plamo Linuxで音楽三昧［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0027
+    :date: 2011年11月2日
+  - :title: "第26回　64ビット化への遠い道程［その4］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0026
+    :date: 2011年10月4日
+  - :title: "第25回　猛暑とCPUの発熱対策［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0025
+    :date: 2011年8月15日
+  - :title: "第24回　猛暑とCPUの発熱対策［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0024
+    :date: 2011年7月22日
+  - :title: "第23回　Linux-3.0に寄せて"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0023
+    :date: 2011年6月30日
+  - :title: "第22回　情報社会と智のゲーム"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0022
+    :date: 2011年5月30日
+  - :title: "第21回　64ビット化への遠い道程［その3］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0021
+    :date: 2011年4月21日
+  - :title: "第20回　Linuxとマルチメディア環境［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0020
+    :date: 2011年3月17日
+  - :title: "第19回　Linuxとマルチメディア環境［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0019
+    :date: 2011年2月14日
+  - :title: "第18回　「温故知新」"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0018
+    :date: 2011年1月17日
+  - :title: "第17回　64ビット化への遠い道程［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0017
+    :date: 2010年12月22日
+  - :title: "第16回　64ビット化への遠い道程［その1］ "
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0016
+    :date: 2010年11月16日
+  - :title: "第15回　久しぶりの新PC"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0015
+    :date: 2010年10月13日
+  - :title: "第14回　Plamo-4.73と共有ライブラリのトラブル"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0014
+    :date: 2010年9月10日
+  - :title: "第13回　TotemのYouTubeプラグイン再び"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0013
+    :date: 2010年8月9日
+  - :title: "第12回　P-Plamoのカスタマイズ［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0012
+    :date: 2010年7月13日
+  - :title: "第11回　P-Plamoのカスタマイズ［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0011
+    :date: 2010年6月17日
+  - :title: "第10回　P-Plamoの内部構造［その2］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0010
+    :date: 2010年5月11日
+  - :title: "第9回　P-Plamoの内部構造［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0009
+    :date: 2010年4月12日
+  - :title: "第8回　Plamo Linux 4.72とP-Plamo"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0008
+    :date: 2010年3月10日
+  - :title: "第7回　ビルド，ビルド，ビルド! ─あるいは賽の河原の小石積み［その2］ "
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0007
+    :date: 2010年2月1日
+  - :title: "第6回　ビルド，ビルド，ビルド! ─あるいは賽の河原の小石積み［その1］"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0006
+    :date: 2010年1月8日
+  - :title: "第5回　Plamo Linux 4.71とメタ・ビルドスクリプト"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0005
+    :date: 2009年12月7日
+  - :title: "第4回　Plamo Linux 4.7とPlamoのビルドスクリプト "
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0004
+    :date: 2009年11月6日
+  - :title: "第3回　みんなでテスト，みんなでデバッグ。～あるいはLinusの法則 "
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0003
+    :date: 2009年10月2日
+  - :title: "第2回　「あなたを，犯人です」  ─ デバッグという名のミステリー"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0002
+    :date: 2009年9月3日
+  - :title: "第1回　ソフトウェア・ツールズとLinux"
+    :url: http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0001
+    :date: 2009年8月3日
+- :url: http://gihyo.jp/admin/serial/01/hatohol
+  :title: OpenStack Days Tokyo：ミラクル・リナックスが考えるクラウド管理の決め手
+  :description: 2月3，4日に開催される「OpenStack Days Tokyo 2015」。同イベントでミラクル・リナックスが提案するOpenStackの運用管理の新しい形を2回に渡って紹介します。
+  :tag: OpenStack Days Tokyo 2015,OpenStack
+  :articles:
+  - :title: "第2回　運用フェーズに入ったOpenStack─「OpenStack Days Tokyo 2015」セッションから"
+    :url: http://gihyo.jp/admin/serial/01/hatohol/0002
+    :date: 2015年2月26日
+  - :title: "第1回　「Hatohol」でOpenStackの運用管理が大きく変わる"
+    :url: http://gihyo.jp/admin/serial/01/hatohol/0001
+    :date: 2015年1月22日
+- :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing
+  :title: Processingで学ぶ 実践的プログラミング専門課程
+  :description: "プログラミング言語の文法を学習するだけではプログラミングが「できる」ようにはなりません。プログラミングができるようになるためには，様々な専門知識とそれを使いこなす訓練が必要です。本連載ではProcessing言語を使って，プログラミングの初心者向けに，実践的なプログラミング技術の学習を行います。"
+  :tag: Processing
+  :articles:
+  - :title: "第11回　サーチ"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0011
+    :date: 2015年2月26日
+  - :title: "第10回　ソート"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0010
+    :date: 2015年2月12日
+  - :title: "第9回　配列とコレクション"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0009
+    :date: 2015年1月28日
+  - :title: "第8回　変数の使える範囲を限定する　スコープ"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0008
+    :date: 2015年1月14日
+  - :title: "第7回　共通部分をまとめる　流れ図とメソッド"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0007
+    :date: 2014年12月24日
+  - :title: "第6回　共通部分をまとめる"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0006
+    :date: 2014年12月10日
+  - :title: "第5回　制御構造を整理する"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0005
+    :date: 2014年11月26日
+  - :title: "第4回　コードフォーマットのルール"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0004
+    :date: 2014年11月12日
+  - :title: "第3回　ネーミングルールを持とう"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0003
+    :date: 2014年10月22日
+  - :title: "第2回　動く絵を描く，あるいはマウスやキーボードに反応するプログラムを書く"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0002
+    :date: 2014年10月8日
+  - :title: "第1回　開発環境の使い方と基本的文法のおさらい"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0001
+    :date: 2014年9月24日
+  - :title: "第0回　はじめに　プログラミングが「できる」ようになろう"
+    :url: http://gihyo.jp/dev/serial/01/practical-programming-with-processing/0000
+    :date: 2014年9月10日
+- :url: http://gihyo.jp/dev/serial/01/emberjs
+  :title: "実践入門 Ember.js"
+  :description: Web開発におけるJavaScriptの重要性は年々高まり，多くのライブラリやフレームワークが登場しています。私たちがリッチなアプリケーションを作る際，何らかの仕組みを選択することが開発の助けになるでしょう。
+  :tag: Web,JavaScript
+  :articles:
+  - :title: "第6回　実践：ショッピングカート②（Ember.Object, Observer）"
+    :url: http://gihyo.jp/dev/serial/01/emberjs/0006
+    :date: 2015年2月25日
+  - :title: "第5回　実践：ショッピングカート①（Array, Computed Property）"
+    :url: http://gihyo.jp/dev/serial/01/emberjs/0005
+    :date: 2015年2月10日
+  - :title: "第4回　ユーザのインタラクション（Controller, Component）"
+    :url: http://gihyo.jp/dev/serial/01/emberjs/0004
+    :date: 2015年1月27日
+  - :title: "第3回　画面遷移（Routing）"
+    :url: http://gihyo.jp/dev/serial/01/emberjs/0003
+    :date: 2015年1月14日
+  - :title: "第2回　URLと画面表示（RoutingとTemplates）"
+    :url: http://gihyo.jp/dev/serial/01/emberjs/0002
+    :date: 2014年12月22日
+  - :title: "第1回　Ember.jsの世界"
+    :url: http://gihyo.jp/dev/serial/01/emberjs/0001
+    :date: 2014年12月9日
+- :url: http://gihyo.jp/dev/serial/01/openSsack_day_t
+  :title: OpenStack Days Tokyoの歩き方
+  :description: "「OpenStack Days Tokyo 2015」が2月3，4日に開催されます。前回よりも規模が拡大されるほか，秋には国際カンファレンス「OpenStack
+    Summit Tokyo」が日本で初めて開催されます。そこで，関係者の方々に見どころと意気込みをお聞きしました。"
+  :tag: OpenStack Days Tokyo 2015,OpenStack Summit Tokyo
+  :articles:
+  - :title: "第3回　ますます関心の高まるOpenStackを体感！「OpenStack Days Tokyo 2015」レポート"
+    :url: http://gihyo.jp/dev/serial/01/openSsack_day_t/0003
+    :date: 2015年2月25日
+  - :title: "第2回　「OpenStack Days Tokyo 2015」は国際サミットへつながるイベント（後編）"
+    :url: http://gihyo.jp/dev/serial/01/openSsack_day_t/0002
+    :date: 2015年1月6日
+  - :title: "第1回　「OpenStack Days Tokyo 2015」は国際サミットへつながるイベント（前編）"
+    :url: http://gihyo.jp/dev/serial/01/openSsack_day_t/0001
+    :date: 2014年12月19日
+- :url: http://gihyo.jp/design/serial/01/ui-ux
+  :title: UI/UX 未来志向―進化の方向を予測し，今必要なことを知る
+  :description: UI/UXは進化が激しく，個別に技術を学んでもその多くは陳腐化してしまいます。本コラムでは，UI/UXの根源的な部分を学びながらこれから向かう未来を見据え，今何を学ぶべきかを分析，考察していきます。
+  :tag: UI/UX
+  :articles:
+  - :title: "第10回　Internet of Things時代のデザイン"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0010
+    :date: 2015年2月25日
+  - :title: "第9回　ジェスチャ入力は未来のインタフェース？"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0009
+    :date: 2014年12月22日
+  - :title: "第8回　視点により異なるUXのとらえ方"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0008
+    :date: 2014年10月20日
+  - :title: "第7回　行為を主体としたデザイン"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0007
+    :date: 2014年8月20日
+  - :title: "第6回　UI/UXの発想を広げるキーワード"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0006
+    :date: 2014年6月20日
+  - :title: "第5回　ググるは易く行うは難し―実世界に直接働きかけるインタフェースへ"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0005
+    :date: 2014年4月21日
+  - :title: "第4回　学びどころの多いゲームデザインの世界"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0004
+    :date: 2014年2月21日
+  - :title: "第3回　フラットデザイン―スキュアモーフィズムのメタファによる表現からの脱却"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0003
+    :date: 2013年12月20日
+  - :title: "第2回　そのデザインはユーザの時間をどう使うか"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0002
+    :date: 2013年10月23日
+  - :title: "第1回　気持ち良さはどこからくるのか～身体に近づくUIへ"
+    :url: http://gihyo.jp/design/serial/01/ui-ux/0001
+    :date: 2013年8月20日
 - :url: http://gihyo.jp/admin/serial/01/awscli_diary
   :title: "インフラ屋のAWSはじめた日記─GUIを捨てよ"
   :description: "クラウドを触ったことがないインフラエンジニアが，ついにAWSに手を伸ばした。こだわりはただひとつ「ブラウザは使わない」こと。クラウド使いを目指すとあるインフラエンジニアが，コマンドラインで操作可能なAWS
@@ -4465,7 +4468,7 @@
 - :url: http://gihyo.jp/dev/serial/01/grani
   :title: "グラニがC#にこだわる理由"
   :description: "（株）グラニでは，ソーシャルゲーム開発に，「C#」をプログラミング言語として採用しています。パフォーマンス力の高さという点以外に，グラニがC#にこだわる理由をあますところなく紹介します。"
-  :tag: C#
+  :tag: ''
   :articles:
   - :title: "最終回　Amazon Web Services＋Windowsで構築するハイパフォーマンスWebアプリケーション開発"
     :url: http://gihyo.jp/dev/serial/01/grani/0003
@@ -5591,7 +5594,7 @@
 - :url: http://gihyo.jp/dev/serial/01/oritsubushi
   :title: "降りつぶし.net～同期するWebアプリ・スマホアプリの開発・運用～"
   :description: "「降りつぶし管理のソリューション」として開発・無償公開している，Webアプリケーション「降りつぶし.net」，iOSアプリ「i降りつぶし」，Androidアプリ「降りつぶしroid」。本連載では，これらの開発・運用について解説していきます。"
-  :tag: Web,net,iOS,Android,roid
+  :tag: Web,.net,iOS,Android,roid
   :articles:
   - :title: "第6回（最終回）　Android用アプリケーション「降りつぶしroid」の開発"
     :url: http://gihyo.jp/dev/serial/01/oritsubushi/0006
@@ -6014,6 +6017,9 @@
   :description: "毎週，Androidにまつわるトピックやニュースについて，ハードウェア/ソフトウェア問わずご紹介します。"
   :tag: Android
   :articles:
+  - :title: 2015年3月第1週　「Android for Work」，正式発表
+    :url: http://gihyo.jp/lifestyle/clip/01/awt/201503/05
+    :date: ''
   - :title: 2015年2月第4週　新型の超小型Android端末「NEPTUNE DUO」発表
     :url: http://gihyo.jp/lifestyle/clip/01/awt/201502/26
     :date: ''
@@ -6161,8 +6167,8 @@
   - :title: 2014年3月第1週　Mobile World Congress 2014からのトピックス
     :url: http://gihyo.jp/lifestyle/clip/01/awt/201403/06
     :date: ''
-  - :title: 2014年2月第4週　Google I/Oは6月25，26日，Android 4.4.2 RC1リリース
-    :url: http://gihyo.jp/lifestyle/clip/01/awt/201402/27
+  - :title: 2014年9月第4週　Android One，登場
+    :url: http://gihyo.jp/lifestyle/clip/01/awt/201409/25
     :date: ''
   - :title: 2014年9月第3週　App Runtime for Chrome登場，Android Wearの進展は？
     :url: http://gihyo.jp/lifestyle/clip/01/awt/201409/18
@@ -6312,8 +6318,8 @@
   - :title: 2013年10月第2週　第三のOS？ Androidアプリが動作する「Sailfish OS」が登場
     :url: http://gihyo.jp/lifestyle/clip/01/awt/201310/10
     :date: ''
-  - :title: 2013年10月第1週　Androidにも64ビット化の波が到来するのか？
-    :url: http://gihyo.jp/lifestyle/clip/01/awt/201310/03
+  - :title: 2014年5月第2週　AndroidのWebブラウザは大丈夫？
+    :url: http://gihyo.jp/lifestyle/clip/01/awt/201405/09
     :date: ''
   - :title: 2014年5月第1週　LG G Watchの製品ページが公開，64bit Android OSの登場はいつ？
     :url: http://gihyo.jp/lifestyle/clip/01/awt/201405/01
@@ -7655,7 +7661,7 @@
 - :url: http://gihyo.jp/dev/serial/01/meteor
   :title: "体感！JavaScriptで超速アプリケーション開発 －Meteor完全解説"
   :description: MeteorはNode.jsをベースとし，JavaScriptとHTML+CSSだけWebアプリケーションで記述できる新たなWebアプリケーション開発プラットフォームです。この連載ではWeb開発を劇的に高速化でき，初心者にもやさしいというMeteorの秘密と，Meteorを使った開発の実際をわかりやすく紹介します。
-  :tag: Meteor,Node.js,JavaScript,HTML,CSS,Web
+  :tag: Meteor,Node.js,JavaScript,HTML+CSS,Web
   :articles:
   - :title: "第12回　［最終回］Meteorが指し示すWebアプリ開発の未来"
     :url: http://gihyo.jp/dev/serial/01/meteor/0012
@@ -11321,7 +11327,7 @@
   :title: "レガシーPHPのセキュリティ対策，大丈夫ですか？"
   :description: "この連載では，現時点で利用されていることが多いレガシー版PHPである4.3/4.4/5.1/5.2のセキュリティ状態について，SRA
     OSS Inc社のPHP4セキュリティパッチサービスで提供しているパッチとレガシー版PHPのセキュリティについて解説します。"
-  :tag: PHP,SRA OSS Inc,PHP4
+  :tag: PHP,.3/4.4/5.1/5.2,SRA OSS Inc,PHP4
   :articles:
   - :title: "第7回　未修正の脆弱性（4）"
     :url: http://gihyo.jp/dev/serial/01/legacy-php/0007
@@ -11589,7 +11595,7 @@
 - :url: http://gihyo.jp/dev/serial/01/yapcasia2011
   :title: gihyo.jp×YAPC::Asia 2011コラボ企画―6回目を迎えるYAPC::Asia Tokyo 2011の見所を関係者に聞いてみました
   :description: 2011年10月14～15日に，YAPC::Asia 2011が開催されます。それに先立ち，見所，押さえどころを，キーパーソンによるインタビューとともにお届けします。
-  :tag: YAPC,Asia 2011
+  :tag: YAPC::Asia 2011
   :articles:
   - :title: "第3回　hidek氏に聞くYAPC:Asia 2011の見所"
     :url: http://gihyo.jp/dev/serial/01/yapcasia2011/0003
@@ -12552,7 +12558,7 @@
 - :url: http://gihyo.jp/design/serial/01/webmatrix
   :title: Windows上でゼロからPHPサイトを作る！ PHPユーザのためのMicrosoft WebMatrix入門
   :description: WebMatrixは，Windows上で手軽に動的Webサイトを構築できる無償ツールです。C#のほか，PHPを使うこともできます。この連載では，WebMatrix上でPHP使用して簡単なWebアプリの開発からホスティング環境への配備のやり方を紹介します。
-  :tag: WebMatrix,Windows,Web,C#,PHP
+  :tag: WebMatrix,Windows,Web,PHP
   :articles:
   - :title: "第4回　WebMatrixなら簡単！ホスティング環境へのアプリケーション配置"
     :url: http://gihyo.jp/design/serial/01/webmatrix/0004
@@ -12622,7 +12628,7 @@
 - :url: http://gihyo.jp/admin/serial/01/atlink
   :title: at+linkの魅力を探る
   :description: "（株）リンクと（株）エーティーワークス，そして（株）ネットフォースの3社で運営されている「at+link」。専用サーバサービスの老舗であり，現在はクラウド型ホスティングサービスの「パワーフレックス」やコロケーションサービスなどもラインナップしています。そのサービスの魅力を全5回で解説していきます。"
-  :tag: at,link
+  :tag: at+link
   :articles:
   - :title: "第5回　アプリプラットフォームにKVSを使った高機能キャッシュサーバ登場"
     :url: http://gihyo.jp/admin/serial/01/atlink/0005
@@ -13664,7 +13670,7 @@
 - :url: http://gihyo.jp/dev/serial/01/qt-2010
   :title: 4.6がやってきた－Qt最新事情2010
   :description: 2009年12月，Qtの新バージョン4.6がリリースされました。さまざまな注目機能をもつQt 4.6の概要を中心に，新しいQtの魅力をお伝えします。
-  :tag: Qt,Qt 4.6
+  :tag: Qt,.6,Qt 4.6
   :articles:
   - :title: "第8回　グラフィックスイフェクト"
     :url: http://gihyo.jp/dev/serial/01/qt-2010/0008
@@ -13693,7 +13699,7 @@
 - :url: http://gihyo.jp/admin/serial/01/janog
   :title: "インターネットを支える技術者たちの集い―gihyo.jp×JANOG presents"
   :description: JANOGとgihyo.jpのコラボレーション企画「インターネットを支える技術者たちの集い-gihyo.jp×JANOG presents」がついに始まりました！本連載はJANOG26実行委員がリレー形式でお届けいたします。
-  :tag: JANOG,gihyo.jp,JANOG presents,JANOG26
+  :tag: JANOG,gihyo.jp,-gihyo.jp,JANOG presents,JANOG26
   :articles:
   - :title: "番外編　JANOG26を総括する！最後のまとめ"
     :url: http://gihyo.jp/admin/serial/01/janog/0009
@@ -14074,7 +14080,7 @@
 - :url: http://gihyo.jp/design/serial/01/wpress2010
   :title: WordPress解体新書
   :description: WordPressは世界で最も普及しているCMSですが，2.8以降からは徐々にCMSの殻を破り，様々な機能を提供する総合的なプラットフォームへと進化し始めています。本連載は，WordPressをソリューションとしたWeb制作の現場において必要な，また助けとなる知識やノウハウをご紹介していきます。
-  :tag: WordPress,CMS,Web
+  :tag: WordPress,CMS,.8,Web
   :articles:
   - :title: "第2回　WordPressの基本的な5つのルール（その2：デバッグモード）"
     :url: http://gihyo.jp/design/serial/01/wpress2010/0002
@@ -14105,7 +14111,7 @@
 - :url: http://gihyo.jp/dev/serial/01/dtrace4cpg
   :title: C/C++プログラマのためのDTrace入門
   :description: "カーネルのチューニングや解析で話題になることの多いDTraceですが，実はユーザプログラムの開発においても非常に有用です。この連載では，C/C++プログラムの開発やテストに関わる方に向けてDTraceの使い方を解説します。"
-  :tag: DTrace,C/C
+  :tag: DTrace,C/C++
   :articles:
   - :title: "第8回　DTrace併用時の性能劣化"
     :url: http://gihyo.jp/dev/serial/01/dtrace4cpg/0008
@@ -17766,7 +17772,7 @@
     2009
   :description: "本連載では，アジア最大のPerl開発者カンファレンス「YAPC::Asia」と連動して，9月10，11日に行われるYAPC::Asia
     2009，また前日の前夜祭を含め，見どころを紹介します。"
-  :tag: Perl,YAPC,Asia,Asia 2009
+  :tag: Perl,YAPC::Asia,YAPC::Asia 2009
   :articles:
   - :title: "第4回　基調講演＆前夜祭"
     :url: http://gihyo.jp/dev/serial/01/yapc-asia2009/0004
@@ -18056,7 +18062,7 @@
 - :url: http://gihyo.jp/dev/serial/01/skillful_method
   :title: WEB+DB PRESS Vol.51 特集2「“巧い”メソッド設計」連動企画
   :description: ここでは，WEB+DB PRESS Vol.51特集2「～現場の知恵と経験，絞り出しました～"巧い"メソッド設計」と連動したスペシャル企画として，新規書き下ろし記事を3本，公開していきます。
-  :tag: WEB,DB PRESS Vol.51
+  :tag: WEB+DB PRESS Vol.51
   :articles:
   - :title: "第３回　構造化技法でプログラムの品質を上げる　可読性の高いメソッドを書くための実践テクニック"
     :url: http://gihyo.jp/dev/serial/01/skillful_method/0003
@@ -18183,7 +18189,7 @@
   :title: Python 3.0 Hacks
   :description: "日本を代表するPythonistaの皆さんが，リレー形式でPython最新バージョン3.0をHackしていく豪華連載。Python
     2からの移行を考えている方も3.0からPythonを始める方にも役立つヒントが満載です。"
-  :tag: Pythonista,Python,Hack,Python 2
+  :tag: Pythonista,Python,.0,Hack,Python 2
   :articles:
   - :title: "最終回　Python 3.0座談会（動画つき）"
     :url: http://gihyo.jp/dev/serial/01/pythonhacks/0012
@@ -18675,7 +18681,7 @@
 - :url: http://gihyo.jp/admin/serial/01/fb72
   :title: FreeBSD 7.2 注目の新機能
   :description: 5月4日，FreeBSDの最新版7.2-RELEASEが発表されました。7.2にはいくつか注目すべき新機能が追加されています。ここでは2回に分けてその新機能を紹介します。
-  :tag: FreeBSD,RELEASE
+  :tag: FreeBSD,.2-RELEASE,.2
   :articles:
   - :title: "第2回　Jail，仮想アドレス空間，NICドライバの改善"
     :url: http://gihyo.jp/admin/serial/01/fb72/0002
@@ -18730,7 +18736,7 @@
 - :url: http://gihyo.jp/dev/serial/01/engineer-president-discussion
   :title: "エンジニア社長座談会"
   :description: WEB+DB PRESS Vol.50の特集1「［“エンジニア社長”5人が明かす］新人時代に押さえておくべき50の知識」で掲載した内容の元となった座談会の様子を動画でお送りします。
-  :tag: WEB,DB PRESS Vol.50
+  :tag: WEB+DB PRESS Vol.50
   :articles:
   - :title: "第4回　「新人時代に学ぶべきこと」，「伸びる人が必ずしていること」"
     :url: http://gihyo.jp/dev/serial/01/engineer-president-discussion/0004
@@ -20353,7 +20359,7 @@
 - :url: http://gihyo.jp/dev/serial/01/memcached-talk
   :title: memcached座談会
   :description: WEB+DB PRESS Vol.47の特集2「mixi，ニコニコ動画，livedoor ［実例から学ぶ］memcachedベストプラクティス」で掲載した内容の元となった座談会の様子を動画でお送りします。
-  :tag: WEB,DB PRESS Vol.47,mixi,livedoor ,memcached
+  :tag: WEB+DB PRESS Vol.47,mixi,livedoor ,memcached
   :articles:
   - :title: "第7回　memcachedを運用する際のベストプラクティス，memcachedのこれから"
     :url: http://gihyo.jp/dev/serial/01/memcached-talk/0007
@@ -21063,7 +21069,7 @@
 - :url: http://gihyo.jp/dev/serial/01/vb62csharp
   :title: VB6開発者向け：C#で始める.NETプログラミング
   :description: VB6（Visual Basic 6.0）のサポート終了を目前に，VB6開発者が今すべきことの一つに.NETプログラミングが含まれることと思います。
-  :tag: VB6,Visual Basic 6.0,NET
+  :tag: VB6,Visual Basic 6.0,.NET
   :articles:
   - :title: "第8回　オブジェクト指向プログラミングの省力化"
     :url: http://gihyo.jp/dev/serial/01/vb62csharp/0008
@@ -21111,7 +21117,7 @@
   :title: Drastic? Dramatic? Tumblr!!
   :description: 2007年後半より注目を集め，ユーザを増やしているTumblr。本連載では，「Twitter使いへの道AtoZ」の執筆者ふじかわさんと，書籍『Web屋の本―Web
     2.0、ビジネスサイト2.0、Web屋2.0』の執筆者中野さんの2人のTumblrユーザに，Tumblrの魅力について取り上げていただきます。
-  :tag: Tumblr,Twitter,AtoZ,Web,Web 2.0
+  :tag: Tumblr,Twitter,AtoZ,Web,Web 2.0,.0
   :articles:
   - :title: "第5回　FirefoxでTumblrをパワーアップ／ソーシャルメディアの価値を高めるReBlog"
     :url: http://gihyo.jp/lifestyle/serial/01/tumblr/0005
@@ -21714,7 +21720,7 @@
 - :url: http://gihyo.jp/dev/serial/01/rest
   :title: "動画で配信！「現場で使えるREST」鼎談"
   :description: WEB+DB PRESS Vol.42の特集3「現場で使えるREST」で掲載した鼎談の一部始終を動画でお送りします。紙幅の関係でどうしても掲載しきれなかったRESTのあれこれが満載です！
-  :tag: WEB,DB PRESS Vol.42,REST
+  :tag: WEB+DB PRESS Vol.42,REST
   :articles:
   - :title: "第12回　おわりに：RESTがつくる明るい未来"
     :url: http://gihyo.jp/dev/serial/01/rest/0012
@@ -21760,6 +21766,9 @@
   :description: Ubuntuコミュニティに興味があるユーザ向けに，ML・Wiki・フォーラムなどの最新の話題を1週間分厳選してお届けします。
   :tag: Ubuntu,ML,Wiki
   :articles:
+  - :title: 2015年3月6日号　vividの開発／systemdへの切り替え・MWC2015・UWN#405
+    :url: http://gihyo.jp/admin/clip/01/ubuntu-topics/201503/06
+    :date: 2015年3月6日
   - :title: 2015年2月27日号　Ubuntu 14.04.2のリリース・“Symple PC”・OSC Tokyo 2015/Spring・UWN#403
     :url: http://gihyo.jp/admin/clip/01/ubuntu-topics/201502/27
     :date: 2015年2月27日
@@ -32636,7 +32645,7 @@
 - :url: http://gihyo.jp/dev/clip/01/orangenews
   :title: "濃縮還元オレンジニュース"
   :description: "ブログで盛り上がっている記事や旬な技術情報をキャッチアップし，URLをクリッピングしていくWebサイト『オレンジニュース』の運営者がお贈りする，厳選ニュース集（現在、Webサイトは訳あって休止中）。本誌読者に向けてWEB+DB開発の「今」がわかるものを選りすぐり，解説付きで紹介します。"
-  :tag: URL,WEB,Web,DB
+  :tag: URL,Web,WEB+DB
   :articles:
   - :title: "【最終回】連載を振り返って"
     :url: http://gihyo.jp/dev/clip/01/orangenews/vol67/0010
