@@ -22,3 +22,7 @@ development:
 test:
   <<: *default
   database: bindr_test
+
+production:
+  <<: *default
+  database: bindr_production
