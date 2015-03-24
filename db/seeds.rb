@@ -24,7 +24,9 @@ end
 gihyo_serials = YAML.load_file('db/gihyo.serials.yml')
 codezine_serials = YAML.load_file('db/codezine.serials.yml')
 html5experts_serials = YAML.load_file('db/html5experts.serials.yml')
-serials = gihyo_serials[0...250] + codezine_serials[0...225] + html5experts_serials[0...25]
+thinkit_serials = YAML.load_file('db/thinkit.serials.yml')
+serials = gihyo_serials[0...250] + codezine_serials[0...100] +
+  html5experts_serials[0...25] + thinkit_serials[0...125]
 
 serials.each do |serial|
   if serial[:articles][0][:date] == ""
