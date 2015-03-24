@@ -1,0 +1,3579 @@
+---
+- :url: http://thinkit.co.jp/book/2015/03/09/5675
+  :title: "読んで試す！ゼロからはじめるWordPress入門"
+  :description: ''
+  :tag: WordPress
+  :articles:
+  - :title: "押さえておきたいCMSの基礎知識"
+    :url: http://thinkit.co.jp/story/2015/03/09/5661
+    :date: 2015年3月9日
+  - :title: WordPressの基礎知識
+    :url: http://thinkit.co.jp/story/2015/03/10/5662
+    :date: 2015年3月10日
+- :url: http://thinkit.co.jp/book/2015/03/06/5715
+  :title: "より深くDockerを知る"
+  :description: "前回の連載Dockerを知る -周辺ツールと業界動向-に続いて、Dockerに関連するさまざまなトピックをご紹介します。今回の連載では、Dockerの実戦投入に際して気になる点の検証が中心となります。各回のテーマは以下のものを予定しています。Docker向けの軽量Linux
+    OSの比較ベアメタルとDockerコンテナ環境の比較Dockerコンテナを管理するスケジューラ製品の比較DockerのI/O性能評価"
+  :tag: Docker,Linux OS,I/O
+  :articles:
+  - :title: Docker向けの軽量Linux OS 主要3種を比較する
+    :url: http://thinkit.co.jp/story/2015/03/06/5672
+    :date: 2015年3月6日
+- :url: http://thinkit.co.jp/book/2015/03/05/5700
+  :title: HashiCorpのツール群からみるインフラ構築運用の未来
+  :description: Vagrantの開発元として知られるHashiCorpは、それ以外にもいわゆるDevOps向けのツール群を提供しています。どのツールもシンプルながら開発者にも運用担当者にも使え、日々の業務に役立つ便利なものばかりです。この連載では、それぞれのツールに対する知識だけでなく、実際に手を動かしながら理解を深めていくことを目指しています。
+  :tag: Vagrant,HashiCorp,DevOps
+  :articles:
+  - :title: "コード化でDevOpsを支えるHashiCorpのツールと開発背景"
+    :url: http://thinkit.co.jp/story/2015/03/05/5671
+    :date: 2015年3月5日
+- :url: http://thinkit.co.jp/book/2015/02/16/5485
+  :title: OpenStack Days Tokyo 2015レポート
+  :description: ''
+  :tag: OpenStack Days Tokyo 2015
+  :articles:
+  - :title: OpenStack Days Tokyo 2015、キーノートから見える今後の行く先
+    :url: http://thinkit.co.jp/story/2015/02/16/5625
+    :date: 2015年2月16日
+  - :title: "ミドクラ、OSSとなったMidoNetでOpenStackのSDNをリード"
+    :url: http://thinkit.co.jp/story/2015/02/17/5626
+    :date: 2015年2月17日
+  - :title: IaaSからPaaS連携に目を移したHPのOpenStack戦略
+    :url: http://thinkit.co.jp/story/2015/02/20/5641
+    :date: 2015年2月20日
+  - :title: OpenStackの最後の大物、日本に登場
+    :url: http://thinkit.co.jp/story/2015/02/24/5649
+    :date: 2015年2月24日
+- :url: http://thinkit.co.jp/book/2015/01/30/5579
+  :title: Google Cloud Platformを使ってみよう
+  :description: "「Google Cloud Platform（GCP）」は、Googleが提供するIaaS（Infrastructure as a
+    Service）です。GCPを使うと、Googleが利用しているものと同一のインフラ上で、Webサイトのホスティングやアプリケーションのデプロイ、データの保存、分析などが行えます。GCPはコンピューティング、ストレージ、アプリケーションなど数多くのサービスから構成されており、本特集ではその中から以下のサービスを紹介、解説します。Compute
+    EngineCloud DatastoreCloud StorageBigQueryCloud SQL"
+  :tag: Google Cloud Platform,GCP,Google,IaaS,Infrastructure as a Service,Web,Compute
+    EngineCloud DatastoreCloud StorageBigQueryCloud SQL
+  :articles:
+  - :title: Google Compute Engineで仮想マシンを作る
+    :url: http://thinkit.co.jp/story/2015/01/30/5575
+    :date: 2015年1月30日
+  - :title: GCP上のKey-Value型データベースCloud Datastore
+    :url: http://thinkit.co.jp/story/2015/02/05/5594
+    :date: 2015年2月5日
+- :url: http://thinkit.co.jp/book/2015/01/21/5550
+  :title: "日本語版Railsガイドを見ながら初心者が学ぶRuby on Rails"
+  :description: "このコラムは、2014年12月5日から始まった「Rails4技術者認定シルバー試験」の推奨教材となった「Ruby on Railsチュートリアル」の日本語訳版に沿って、
+    Ruby初心者の筆者がリアルタイムで勉強していくコラムです。勉強する上でつまずいた点やその回避法、他のプログラミング言語や職業経験に基づいたアドバイスなども紹介する予定です。RubyやRailsに興味のある方は、ぜひ一緒に勉強してみませんか。（全12回予定）＜公開開始は1/21予定です＞"
+  :tag: Rails4,Ruby on Rails,Ruby,Rails
+  :articles:
+  - :title: Rails4をはじめよう
+    :url: http://thinkit.co.jp/story/2015/01/21/5541
+    :date: 2015年1月21日
+  - :title: Railsでデータベースを扱うためのライブラリActive Recordについて学んでみた
+    :url: http://thinkit.co.jp/story/2015/02/18/5628
+    :date: 2015年2月18日
+- :url: http://thinkit.co.jp/book/2014/08/07/5170
+  :title: "インタビュー"
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: Drupalの生みの親が語る、日本市場の可能性とDrupalのこれから
+    :url: http://thinkit.co.jp/story/2014/10/02/5290
+    :date: 2014年10月2日
+  - :title: EnterpriseDBのCTOに聞いた、エンタープライズ版PostgreSQLのこれから
+    :url: http://thinkit.co.jp/story/2014/08/07/5146
+    :date: 2014年8月7日
+  - :title: ForgeRockとの提携やOpenStandiaにみるNRIのオープンソース戦略
+    :url: http://thinkit.co.jp/story/2014/10/24/5304
+    :date: 2014年10月24日
+  - :title: IBMのSoftLayerは他のクラウドサービスとどう違うのか？
+    :url: http://thinkit.co.jp/story/2014/08/26/5172
+    :date: 2014年8月26日
+  - :title: KVHとミドクラの協業から見えるOpenStackの現状と将来
+    :url: http://thinkit.co.jp/story/2015/02/27/5494
+    :date: 2015年2月27日
+  - :title: OpenStack Days Tokyo 2015開催直前！エグゼクティブディレクターに聞くOpenStackの今。
+    :url: http://thinkit.co.jp/story/2015/01/27/5573
+    :date: 2015年1月27日
+  - :title: Serverspec誕生からインフラCIの今後までを開発者に聞いてみた（前編）
+    :url: http://thinkit.co.jp/story/2014/11/11/5381
+    :date: 2014年11月11日
+  - :title: "エンタープライズLinuxを目指すSUSE、Red Hatとの違いを強調"
+    :url: http://thinkit.co.jp/story/2015/02/03/5523
+    :date: 2015年2月3日
+  - :title: "オープンソース“ロジスティクス”とは？ ブラックダック代表に聞くOSS活用のポイント"
+    :url: http://thinkit.co.jp/story/2014/11/17/5415
+    :date: 2014年11月17日
+  - :title: "仮想化の流れで勢いを見せるティントリの仮想化ストレージ"
+    :url: http://thinkit.co.jp/story/2014/11/19/5435
+    :date: 2014年11月19日
+  - :title: "楽天のOpsのトップが語る「コアなビジネスにこそオープンソースを」"
+    :url: http://thinkit.co.jp/story/2014/12/24/5460
+    :date: 2014年12月24日
+- :url: http://thinkit.co.jp/book/2015/01/01/5551
+  :title: "イベント・セミナー2015"
+  :description: 2015年に開催されたイベントやセミナーの様子を紹介します。
+  :tag: ''
+  :articles:
+  - :title: OpenShift 3.0で既存コードを捨てコンテナーに賭けるRed Hat
+    :url: http://thinkit.co.jp/story/2015/02/10/5601
+    :date: 2015年2月10日
+  - :title: Zabbixは九州でも運用監視のデファクトスタンダードとなるか？
+    :url: http://thinkit.co.jp/story/2015/02/13/5613
+    :date: 2015年2月13日
+  - :title: "「ソースオープン」から「オープンソース」へ… Go Azure 2015でマイクロソフトが見せた本気"
+    :url: http://thinkit.co.jp/story/2015/01/23/5552
+    :date: 2015年1月23日
+  - :title: "ベアメタルの今を語り尽くすイベント「第1回OCDETベアメタルWG勉強会」レポート"
+    :url: http://thinkit.co.jp/story/2015/02/26/5650
+    :date: 2015年2月26日
+  - :title: "仮想化ストレージのティントリ、Hyper-Vサポートでマイクロソフトユーザーの取り込みを強化"
+    :url: http://thinkit.co.jp/story/2015/03/10/5706
+    :date: 2015年3月10日
+- :url: http://thinkit.co.jp/book/2014/12/09/5445
+  :title: "作りながら学ぶKinect v2プログラミング開発"
+  :description: ''
+  :tag: Kinect v2
+  :articles:
+  - :title: Xbox OneのKinect v2がPCでも使える？ Kinect v2最新動向
+    :url: http://thinkit.co.jp/story/2014/12/09/5478
+    :date: 2014年12月9日
+  - :title: Kinect v2を使った「じゃんけんゲーム」を作る
+    :url: http://thinkit.co.jp/story/2014/12/16/5447
+    :date: 2014年12月16日
+  - :title: Kinect v2で実現する打楽器のバーチャル演奏
+    :url: http://thinkit.co.jp/story/2014/12/22/5448
+    :date: 2014年12月22日
+  - :title: Kinect v2の音声認識で「仮面」を選んで変身してみる
+    :url: http://thinkit.co.jp/story/2015/01/06/5449
+    :date: 2015年1月6日
+  - :title: Kinect v2のジェスチャーでBing Mapsを未来的に直感操作する
+    :url: http://thinkit.co.jp/story/2015/01/14/5450
+    :date: 2015年1月14日
+  - :title: Kinect v2を使って、机の上のリンゴをつかんで移動してみる
+    :url: http://thinkit.co.jp/story/2015/01/20/5451
+    :date: 2015年1月20日
+- :url: http://thinkit.co.jp/book/2014/12/05/5386
+  :title: Cisco CCENT/CCNA資格取得のための問題・解答・解説
+  :description: "本連載では、Cisco CCENT/CCNAの資格試験対策として活用できるコンテンツの提供を目的として、Cisco Press公式ガイドブックに掲載されている例題を取り上げ、その解答の解説を行っていきます。"
+  :tag: Cisco CCENT/CCNA,Cisco Press
+  :articles:
+  - :title: "ルータと共通するスイッチ機能の設定 ［パスワード／リモート接続／バナー］"
+    :url: http://thinkit.co.jp/story/2014/12/05/5369
+    :date: 2014年12月5日
+  - :title: LANスイッチの設定と運用 ［ポートセキュリティ／VLAN／オートネゴシエーション］
+    :url: http://thinkit.co.jp/story/2014/12/19/5428
+    :date: 2014年12月19日
+  - :title: "仮想LAN（Virtual LAN）の基本［ドメイン／サブネット／トランキング］"
+    :url: http://thinkit.co.jp/story/2015/01/05/5508
+    :date: 2015年1月5日
+  - :title: VLANとVLANトランキングの設定と確認
+    :url: http://thinkit.co.jp/story/2015/01/13/5509
+    :date: 2015年1月13日
+  - :title: CDPを使ったLANトポロジの分析［隣接デバイスやインタフェースの情報取得］
+    :url: http://thinkit.co.jp/story/2015/01/19/5530
+    :date: 2015年1月19日
+  - :title: "スイッチインタフェースのステータス分析［オートネゴシエーションと手動設定］"
+    :url: http://thinkit.co.jp/story/2015/01/26/5547
+    :date: 2015年1月26日
+  - :title: "スイッチによるフレーム転送先を予測［ポートセキュリティとMACアドレステーブルの表示］"
+    :url: http://thinkit.co.jp/story/2015/02/02/5562
+    :date: 2015年2月2日
+  - :title: VLANトランクの設定を理解する［VLANとVLANトランクの分析］
+    :url: http://thinkit.co.jp/story/2015/02/09/5595
+    :date: 2015年2月9日
+  - :title: IPv4のサブネット化の概要［サブネットをサイジング／プライベートアドレスとパブリックアドレスを見分ける］
+    :url: http://thinkit.co.jp/story/2015/02/16/5609
+    :date: 2015年2月16日
+  - :title: "クラスフルIPv4ネットワークアドレスの分析［クラスフルアドレスの種類と規模］"
+    :url: http://thinkit.co.jp/story/2015/02/23/5627
+    :date: 2015年2月23日
+  - :title: "サブネットマスクの分析［サブネットマスク変換とサブネット設計］"
+    :url: http://thinkit.co.jp/story/2015/03/02/5667
+    :date: 2015年3月2日
+  - :title: "既存のサブネットの分析［サブネットID、ブロードキャストアドレス、ホストアドレスを割り出す］"
+    :url: http://thinkit.co.jp/story/2015/03/09/5713
+    :date: 2015年3月9日
+- :url: http://thinkit.co.jp/book/2014/11/30/5455
+  :title: Dockerを知る -周辺ツールと業界動向-
+  :description: ''
+  :tag: Docker
+  :articles:
+  - :title: Dockerが注目されている理由を探る
+    :url: http://thinkit.co.jp/story/2014/12/02/5456
+    :date: 2014年12月2日
+  - :title: Dockerをより良く使うための3つの周辺技術
+    :url: http://thinkit.co.jp/story/2015/01/19/5546
+    :date: 2015年1月19日
+  - :title: "注目すべきDockerの周辺技術 PanamaxとKubernetes"
+    :url: http://thinkit.co.jp/story/2015/01/26/5561
+    :date: 2015年1月26日
+  - :title: Dockerを取り巻く各社の状況を見る
+    :url: http://thinkit.co.jp/story/2015/02/02/5576
+    :date: 2015年2月2日
+- :url: http://thinkit.co.jp/book/2014/11/25/5375
+  :title: "ネットワーク技術者の登竜門「Cisco CCENT/CCNA」を知る！学ぶ！"
+  :description: ''
+  :tag: Cisco CCENT/CCNA
+  :articles:
+  - :title: Cisco認定試験の概要、OSIネットワーキングモデル（前編）
+    :url: http://thinkit.co.jp/story/2014/11/25/5376
+    :date: 2014年11月25日
+  - :title: OSIネットワーキングモデル（後編）
+    :url: http://thinkit.co.jp/story/2014/12/01/5377
+    :date: 2014年12月1日
+  - :title: "イーサネットネットワークでのデータ送信"
+    :url: http://thinkit.co.jp/story/2014/12/08/5378
+    :date: 2014年12月8日
+  - :title: "ネットワーク層の機能（前編）―パケット転送時の役割―"
+    :url: http://thinkit.co.jp/story/2014/12/15/5421
+    :date: 2014年12月15日
+  - :title: "ネットワーク層の機能（後編） ―IPアドレスとルーティングプロトコル―"
+    :url: http://thinkit.co.jp/story/2014/12/22/5422
+    :date: 2014年12月22日
+- :url: http://thinkit.co.jp/book/2014/10/27/5308
+  :title: OpenStackディストリビューションの正しい選び方
+  :description: "特集は大きく2つのパートに分かれます。第一部では日本仮想化技術のたまおき氏からOpenStackの市場動向や、比較検証と最新技術のポイントの紹介があり、第二部では各社からより詳細なOpenStackディストリビューションの機能や特徴の説明があります。OpenStackの市場動向と商用ディストリビューションの登場OpenStackディストリビューションの比較検証と最新技術トレンドSUSE
+    Cloud（ノベル）Mirantis（ミランティス）Piston Cloud（ピストンクラウドコンピューティング）Metacloud（シスコ）HP Helion（ヒューレット・パッカード）Ubuntu
+    OpenStack（カノニカル）Red Hat Enterprise Linux OpenStack Platform（レッドハット）Oracle Solaris
+    11.2（オラクル）また、OpenStackディストリビューションを比較するために、編集部で製品情報シートを用意し各社から回答を集めました。全8社分の情報を1シートにまとめた比較表を以下より資料ダウンロードできます（11月後半公開予定）。"
+  :tag: OpenStack,SUSE Cloud,Mirantis,Piston Cloud,Metacloud,HP Helion,Ubuntu OpenStack,Red
+    Hat Enterprise Linux OpenStack Platform,Oracle Solaris 11.2
+  :articles:
+  - :title: OpenStackの市場動向と商用ディストリビューションの登場
+    :url: http://thinkit.co.jp/story/2014/10/27/5309
+    :date: 2014年10月27日
+  - :title: OpenStackディストリビューションの比較検証と最新技術トレンド
+    :url: http://thinkit.co.jp/story/2014/10/28/5310
+    :date: 2014年10月28日
+- :url: http://thinkit.co.jp/book/2014/10/24/5367
+  :title: "ガラリと変わったCentOS 7"
+  :description: "注目のCentOS 7を取り上げます。本連載では、CentOS 7を取り巻く市場動向、CentOS 7が利用されるサーバーシステムの選定、CentOS
+    7の基礎、システム設計、OS管理やCentOS 7に対応したアプリケーションサーバーの構築手順などの勘所をご紹介します。"
+  :tag: CentOS 7,OS
+  :articles:
+  - :title: CentOS 7の基礎
+    :url: http://thinkit.co.jp/story/2014/11/14/5366
+    :date: 2014年11月14日
+  - :title: CentOS 7インストーラーの新機能と注意点
+    :url: http://thinkit.co.jp/story/2014/11/21/5368
+    :date: 2014年11月21日
+  - :title: "新搭載のGRUB 2とCentOS 7でのレスキューモード"
+    :url: http://thinkit.co.jp/story/2014/11/28/5408
+    :date: 2014年11月28日
+  - :title: systemdによるCentOS 7の管理
+    :url: http://thinkit.co.jp/story/2014/12/11/5388
+    :date: 2014年12月11日
+  - :title: CentOS 7のログ管理「journald」
+    :url: http://thinkit.co.jp/story/2014/12/18/5389
+    :date: 2014年12月18日
+  - :title: CentOS 7のネットワーク管理基礎（前編）
+    :url: http://thinkit.co.jp/story/2014/12/25/5412
+    :date: 2014年12月25日
+  - :title: CentOS 7のネットワーク管理基礎（後編）
+    :url: http://thinkit.co.jp/story/2015/01/08/5446
+    :date: 2015年1月8日
+  - :title: CentOS 7の仮想化、Docker、リソース管理（前編）
+    :url: http://thinkit.co.jp/story/2015/01/22/5500
+    :date: 2015年1月22日
+  - :title: CentOS 7の仮想化、Docker、リソース管理（後編）
+    :url: http://thinkit.co.jp/story/2015/01/29/5501
+    :date: 2015年1月29日
+  - :title: OpenLMIによるシステム管理
+    :url: http://thinkit.co.jp/story/2015/02/05/5539
+    :date: 2015年2月5日
+  - :title: CentOS 7でのOpenStackの構築手順
+    :url: http://thinkit.co.jp/story/2015/02/19/5593
+    :date: 2015年2月19日
+- :url: http://thinkit.co.jp/book/2014/10/23/5346
+  :title: "マルチプラットフォーム対応のゲーム開発エンジンUnityを体験する"
+  :description: ''
+  :tag: Unity
+  :articles:
+  - :title: Unityの環境構築と操作ガイド（前編）
+    :url: http://thinkit.co.jp/story/2014/10/23/5347
+    :date: 2014年10月23日
+  - :title: Unityの環境構築と操作ガイド（後編）
+    :url: http://thinkit.co.jp/story/2014/10/31/5361
+    :date: 2014年10月31日
+  - :title: Unityちゃんを動かしてみる
+    :url: http://thinkit.co.jp/story/2014/11/06/5372
+    :date: 2014年11月6日
+  - :title: Unityちゃんの障害物ゲームを作る
+    :url: http://thinkit.co.jp/story/2014/11/13/5411
+    :date: 2014年11月13日
+  - :title: Unityちゃんの爆破ゲームを作ろう
+    :url: http://thinkit.co.jp/story/2014/11/20/5423
+    :date: 2014年11月20日
+  - :title: "標的をマシンガンで撃ち落とす本格的なUnityゲーム作りに挑戦してみよう"
+    :url: http://thinkit.co.jp/story/2014/11/27/5424
+    :date: 2014年11月27日
+- :url: http://thinkit.co.jp/book/2014/10/03/5302
+  :title: Agile Managerで始めるエンタープライズ・アジャイル
+  :description: ''
+  :tag: Agile Manager
+  :articles:
+  - :title: "エンタープライズ・アジャイルってなんだろう？ 3つの視点と2つのフレームワーク"
+    :url: http://thinkit.co.jp/story/2014/10/07/5294
+    :date: 2014年10月7日
+  - :title: "アジャイル開発の明暗を分ける時間軸の捉え方の違いとは"
+    :url: http://thinkit.co.jp/story/2014/10/29/5363
+    :date: 2014年10月29日
+  - :title: "ディシプリンド・アジャイル・デリバリーの基本モデル「方向付けフェーズ」を理解する"
+    :url: http://thinkit.co.jp/story/2014/11/12/5409
+    :date: 2014年11月12日
+  - :title: "アジャイル開発の「構築フェーズ」で留意すべきポイント"
+    :url: http://thinkit.co.jp/story/2014/12/10/5473
+    :date: 2014年12月10日
+  - :title: "アジャイル開発における「ニーズの変化」への対応方法"
+    :url: http://thinkit.co.jp/story/2015/01/07/5510
+    :date: 2015年1月7日
+  - :title: "エンタープライズ・アジャイルのキモとなるスケーリング"
+    :url: http://thinkit.co.jp/story/2015/01/28/5570
+    :date: 2015年1月28日
+- :url: http://thinkit.co.jp/book/2014/10/03/5301
+  :title: PostgreSQLのログをfluentdで収集する
+  :description: ''
+  :tag: PostgreSQL,fluentd
+  :articles:
+  - :title: PostgreSQLのログをFluentdで収集する
+    :url: http://thinkit.co.jp/story/2014/10/03/5293
+    :date: 2014年10月3日
+- :url: http://thinkit.co.jp/book/2014/09/24/5279
+  :title: IoT時代のデータストア・NoSQLの実力は? 書き込み性能から見る活用ポイント
+  :description: "NoSQLという言葉をご存知の方は多いと思いますが、実際に使ってみたことがある方はまだ少ないのではないでしょうか？ これまでは一部のWebサービス企業などで利用されてきたNoSQLですが、最近では様々な企業で導入が進んでいます。しかし現状ではまだNoSQLに関する情報が少なく、導入にはハードルが高いところもあると思います。そこで今回、NoSQLに関する知見を増やすため、近年注目されているIoT（Internet
+    of Things）への適用を想定した書き込み性能検証を実施しました。本連載では、その検証結果についてご紹介したいと思います。NoSQL導入の参考になれば幸いです。対象読者NoSQLに興味がある方\n\tKVSに興味がある方\n\tKVSをエンタープライズ用途で利用してみたい方\n\tKVSの書込み性能に興味がある方"
+  :tag: NoSQL,Web,IoT,Internet of Things,KVS
+  :articles:
+  - :title: IoTに適したNoSQL・分散Key-Valueストア
+    :url: http://thinkit.co.jp/story/2014/09/25/5280
+    :date: 2014年9月25日
+  - :title: "センサーデータ蓄積を想定したKVS性能検証・観点と方法"
+    :url: http://thinkit.co.jp/story/2014/12/03/5458
+    :date: 2014年12月3日
+  - :title: Riak、okuyamaのデータ書き込み性能を検証する
+    :url: http://thinkit.co.jp/story/2014/12/17/5488
+    :date: 2014年12月17日
+- :url: http://thinkit.co.jp/book/2014/09/05/5234
+  :title: APIデザインの極意
+  :description: ''
+  :tag: API
+  :articles:
+  - :title: "現代的なソフトウェア構築の技芸 -合理主義、経験主義、無知-"
+    :url: http://thinkit.co.jp/story/2014/09/05/5235
+    :date: 2014年9月5日
+  - :title: "巨大なビルディングブロックになったシステム"
+    :url: http://thinkit.co.jp/story/2014/09/11/5236
+    :date: 2014年9月11日
+  - :title: "ソフトウェア作成において、美しさや優雅さより大切なこと"
+    :url: http://thinkit.co.jp/story/2014/09/19/5237
+    :date: 2014年9月19日
+  - :title: "ソフトウェア開発における“無知”は攻撃的な意味ではない"
+    :url: http://thinkit.co.jp/story/2014/09/29/5269
+    :date: 2014年9月29日
+  - :title: APIを作成する動機
+    :url: http://thinkit.co.jp/story/2014/10/10/5325
+    :date: 2014年10月10日
+  - :title: "バージョンによってモジュールの依存性を管理する"
+    :url: http://thinkit.co.jp/story/2014/10/30/5327
+    :date: 2014年10月30日
+  - :title: "モジュール化と選択的無知の実現、そして後方互換性の維持へ"
+    :url: http://thinkit.co.jp/story/2014/10/22/5326
+    :date: 2014年10月22日
+- :url: http://thinkit.co.jp/book/2014/09/02/5225
+  :title: "速攻攻略 Kinect v2 プログラミング入門"
+  :description: ''
+  :tag: Kinect v2
+  :articles:
+  - :title: Kinect for Windows v2における概要と開発環境
+    :url: http://thinkit.co.jp/story/2014/09/03/5226
+    :date: 2014年9月3日
+  - :title: Kinect v2のカメラから画像を取り込んで表示する基本プログラム
+    :url: http://thinkit.co.jp/story/2014/09/10/5230
+    :date: 2014年9月10日
+  - :title: Kinect v2の深度センサーから取り込んだ画像を表示する
+    :url: http://thinkit.co.jp/story/2014/09/17/5248
+    :date: 2014年9月17日
+  - :title: Kinect v2のIRセンサーから赤外線画像を読み込む
+    :url: http://thinkit.co.jp/story/2014/09/24/5249
+    :date: 2014年9月24日
+  - :title: Unityを使ったキャラクターと人体の同期（前編）
+    :url: http://thinkit.co.jp/story/2014/10/01/5250
+    :date: 2014年10月1日
+  - :title: Unityを使ったキャラクターと人体の同期（後編）
+    :url: http://thinkit.co.jp/story/2014/10/08/5251
+    :date: 2014年10月8日
+- :url: http://thinkit.co.jp/book/2014/08/26/5198
+  :title: UIKit徹底解説 iOSユーザーインターフェイスの開発
+  :description: ''
+  :tag: UIKit,iOS
+  :articles:
+  - :title: "フォントの生成とカスタマイズ"
+    :url: http://thinkit.co.jp/story/2014/09/02/5199
+    :date: 2014年9月2日
+  - :title: UIFontDescriptorの属性キー12種の詳細
+    :url: http://thinkit.co.jp/story/2014/09/09/5200
+    :date: 2014年9月9日
+  - :title: Dynamic Typeに対応してユーザー設定に合わせたフォントを使用する
+    :url: http://thinkit.co.jp/story/2014/09/16/5202
+    :date: 2014年9月16日
+  - :title: "属性付きテキストによるテキストの装飾（前編）"
+    :url: http://thinkit.co.jp/story/2014/09/22/5203
+    :date: 2014年9月22日
+  - :title: "属性付きテキストによるテキストの装飾（後編）"
+    :url: http://thinkit.co.jp/story/2014/09/30/5204
+    :date: 2014年9月30日
+  - :title: "データや画像の検出と埋め込み"
+    :url: http://thinkit.co.jp/story/2014/10/06/5205
+    :date: 2014年10月6日
+  - :title: Text Kitによるテキストレイアウト（前編）
+    :url: http://thinkit.co.jp/story/2014/10/14/5206
+    :date: 2014年10月14日
+  - :title: Text Kitによるテキストレイアウト（後編）
+    :url: http://thinkit.co.jp/story/2014/10/20/5207
+    :date: 2014年10月20日
+- :url: http://thinkit.co.jp/book/2014/08/01/5149
+  :title: "自動化時代のインフラ環境稼動テスト「Serverspec」入門"
+  :description: "近年、サーバの構築プロセスや構成管理プロセスの効率化のためにChefやPuppet、Ansibleといった自動化ツールが活用されるようになってきています。自動処理で手軽にシステムやサービスをセットアップできるようになると、構築時の人為的ミスを防げるようになるなど便利になる反面、内部で実施されている処理が人の手から離れて、把握しづらくなる傾向にあります。このような背景から、自動構築した環境が本当に意図した通りにできあがっているかの確認作業を自動的に行えるようにするツールが登場しました。それがこの連載で紹介する「Serverspec」です。本連載ではServerspecをこれから使ってみようという方を対象に、2回にわたってServerspecの概要とインストール、テストコードの実例や注意点を主に紹介していきます。"
+  :tag: Chef,Puppet,Ansible,Serverspec
+  :articles:
+  - :title: Serverspecの効果的活用に向けたTips
+    :url: http://thinkit.co.jp/story/2014/09/04/5212
+    :date: 2014年9月4日
+  - :title: Serverspecの概要からインストールまで
+    :url: http://thinkit.co.jp/story/2014/08/01/5139
+    :date: 2014年8月1日
+  - :title: Serverspecテストコード実例の紹介とコード記述の際のポイント
+    :url: http://thinkit.co.jp/story/2014/08/21/5192
+    :date: 2014年8月21日
+- :url: http://thinkit.co.jp/book/2014/07/30/5148
+  :title: "初学者のためのTDD（テスト駆動開発）入門"
+  :description: "この連載では、エクストリーム・プログラミング（extreme programming; 以下XP）のプラクティスのひとつであるテスト駆動開発（てすとくどうかいはつ、test-driven
+    development; 以下TDD）について、聞いたことはあるけれど内容は知らない方\n\t概要は知っているけれど実際に使ったことがない方といった、主に初学者を対象に、TDDの基本について全6回にわたってご説明していきます。少しだけアジャイルをかじった程度の開発経験の浅いプログラマと、TDD開発を実践しているプロジェクトリーダーによる会話形式でお届けしますので、RSpec等のツールを使ってTDD開発をしてはいるものの、正直メリットが今一つ理解できていないという方も、もちろん歓迎です。"
+  :tag: extreme programming; ,XP,test-driven development; ,TDD,RSpec
+  :articles:
+  - :title: "エンジニアのスキルを伸ばす“テスト駆動開発”を学んでみよう"
+    :url: http://thinkit.co.jp/story/2014/07/30/5097
+    :date: 2014年7月30日
+  - :title: TDDでリファクタリングを行う適切なタイミングとは？
+    :url: http://thinkit.co.jp/story/2014/08/27/5188
+    :date: 2014年8月27日
+  - :title: "ボウリングでスペアを取得した場合のテストケースを考える"
+    :url: http://thinkit.co.jp/story/2014/10/15/5324
+    :date: 2014年10月15日
+  - :title: "ボウリングでストライクを取得した場合のテストケースを考える"
+    :url: http://thinkit.co.jp/story/2014/11/19/5425
+    :date: 2014年11月19日
+  - :title: "開発に手詰まりを感じたら静的設計を見直そう"
+    :url: http://thinkit.co.jp/story/2015/01/28/5526
+    :date: 2015年1月28日
+  - :title: "もうすぐ完成！　テスト駆動開発によるボウリングのスコア計算プログラム"
+    :url: http://thinkit.co.jp/story/2015/02/19/5629
+    :date: 2015年2月19日
+  - :title: "完成形となったテスト駆動開発によるボウリングスコア計算プログラム"
+    :url: http://thinkit.co.jp/story/2015/03/04/5659
+    :date: 2015年3月4日
+- :url: http://thinkit.co.jp/book/2014/07/10/5105
+  :title: "ユニバーサルWindowsアプリ開発"
+  :description: WindowsとWindows Phoneの間で共有するコードを持つことで、マルチデバイス向けのアプリケーションを作ることの出来る「ユニバーサルWindowsアプリ」について、その仕組みから、開発環境の構築、Visual
+    Studioを使った実践的なサンプルプログラム開発まで、全6回にわたって解説していきます。
+  :tag: Windows,Windows Phone,Visual Studio
+  :articles:
+  - :title: "ユニバーサルWindowsアプリ開発の第一歩、デバイス共有のファイル作成"
+    :url: http://thinkit.co.jp/story/2014/07/10/5069
+    :date: 2014年7月10日
+  - :title: "簡単なプログラムでユニバーサルWindowsアプリの動作を確認する"
+    :url: http://thinkit.co.jp/story/2014/07/15/5114
+    :date: 2014年7月15日
+  - :title: FlipViewコントロールを使ってタッチ操作で画像を切り替えるアプリを作る
+    :url: http://thinkit.co.jp/story/2014/07/18/5124
+    :date: 2014年7月18日
+  - :title: "日本語音声の読み上げを行うユニバーサルアプリを作る"
+    :url: http://thinkit.co.jp/story/2014/07/25/5137
+    :date: 2014年7月25日
+  - :title: "開発したユニバーサルアプリを実際にストアに申請、登録するまで"
+    :url: http://thinkit.co.jp/story/2014/07/29/5144
+    :date: 2014年7月29日
+  - :title: Visual Basicでユニバーサルアプリに挑戦！
+    :url: http://thinkit.co.jp/story/2014/08/06/5161
+    :date: 2014年8月6日
+- :url: http://thinkit.co.jp/book/2014/07/03/5087
+  :title: "エンジニア藤川幸一のシリコンバレー起業生活"
+  :description: "アップル、グーグル、フェイスブックなどの名だたるインターネット企業が本社を置くシリコンバレーについて、皆さんはどのくらい知識をお持ちでしょうか。筆者は、この場所で
+    FlyDataという、特に企業向けにインターネットサービスを提供する会社を起業し、2年半以上ここでスタートアップ起業生活を送ってきました。 その中で、特にエンジニア出身の日本人がシリコンバレーで起業するということはどういうことなのか、何が必要で、どのようなことが毎日起こっているのか、ということを、自分の会社での経験や起業家コミュニティの中で見聞きしてきたことを元に、お伝えできたらと思います。 シリコンバレーに興味があるソフトウェアエンジニア、特に若い方々がシリコンバレーのスタートアップやエンジニア事情についてより実感が持て、ご自身の今後に活かせるような内容になれば幸いです。"
+  :tag: FlyData
+  :articles:
+  - :title: "エンジニア起業家が集まるシリコンバレーってどんなところ？"
+    :url: http://thinkit.co.jp/story/2014/07/03/5085
+    :date: 2014年7月3日
+  - :title: "“スタートアップ”の正しい意味を理解していますか？"
+    :url: http://thinkit.co.jp/story/2014/08/29/5215
+    :date: 2014年8月29日
+  - :title: "なぜスタートアップはシリコンバレーで始めるべきなのか Part 1"
+    :url: http://thinkit.co.jp/story/2015/01/09/5516
+    :date: 2015年1月9日
+  - :title: "なぜスタートアップはシリコンバレーで始めるべきなのか Part 2"
+    :url: http://thinkit.co.jp/story/2015/01/16/5517
+    :date: 2015年1月16日
+- :url: http://thinkit.co.jp/book/2014/06/25/5077
+  :title: "実践Ruby on Rails 4 現場のプロから学ぶ本格Webプログラミング"
+  :description: ''
+  :tag: Ruby on Rails 4 ,Web
+  :articles:
+  - :title: VirtualBoxやVagrantを用いたRails開発環境の構築方法（前編）
+    :url: http://thinkit.co.jp/story/2014/06/25/5072
+    :date: 2014年6月25日
+  - :title: VirtualBoxやVagrantを用いたRails開発環境の構築方法（後編）
+    :url: http://thinkit.co.jp/story/2014/06/26/5078
+    :date: 2014年6月26日
+  - :title: RailsのテストフレームワークRSpecの基礎知識
+    :url: http://thinkit.co.jp/story/2014/07/08/5092
+    :date: 2014年7月8日
+  - :title: Rubyプログラミングの基礎知識
+    :url: http://thinkit.co.jp/story/2014/07/02/5091
+    :date: 2014年7月2日
+- :url: http://thinkit.co.jp/book/2014/06/11/5032
+  :title: "優れた上級PHPエンジニアを名乗るためのスキルとは？"
+  :description: "世界中で構築されたWEBサイトが2億5000万を超えるといわれているPHP。その秘密は言語習得の手軽さやCMSパッケージの発達により、初心者にも気軽に高機能なシステムが扱えることにあります。 本コラムでは、その「初心者でも扱いやすいPHP」をさらに上級者として扱うエンジニアを認定する『PHP技術者認定上級試験』に向けて、少しでも多くのPHPエンジニアに上級の道へ進んでもらえればと思い、解説を行っていきます。"
+  :tag: WEB,PHP,CMS
+  :articles:
+  - :title: 1ランク上のPHP技術者を目指す人のための教材と、勉強のポイント
+    :url: http://thinkit.co.jp/story/2014/06/11/5033
+    :date: 2014年6月11日
+  - :title: PHPerには欠かせない配列の基礎
+    :url: http://thinkit.co.jp/story/2014/08/22/5187
+    :date: 2014年8月22日
+  - :title: "文字列操作って色々あるけどどうなの？"
+    :url: http://thinkit.co.jp/story/2014/11/05/5373
+    :date: 2014年11月5日
+  - :title: PHPのオブジェクトと参照渡し
+    :url: http://thinkit.co.jp/story/2015/01/27/5520
+    :date: 2015年1月27日
+  - :title: "オブジェクト指向言語のPHPが備えるコンストラクタとデストラクタ"
+    :url: http://thinkit.co.jp/story/2015/02/10/5521
+    :date: 2015年2月10日
+- :url: http://thinkit.co.jp/book/2014/06/06/5025
+  :title: OpenStackで始めるクラウド環境構築入門（Icehouse対応）
+  :description: "プライベートなクラウド環境を構築するソフトウエアとして「OpenStack」が注目されています。オープンソースで開発されているということだけでなく、Amazon
+    Web ServicesのようなIaaS環境が構築できることや、PaaS環境を実現するための機能も盛り込まれ始めている点も注目される理由でしょう。様々な企業が、OpenStackサポートを表明しています。大規模なクラウドサービス環境だけでなく、小規模な開発環境などでもOpenStackが利用され始めています。本連載では、OpenStackの概要、最新版”Icehouse”で追加された機能を紹介し、難しいと言われるインストールのポイントを分かりやすく解説します。対象読者層サーバーエンジニア\n\tネットワークエンジニア"
+  :tag: OpenStack,Amazon Web Services,IaaS,PaaS,Icehouse
+  :articles:
+  - :title: Icehouseで追加されたコンポーネント群とは
+    :url: http://thinkit.co.jp/story/2014/08/05/5164
+    :date: 2014年8月5日
+  - :title: OpenStackのアーキテクチャを理解しよう
+    :url: http://thinkit.co.jp/story/2014/06/10/4999
+    :date: 2014年6月10日
+- :url: http://thinkit.co.jp/book/2014/06/05/5030
+  :title: "これから学ぶPHP"
+  :description: "本連載では、PHPを学ぶ人が、PHPで簡単なプログラムを書けるようになるまでに必要な知識とポイントをTips的に書いていきます。今後PHPのスキルを身につけて仕事に役立てたい、という方のために「PHP技術者認定初級試験」の出題範囲を意識しながら進めていきますので、ぜひ最後までお付き合いください。"
+  :tag: PHP,Tips
+  :articles:
+  - :title: PHPはどうやって動いているの？仕組みから環境づくりまで
+    :url: http://thinkit.co.jp/story/2014/06/05/4879
+    :date: 2014年6月5日
+  - :title: PHPを始める前に知りたい、基本的な文法といくつかのタグ
+    :url: http://thinkit.co.jp/story/2014/07/17/5098
+    :date: 2014年7月17日
+  - :title: PHPで文字列を扱うための4つの方法
+    :url: http://thinkit.co.jp/story/2014/08/28/5195
+    :date: 2014年8月28日
+  - :title: PHPにおける文字列のフォーマット化と数値の扱い方
+    :url: http://thinkit.co.jp/story/2014/10/16/5288
+    :date: 2014年10月16日
+  - :title: "プログラム言語のキホンである変数、条件判定とループ：PHPではどう表すのか？"
+    :url: http://thinkit.co.jp/story/2015/02/09/5582
+    :date: 2015年2月9日
+  - :title: PHPにおける配列：同種のデータをまとめて扱うためのしくみ
+    :url: http://thinkit.co.jp/story/2015/02/25/5643
+    :date: 2015年2月25日
+- :url: http://thinkit.co.jp/book/2014/04/20/4936
+  :title: Windows ストア アプリ100行プログラミング
+  :description: "本連載では、100行程度で作ることが出来る簡単なWindows ストア アプリの作成方法を解説していきます。対象は、プログラミングの経験はあるものの、まだWindows
+    ストア アプリを1個も作ったことがなく、これから挑戦していこうという方です。Windows ストア アプリの説明から始まり、比較的短時間で作れるアプリを紹介していきますので、興味のある方は、ぜひチャレンジしてみてください。"
+  :tag: Windows
+  :articles:
+  - :title: Windows ストア アプリって何？ 開発環境の構築
+    :url: http://thinkit.co.jp/story/2014/04/16/4939
+    :date: 2014年4月16日
+  - :title: Windows ストア アプリ初めの1歩
+    :url: http://thinkit.co.jp/story/2014/04/28/4964
+    :date: 2014年4月28日
+  - :title: "タイマーを使って時刻を表示してみよう"
+    :url: http://thinkit.co.jp/story/2014/05/08/4979
+    :date: 2014年5月8日
+  - :title: Webカメラを使ったアプリを作ろう
+    :url: http://thinkit.co.jp/story/2014/05/20/4994
+    :date: 2014年5月20日
+  - :title: GridViewコントロールの使い方
+    :url: http://thinkit.co.jp/story/2014/05/27/4995
+    :date: 2014年5月27日
+  - :title: Bing Mapsで地図を表示させよう
+    :url: http://thinkit.co.jp/story/2014/06/03/5019
+    :date: 2014年6月3日
+  - :title: WebViewを使ってHTMLコンテンツを表示させる
+    :url: http://thinkit.co.jp/story/2014/06/12/5040
+    :date: 2014年6月12日
+  - :title: "ストーリーボードでアニメーションを実装する"
+    :url: http://thinkit.co.jp/story/2014/06/20/5057
+    :date: 2014年6月20日
+  - :title: "ローカル環境にある画像を表示させよう"
+    :url: http://thinkit.co.jp/story/2014/07/04/5059
+    :date: 2014年7月4日
+  - :title: "音声認識と手書き認識を使ってみよう"
+    :url: http://thinkit.co.jp/story/2014/06/27/5058
+    :date: 2014年6月27日
+- :url: http://thinkit.co.jp/book/2014/04/03/4921
+  :title: Tuning Maniax 2014 蒼き調律者たち
+  :description: 4/7よりエントリーが始まる「Tuning Maniax 2014 蒼き調律者たち」に参加する方のために、大会を進めるための情報やヒントを紹介していきます。
+  :tag: Tuning Maniax 2014
+  :articles:
+  - :title: Tuning Maniax 2014開幕！大会にエントリーしよう（1）
+    :url: http://thinkit.co.jp/story/2014/04/08/4926
+    :date: 2014年4月8日
+  - :title: Tuning Maniax 2014開幕！大会にエントリーしよう（2）
+    :url: http://thinkit.co.jp/story/2014/04/09/4928
+    :date: 2014年4月9日
+  - :title: Tuning Maniax 2014参加者必見！スタートアップセミナーの資料を一挙掲載
+    :url: http://thinkit.co.jp/story/2014/04/24/4960
+    :date: 2014年4月24日
+  - :title: WordPressコース 1st Stageを攻略しよう（Webサイト編）
+    :url: http://thinkit.co.jp/story/2014/04/25/4957
+    :date: 2014年4月25日
+  - :title: Hadoopコースを攻略しよう（環境構築編）
+    :url: http://thinkit.co.jp/story/2014/04/25/4959
+    :date: 2014年4月25日
+  - :title: Hadoopコースを攻略しよう（HDInsightによる大量ログ解析編）
+    :url: http://thinkit.co.jp/story/2014/04/29/4967
+    :date: 2014年4月29日
+  - :title: WordPress コース 2nd Stage を攻略しよう（Windows 仮想マシン編）
+    :url: http://thinkit.co.jp/story/2014/05/15/4987
+    :date: 2014年5月15日
+  - :title: WordPress コース 2nd Stage を攻略しよう（Linux 仮想マシン編）
+    :url: http://thinkit.co.jp/story/2014/05/16/4985
+    :date: 2014年5月16日
+  - :title: "優勝者に嬉しいサプライズが！？Hadoopコース表彰式レポート"
+    :url: http://thinkit.co.jp/story/2014/06/20/5064
+    :date: 2014年6月20日
+  - :title: "上位入賞者たちはどうやってチューニングしたのか！？Tuning Maniax総評"
+    :url: http://thinkit.co.jp/story/2014/08/12/5182
+    :date: 2014年8月12日
+  - :title: Tuning Maniax 2014を締めくくるWordPressコース表彰式を開催
+    :url: http://thinkit.co.jp/story/2014/09/01/5232
+    :date: 2014年9月1日
+- :url: http://thinkit.co.jp/book/2014/04/03/4910
+  :title: Phalcon PHPで開発する爆速WEB開発
+  :description: Phalconは、最近の耳の速いPHP開発者の間で注目を集めている、省リソース、ハイパフォーマンスを謳うオープンソースのPHPのフルスタックフレームワークです。およそ1年近く前にv0.4.5がリリースされ、このPhalconのユニークな開発アプローチに賛同する開発者によって開発が急伸しており、現在は安定版として1.3.1がリリースされています。連載では、このPhalconの導入から、MVCプロジェクトをサンプルにフレームワークの動作や各クラスの実装、筆者が開発してきた経験も交えてご紹介します。
+  :tag: Phalcon,PHP,v0.4.5,.3.1,MVC
+  :articles:
+  - :title: Phalconを使う前に知っておきたい、各機能とインストール方法
+    :url: http://thinkit.co.jp/story/2014/05/30/4906
+    :date: 2014年5月30日
+  - :title: Phalcon Devtoolsを使ったMVCプロジェクト作成からHelloWorldまで
+    :url: http://thinkit.co.jp/story/2014/07/09/5084
+    :date: 2014年7月9日
+  - :title: Phalconに触れながらMVCプロジェクトの構成と構造を理解しよう
+    :url: http://thinkit.co.jp/story/2014/08/08/5169
+    :date: 2014年8月8日
+- :url: http://thinkit.co.jp/book/2015/03/01/2276
+  :title: ReadWrite Japan
+  :description: ''
+  :tag: ReadWrite Japan
+  :articles:
+  - :title: Huaweiが史上最高にカッコいいAndroid Wearスマートウォッチを開発
+    :url: http://thinkit.co.jp/story/2015/03/10/5725
+    :date: 2015年3月10日
+  - :title: LGの最新スマートウォッチはAndroid Wear、そしてスマートフォンを追い抜く
+    :url: http://thinkit.co.jp/story/2015/03/10/5726
+    :date: 2015年3月10日
+  - :title: Moto 360のハックにより、Android WearがiPhoneで動作することが判明
+    :url: http://thinkit.co.jp/story/2015/03/05/5702
+    :date: 2015年3月5日
+  - :title: Softcard降参。モバイル決済はアップル、グーグル、PayPalの三つ巴に
+    :url: http://thinkit.co.jp/story/2015/03/06/5704
+    :date: 2015年3月6日
+  - :title: YouTube10周年 — これまでの歴史を振り返る
+    :url: http://thinkit.co.jp/story/2015/03/03/5657
+    :date: 2015年3月3日
+  - :title: "「第２のシリコンバレー」でエンジニアリングの武者修行（前編）"
+    :url: http://thinkit.co.jp/story/2015/03/09/5722
+    :date: 2015年3月9日
+  - :title: "アップル、iOSのバグ対策にユーザーのさらなる助けを求める"
+    :url: http://thinkit.co.jp/story/2015/03/04/5694
+    :date: 2015年3月4日
+  - :title: "サムスン、LG、HTCよ – Android Wearを見限るのは大きなミスだ"
+    :url: http://thinkit.co.jp/story/2015/03/09/5723
+    :date: 2015年3月9日
+  - :title: "フェイスブックはVRアプリの予想図を既に示していた"
+    :url: http://thinkit.co.jp/story/2015/03/04/5695
+    :date: 2015年3月4日
+  - :title: "モノのインターネットのガジェット作りに最適なハードウェアキットが登場"
+    :url: http://thinkit.co.jp/story/2015/03/06/5705
+    :date: 2015年3月6日
+  - :title: "ヤフー、アプリ開発者向けに収益化戦略を発表"
+    :url: http://thinkit.co.jp/story/2015/03/05/5703
+    :date: 2015年3月5日
+  - :title: "見せれるものがまだ何もないMagic Leap、マイクロソフトのHoloLensをこき下ろす\t"
+    :url: http://thinkit.co.jp/story/2015/03/07/5717
+    :date: 2015年3月7日
+- :url: http://thinkit.co.jp/book/2014/02/23/5645
+  :title: "イラストでよくわかるAndroidアプリのつくり方 - 開発環境インストール編"
+  :description: ''
+  :tag: Android
+  :articles:
+  - :title: "ゼロからわかるAndroid Studioインストール手順（Mac版）"
+    :url: http://thinkit.co.jp/story/2015/02/25/5644
+    :date: 2015年2月25日
+  - :title: "ゼロからわかるAndroid Studioインストール手順（Windows版）"
+    :url: http://thinkit.co.jp/story/2015/02/26/5646
+    :date: 2015年2月26日
+- :url: http://thinkit.co.jp/book/2014/02/06/4782
+  :title: "フラッシュストレージによるシステム最適化のトレンド"
+  :description: "フラッシュストレージは現在、通常の磁気デバイスと比較して圧倒的な性能を持ち、価格もようやくこなれてきました。フラッシュストレージの利用手段は、サーバやストレージ、OSなど様々なレイヤに存在します。この連載では、フラッシュストレージの特徴を踏まえた適材適所のソリューションを紹介します。"
+  :tag: OS
+  :articles:
+  - :title: VMware Virtual SANで実現するストレージ仮想化：Part1 構成とストレージポリシー
+    :url: http://thinkit.co.jp/story/2014/04/03/4902
+    :date: 2014年4月3日
+  - :title: VMware Virtual SANで実現するストレージ仮想化：Part2 データの読み書きと耐障害性
+    :url: http://thinkit.co.jp/story/2014/04/10/4916
+    :date: 2014年4月10日
+  - :title: vSphere環境でのサーバサイドフラッシュの利用 -vFRC-
+    :url: http://thinkit.co.jp/story/2014/03/25/4857
+    :date: 2014年3月25日
+  - :title: "フラッシュストレージioDriveの性能と信頼性"
+    :url: http://thinkit.co.jp/story/2014/02/19/4825
+    :date: 2014年2月19日
+  - :title: "フラッシュストレージioDriveの様々な活用法"
+    :url: http://thinkit.co.jp/story/2014/03/18/4841
+    :date: 2014年3月18日
+  - :title: "フラッシュストレージが注目される理由と4つのソリューション"
+    :url: http://thinkit.co.jp/story/2014/02/06/4785
+    :date: 2014年2月6日
+- :url: http://thinkit.co.jp/book/2014/01/30/4799
+  :title: "クラウド時代の正しいシステム運用"
+  :description: "システム運用と聞いて、何を思い浮かべるだろうか。システムが正常に動作するための定常業務、あるいはその状態を維持するためだけの非生産的な業務、非クリエイティブな職種、さらには、世の中にない新しいものを生み出すというイメージの強いシステムデベロッパー、ソフトウェアデベロッパーたちの後始末（後処理）的な後ろ向きな業務、エンジニアの窓際族、などなど。本書は、そういったネガティブなイメージを払拭し、システム運用や監視業務がいかに重要な業務であり、いかにクリエイティブな業務であるかを理解していただくことを目的として、執筆したものである。また、本当は開発に携わりたかったのだが希望どおりに配属されず、運用業務が「楽しくない」「つまらない」と、退屈な仕事として日々取り組んでいるエンジニアの方々に、夢と希望をもち、日々胸を張って仕事に励んでいただきたい、という願いも込められている。ぜひ、本書から1つでもいいので、何かヒントを得て日々の仕事に取り込み、「システム運用」という仕事を楽しく、クリエイティブなものに変えるきっかけとしていただきたい。"
+  :tag: ''
+  :articles:
+  - :title: 4つのタイプから想定する、適切なシステム運用のサイクル
+    :url: http://thinkit.co.jp/story/2014/04/15/4944
+    :date: 2014年4月15日
+  - :title: Nagios、Zabbix…いろいろな運用監視ツールの評価ポイント
+    :url: http://thinkit.co.jp/story/2014/06/30/5083
+    :date: 2014年6月30日
+  - :title: Pandora FMSによるカスタムグラフ、カスタムレポートの作成
+    :url: http://thinkit.co.jp/story/2014/08/04/5141
+    :date: 2014年8月4日
+  - :title: Pandora FMSを使った具体的な監視運用設計の実装
+    :url: http://thinkit.co.jp/story/2014/07/07/5094
+    :date: 2014年7月7日
+  - :title: Pandra FMSならではの便利な監視設定
+    :url: http://thinkit.co.jp/story/2014/07/22/5132
+    :date: 2014年7月22日
+  - :title: Webシステムの構成から、Pandora FMSによる監視設計を検討する
+    :url: http://thinkit.co.jp/story/2014/07/14/5112
+    :date: 2014年7月14日
+  - :title: "「システム運用は必要経費」という認識は大きな間違い！？"
+    :url: http://thinkit.co.jp/story/2014/01/30/4800
+    :date: 2014年1月30日
+  - :title: "クラウド化でシステム運用担当者は業務量が減る？"
+    :url: http://thinkit.co.jp/story/2014/04/11/4938
+    :date: 2014年4月11日
+  - :title: "システム全体を階層で理解して「あるべき状態」を知る"
+    :url: http://thinkit.co.jp/story/2014/06/16/5042
+    :date: 2014年6月16日
+  - :title: "システム運用で押さえておきたい「管理すべき情報」とは"
+    :url: http://thinkit.co.jp/story/2014/06/23/5066
+    :date: 2014年6月23日
+  - :title: "システム運用における、5つの大間違いとは（1）"
+    :url: http://thinkit.co.jp/story/2014/02/12/4831
+    :date: 2014年2月12日
+  - :title: "システム運用における、5つの大間違いとは（2）"
+    :url: http://thinkit.co.jp/story/2014/02/27/4853
+    :date: 2014年2月27日
+  - :title: "システム運用における、5つの大間違いとは（3）"
+    :url: http://thinkit.co.jp/story/2014/02/28/4860
+    :date: 2014年2月28日
+  - :title: "システム運用における、5つの大間違いとは（4）"
+    :url: http://thinkit.co.jp/story/2014/03/20/4895
+    :date: 2014年3月20日
+  - :title: "システム運用における、5つの大間違いとは（5）"
+    :url: http://thinkit.co.jp/story/2014/04/01/4914
+    :date: 2014年4月1日
+  - :title: "システム運用における本当の意味の「効率化」「高品質化」「コスト削減」"
+    :url: http://thinkit.co.jp/story/2014/05/23/5013
+    :date: 2014年5月23日
+  - :title: "スペイン発のオープンソース統合監視ツール「Pandra FMS」（1）"
+    :url: http://thinkit.co.jp/story/2014/06/02/5021
+    :date: 2014年6月2日
+  - :title: "スペイン発のオープンソース統合監視ツール「Pandra FMS」（2）"
+    :url: http://thinkit.co.jp/story/2014/06/09/5037
+    :date: 2014年6月9日
+  - :title: "新人社員が複数の部門システムに関わり学んだ運用の重要性"
+    :url: http://thinkit.co.jp/story/2014/05/07/4980
+    :date: 2014年5月7日
+  - :title: "正しいシステム運用のための監視要件定義"
+    :url: http://thinkit.co.jp/story/2014/05/19/4996
+    :date: 2014年5月19日
+  - :title: "監視業務によくあるシステムのプロセス再起動はなぜ必要なのか？"
+    :url: http://thinkit.co.jp/story/2014/08/25/5210
+    :date: 2014年8月25日
+  - :title: "統合運用管理システムとしてのPandora FMSの実力を探る"
+    :url: http://thinkit.co.jp/story/2014/07/28/5140
+    :date: 2014年7月28日
+  - :title: "運用におけるシステム改善の事例を見てみよう"
+    :url: http://thinkit.co.jp/story/2014/08/11/5171
+    :date: 2014年8月11日
+  - :title: "過去5年間の運用情報を活かしたシステムリニューアルの事例"
+    :url: http://thinkit.co.jp/story/2014/08/18/5185
+    :date: 2014年8月18日
+- :url: http://thinkit.co.jp/book/2014/01/24/4789
+  :title: PostgreSQLの運用監視をスマートに -Zabbix監視テンプレート pg_monz-
+  :description: 2013年11月5日にTIS株式会社（以下TIS）とSRA OSS, Inc. 日本支社（以下SRA OSS）はPostgreSQLを監視するためのZabbixテンプレート「pg_monz（ぴーじーもんず）」をオープンソースソフトウェア（以下OSS）として公開しました。この連載では、現在普及が進むPostgreSQLとZabbixの現状や課題を紹介しながら、監視テンプレートであるpg_monzに焦点を当て、導入するメリットや特長、また実際の導入手順などについて詳しく解説していきます。
+  :tag: TIS,SRA OSS,Inc. ,PostgreSQL,Zabbix,pg,monz,OSS
+  :articles:
+  - :title: PostgreSQLを監視するZabbixテンプレート pg_monz とは
+    :url: http://thinkit.co.jp/story/2014/01/24/4779
+    :date: 2014年1月24日
+  - :title: pg_monzの導入手順と PostgreSQL監視の実態
+    :url: http://thinkit.co.jp/story/2014/02/06/4812
+    :date: 2014年2月6日
+- :url: http://thinkit.co.jp/book/2014/01/16/4768
+  :title: "今日から始めるOSSライセンス講座"
+  :description: "オープンソース・ソフトウェア（OSS）は誰でも簡単に入手できて容易に利用できるため、現在では幅広くソフトウェア開発の現場で利用されています。しかし、ライセンスについて十分な知識を持っている方はまだまだ多くありません。ライセンスの知識がないと、OSSを利用しても社内ポリシー外だった場合などに難しい対処を迫られることになり、せっかくのメリットを生かすことが難しくなってしまいます。 本連載では、開発者や開発プロジェクトのメンバーがOSSライセンスについて知っておくべきことを3回にわたって解説していきます。OSSを利用する際に注意する点や、利用した際に必要な対応方法などについて、読者の皆さんに知って頂ければ幸いです。"
+  :tag: OSS
+  :articles:
+  - :title: GitHubを利用する際に注意したいOSSライセンスのポイントとは
+    :url: http://thinkit.co.jp/story/2014/02/24/4843
+    :date: 2014年2月24日
+  - :title: OSSライセンスを勉強する前に知っておきたいこと
+    :url: http://thinkit.co.jp/story/2014/01/20/4769
+    :date: 2014年1月20日
+  - :title: "コピーレフト型と非コピーレフト型OSSライセンスの違いとは？"
+    :url: http://thinkit.co.jp/story/2014/02/03/4804
+    :date: 2014年2月3日
+- :url: http://thinkit.co.jp/book/2014/01/09/4755
+  :title: Windows 8.1+Visual Studio 2013によるWindows ストア・アプリ開発実例集
+  :description: "本連載では、Windows 8.1とVisual Studio 2013を使ったWindowsストアアプリの実践的な開発内容を紹介していきます。Windows
+    8.1のWinRT APIでは、Speech用のAPIが追加されましたので、キャラクターに音声を喋らすことなどが可能です。この音声機能をどこで、どのように使用するか、といった方法をメインに解説していきたいと思います。脳トレーニングや音声による天気予報、またLeap
+    MotionアプリをWindowsストアに申請・認定させる方法など幅広い内容になっていますので、実際のアプリ開発にぜひ役立ててください。"
+  :tag: Windows 8.1,Visual Studio 2013,Windows,WinRT API,Speech,API,Leap Motion
+  :articles:
+  - :title: "キャラクターが音声で応援してくれる脳トレーニングアプリを作ってみよう"
+    :url: http://thinkit.co.jp/story/2014/01/09/4756
+    :date: 2014年1月9日
+  - :title: "制限時間内に指定した画像を見つけ出す脳トレーニングアプリを作ろう"
+    :url: http://thinkit.co.jp/story/2014/01/10/4760
+    :date: 2014年1月10日
+  - :title: "指定した目的地までの距離をキャラクターが教えてくれるアプリを作ろう"
+    :url: http://thinkit.co.jp/story/2014/01/17/4773
+    :date: 2014年1月17日
+  - :title: "画面上を流れる数字を暗算して正解を求めるアプリを作ろう（その1）"
+    :url: http://thinkit.co.jp/story/2014/01/27/4763
+    :date: 2014年1月27日
+  - :title: "画面上を流れる数字を暗算して正解を求めるアプリを作ろう（その2）"
+    :url: http://thinkit.co.jp/story/2014/01/28/4778
+    :date: 2014年1月28日
+  - :title: Leap MotionアプリをWindowsストアに申請して認定させる
+    :url: http://thinkit.co.jp/story/2014/02/04/4797
+    :date: 2014年2月4日
+  - :title: "キャラクターが声で天気予報を教えてくれるアプリを作る"
+    :url: http://thinkit.co.jp/story/2014/02/26/4849
+    :date: 2014年2月26日
+  - :title: "四文字熟語の意味をキャラクターが声で教えてくれるアプリを作る"
+    :url: http://thinkit.co.jp/story/2014/03/27/4899
+    :date: 2014年3月27日
+  - :title: "小さな子ども向けの文字練習アプリ「もじのれんしゅう」を作る"
+    :url: http://thinkit.co.jp/story/2014/02/21/4842
+    :date: 2014年2月21日
+  - :title: "時刻とともに、その日の出来事をキャラクターが音声で教えてくれるアプリを作る"
+    :url: http://thinkit.co.jp/story/2014/03/19/4890
+    :date: 2014年3月19日
+  - :title: "近くにある病院の場所をキャラクターが音声で教えてくれるアプリを作る"
+    :url: http://thinkit.co.jp/story/2014/03/17/4855
+    :date: 2014年3月17日
+- :url: http://thinkit.co.jp/book/2014/01/01/3580
+  :title: "イベント・セミナー2014"
+  :description: 2014年に開催されたイベントやセミナーの様子を紹介します。
+  :tag: ''
+  :articles:
+  - :title: ETロボコン2014チャンピオンシップ大会レポート（前編）
+    :url: http://thinkit.co.jp/story/2015/01/07/5481
+    :date: 2015年1月7日
+  - :title: ETロボコン2014チャンピオンシップ大会レポート（後編）
+    :url: http://thinkit.co.jp/story/2015/01/14/5503
+    :date: 2015年1月14日
+  - :title: HA機能搭載のOpenStack、SUSE Cloudで商用SDNに対抗
+    :url: http://thinkit.co.jp/story/2014/07/31/5156
+    :date: 2014年7月31日
+  - :title: Hadoopの拡がりを体感できたCloudera World Tokyo 2014
+    :url: http://thinkit.co.jp/story/2014/11/11/5413
+    :date: 2014年11月11日
+  - :title: Hatohol、Zabbixの活用テクニック紹介　OSS運用管理勉強会 第5回レポート
+    :url: http://thinkit.co.jp/story/2014/06/19/5055
+    :date: 2014年6月19日
+  - :title: LinuxCon Japan 2014 -アジア地域最大のLinuxカンファレンス-
+    :url: http://thinkit.co.jp/story/2014/05/29/5017
+    :date: 2014年5月29日
+  - :title: OpenStackの最新安定版Junoでデータプロセッシングが正式コンポーネントに採用
+    :url: http://thinkit.co.jp/story/2014/11/04/5348
+    :date: 2014年11月4日
+  - :title: OpenStack事例で知る現実解と多様な応用例
+    :url: http://thinkit.co.jp/story/2014/12/12/5476
+    :date: 2014年12月12日
+  - :title: OpenStack最新情報セミナーレポート
+    :url: http://thinkit.co.jp/story/2014/08/20/5189
+    :date: 2014年8月20日
+  - :title: Pivotalの強みはビッグデータ分析とアジャイル開発のタイトな連携
+    :url: http://thinkit.co.jp/story/2014/12/17/5491
+    :date: 2014年12月17日
+  - :title: PosgreSQL導入のためANAシステムズが行ったガイドライン策定の取り組み
+    :url: http://thinkit.co.jp/story/2014/07/16/5107
+    :date: 2014年7月16日
+  - :title: PostgreSQL初心者が勉強会で体験した、バックアップとリカバリの重要性
+    :url: http://thinkit.co.jp/story/2014/07/01/5074
+    :date: 2014年7月1日
+  - :title: RHEL7やOpenStackなど最新技術が集結するRed Hat Summit 2014 現地レポート（前編）
+    :url: http://thinkit.co.jp/story/2014/05/21/5003
+    :date: 2014年5月21日
+  - :title: RHEL7やOpenStackなど最新技術が集結するRed Hat Summit 2014 現地レポート（後編）
+    :url: http://thinkit.co.jp/story/2014/05/22/5008
+    :date: 2014年5月22日
+  - :title: SoftLayerの東京データセンターがまもなく始動、創始者のランス･クロスビー氏が来日登壇
+    :url: http://thinkit.co.jp/story/2014/11/18/5433
+    :date: 2014年11月18日
+  - :title: VMwareによるOpenStackの取り組みはVで始まるハイブリッド型
+    :url: http://thinkit.co.jp/story/2014/11/26/5439
+    :date: 2014年11月26日
+  - :title: Zabbix は仮想環境の監視におけるデファクトスタンダードとなるか？
+    :url: http://thinkit.co.jp/story/2014/05/28/5002
+    :date: 2014年5月28日
+  - :title: Zabbixの未来を探る第2回Zabbixカンファレンスレポート
+    :url: http://thinkit.co.jp/story/2014/12/04/5461
+    :date: 2014年12月4日
+  - :title: "“価値設計”と“アプリ開発”がコラボする「バリューハッカソン」開催レポート"
+    :url: http://thinkit.co.jp/story/2014/05/09/4976
+    :date: 2014年5月9日
+  - :title: "「OpenStack Paris Summit 2014」技術セッション聴講レポート"
+    :url: http://thinkit.co.jp/story/2014/11/10/5406
+    :date: 2014年11月10日
+  - :title: "エンジニアたちの楽園！第6回OSS開発合宿 レポート"
+    :url: http://thinkit.co.jp/story/2014/07/11/5102
+    :date: 2014年7月11日
+  - :title: "オープンソースのビジネス活用をテーマにした無料セミナーを開催します！"
+    :url: http://thinkit.co.jp/story/2014/06/06/5035
+    :date: 2014年6月6日
+  - :title: "オープンソースの最新トピックと、ビジネス活用のポイント（OSPセミナーレポート前編）"
+    :url: http://thinkit.co.jp/story/2014/07/23/5129
+    :date: 2014年7月23日
+  - :title: "オープンソースの最新トピックと、ビジネス活用のポイント（OSPセミナーレポート後編）"
+    :url: http://thinkit.co.jp/story/2014/07/24/5134
+    :date: 2014年7月24日
+  - :title: "オープンソース化だけじゃない、開発者のスタイルもマルチプラットフォームになる次世代の.NETとVisual Studio"
+    :url: http://thinkit.co.jp/story/2015/01/13/5519
+    :date: 2015年1月13日
+  - :title: "クラウドはビジネス成長の原動力に。IBMがOpen Cloud Summit Japan 2014を開催"
+    :url: http://thinkit.co.jp/story/2014/04/18/4952
+    :date: 2014年4月18日
+  - :title: "クラウドオーケストレーションツールでクラウド活用は次のフェーズへ"
+    :url: http://thinkit.co.jp/story/2014/06/04/5027
+    :date: 2014年6月4日
+  - :title: "ジュニパーネットワークス、初のAPACメディア向けイベントを開催"
+    :url: http://thinkit.co.jp/story/2014/12/16/5479
+    :date: 2014年12月16日
+  - :title: "テスト駆動インフラ／インフラCIの潮流、Serverspecが果たす役割"
+    :url: http://thinkit.co.jp/story/2014/06/24/5070
+    :date: 2014年6月24日
+  - :title: "世界各地から開発者が集結！日本初のDrupal Camp、京都で開催"
+    :url: http://thinkit.co.jp/story/2014/04/14/4940
+    :date: 2014年4月14日
+  - :title: "今年の実行委員長に聞く！　国内最大級のPHP祭り「PHPカンファレンス2014」の見どころ"
+    :url: http://thinkit.co.jp/story/2014/10/09/5286
+    :date: 2014年10月9日
+  - :title: "応募締切迫る！ HTML5 Japan Cup 2014 第二回ハッカソンレポート"
+    :url: http://thinkit.co.jp/story/2014/06/17/5053
+    :date: 2014年6月17日
+  - :title: "新CTO、ビル・レディンガム、オープンソースロジスティクスについて語る。"
+    :url: http://thinkit.co.jp/story/2014/10/21/5343
+    :date: 2014年10月21日
+  - :title: "新型ロボットと新クラスが追加された、ETロボコン2014の新たな挑戦とは"
+    :url: http://thinkit.co.jp/story/2014/02/20/4837
+    :date: 2014年2月20日
+  - :title: "日本SoftLayerユーザー会が第1回勉強会を開催"
+    :url: http://thinkit.co.jp/story/2014/06/13/5050
+    :date: 2014年6月13日
+  - :title: "日本での本格普及なるか？ 大規模サイト向けCMS「Drupal」創始者が初来日"
+    :url: http://thinkit.co.jp/story/2014/10/06/5296
+    :date: 2014年10月6日
+  - :title: "楽天テクノロジーカンファレンス2014レポート 今年の主役はオープンソース"
+    :url: http://thinkit.co.jp/story/2014/10/30/5379
+    :date: 2014年10月30日
+  - :title: "気になるRHEL7のリリースとCentOSへの参画について米レッドハット担当者が語る"
+    :url: http://thinkit.co.jp/story/2014/02/17/4836
+    :date: 2014年2月17日
+- :url: http://thinkit.co.jp/book/2013/12/27/4765
+  :title: "重要な企業コンテンツを管理するオープンソースECM、Alfrescoの実力を探る"
+  :description: "企業内に存在する文書やメールなどの様々なコンテンツを管理・共有するためにファイルサーバーが利用されていますが、ビジネス案件やユーザーが増加していくにつれ、アクセス権の管理や、コンテンツ量が増加することで、不要なコンテンツが増えるなどの問題を抱えています。 このような問題を解決するための方法として、コンテンツ管理システム（ECM）を活用することが考えられます。ECMを利用することで、適切に文書を管理すると同時に、保管コストを下げ、生産性の向上につなげることができます。 今回はこうした企業の問題解決を支援する、オープンソースのコンテンツ管理プラットフォームであるAlfrescoを紹介していきます。"
+  :tag: ECM,Alfresco
+  :articles:
+  - :title: Alfrescoをインストールしてコンテンツ管理を体験してみよう
+    :url: http://thinkit.co.jp/story/2014/01/21/4766
+    :date: 2014年1月21日
+  - :title: "コンテンツ管理や情報漏えい防止に力を発揮するECM、Alfrescoとは"
+    :url: http://thinkit.co.jp/story/2013/12/27/4740
+    :date: 2013年12月27日
+  - :title: "文書中心のビジネスプロセスをサポートする Alfresco Workdesk"
+    :url: http://thinkit.co.jp/story/2014/02/05/4811
+    :date: 2014年2月5日
+  - :title: "社内コンテンツ利用をめぐる、社員とIT部門のいたちごっこを防ぐためには"
+    :url: http://thinkit.co.jp/story/2014/01/29/4790
+    :date: 2014年1月29日
+- :url: http://thinkit.co.jp/book/2013/12/19/4736
+  :title: COBOLエンジニアがPHPとRuby on Railsを習得するために必要なこと
+  :description: "元COBOLエンジニアで、現在はPHP、Ruby on Railsエンジニア＆インストラクターのフロイデ株式会社 吉谷 愛氏が、自身のインストラクターとしての数々の経験を活かした、技術習得で苦労する点や注意したいポイントをまとめて紹介していきます。これからRuby
+    on Railsの勉強を考えている方は是非ご一読することをお勧めします。"
+  :tag: COBOL,PHP,Ruby on Rails
+  :articles:
+  - :title: COBOLエンジニアが実際のWeb開発業務に携わる際に気をつけるべきこと
+    :url: http://thinkit.co.jp/story/2014/05/12/4955
+    :date: 2014年5月12日
+  - :title: COBOLエンジニアが次に開発しなければいけないものとは？
+    :url: http://thinkit.co.jp/story/2013/12/19/4733
+    :date: 2013年12月19日
+  - :title: COBOLエンジニアはPHPとRuby on Railsのどちらを学習するべき？
+    :url: http://thinkit.co.jp/story/2014/02/07/4796
+    :date: 2014年2月7日
+- :url: http://thinkit.co.jp/book/2013/12/12/4697
+  :title: "スケールアウト型OSSクラウド基盤に最適なUbuntu Serverをひも解く"
+  :description: "最近よく耳にするUbuntu Serverを取り上げます。本連載では、Ubuntu Serverの入門編と実践編に分けて、市場動向、採用の背景、スケールアウト型サーバー選定、Ubuntuの基礎、システム設計、スケールアウト基盤構築ノウハウやシステム管理などの勘所をご紹介します。"
+  :tag: Ubuntu Server,Ubuntu
+  :articles:
+  - :title: "[入門編] Ubuntu Serverの基礎（前編）"
+    :url: http://thinkit.co.jp/story/2013/12/12/4698
+    :date: 2013年12月12日
+  - :title: "[入門編] Ubuntu Serverの基礎（後編）"
+    :url: http://thinkit.co.jp/story/2013/12/13/4714
+    :date: 2013年12月13日
+  - :title: "[入門編] Ubuntu Serverとその他のサーバーOSを比較する"
+    :url: http://thinkit.co.jp/story/2014/01/15/4749
+    :date: 2014年1月15日
+  - :title: "[入門編] RHELユーザーが知っておきたい、Ubuntu Serverとのコマンド・サービスの違い"
+    :url: http://thinkit.co.jp/story/2014/01/16/4750
+    :date: 2014年1月16日
+  - :title: "[実践編] Ubuntu Serverをスケールアウト型サーバーに配備する（前編）"
+    :url: http://thinkit.co.jp/story/2014/03/12/4819
+    :date: 2014年3月12日
+  - :title: "[実践編] Ubuntu Serverをスケールアウト型サーバーに配備する（後編）"
+    :url: http://thinkit.co.jp/story/2014/03/13/4820
+    :date: 2014年3月13日
+  - :title: "[実践編] MaaSとJujuによるOSS配備、Ubuntu Serverの運用・管理（前編）"
+    :url: http://thinkit.co.jp/story/2014/03/25/4877
+    :date: 2014年3月25日
+  - :title: "[実践編] MaaSとJujuによるOSS配備、Ubuntu Serverの運用・管理（後編）"
+    :url: http://thinkit.co.jp/story/2014/03/26/4878
+    :date: 2014年3月26日
+  - :title: "[実践編] Ubuntu Serverの運用・管理、商用製品の利用メリットと今後の展望（前編）"
+    :url: http://thinkit.co.jp/story/2014/05/13/4933
+    :date: 2014年5月13日
+  - :title: "[実践編] Ubuntu Serverの運用・管理、商用製品の利用メリットと今後の展望（後編）"
+    :url: http://thinkit.co.jp/story/2014/05/14/4934
+    :date: 2014年5月14日
+- :url: http://thinkit.co.jp/book/2013/12/08/5470
+  :title: "リリースから2年経ったJBoss EAP 6の性能を検証してみる"
+  :description: "オープンソースのアプリケーションサーバであるJBoss Enterprise Application Platform  6（EAP）がリリースされてから、約2年経ちました。アップデートを重ねて現在は6.3となっており、本番環境での利用も着実に増えているように感じます。本連載ではJBoss
+    EAPとApache Tomcatについて、性能という観点から比較してみたいと思います。"
+  :tag: JBoss Enterprise Application Platform  6,EAP,.3,JBoss EAP,Apache Tomcat
+  :articles:
+  - :title: JBossの歴史と単体での性能比較
+    :url: http://thinkit.co.jp/story/2014/12/08/5471
+    :date: 2014年12月8日
+  - :title: JBossクラスタの概要と性能比較
+    :url: http://thinkit.co.jp/story/2014/12/24/5498
+    :date: 2014年12月24日
+- :url: http://thinkit.co.jp/book/2013/11/15/4678
+  :title: "システムを自動構築するためのOSSフレームワーク、Chefを使ってみよう！"
+  :description: SIerでシステム構築に携わってきた筆者は、コスト削減・設定ミスのリスク軽減のため自動化に取り組んできました。本連載では、システムの自動構築・運用フレームワークChefについて、概要や機能について説明した後、発展的な使い方としてネットワークブートやOSのサイレントインストールと組み合わせた自動構築方法をご紹介します。
+  :tag: SIer,Chef,OS
+  :articles:
+  - :title: Chef Serverを使って実際にベアメタルマシンへの自動構築を行う
+    :url: http://thinkit.co.jp/story/2014/01/22/4775
+    :date: 2014年1月22日
+  - :title: "レシピの作成を通してChefの具体的な使用イメージをつかもう"
+    :url: http://thinkit.co.jp/story/2013/12/20/4734
+    :date: 2013年12月20日
+  - :title: "大規模システム構築に求められる自動化とChefの基本的な考え方とは"
+    :url: http://thinkit.co.jp/story/2013/11/18/4679
+    :date: 2013年11月18日
+- :url: http://thinkit.co.jp/book/2013/11/07/5402
+  :title: "週刊OSSウォッチ"
+  :description: "このコーナーでは、日頃からオープンソースの動向に注目している筆者が、その週に起きた出来事、発表された内容をいくつかのトピックで紹介していきます。"
+  :tag: ''
+  :articles:
+  - :title: "オープンソースの今を伝える“週刊OSSウォッチ”スタート！"
+    :url: http://thinkit.co.jp/story/2014/11/07/5403
+    :date: 2014年11月7日
+  - :title: Hadoopの企業導入増加、コンテナ技術の利用促進、ビッグデータによるコスト削減など6トピック
+    :url: http://thinkit.co.jp/story/2014/11/14/5419
+    :date: 2014年11月14日
+  - :title: ".NET CoreのOSS化、Dockerコンテナを一元管理するサービスなど最新トピックを紹介"
+    :url: http://thinkit.co.jp/story/2014/11/21/5441
+    :date: 2014年11月21日
+  - :title: MozillaがGoogleとの検索提携を終了、開催が近づくOpenStack Days Tokyo 2015など5トピック
+    :url: http://thinkit.co.jp/story/2014/11/28/5444
+    :date: 2014年11月28日
+  - :title: CoreOS独自のコンテナランタイムRocketローンチ、MySQL互換DBのAmazon Aurora、Firefox 34、ほか
+    :url: http://thinkit.co.jp/story/2014/12/05/5465
+    :date: 2014年12月5日
+  - :title: Cloud Foundry Foundation創立に40社以上が参加、Docker Hub Enterprise発表、Cumulus Linux、ほか
+    :url: http://thinkit.co.jp/story/2014/12/12/5469
+    :date: 2014年12月12日
+  - :title: "クラウド最適化の軽量版Ubuntu Core発表、MongoDBがWiredTigerを買収、Fedora 21正式版リリース、ほか"
+    :url: http://thinkit.co.jp/story/2014/12/19/5497
+    :date: 2014年12月19日
+  - :title: OpenStack、Docker、Hadoop、SDN、.NET…、2014年のOSS動向をまとめて振り返る
+    :url: http://thinkit.co.jp/story/2014/12/26/5515
+    :date: 2014年12月26日
+  - :title: "テレビ搭載OS、Hadoop、NoSQL、OpenStack等々…、2015年注目のOSS動向を探る"
+    :url: http://thinkit.co.jp/story/2015/01/09/5527
+    :date: 2015年1月9日
+  - :title: "米トレジャーデータがVCから1,500万ドル調達、トップエンジニアが予測する2015年、Firefox 35リリース、ほか"
+    :url: http://thinkit.co.jp/story/2015/01/16/5542
+    :date: 2015年1月16日
+  - :title: Facebookがディープラーニング技術をオープンソースに、商用OpenStackの強化、IoT用Ubuntu Core、ほか
+    :url: http://thinkit.co.jp/story/2015/01/23/5557
+    :date: 2015年1月23日
+  - :title: glibcの脆弱性「GHOST」、ビッグデータ分析のPachyderm、バルクデータローダー「Embulk」、ほか
+    :url: http://thinkit.co.jp/story/2015/01/30/5578
+    :date: 2015年1月30日
+  - :title: OpenStack Days Tokyo 2015開催、米Mirantisが日本法人設立、転換期を迎えるOpenShift V3、ほか
+    :url: http://thinkit.co.jp/story/2015/02/06/5572
+    :date: 2015年2月6日
+  - :title: Dockerオーケストレーションツールが一般提供、OpenShift Commons設立、ほか
+    :url: http://thinkit.co.jp/story/2015/03/06/5654
+    :date: 2015年3月6日
+  - :title: Linuxを開発してるのは誰？、MicrosoftとAmazonのIoT版Ubuntu向けAPI、Firefox 36リリース、ほか
+    :url: http://thinkit.co.jp/story/2015/02/27/5653
+    :date: 2015年2月27日
+  - :title: Linux用OSSの人気ランキング一位は？FacebookらがGnuPGに資金提供 、TISがJobSchedulerのサポート開始、ほか
+    :url: http://thinkit.co.jp/story/2015/02/13/5615
+    :date: 2015年2月13日
+  - :title: "米PivotalがHortonworksと提携、「Node.js Foundation」設立、注目を集めるベアメタル、ほか"
+    :url: http://thinkit.co.jp/story/2015/02/20/5634
+    :date: 2015年2月20日
+- :url: http://thinkit.co.jp/book/2013/10/21/4571
+  :title: "モデリングツールから管理・開発統合環境に進化したMySQL Workbench 6.0"
+  :description: "MySQL管理・開発統合環境であるMySQL Workbenchの最新情報をご紹介します。旧来の以下の3つのツールを統合したMySQL
+    Workbench 5.xが、MySQL Utilitiesを加える形で進化し、新たにMySQL Workbench 6.0として生まれ変わりました。データベースのデザインとモデリング（旧:
+    MySQL Workbench）\n\tSQL開発（旧: MySQL Query Browser）\n\tデータベース管理（旧: MySQL Administrator）新バージョンの特徴や活用方法など最新情報をお知らせします。"
+  :tag: 'MySQL,MySQL Workbench,MySQL Workbench 5.x,MySQL Utilities,MySQL Workbench
+    6.0,: MySQL Workbench,SQL,: MySQL Query Browser,: MySQL Administrator'
+  :articles:
+  - :title: DBドキュメント出力とMEBのためのGUI、次期版6.1の新機能を紹介
+    :url: http://thinkit.co.jp/story/2014/04/04/4900
+    :date: 2014年4月4日
+  - :title: MySQL Workbench 6.0概略。まずはインストールしてDBにつないでみよう
+    :url: http://thinkit.co.jp/story/2013/10/21/4572
+    :date: 2013年10月21日
+  - :title: MySQL Workbenchを使ってデータモデリングを学んでみよう
+    :url: http://thinkit.co.jp/story/2014/01/14/4724
+    :date: 2014年1月14日
+  - :title: Pythonで作られた便利なコマンドラインツール MySQL Utilities
+    :url: http://thinkit.co.jp/story/2014/02/10/4814
+    :date: 2014年2月10日
+- :url: http://thinkit.co.jp/book/2013/10/18/4575
+  :title: "もう年度末に悩まない！予算管理OSS Budget Runnerを使った正しい予算管理のやり方とは"
+  :description: ''
+  :tag: OSS Budget Runner
+  :articles:
+  - :title: "予算入力や申請などの編成作業が簡単にできる「Budget Runner」とは"
+    :url: http://thinkit.co.jp/story/2013/10/29/4576
+    :date: 2013年10月29日
+  - :title: BudgetRunnerを使って実際に経費予算を作ってみよう
+    :url: http://thinkit.co.jp/story/2013/11/20/4660
+    :date: 2013年11月20日
+  - :title: "サンプルレポートを使って経費予実管理をしてみよう"
+    :url: http://thinkit.co.jp/story/2013/11/27/4661
+    :date: 2013年11月27日
+  - :title: "「BudgetRunner」の構成と導入方法"
+    :url: http://thinkit.co.jp/story/2013/12/17/4726
+    :date: 2013年12月17日
+- :url: http://thinkit.co.jp/book/2013/10/15/4635
+  :title: "今さら聞けないVPSの基礎知識と、運用のために欠かせないポイント"
+  :description: "つい数年前まで、インターネット上でサービスやコンテンツを公開するには、廉価な共用サーバー（ホスティングサービス）の契約をして限られた機能とリソースを利用するか、自社内もしくはデータセンターに高価な専用サーバーを設置して全ての機能とリソースを利用するか、のどちらかで行うのが一般的でした。近年のコンピュータ仮想化技術の急速な普及に伴い、比較的廉価ながらほぼ専用サーバーと同様に利用できる「VPS（Virtual
+    Private Server：仮想専用サーバー）」が多くの事業者から提供されてきています。本連載ではこのVPSの特徴とその活用方法について解説していきます。"
+  :tag: VPS,Virtual Private Server
+  :articles:
+  - :title: "共用サーバーと専用サーバー双方のメリットを合わせ持つ VPSの基礎知識"
+    :url: http://thinkit.co.jp/story/2013/10/15/4630
+    :date: 2013年10月15日
+  - :title: VPSサービスが提供する多くの機能の中で、最低限押さえておきたいチェックポイントとは
+    :url: http://thinkit.co.jp/story/2013/11/20/4652
+    :date: 2013年11月20日
+- :url: http://thinkit.co.jp/book/2013/10/11/4175
+  :title: "どこまでできる？新米秘書の情報セキュリティ日記"
+  :description: "私は、某和菓子メーカーで秘書として採用されて2年目の新米秘書：土屋ひろみ。友人の間では「ろみ」と呼ばれている。この一年間、代表の仕事を支え、国内外の様々な会社の役員さんとも交流を深めてきた。仕事の流れも自分なりに理解し、サポート業務もスムーズにこなせるようになっていたつもりだった。そう、あの日までは・・・。 "
+  :tag: ''
+  :articles:
+  - :title: IT業界入りたての私に襲いかかる、CISOという名の試練
+    :url: http://thinkit.co.jp/story/2013/10/11/4186
+    :date: 2013年10月11日
+- :url: http://thinkit.co.jp/book/2013/10/10/4496
+  :title: "新世代モーションコントローラー Leap Motion -Visual Basicによる実践プログラミング-"
+  :description: 2013年7月に発売されたLeap Motionは、PCなどの機器に直接に触れることなく、主に手を使ったジェスチャーで操作ができるモーションコントローラーです。マイクロソフト社のKinectと同様、自分でアプリを開発することもできるため、エンジニアの間でも注目のデバイスです。 今回は、そのLeap
+    Motionのサンプルプログラミングを10回にわたって解説します。長丁場になりますが、読者の皆さんを飽きさせない、面白いサンプルプログラミングの開発方法を解説していきたいと思います。お付き合いのほどよろしくお願いいたします。 この連載は、Leap
+    Motionを実際に持っている方が対象です。しかし、Leap Motionを持っていなくても、この連載で、Leap Motionを使うと、どのようなことができるのかの参考にはなると思います。
+  :tag: Leap Motion,PC,Kinect
+  :articles:
+  - :title: "画面上の図形を5本の指で操作する基本的なLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/10/10/4497
+    :date: 2013年10月10日
+  - :title: Leap Motionのスクリーン・タップを使った音声の再生と画像の表示
+    :url: http://thinkit.co.jp/story/2013/10/17/4632
+    :date: 2013年10月17日
+  - :title: "手の動きに合わせて画面上のキャラクターを操作するLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/11/06/4666
+    :date: 2013年11月6日
+  - :title: Leap Motionで画像のトリミングと保存を行うためのサンプルプログラムを作る
+    :url: http://thinkit.co.jp/story/2013/11/08/4669
+    :date: 2013年11月8日
+  - :title: "マウス・カーソルで指定した画像の一部を拡大表示するLeap Motionプログラム"
+    :url: http://thinkit.co.jp/story/2013/11/11/4674
+    :date: 2013年11月11日
+  - :title: "張子の虎をキー・タップすると頭が上下に動くLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/11/14/4683
+    :date: 2013年11月14日
+  - :title: "選択した画像を指の動きに合わせて回転させるLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/11/27/4686
+    :date: 2013年11月27日
+  - :title: "写真を突っついて一覧から削除、並び替えするLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/12/02/4704
+    :date: 2013年12月2日
+  - :title: "好きな写真を指で選んで順番に拡大表示するLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/12/06/4719
+    :date: 2013年12月6日
+  - :title: "画面に並んだ写真が指の動きに反応して回転するLeap Motionプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/12/05/4713
+    :date: 2013年12月5日
+- :url: http://thinkit.co.jp/book/2013/10/09/4484
+  :title: "世界で最も使われているOSSデータベース、MySQLの最新事情"
+  :description: MySQL、MySQL関連製品の最新情報をご紹介します。2013年には、MySQLサーバの最新バージョンであるMySQL 5.6だけでなく、MySQL
+    Cluster 7.3、MySQL Workbench 6.0、MySQL Enterprise Monitor 3.0、MySQL 5.7 DMR（開発途上版）と、続々と新バージョンをリリースしています。これらの新バージョンの特徴や利点など、最新情報を解説します。
+  :tag: MySQL,MySQL 5.6,MySQL Cluster 7.3,MySQL Workbench 6.0,MySQL Enterprise Monitor
+    3.0,MySQL 5.7 DMR
+  :articles:
+  - :title: MySQL Connect 2013でも発表されたMySQLの最新リリースと、関連ツールの基礎知識
+    :url: http://thinkit.co.jp/story/2013/10/09/4485
+    :date: 2013年10月9日
+  - :title: MySQL 5.6での機能強化点（その1）  - パフォーマンスと使い勝手を大きく向上
+    :url: http://thinkit.co.jp/story/2013/11/19/4670
+    :date: 2013年11月19日
+  - :title: MySQL 5.6での機能強化点（その2）  - NoSQL APIとパフォーマンス・スキーマ
+    :url: http://thinkit.co.jp/story/2014/01/08/4716
+    :date: 2014年1月8日
+  - :title: MySQL 5.6での機能強化点（その3）- 人気のレプリケーションが更に機能強化
+    :url: http://thinkit.co.jp/story/2014/01/23/4717
+    :date: 2014年1月23日
+  - :title: MySQL Cluster：NoSQL＋SQL、NoSQLも使える高可用性インメモリRDBMS
+    :url: http://thinkit.co.jp/story/2014/02/25/4822
+    :date: 2014年2月25日
+  - :title: MySQL Enterprise Monitor 3.0：MySQLの運用監視ツール
+    :url: http://thinkit.co.jp/story/2014/03/28/4891
+    :date: 2014年3月28日
+  - :title: "高可用性とデータ・シャーディングを実現できるMySQL Fabricとは？"
+    :url: http://thinkit.co.jp/story/2014/09/17/5245
+    :date: 2014年9月17日
+- :url: http://thinkit.co.jp/book/2013/10/01/4498
+  :title: Excel使用をそのままに、本格クラウド利用を実現する。
+  :description: "最近、クラウドファーストという言葉が使われるようになっています。クラウドファーストは、システムの導入・構築に際して、「まずクラウドでできないかを検討し、それが困難な場合にはオンプレミスでの構築を検討する」という考え方です。 しかし、実際に中小の会社などの担当者からよく聞かれるのは、業務内容をクラウドに移行するのは、「まだ不安がある」、或いは「クラウドはやってみたいが技術面での敷居が高い」といったような言葉です。確かに、中小の一般的な企業担当者の多くは、業務システムもクラウド移行を目指すべきと言われても、不安を感じる会社も多いかもしれません。 本連載では、いきなり本格的なクラウドへの移行を行うのではなく、難易度の低いレベルから本格的なクラウドへと、2ステップでクラウド移行を実現するシナリオを紹介したいと思います。"
+  :tag: ''
+  :articles:
+  - :title: "クラウドをより身近に！Google Driveを使った業務データ移行入門"
+    :url: http://thinkit.co.jp/story/2013/10/01/4472
+    :date: 2013年10月1日
+  - :title: Google AppとApp Engineの準備・設定を完了する
+    :url: http://thinkit.co.jp/story/2013/10/23/4491
+    :date: 2013年10月23日
+  - :title: AppsのスプレッドシートデータをApp Engineから読み取る
+    :url: http://thinkit.co.jp/story/2013/11/13/4639
+    :date: 2013年11月13日
+  - :title: App Engineから読み取ったデータの書き込みと、スプレッドシートのUIで表示する処理
+    :url: http://thinkit.co.jp/story/2013/11/28/4700
+    :date: 2013年11月28日
+  - :title: AppsスプレッドシートとApp Engineのデータ交換を完成させる
+    :url: http://thinkit.co.jp/story/2013/12/24/4710
+    :date: 2013年12月24日
+- :url: http://thinkit.co.jp/book/2013/08/20/4209
+  :title: "増え続けるデータトラフィックに対応する次世代イーサネットサービスとは"
+  :description: "インターネットサービスプロバイダのバックボーン、データセンターにおけるトラフィックが急激に増加しており、100Gイーサネットの導入を検討する企業が増えています。今回のシリーズ記事を通じて、これまでのイーサネットサービスの歴史などを振り返りながら、今日需要が高まっている100
+    Gイーサネットの技術的な概要や課題について解説します。"
+  :tag: ''
+  :articles:
+  - :title: 100Gイーサネット回線とは　- 1G/10Gイーサネットとの違い -
+    :url: http://thinkit.co.jp/story/2013/09/04/4216
+    :date: 2013年9月4日
+  - :title: 100Gイーサネット回線の利用例、今後の期待と課題
+    :url: http://thinkit.co.jp/story/2013/10/04/4471
+    :date: 2013年10月4日
+  - :title: "トラフィック傾向と現在の問題点、解決策としての100Gイーサネット回線"
+    :url: http://thinkit.co.jp/story/2013/08/20/4210
+    :date: 2013年8月20日
+- :url: http://thinkit.co.jp/book/2013/07/31/4189
+  :title: Café Per me/Da me ～オトナを楽しむモテ料理～
+  :description: "エンジニアの皆さんは、どんな休日を過ごしているだろうか。忙しい日常の息抜きとして外出したり、家族や恋人と余暇を楽しんでいたり、あるいは休日も自らを高めるため、セミナーなどに参加するなど様々だと思う。 日本マイクロソフト株式会社でチーフセキュリティアドバイザーを務める高橋正和さんは、自身のダイエットをきっかけに食に興味を持ち、自宅でワインを楽しむための料理を作るようになった。いつしか家族にも評判となり、現在は週末の料理を担当している。 この連載では、そんな高橋さんが作る料理のレシピを紹介していく。自分のため、大切な人のためなど、理由は様々だが、料理を始めたいと考える人に、気軽に読んでもらえれば幸いだ。"
+  :tag: ''
+  :articles:
+  - :title: "休日に作りたい料理「和の食材で作るイタリアン」レシピ紹介"
+    :url: http://thinkit.co.jp/story/2014/01/02/4671
+    :date: 2014年1月2日
+  - :title: "休日に作りたい料理「夏を爽やかにパワフルに」レシピ紹介"
+    :url: http://thinkit.co.jp/story/2013/08/02/4191
+    :date: 2013年8月2日
+  - :title: "休日に作りたい料理「夏野菜を楽しもう」レシピ紹介"
+    :url: http://thinkit.co.jp/story/2013/08/31/4218
+    :date: 2013年8月31日
+  - :title: "休日に作りたい料理「食欲の秋をお手軽に」レシピ紹介"
+    :url: http://thinkit.co.jp/story/2013/10/12/4287
+    :date: 2013年10月12日
+- :url: http://thinkit.co.jp/book/2013/07/18/4170
+  :title: JBoss Data Grid入門　-インストールからチューニングまで-
+  :description: ''
+  :tag: JBoss Data Grid
+  :articles:
+  - :title: NoSQL/KVSあれこれ：Red Hat JBoss Data Gridとは
+    :url: http://thinkit.co.jp/story/2013/07/18/4171
+    :date: 2013年7月19日
+  - :title: "企業向けデータグリッド：Red Hat JBoss Data Gridの特徴"
+    :url: http://thinkit.co.jp/story/2013/07/31/4180
+    :date: 2013年7月31日
+  - :title: JBoss Data Gridを使ってみる：インストール編
+    :url: http://thinkit.co.jp/story/2013/08/08/4193
+    :date: 2013年8月8日
+  - :title: JBoss Data Gridを使ってみる：Hot Rod API編
+    :url: http://thinkit.co.jp/story/2013/08/27/4230
+    :date: 2013年8月27日
+  - :title: JBoss Data Gridを監視してみよう
+    :url: http://thinkit.co.jp/story/2013/09/11/4261
+    :date: 2013年9月11日
+  - :title: JBoss Data Gridをライブラリモードで使ってみよう
+    :url: http://thinkit.co.jp/story/2013/09/19/4260
+    :date: 2013年9月19日
+  - :title: JBoss Data Gridの構成とチューニングポイント
+    :url: http://thinkit.co.jp/story/2013/10/24/4634
+    :date: 2013年10月24日
+- :url: http://thinkit.co.jp/book/2013/07/11/4168
+  :title: "はじめてのRaspberry Pi"
+  :description: ''
+  :tag: Raspberry Pi
+  :articles:
+  - :title: 1台わずか25ドル! イギリス生まれの超小型ボードPC「Raspberry Pi」 前編
+    :url: http://thinkit.co.jp/story/2013/07/12/4160
+    :date: 2013年7月12日
+  - :title: 1台わずか25ドル! イギリス生まれの超小型ボードPC「Raspberry Pi」 後編
+    :url: http://thinkit.co.jp/story/2013/07/16/4161
+    :date: 2013年7月16日
+  - :title: Raspberry PiとNode.jsで作る独立稼働モバイルサーバ
+    :url: http://thinkit.co.jp/story/2013/08/22/4206
+    :date: 2013年8月22日
+  - :title: "イントロダクションRaspberry Pi ―仕様説明からセットアップまで 前編"
+    :url: http://thinkit.co.jp/story/2013/08/06/4162
+    :date: 2013年8月6日
+  - :title: "イントロダクションRaspberry Pi ―仕様説明からセットアップまで 後編"
+    :url: http://thinkit.co.jp/story/2013/08/08/4163
+    :date: 2013年8月8日
+- :url: http://thinkit.co.jp/book/2013/06/24/4134
+  :title: GPSや写真を応用したアプリ作りのためのサンプルプログラム集
+  :description: "機動力重視のPCと言えば、やはりノートPCですが、最近ではスマートフォンにもPCと同等の機能を持っていたり、タブレットを1台持っていれば事が足りてしまう場合が増えてきました。むしろ軽い上にGPSなどの機能が付属するタブレットの方が役に立つ場合もあります。連載では、そんなタブレットPCが活躍する、GPSやタッチ機能を重視したWindowsストアアプリ作成のコツを伝授します。"
+  :tag: PC,GPS,Windows
+  :articles:
+  - :title: PCで撮影した写真を並べて最適な1枚を選べるプログラムをつくる
+    :url: http://thinkit.co.jp/story/2013/09/12/4249
+    :date: 2013年9月12日
+  - :title: Webカメラで撮影した写真をセピア調に演出するアプリを作る
+    :url: http://thinkit.co.jp/story/2013/09/02/4247
+    :date: 2013年9月2日
+  - :title: Yahoo!ローカルサーチAPIを使って地図上にランドマークを表示させるプログラムを作る
+    :url: http://thinkit.co.jp/story/2013/09/20/4277
+    :date: 2013年9月20日
+  - :title: "ちょっとした英訳を知りたい時に使える、デ辞蔵のREST APIを使った和英辞典プログラム"
+    :url: http://thinkit.co.jp/story/2013/09/27/4282
+    :date: 2013年9月27日
+  - :title: "タブレットPCの加速度センサーを使って目的の画像を直感的に探せるプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/09/30/4285
+    :date: 2013年9月30日
+  - :title: "写真と現在位置を入れた画像日記アプリを作る"
+    :url: http://thinkit.co.jp/story/2013/08/28/4228
+    :date: 2013年8月28日
+  - :title: "婚活に使えるお見合いパーティ検索アプリを作る"
+    :url: http://thinkit.co.jp/story/2013/08/01/4197
+    :date: 2013年8月1日
+  - :title: "撮影した写真の管理ができるマイフォトアプリを作る"
+    :url: http://thinkit.co.jp/story/2013/08/30/4245
+    :date: 2013年8月30日
+  - :title: "楽天の商品カテゴリから商品を検索できるプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/08/21/4226
+    :date: 2013年8月21日
+  - :title: "現在位置の近くにある宿を検索するサンプルプログラム"
+    :url: http://thinkit.co.jp/story/2013/06/27/4145
+    :date: 2013年6月27日
+  - :title: "現在位置近くの病院を素早く検索するサンプルプログラム"
+    :url: http://thinkit.co.jp/story/2013/06/28/4146
+    :date: 2013年6月28日
+  - :title: "緊急時に対応する救急指定病院の検索アプリを作る"
+    :url: http://thinkit.co.jp/story/2013/08/15/4219
+    :date: 2013年8月15日
+  - :title: "自分の現在位置を取得して表示するサンプルプログラム"
+    :url: http://thinkit.co.jp/story/2013/06/26/4142
+    :date: 2013年6月26日
+- :url: http://thinkit.co.jp/book/2013/06/21/4136
+  :title: Windowsストアアプリを申請するには？
+  :description: ''
+  :tag: Windows
+  :articles:
+  - :title: "これでリジェクトされない！Windowsストアアプリ申請のポイント"
+    :url: http://thinkit.co.jp/story/2013/06/24/4137
+    :date: 2013年6月24日
+- :url: http://thinkit.co.jp/book/2013/06/04/4113
+  :title: "五十嵐先生の情報処理技術者試験 ウェブ特訓道場"
+  :description: IT技術者としての知識やスキルの習得度合いを認定する国家資格「情報処理技術者試験」。エントリーから高度まで，その試験の傾向を分析しながら，本気で合格を目指す人のための攻略法について解説していく連載です。
+  :tag: IT
+  :articles:
+  - :title: "「ITパスポート」「基本情報技術者」「応用情報技術者」各試験の特性を知る"
+    :url: http://thinkit.co.jp/story/2013/06/10/4114
+    :date: 2013年6月10日
+  - :title: "ラストスパート！「基本情報」「応用情報」「情報セキュリティスペシャリスト」の効率的な午前試験対策とは"
+    :url: http://thinkit.co.jp/story/2013/09/25/4281
+    :date: 2013年9月25日
+  - :title: "今始めないと間に合わない午後試験対策！「基本情報」「応用情報」「情報セキュリティスペシャリスト」"
+    :url: http://thinkit.co.jp/story/2013/07/23/4174
+    :date: 2013年7月23日
+  - :title: "出題傾向を分析して備える！「情報セキュリティスペシャリスト」「データベーススペシャリスト」対策"
+    :url: http://thinkit.co.jp/story/2014/01/30/4780
+    :date: 2014年1月30日
+  - :title: "基本情報技術者試験（FE）を攻略しよう『アルゴリズム対策』"
+    :url: http://thinkit.co.jp/story/2013/11/26/4694
+    :date: 2013年11月26日
+  - :title: "応用情報技術者試験（AP）の午後攻略テーマ選びと『情報セキュリティ』対策"
+    :url: http://thinkit.co.jp/story/2013/12/26/4748
+    :date: 2013年12月26日
+  - :title: "情報処理技術者試験のエントリー資格「ITパスポート」を攻略する"
+    :url: http://thinkit.co.jp/story/2013/10/25/4646
+    :date: 2013年10月25日
+  - :title: "教科書には載っていない午後試験対策「基本情報技術者」「ネットワークセキュリティスペシャリスト」"
+    :url: http://thinkit.co.jp/story/2013/08/26/4232
+    :date: 2013年8月26日
+  - :title: "直前！基本情報の本試験形式の練習問題で試験に慣れよう！"
+    :url: http://thinkit.co.jp/story/2014/03/14/4871
+    :date: 2014年3月14日
+  - :title: "直前！応用情報の本試験形式の練習問題で試験に慣れよう！"
+    :url: http://thinkit.co.jp/story/2014/03/24/4896
+    :date: 2014年3月24日
+- :url: http://thinkit.co.jp/book/2013/04/19/4059
+  :title: Windows Storeアプリ開発で今覚えておきたいTips10選+α
+  :description: ''
+  :tag: Windows Store,Tips10
+  :articles:
+  - :title: APIを使って土地の公示価格を調べるプログラムを作る
+    :url: http://thinkit.co.jp/story/2013/06/12/4123
+    :date: 2013年6月12日
+  - :title: Webカメラの動画を保存して再生するアプリを作る
+    :url: http://thinkit.co.jp/story/2013/06/07/4115
+    :date: 2013年6月7日
+  - :title: Windows 8のタイルに地震情報を表示するプログラムを作る
+    :url: http://thinkit.co.jp/story/2013/04/22/4062
+    :date: 2013年4月22日
+  - :title: Windows8のストア画面で手軽に時計を表示するサンプル
+    :url: http://thinkit.co.jp/story/2013/04/19/4060
+    :date: 2013年4月19日
+  - :title: "お気に入りの写真に登場する、仲良しクラウディアちゃん"
+    :url: http://thinkit.co.jp/story/2013/06/11/4120
+    :date: 2013年6月11日
+  - :title: "お花とクラウディアさんを合成して表示するプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/05/08/4074
+    :date: 2013年5月8日
+  - :title: "デスクトップのクラウディアさんが声で励ましてくれるプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/05/07/4073
+    :date: 2013年5月7日
+  - :title: "世界の観光地情報を眺めるサンプルプログラム"
+    :url: http://thinkit.co.jp/story/2013/06/19/4127
+    :date: 2013年6月14日
+  - :title: "住所から郵便番号を検索できるプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/05/16/4083
+    :date: 2013年5月16日
+  - :title: "国内ニュースの取得・表示と、人名から画像検索を行う2つのサンプルをつくる"
+    :url: http://thinkit.co.jp/story/2013/06/04/4109
+    :date: 2013年6月4日
+  - :title: "場所と写真を記録するプログラムを作って思い出のシーンを保存しよう"
+    :url: http://thinkit.co.jp/story/2013/06/03/4107
+    :date: 2013年6月3日
+  - :title: "観たいジャンルの動画一覧をタイルに表示するプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/04/25/4068
+    :date: 2013年4月25日
+  - :title: "青空文庫を検索して目的の作品を探すプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/05/17/4086
+    :date: 2013年5月17日
+  - :title: "音声を録音してライブラリに保存するプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/06/06/4112
+    :date: 2013年6月6日
+- :url: http://thinkit.co.jp/book/2013/04/18/4050
+  :title: Business UXという考え方
+  :description: "韓国でトップシェアを持つUXソリューションプロバイダーのトゥービーソフト社は、3年前に日本に上陸後、日本を代表する大手企業を中心に業務システムでUX（ユーザー・エクスペリエンス）を実現してきました。UXの注目度が向上し、ビジネスも本格的に動き始めた今、エンジニアの皆さまに情報システム部門の方にビジネスUXの概要、プロジェクトの運営方法、国内外の事例や検討のポイントなどをお伝えしていきます。"
+  :tag: UX
+  :articles:
+  - :title: UIとUXとの違い、そしてビジネスUXとは何か？
+    :url: http://thinkit.co.jp/story/2013/04/17/4051
+    :date: 2013年4月17日
+  - :title: UX導入の舞台裏。システム面ではどのように検討して進めたか　〜北陸コカ･コーラボトリング株式会社検討事例〜
+    :url: http://thinkit.co.jp/story/2013/10/18/4481
+    :date: 2013年10月18日
+  - :title: "コマツ教習所株式会社のUX採用事例　〜操作性の向上と業務のシステム化範囲の拡大〜"
+    :url: http://thinkit.co.jp/story/2013/09/05/4182
+    :date: 2013年9月5日
+  - :title: "システムの観点から語る‘UXデザインの設計原則’"
+    :url: http://thinkit.co.jp/story/2014/01/21/4772
+    :date: 2014年1月21日
+  - :title: "ビジネスUXの投資効果とは？　〜採用で向上する生産性を数値で評価する"
+    :url: http://thinkit.co.jp/story/2013/05/14/4065
+    :date: 2013年5月14日
+  - :title: "ビジネスUXの波　〜業務システムが使いやすければ、生産性が上がり、利益体質を築きやすくなる〜"
+    :url: http://thinkit.co.jp/story/2014/01/29/4489
+    :date: 2014年1月29日
+  - :title: "ビジネスUXを効果的に導入するための4つのステップとは？"
+    :url: http://thinkit.co.jp/story/2013/06/06/4077
+    :date: 2013年6月6日
+  - :title: "ワンソース・マルチユース&UXソリューション最前線　〜TOBESOFTセミナー・レポート〜"
+    :url: http://thinkit.co.jp/story/2014/01/31/4794
+    :date: 2014年1月31日
+- :url: http://thinkit.co.jp/book/2013/03/07/3990
+  :title: "見える化だけで大丈夫？～性能監視から始まるアクションのための情報収集～"
+  :description: "死活監視が「生きているか死んでいるか」というデジタルな判断だとすれば、性能監視は「どのくらいのパフォーマンスが出ているか」を無段階のアナログで判断する手法だと言えるだろう。死んでいたら大問題なのは当然だが、生きていればそれで良いというわけではない。「元気いっぱい」なのか「息も絶え絶え」なのか、サービスレベルの維持という観点からはより踏み込んだ判断が必要になる。このための基本情報となるのが、性能監視によって得られる詳細な性能情報だ。"
+  :tag: ''
+  :articles:
+  - :title: "システムの現状把握を欠かさないために必要なアクションとは"
+    :url: http://thinkit.co.jp/story/2013/03/07/3991
+    :date: 2013年3月7日
+  - :title: "システムトラブルを招く3つの原因とその対策を考える"
+    :url: http://thinkit.co.jp/story/2013/03/21/4005
+    :date: 2013年3月21日
+  - :title: "仮想化の導入だけではコスト削減を実現できない！？"
+    :url: http://thinkit.co.jp/story/2013/03/28/4022
+    :date: 2013年3月28日
+- :url: http://thinkit.co.jp/book/2013/02/19/3975
+  :title: "エンジニアの本棚"
+  :description: "最新書籍からの抜粋や、キャンペーン情報など、ITエンジニア向け書籍に関する情報をお届けします。"
+  :tag: IT
+  :articles:
+  - :title: Windowsストアアプリデザインの実例
+    :url: http://thinkit.co.jp/story/2013/02/20/3967
+    :date: 2013年2月20日
+  - :title: Zabbix統合監視徹底活用 ~複雑化・大規模化するインフラの一元管理
+    :url: http://thinkit.co.jp/story/2014/04/17/4946
+    :date: 2014年4月17日
+  - :title: "「Web制作者のためのCSS設計の教科書」を読んでみました"
+    :url: http://thinkit.co.jp/story/2014/08/19/5186
+    :date: 2014年8月19日
+- :url: http://thinkit.co.jp/book/2013/02/01/3944
+  :title: Windows 8 Store Applicationプログラミング（応用編）
+  :description: ''
+  :tag: Windows 8 Store Application
+  :articles:
+  - :title: Bing Maps上に地震の震源地を表示するプログラムを作る
+    :url: http://thinkit.co.jp/story/2013/02/20/3971
+    :date: 2013年2月20日
+  - :title: Bing Maps上の好きな場所をマークして情報を表示するプログラムを作る
+    :url: http://thinkit.co.jp/story/2013/02/28/3983
+    :date: 2013年2月28日
+  - :title: ListBoxに表示された画像をポップアップメニューから削除する+1つのサンプル
+    :url: http://thinkit.co.jp/story/2013/02/08/3957
+    :date: 2013年2月8日
+  - :title: TwitterとFacebookへの同時投稿を行う（前編）
+    :url: http://thinkit.co.jp/story/2013/03/29/4026
+    :date: 2013年3月29日
+  - :title: TwitterとFacebookへの同時投稿を行う（後編）
+    :url: http://thinkit.co.jp/story/2013/04/02/4030
+    :date: 2013年4月2日
+  - :title: Webカメラの動画を保存し、再生するためのアプリケーションサンプル
+    :url: http://thinkit.co.jp/story/2013/03/19/4014
+    :date: 2013年3月19日
+  - :title: "ポップアップメニューから各種コントロールを表示する"
+    :url: http://thinkit.co.jp/story/2013/02/01/3945
+    :date: 2013年2月1日
+  - :title: "メッセージボックスの処理を分岐させる+2つのサンプル"
+    :url: http://thinkit.co.jp/story/2013/03/26/4019
+    :date: 2013年3月26日
+  - :title: "楽天の商品検索APIを使って、商品のジャンル別検索を行う"
+    :url: http://thinkit.co.jp/story/2013/03/13/4002
+    :date: 2013年3月13日
+  - :title: "画像のドラッグ、移動、回転、拡大縮小を行う+1つのサンプル"
+    :url: http://thinkit.co.jp/story/2013/03/08/4000
+    :date: 2013年3月8日
+  - :title: "画像の任意の部分をトリミングして保存するプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/02/13/3955
+    :date: 2013年2月13日
+  - :title: "画像を円形にトリミングして表示・保存するプログラムを作る"
+    :url: http://thinkit.co.jp/story/2013/02/15/3963
+    :date: 2013年2月15日
+  - :title: "選択した画像を拡大表示してアニメーションさせる+1つのサンプル"
+    :url: http://thinkit.co.jp/story/2013/03/22/4017
+    :date: 2013年3月22日
+  - :title: "顔認識APIを使って写真に黒縁メガネをかける"
+    :url: http://thinkit.co.jp/story/2013/03/15/4007
+    :date: 2013年3月15日
+- :url: http://thinkit.co.jp/book/2013/01/22/3930
+  :title: 2013年新春特別企画
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: "あの会社の年賀状を紹介！2013（前編）"
+    :url: http://thinkit.co.jp/story/2013/01/24/3929
+    :date: 2013年1月24日
+  - :title: "あの会社の年賀状を紹介！2013（後編）"
+    :url: http://thinkit.co.jp/story/2013/01/29/3931
+    :date: 2013年1月29日
+- :url: http://thinkit.co.jp/book/2013/01/17/3918
+  :title: eXcaleで始めるNode.js
+  :description: "注目を集めるNode.jsを使ったWebアプリケーションの開発と、それを国産PaaSである「eXcale」にデプロイし公開する方法を解説します。"
+  :tag: Node.js,Web,PaaS,eXcale
+  :articles:
+  - :title: Node.jsとExpress.jsで開発したWebアプリをeXcaleで動かす
+    :url: http://thinkit.co.jp/story/2013/01/17/3919
+    :date: 2013年1月17日
+  - :title: Socket.IOを使ってNode.jsでリアルタイムWebアプリを開発する
+    :url: http://thinkit.co.jp/story/2013/03/27/4003
+    :date: 2013年3月27日
+  - :title: expressで開発したWebアプリをeXcaleで動かす
+    :url: http://thinkit.co.jp/story/2013/01/30/3939
+    :date: 2013年1月30日
+- :url: http://thinkit.co.jp/book/2013/01/08/3907
+  :title: Windows 8 Tips集
+  :description: Windows 8は、新しいインターフェースによって別物になってしまったかに見える。しかし、ほとんどの機能は従来と変わらずに残されている。ここでは、Windows
+    8のそうした機能が便利に使えるような設定のコツを紹介していこう。
+  :tag: Windows 8
+  :articles:
+  - :title: "マウスポインター操作に関するWindows 8のカスタマイズ"
+    :url: http://thinkit.co.jp/story/2013/01/08/3909
+    :date: 2013年1月8日
+- :url: http://thinkit.co.jp/book/2013/01/01/5351
+  :title: "イベント・セミナー2013"
+  :description: 2013年に開催されたイベントやセミナーの様子を紹介します。
+  :tag: ''
+  :articles:
+  - :title: 1700名もの参加者が明星大学に集うOSSの祭典！OSC東京レポート
+    :url: http://thinkit.co.jp/story/2013/03/07/3998
+    :date: 2013年3月7日
+  - :title: 7年ぶりの新型レゴ マインドストームEV3を手にとって体験しよう
+    :url: http://thinkit.co.jp/story/2013/05/28/4101
+    :date: 2013年5月28日
+  - :title: CloudStackの最新アップデートやジョブ管理OSSによるDevOps紹介　- オープンソースカンファレンス2013 Tokyo/Fall
+      -
+    :url: http://thinkit.co.jp/story/2013/11/02/4648
+    :date: 2013年11月2日
+  - :title: Facebookのデータセンターやビジネス活用の進むOSSなどを紹介　- オープンソースカンファレンス2013 Hokkaido -
+    :url: http://thinkit.co.jp/story/2013/09/28/4474
+    :date: 2013年9月28日
+  - :title: MongoDB Tokyo 2013で語られた、NoSQLを上手に使うためのポイントとは
+    :url: http://thinkit.co.jp/story/2013/12/27/4744
+    :date: 2013年12月27日
+  - :title: PostgreSQLエンタープライズコンソーシアムが発足初年度活成果を発表
+    :url: http://thinkit.co.jp/story/2013/04/23/4067
+    :date: 2013年4月23日
+  - :title: Pythonデベロッパがサンタクララに集結！PyCon US レポート
+    :url: http://thinkit.co.jp/story/2013/03/28/4024
+    :date: 2013年3月28日
+  - :title: RHEL7を一足先にキャッチアップ！ -レッドハット・フォーラム 2013-
+    :url: http://thinkit.co.jp/story/2013/12/09/4718
+    :date: 2013年12月9日
+  - :title: Rubyは儲かる？「Ruby＆Rails BIZcon2013」レポート
+    :url: http://thinkit.co.jp/story/2013/09/17/4271
+    :date: 2013年9月17日
+  - :title: Think ITチームが準優勝を手にした「RCサッカー」ってどんな競技？
+    :url: http://thinkit.co.jp/story/2013/03/15/4010
+    :date: 2013年3月15日
+  - :title: iPadと正反対の哲学を持つ新ハードenchantMOONの魅力とは
+    :url: http://thinkit.co.jp/story/2013/04/26/4071
+    :date: 2013年4月26日
+  - :title: "とんがったデータベースエンジニアになれ！ db tech showcase 東京 2013レポート"
+    :url: http://thinkit.co.jp/story/2013/11/28/4702
+    :date: 2013年11月28日
+  - :title: "オープンソースカンファレンスに行こう！OSC浜松、OSC福岡レポート"
+    :url: http://thinkit.co.jp/story/2013/02/21/3976
+    :date: 2013年2月21日
+  - :title: "キャノンソフトウェアセミナー 〜ツールを活用したユーザー参加型「内製化」のススメ"
+    :url: http://thinkit.co.jp/story/2013/07/08/4157
+    :date: 2013年7月8日
+  - :title: "クラウドやビッグデータを使った最先端農業の仕組みに迫る"
+    :url: http://thinkit.co.jp/story/2013/05/30/4105
+    :date: 2013年5月30日
+  - :title: "データ分析エンジニア対象「BIGDATAダッシュボード勉強会」レポート"
+    :url: http://thinkit.co.jp/story/2013/08/29/4240
+    :date: 2013年8月29日
+  - :title: "ビジネスでオープンソースのさらなる活用を！　- オープンソースカンファレンス2013.Enterprise -"
+    :url: http://thinkit.co.jp/story/2013/12/16/4729
+    :date: 2013年12月16日
+  - :title: "世界的に普及している高機能CMS、Drupal　- 国内コミュニティメンバーが次バージョンや最新情報を紹介 -"
+    :url: http://thinkit.co.jp/story/2013/10/31/4658
+    :date: 2013年10月31日
+  - :title: "夏の暑さに負けない、オープンソースカンファレンス2013Kansai/Kyoto"
+    :url: http://thinkit.co.jp/story/2013/08/15/4223
+    :date: 2013年8月15日
+  - :title: "新型マインドストームEV3が彩るアイデアロボットの競演「ロボTRY」決勝イベントレポート"
+    :url: http://thinkit.co.jp/story/2013/12/11/4723
+    :date: 2013年12月11日
+  - :title: "日本人エンジニアが起業した米トレジャーデータのクラウド型ビッグデータ基盤技術とは"
+    :url: http://thinkit.co.jp/story/2013/05/22/4096
+    :date: 2013年5月22日
+  - :title: "未来のエンジニアが海外で健闘！ロボットコンテスト国際大会レポート"
+    :url: http://thinkit.co.jp/story/2013/12/26/4738
+    :date: 2013年12月26日
+  - :title: "次世代エンジニアはここから生まれる！？ロボットオリンピックWROの新たな挑戦とは"
+    :url: http://thinkit.co.jp/story/2013/07/04/4155
+    :date: 2013年7月4日
+  - :title: "第22回ソフトウェア開発環境展レポート（1）"
+    :url: http://thinkit.co.jp/story/2013/05/23/4089
+    :date: 2013年5月23日
+  - :title: "第22回ソフトウェア開発環境展レポート（2）"
+    :url: http://thinkit.co.jp/story/2013/05/24/4090
+    :date: 2013年5月24日
+- :url: http://thinkit.co.jp/book/2012/12/06/3870
+  :title: Amazon Web Servicesの勘所
+  :description: ''
+  :tag: Amazon Web Services
+  :articles:
+  - :title: Amazon EC2を管理コンソールから操作してみよう
+    :url: http://thinkit.co.jp/story/2013/02/14/3892
+    :date: 2013年2月14日
+  - :title: "ブロックのようにサービスを組み合わせて使うAmazon Web Services"
+    :url: http://thinkit.co.jp/story/2012/12/12/3871
+    :date: 2012年12月12日
+- :url: http://thinkit.co.jp/book/2012/11/30/3861
+  :title: Monaca＋PhoneGapでサクッとはじめるハイブリッドアプリ開発
+  :description: ''
+  :tag: Monaca,PhoneGap
+  :articles:
+  - :title: Webとネイティブの好いとこ取り？ ハイブリッドアプリ開発のススメ
+    :url: http://thinkit.co.jp/story/2012/12/10/3862
+    :date: 2012年12月10日
+  - :title: Webサイト制作の知識だけでカンタン年齢計算アプリを作ろう！
+    :url: http://thinkit.co.jp/story/2012/12/26/3902
+    :date: 2012年12月26日
+  - :title: JavaScriptを活用して現在時刻を表示する時計アプリを作ろう！
+    :url: http://thinkit.co.jp/story/2013/03/11/3987
+    :date: 2013年3月11日
+  - :title: "ネットワーク通信に対応した写真アルバムアプリを作ろう！"
+    :url: http://thinkit.co.jp/story/2013/04/12/4041
+    :date: 2013年4月12日
+  - :title: "ネットワーク通信に対応した写真アルバムアプリを作ろう！"
+    :url: http://thinkit.co.jp/story/2013/04/12/4041
+    :date: 2013年4月12日
+- :url: http://thinkit.co.jp/book/2012/11/22/3838
+  :title: "データベースセキュリティ Now！"
+  :description: ''
+  :tag: Now
+  :articles:
+  - :title: "エンジニアが知っておくべき4つのデータベース攻撃シナリオ"
+    :url: http://thinkit.co.jp/story/2012/11/22/3839
+    :date: 2012年11月22日
+  - :title: "終わりなきデータベースのセキュリティ対策で押さえるべきポイントとは"
+    :url: http://thinkit.co.jp/story/2012/11/30/3851
+    :date: 2012年11月30日
+  - :title: "データベース・ファイアウォール導入への不安を解消する、5つの選定ポイントとは"
+    :url: http://thinkit.co.jp/story/2012/12/06/3867
+    :date: 2012年12月6日
+- :url: http://thinkit.co.jp/book/2012/10/29/3776
+  :title: "インストールマニアックス・ファイナル 〜そして伝説へ〜"
+  :description: Think ITでおなじみのインストールマニアックスが、いよいよ6回目の開催を迎えました。ここでは大会の概要や参加特典、ルールなどについて紹介していきます。インストールにつまずかないためのヒントも公開していきますので、お見逃しなく！
+  :tag: Think IT
+  :articles:
+  - :title: Windows Azureに.NETのアプリケーションをインストールする（クエスト9）
+    :url: http://thinkit.co.jp/story/2012/12/19/3874
+    :date: 2012年12月19日
+  - :title: Windows AzureにPerlのアプリケーションをインストールする（クエスト9）
+    :url: http://thinkit.co.jp/story/2012/12/19/3880
+    :date: 2012年12月19日
+  - :title: Windows AzureにPythonのアプリケーションをインストールする（クエスト9）
+    :url: http://thinkit.co.jp/story/2012/12/19/3879
+    :date: 2012年12月19日
+  - :title: Windows AzureにインストールしたWordPressのテーマを変更する（クエスト6）
+    :url: http://thinkit.co.jp/story/2012/11/27/3849
+    :date: 2012年11月27日
+  - :title: Windows Azureの仮想マシンインスタンスを確実に削除する
+    :url: http://thinkit.co.jp/story/2013/01/11/3915
+    :date: 2013年1月12日
+  - :title: Windows Azureの利用登録と、サブスクリプションIDの申告（クエスト3）
+    :url: http://thinkit.co.jp/story/2012/11/23/3844
+    :date: 2012年11月23日
+  - :title: Windows Azure上にLinuxインスタンスを立ち上げる（クエスト5）
+    :url: http://thinkit.co.jp/story/2012/11/23/3847
+    :date: 2012年11月23日
+  - :title: Windows Azure上にWindowsインスタンスを立ち上げる（クエスト4）
+    :url: http://thinkit.co.jp/story/2012/11/23/3846
+    :date: 2012年11月23日
+  - :title: "『インストールマニアックス・ファイナル』大会エントリー編（1）"
+    :url: http://thinkit.co.jp/story/2012/10/30/3803
+    :date: 2012年10月30日
+  - :title: "『インストールマニアックス・ファイナル』大会エントリー編（2）"
+    :url: http://thinkit.co.jp/story/2012/11/01/3814
+    :date: 2012年11月1日
+  - :title: "お年玉クエストを攻略しよう！！"
+    :url: http://thinkit.co.jp/story/2012/12/28/3906
+    :date: 2012年12月28日
+  - :title: "お年玉クエストを終了する"
+    :url: http://thinkit.co.jp/story/2013/01/12/3916
+    :date: 2013年1月13日
+  - :title: "インストールしたWordPressをクリスマス色で飾ろう（ボーナスクエスト）"
+    :url: http://thinkit.co.jp/story/2012/12/14/3888
+    :date: 2012年12月14日
+  - :title: "インストールマニアックス 大会攻略セミナー ～ここ来てAmazonギフト券をゲットしよう！～"
+    :url: http://thinkit.co.jp/story/2012/11/15/3834
+    :date: 2012年11月15日
+  - :title: "インストールマニアックスのチームを結成する（クエスト1） "
+    :url: http://thinkit.co.jp/story/2012/11/23/3841
+    :date: 2012年11月23日
+  - :title: "インストールマニアックス・ファイナル 〜そして伝説へ〜 表彰式"
+    :url: http://thinkit.co.jp/story/2013/04/17/4037
+    :date: 2013年4月17日
+  - :title: "インストールマニアックス大会攻略セミナーレポート"
+    :url: http://thinkit.co.jp/story/2012/11/29/3855
+    :date: 2012年11月29日
+  - :title: "参加者を招待した100名にもAmazonギフト券が！インストールマニアックスの全賞品まとめ"
+    :url: http://thinkit.co.jp/story/2012/11/09/3824
+    :date: 2012年11月9日
+  - :title: "参加者全員がAmazonギフト券をもらえる『インストールマニアックス』にエントリーせよ！"
+    :url: http://thinkit.co.jp/story/2012/10/29/3777
+    :date: 2012年10月29日
+  - :title: "新しいMicrosoftアカウントを取得する（クエスト2）"
+    :url: http://thinkit.co.jp/story/2012/11/23/3843
+    :date: 2012年11月23日
+  - :title: "簡単にWebアプリが使える「Webサイト」にトライしてみる（クエスト7）"
+    :url: http://thinkit.co.jp/story/2012/12/03/3859
+    :date: 2012年12月3日
+- :url: http://thinkit.co.jp/book/2012/10/19/3757
+  :title: Windows 8 Store Applicationプログラミング（基本編）
+  :description: "今回の連載では、Windows ストアアプリのサンプル紹介をしていきたいと思います。まずは手短にWindows 8、Windows
+    ストアアプリ、開発環境について解説いたします。Windows ストアアプリは一時Metroスタイルアプリと呼ばれていましたが、「Metro」という言葉の使用が停止され、Windows
+    ストアアプリに訂正されました。Visual Studio 2012のテンプレートやサンプルページでもWindows ストア（アプリ）の名称が使用されていますので、今回の連載ではWindowsストアアプリと呼ばせていただきます。 "
+  :tag: Windows ,Windows 8,Metro,Visual Studio 2012,Windows
+  :articles:
+  - :title: CountDownControlを使ってカウントダウン後にカメラのシャッターを切る
+    :url: http://thinkit.co.jp/story/2013/01/16/3905
+    :date: 2013年1月16日
+  - :title: FlipViewコントロールを使って、フリップビューで画像を切り替える
+    :url: http://thinkit.co.jp/story/2012/10/22/3759
+    :date: 2012年10月22日
+  - :title: ListBoxを使った画像表示と、MediaElementに動画を表示するサンプル
+    :url: http://thinkit.co.jp/story/2012/10/26/3761
+    :date: 2012年10月26日
+  - :title: RSSの読み込み表示とページ遷移時のパラメータの渡し方を知る
+    :url: http://thinkit.co.jp/story/2012/10/31/3767
+    :date: 2012年10月31日
+  - :title: WebBrowserコントロールで任意のサイトを表示する+1つのサンプル
+    :url: http://thinkit.co.jp/story/2013/01/23/3923
+    :date: 2013年1月23日
+  - :title: "これまでと操作方法が異なるWindows 8のおさらいと開発環境の構築"
+    :url: http://thinkit.co.jp/story/2012/10/19/3758
+    :date: 2012年10月19日
+  - :title: "タッチパネルを生かしてフリーハンドの文字を認識させるアプリを作ろう"
+    :url: http://thinkit.co.jp/story/2012/11/12/3822
+    :date: 2012年11月12日
+  - :title: "ピクチャライブラリ内の画像を指定して表示する+1つのサンプル"
+    :url: http://thinkit.co.jp/story/2012/12/04/3865
+    :date: 2012年12月4日
+  - :title: "フリーハンドで書いた住所を認識してBing Map上に表示する"
+    :url: http://thinkit.co.jp/story/2012/11/20/3835
+    :date: 2012年11月20日
+  - :title: "指定した秒数で音声を録音して、その音声を再生するサンプルアプリ"
+    :url: http://thinkit.co.jp/story/2012/12/18/3890
+    :date: 2012年12月18日
+  - :title: "撮影した写真と手持ちの画像を合成して保存するサンプルアプリ"
+    :url: http://thinkit.co.jp/story/2012/12/11/3882
+    :date: 2012年12月11日
+  - :title: "画像に各種フィルタを適用して保存するWindowsアプリを作る"
+    :url: http://thinkit.co.jp/story/2013/01/28/3940
+    :date: 2013年1月28日
+  - :title: "画像の一覧表示と、ListBoxに表示されたYoutubeの再生を試す"
+    :url: http://thinkit.co.jp/story/2012/11/05/3793
+    :date: 2012年11月5日
+  - :title: "画像の削除にあわせて自動的に並び替え+1つのサンプル"
+    :url: http://thinkit.co.jp/story/2013/01/18/3921
+    :date: 2013年1月18日
+- :url: http://thinkit.co.jp/book/2012/09/27/3721
+  :title: "無償で手軽に仮想化環境を実現できるVMware ESXiを使ってみよう"
+  :description: VMware vSphere Hypervisor（VMware ESXi、以降 ESXi） は、VMware社が無償で配布されているハイパーバイザー型の仮想環境です。連載では2回にわたって、仮想化技術における「ホスト型」と「ハイパーバイザー型」の違いやESXiにおけるリソースの管理、無償版と有償版の違い、また実際のインストールについても詳しく解説していきます。
+  :tag: VMware vSphere Hypervisor,VMware ESXi,ESXi,VMware
+  :articles:
+  - :title: "ホスト型とハイパーバイザー型の違いは何？VMware vSphere Hypervisor の概要"
+    :url: http://thinkit.co.jp/story/2012/10/17/3722
+    :date: 2012年10月17日
+  - :title: VMware vSphere Hypervisor（ESXi）のインストール
+    :url: http://thinkit.co.jp/story/2012/10/24/3723
+    :date: 2012年10月24日
+- :url: http://thinkit.co.jp/book/2012/09/13/3707
+  :title: ITガジェットレポート
+  :description: ''
+  :tag: IT
+  :articles:
+  - :title: 79ドルで遊べる3Dモーションセンサーがやってきた！Leap Motion Controllerレビュー
+    :url: http://thinkit.co.jp/story/2013/08/16/4217
+    :date: 2013年8月16日
+  - :title: enchantMOONをどう評価するべきか
+    :url: http://thinkit.co.jp/story/2013/07/22/4178
+    :date: 2013年7月22日
+  - :title: iPhone5はなぜ縦長デザインになったのか？新しいiPhoneがアプリ開発に及ぼす影響を考える
+    :url: http://thinkit.co.jp/story/2012/09/13/3708
+    :date: 2012年9月13日
+- :url: http://thinkit.co.jp/book/2012/09/06/3685
+  :title: Ruby on Railsによるサービスビジネスの開発事例
+  :description: ''
+  :tag: Ruby on Rails
+  :articles:
+  - :title: "日本ユニシス「スマートタクシー」に見る、アジャイルによるサービスビジネス開発事例のポイント"
+    :url: http://thinkit.co.jp/story/2012/09/13/3686
+    :date: 2012年9月13日
+- :url: http://thinkit.co.jp/book/2012/09/06/3689
+  :title: "大人の社会科見学"
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: "マイクロソフトが初出展を果たしたコミケC83の企業ブース訪問レポート"
+    :url: http://thinkit.co.jp/story/2013/01/11/3912
+    :date: 2013年1月11日
+  - :title: "陸上自衛隊の富士総合火力演習と、ネットワーク連携する最新式の「10式戦車」を見る"
+    :url: http://thinkit.co.jp/story/2012/09/06/3690
+    :date: 2012年9月6日
+- :url: http://thinkit.co.jp/book/2012/08/29/3667
+  :title: "プロが教える実戦的Windows Azureの極意"
+  :description: "本連載では、OSSのインストールを競う技術者向けコンテスト「インストールマニアックス」の入賞者の方々が、コンピューティング、データ管理、ネットワークの新機能を中心に、リレー形式で詳しく説明していきます。入門者向けの内容も紹介していきますので、これまでクラウドやWindows
+    Azureにあまり縁がなかった方も、読んでみることをおすすめします。"
+  :tag: OSS,Windows Azure
+  :articles:
+  - :title: "たった4ステップでWordPressをインストールできるWindows Azureの「Webサイト」"
+    :url: http://thinkit.co.jp/story/2012/08/29/3668
+    :date: 2012年8月29日
+  - :title: PHPとMySQLが利用できるWebサイトを、Windows Azureを使って手軽に作ってみよう
+    :url: http://thinkit.co.jp/story/2012/09/05/3682
+    :date: 2012年9月5日
+  - :title: Windows Azure「Webサイト」を使ってASP.NETのWebアプリを作成、素早く公開！
+    :url: http://thinkit.co.jp/story/2012/09/12/3691
+    :date: 2012年9月12日
+  - :title: Windows Azure仮想マシンでLinuxサーバーを構築しよう
+    :url: http://thinkit.co.jp/story/2012/09/19/3703
+    :date: 2012年9月19日
+  - :title: Windows AzureでのMySQL = ClearDBを攻略しよう！
+    :url: http://thinkit.co.jp/story/2012/09/26/3717
+    :date: 2012年9月26日
+  - :title: PaaSもIaaSもオンプレミスもいいとこ取り！！Windows Azure Virtual Networksで合わせワザ一本！！
+    :url: http://thinkit.co.jp/story/2012/10/03/3732
+    :date: 2012年10月3日
+- :url: http://thinkit.co.jp/book/2012/08/20/3647
+  :title: "実践！Kinect応用プログラミング"
+  :description: ''
+  :tag: Kinect
+  :articles:
+  - :title: "プレイヤーの身体パーツを判別するKinectサンプル"
+    :url: http://thinkit.co.jp/story/2012/08/22/3648
+    :date: 2012年8月22日
+  - :title: Kinectを使って、画面上の赤い輪をくぐるサンプル
+    :url: http://thinkit.co.jp/story/2012/08/23/3654
+    :date: 2012年8月23日
+  - :title: Kinectを使った、音声によるデータ保存と検索のサンプル
+    :url: http://thinkit.co.jp/story/2012/08/24/3663
+    :date: 2012年8月24日
+  - :title: "センサーの範囲内にいる人間を見つけて撮影・保存するKinectサンプル"
+    :url: http://thinkit.co.jp/story/2012/08/27/3664
+    :date: 2012年8月27日
+  - :title: Kinectを使ったバーチャル試着室で着せ替えシミュレーション
+    :url: http://thinkit.co.jp/story/2012/08/31/3665
+    :date: 2012年8月31日
+  - :title: "これであなたもダンスグループの一員！？Kinectで自分を分身させるプログラムを作る"
+    :url: http://thinkit.co.jp/story/2012/09/03/3677
+    :date: 2012年9月3日
+  - :title: Kinectで結成したマイ・ダンスチームを、サンプルを見ながら実際の背景に合成してみよう
+    :url: http://thinkit.co.jp/story/2012/09/11/3693
+    :date: 2012年9月11日
+  - :title: Kinectの音声認識を使って、プレイヤーを分離、結合させるデモを試してみる
+    :url: http://thinkit.co.jp/story/2012/09/14/3702
+    :date: 2012年9月14日
+  - :title: "人体の連続した動作を音声でキャプチャするKinectのサンプルプログラム"
+    :url: http://thinkit.co.jp/story/2012/09/21/3705
+    :date: 2012年9月21日
+  - :title: Kinectを使って、顔の動きを認識して画面に表示する
+    :url: http://thinkit.co.jp/story/2012/10/01/3726
+    :date: 2012年10月1日
+  - :title: "人物特定に使える！？実際の映像で顔を認識するKinectプログラム"
+    :url: http://thinkit.co.jp/story/2012/10/05/3730
+    :date: 2012年10月5日
+  - :title: Kinectで得た人体情報を転送して、Windows Phoneの画面上に関節の位置を表示してみる
+    :url: http://thinkit.co.jp/story/2012/10/09/3737
+    :date: 2012年10月9日
+  - :title: Windows Phoneで自宅の様子をリモート監視するKinectプログラムを作ってみる
+    :url: http://thinkit.co.jp/story/2012/10/15/3747
+    :date: 2012年10月15日
+  - :title: Kinectを使って、自分の手のひらに小さな分身を出現させてみる
+    :url: http://thinkit.co.jp/story/2012/09/27/3724
+    :date: 2012年9月27日
+- :url: http://thinkit.co.jp/book/2012/07/17/4172
+  :title: "進化し続けるマイクロソフトのクラウドプラットフォーム『Windows Azure』"
+  :description: ''
+  :tag: Windows Azure
+  :articles:
+  - :title: Build 2013レポートとWindows Azureの2013上半期アップデートを総復習！
+    :url: http://thinkit.co.jp/story/2013/07/17/4169
+    :date: 2013年7月18日
+  - :title: "スクウェア・エニックスプロデューサー安藤氏を迎えた、FIXER主催講演会レポート"
+    :url: http://thinkit.co.jp/story/2013/08/09/4213
+    :date: 2013年8月9日
+  - :title: "安定した動画配信でコスト抑制も可能 Windows Azureのオートスケール機能"
+    :url: http://thinkit.co.jp/story/2013/09/06/4253
+    :date: 2013年9月6日
+- :url: http://thinkit.co.jp/book/2012/07/13/3620
+  :title: "新しくなったWindows Azure"
+  :description: ''
+  :tag: Windows Azure
+  :articles:
+  - :title: "オープンで柔軟性があるクラウドサービスに進化したWindows Azure"
+    :url: http://thinkit.co.jp/story/2012/07/13/3618
+    :date: 2012年7月13日
+- :url: http://thinkit.co.jp/book/2012/07/11/3613
+  :title: "究極のバグレポート"
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: "プログラマとテストエンジニアにバトル勃発！正しいバグ票の書き方とは？"
+    :url: http://thinkit.co.jp/story/2012/07/11/3614
+    :date: 2012年7月11日
+  - :title: "「困った」バグレポートの数々から得た「正しい」レポートのための教訓とは"
+    :url: http://thinkit.co.jp/story/2012/07/18/3619
+    :date: 2012年7月18日
+  - :title: "バグレポートでテストエンジニアとプログラマが持つ“認識の違い”を埋めるには"
+    :url: http://thinkit.co.jp/story/2012/08/01/3632
+    :date: 2012年8月1日
+- :url: http://thinkit.co.jp/book/2012/07/06/3611
+  :title: "子どもと学ぶロボットプログラミング"
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: "日本の小中高生は世界に勝てますか？ロボットプログラミングを競うWROとは"
+    :url: http://thinkit.co.jp/story/2012/07/06/3612
+    :date: 2012年7月6日
+  - :title: "ロボットの組み立てとプログラミングを体験しよう"
+    :url: http://thinkit.co.jp/story/2012/07/27/3635
+    :date: 2012年7月27日
+  - :title: "[イベント] 夏の終わりに親子でロボット作りを体験してみよう"
+    :url: http://thinkit.co.jp/story/2012/08/10/3651
+    :date: 2012年8月10日
+  - :title: "「夏の終わりに親子でロボット体験会」で体験した、マインドストームとNXTソフトで作る自律型ロボット"
+    :url: http://thinkit.co.jp/story/2012/09/07/3695
+    :date: 2012年9月7日
+  - :title: Kinectとロボットを連動させて思いのままに操ってみよう
+    :url: http://thinkit.co.jp/story/2012/11/06/3817
+    :date: 2012年11月6日
+  - :title: "世界の舞台へチャレンジ。ロボットプログラミングを競うWRO Japan決勝大会を密着取材！"
+    :url: http://thinkit.co.jp/story/2012/10/04/3734
+    :date: 2012年10月4日
+  - :title: "親子でプログラミングを学べるロボット体験会ってどんなところ？"
+    :url: http://thinkit.co.jp/story/2012/08/30/3673
+    :date: 2012年8月30日
+- :url: http://thinkit.co.jp/book/2012/07/02/3604
+  :title: "実践！Kinect基本プログラミング"
+  :description: "2010年にマイクロソフトから発売されたセンサーデバイスであるKinect（キネクト）。RGBカメラ・深度センサー・マルチアレイマイクロフォンを使って、人体を認識し、音声による操作を可能にする、画期的なデバイスです。\n\t当初はゲーム機であるXbox
+    360向けの「Kinect for Xbox 360」として、本体やゲームとともにリリースされましたが、 2012年2月には、Windows PCで自由に開発ができる、商用利用が可能な「Kinect
+    for Windows」が発売されました。\n\t今回は、このKinect for Windowsを使って、センサーを使ったアプリの開発について解説していきます。 "
+  :tag: Kinect,RGB,Xbox 360,Kinect for Xbox 360,Windows PC,Kinect for Windows
+  :articles:
+  - :title: Windows用のKinectはXbox用と何が違うの？
+    :url: http://thinkit.co.jp/story/2012/07/03/3605
+    :date: 2012年7月3日
+  - :title: Kinectプログラミングのための環境構築と簡単なサンプル
+    :url: http://thinkit.co.jp/story/2012/07/04/3606
+    :date: 2012年7月4日
+  - :title: Kinectで人体を認識して棒人間を動かすサンプル
+    :url: http://thinkit.co.jp/story/2012/07/05/3607
+    :date: 2012年7月5日
+  - :title: Kinectによる深度データの取得・表示と、モーターを動かすサンプル
+    :url: http://thinkit.co.jp/story/2012/07/09/3610
+    :date: 2012年7月9日
+  - :title: Kinectの音声認識を使ってWebブラウザを操作するサンプル
+    :url: http://thinkit.co.jp/story/2012/07/12/3616
+    :date: 2012年7月12日
+  - :title: Kinectで音声を録音・再生するサンプル
+    :url: http://thinkit.co.jp/story/2012/07/19/3621
+    :date: 2012年7月19日
+  - :title: Kinectで手の動きに合わせてモニタ上の画像を動かすサンプル
+    :url: http://thinkit.co.jp/story/2012/07/23/3622
+    :date: 2012年7月23日
+  - :title: Kinectで手の動きに合わせて波紋を発生させるサンプル
+    :url: http://thinkit.co.jp/story/2012/07/25/3624
+    :date: 2012年7月25日
+  - :title: "声で選んだアイテムをプレイヤーの身体に装着・連動させるKinectサンプル"
+    :url: http://thinkit.co.jp/story/2012/07/26/3625
+    :date: 2012年7月26日
+  - :title: Kinectで手の動きとカーソルを連動して操作するサンプル
+    :url: http://thinkit.co.jp/story/2012/07/30/3633
+    :date: 2012年7月30日
+  - :title: "人物を切り抜いて画面に表示するKinectサンプル"
+    :url: http://thinkit.co.jp/story/2012/08/02/3636
+    :date: 2012年8月2日
+  - :title: Kinectで距離カメラの値を取得して、指定した距離で人物が背景に溶け込むサンプル
+    :url: http://thinkit.co.jp/story/2012/08/08/3640
+    :date: 2012年8月8日
+  - :title: KinectButtonを動的に作成して、ジェスチャーで文字を表示させるサンプル
+    :url: http://thinkit.co.jp/story/2012/08/09/3641
+    :date: 2012年8月9日
+  - :title: "手を動かして画面上の写真を左右にスライドさせるKinectサンプル"
+    :url: http://thinkit.co.jp/story/2012/08/20/3644
+    :date: 2012年8月20日
+- :url: http://thinkit.co.jp/book/2012/06/13/3582
+  :title: "クラウドサービスとビジネスをつなぐミッシング・リンク～精密な性能監視がビジネス成立の鍵～"
+  :description: "仮想化の普及やクラウドはデータセンターに多くのメリットをもたらしたが、一方で従来の運用管理体制では不十分な部分も明らかになりつつある。それはなぜだろうか。"
+  :tag: ''
+  :articles:
+  - :title: "クラウド時代のデータセンターが持つ理想と現実"
+    :url: http://thinkit.co.jp/story/2012/06/13/3583
+    :date: 2012年6月13日
+  - :title: "“障害発生前の解決”をどうやって実現するか"
+    :url: http://thinkit.co.jp/story/2012/06/20/3584
+    :date: 2012年6月20日
+  - :title: "性能監視がデータセンターにもたらす大きな価値とは"
+    :url: http://thinkit.co.jp/story/2012/06/27/3585
+    :date: 2012年6月27日
+- :url: http://thinkit.co.jp/book/2012/05/24/3553
+  :title: Marketplaceのアプリから解説する実践サンプルコード集
+  :description: ''
+  :tag: Marketplace
+  :articles:
+  - :title: "タッチパネルでドラッグ&ドロップを使う汎用的なサンプル"
+    :url: http://thinkit.co.jp/story/2012/05/24/3554
+    :date: 2012年5月24日
+  - :title: "画面上の文字を指でなぞってマーカーを引くサンプル"
+    :url: http://thinkit.co.jp/story/2012/05/29/3555
+    :date: 2012年5月29日
+  - :title: "データ接続オフでのボタン制御サンプルと、試用版を検証するサンプル"
+    :url: http://thinkit.co.jp/story/2012/05/31/3564
+    :date: 2012年5月31日
+  - :title: "写真をハート型に切り抜いて撮影するサンプル"
+    :url: http://thinkit.co.jp/story/2012/06/04/3568
+    :date: 2012年6月4日
+  - :title: "カメラ撮影時に装飾アイテムを追加するサンプル"
+    :url: http://thinkit.co.jp/story/2012/06/08/3577
+    :date: 2012年6月8日
+  - :title: "写真を切りぬいて新しい写真を撮影するサンプル"
+    :url: http://thinkit.co.jp/story/2012/06/15/3578
+    :date: 2012年6月15日
+  - :title: "カメラに配置した装飾アイテムを移動・変形させるサンプル"
+    :url: http://thinkit.co.jp/story/2012/06/18/3590
+    :date: 2012年6月18日
+  - :title: "虫眼鏡でズームするサンプルとその応用"
+    :url: http://thinkit.co.jp/story/2012/06/22/3592
+    :date: 2012年6月22日
+  - :title: "リマインダーとアラームを使うサンプル"
+    :url: http://thinkit.co.jp/story/2012/06/25/3597
+    :date: 2012年6月25日
+  - :title: "加速度センサーやジャイロスコープセンサーを使った、3つのセンサーサンプル"
+    :url: http://thinkit.co.jp/story/2012/06/29/3601
+    :date: 2012年6月29日
+- :url: http://thinkit.co.jp/book/2012/05/21/3551
+  :title: "特別対談企画　 ITリーダーに編集長が聞く"
+  :description: ''
+  :tag: IT
+  :articles:
+  - :title: "使い勝手、運用管理性、省スペース、ITコスト…VDIの利用で4つの難題を解決する豊島区役所"
+    :url: http://thinkit.co.jp/story/2012/06/04/3576
+    :date: 2012年6月4日
+- :url: http://thinkit.co.jp/book/2012/05/18/3548
+  :title: HTML5の便利なTips100選
+  :description: ''
+  :tag: HTML5,Tips100
+  :articles:
+  - :title: "スマホアプリ開発にも便利な位置情報API - Geolocation API -"
+    :url: http://thinkit.co.jp/story/2012/05/18/3550
+    :date: 2012年5月18日
+  - :title: HTML＋JavaScriptだけでブラウザに図形描画 - Canvas API -
+    :url: http://thinkit.co.jp/story/2012/06/26/3593
+    :date: 2012年6月26日
+  - :title: HTML＋JavaScriptだけでブラウザに図形描画（3） - Canvas API -
+    :url: http://thinkit.co.jp/story/2012/10/11/3742
+    :date: 2012年10月11日
+  - :title: "クッキーより便利になったブラウザ標準ストレージ - Web Storage"
+    :url: http://thinkit.co.jp/story/2012/10/18/3752
+    :date: 2012年10月18日
+  - :title: HTML＋JavaScriptだけでブラウザに図形描画（2） - Canvas API -
+    :url: http://thinkit.co.jp/story/2012/08/06/3637
+    :date: 2012年8月6日
+  - :title: JavaScriptでローカルファイルを自在に操る - File API
+    :url: http://thinkit.co.jp/story/2013/02/06/3953
+    :date: 2013年2月6日
+  - :title: "デスクトップアプリライクな操作性を実現するドラッグ＆ドロップAPI"
+    :url: http://thinkit.co.jp/story/2013/03/01/3986
+    :date: 2013年3月1日
+  - :title: "プラグインは要らない！音声／動画対応したHTML5 - <audio>／<video>要素"
+    :url: http://thinkit.co.jp/story/2013/01/25/3935
+    :date: 2013年1月25日
+- :url: http://thinkit.co.jp/book/2012/04/13/3503
+  :title: "さらなる進化を続けるZabbix ～2.0へのバージョンアップ～"
+  :description: ''
+  :tag: Zabbix ,.0
+  :articles:
+  - :title: "第1回 Zabbix2.0でJavaアプリケーションの監視"
+    :url: http://thinkit.co.jp/story/2012/04/13/3504
+    :date: 2012年4月13日
+  - :title: "第2回 運用コスト低減に有効なZabbix2.0新機能"
+    :url: http://thinkit.co.jp/story/2012/04/20/3531
+    :date: 2012年4月20日
+  - :title: "第3回 Zabbix1.8 から 2.0への移行"
+    :url: http://thinkit.co.jp/story/2012/04/27/3535
+    :date: 2012年4月27日
+  - :title: "第4回 Zabbix APIを使った外部ツールとの連携"
+    :url: http://thinkit.co.jp/story/2012/05/11/3541
+    :date: 2012年5月11日
+- :url: http://thinkit.co.jp/book/2012/04/09/3508
+  :title: SIの終焉　〜クラウド時代の企業ITとエンジニアの未来〜
+  :description: " 当連載では、最近のクラウド概念の登場から数年経過し、徐々にクラウド化してきた国内IT市場で感じたことを説明しながら考察し、ビジネスモデルの変化から、クラウド時代に目指すべきエンジニア像について、3回にわたり論を広げていきたい。"
+  :tag: IT
+  :articles:
+  - :title: "第1回 Google Appsの普及に見る、企業ITインテグレーションの変化"
+    :url: http://thinkit.co.jp/story/2012/04/09/3509
+    :date: 2012年4月9日
+  - :title: "第2回 国内IT市場の不連続性と、SIの終焉の予感"
+    :url: http://thinkit.co.jp/story/2012/04/16/3512
+    :date: 2012年4月16日
+  - :title: "第3回 これまで企業向けSIに関わってきたエンジニアのためのサバイバルガイド"
+    :url: http://thinkit.co.jp/story/2012/04/23/3532
+    :date: 2012年4月23日
+- :url: http://thinkit.co.jp/book/2012/03/22/3485
+  :title: "エンジニアtype"
+  :description: 『エンジニアtype』は、「どう創る？ これから先のシゴト人生」をテーマに、エンジニアの皆さんの今後の仕事選択・働き方・スキルアップなどに役立つ情報をお送りする"キャリアニュース"Webマガジンです（毎週火曜・金曜更新）。
+  :tag: type,Web
+  :articles:
+  - :title: "『Siri』、『しゃべってコンシェルジュ』...音声認識はネット連携で花開く"
+    :url: http://thinkit.co.jp/story/2012/03/22/3486
+    :date: 2012年3月22日
+  - :title: "家入一真×内藤裕紀が対談！76世代企業の逆転成功パターンに見る、10年後も生き残る企業の条件"
+    :url: http://thinkit.co.jp/story/2012/04/02/3505
+    :date: 2012年4月2日
+  - :title: "非コミュプログラマーが独立するのに必要なたった2つの勇気"
+    :url: http://thinkit.co.jp/story/2012/05/16/3545
+    :date: 2012年5月16日
+  - :title: "ソフトウエアエンジニアがUX/UIを考える上で読むべき4冊の良書と名言たち"
+    :url: http://thinkit.co.jp/story/2012/05/24/3566
+    :date: 2012年5月24日
+  - :title: "『PostPet』産みの親に聞く、時代に先駆けたソーシャル・コミュニケーションの作り方"
+    :url: http://thinkit.co.jp/story/2012/05/30/3567
+    :date: 2012年5月30日
+  - :title: 24歳のエンジニアが考える、教育イノベーションの未来
+    :url: http://thinkit.co.jp/story/2012/10/12/3750
+    :date: 2012年10月12日
+  - :title: Mozilla製品の普及に貢献した「ブラウザの母」が見据える、オープンソース文化の未来
+    :url: http://thinkit.co.jp/story/2012/07/02/3609
+    :date: 2012年7月2日
+  - :title: Twitter API ver1.1利用規約変更から学ぶプラットフォーム時代の生き方
+    :url: http://thinkit.co.jp/story/2012/09/10/3697
+    :date: 2012年9月10日
+  - :title: UI研究の第一人者・増井俊之が目指す「コロンブス指数」の高い発明とは？
+    :url: http://thinkit.co.jp/story/2012/08/21/3649
+    :date: 2012年8月21日
+  - :title: Web系企業で進む「一芸採用」は、エンジニア主体で企業を選ぶ時代の先駆けになるか？
+    :url: http://thinkit.co.jp/story/2012/08/03/3638
+    :date: 2012年8月3日
+  - :title: "[特別対談：西田宗千佳×尾形慎哉] 技術屋のための「マルチデバイス時代に勝つUI・UX」講座"
+    :url: http://thinkit.co.jp/story/2012/07/31/3634
+    :date: 2012年7月31日
+  - :title: "「まずは可視化コード書きから」めんどくさがり屋必見！できるだけ作業時間を減らすデバッグ術"
+    :url: http://thinkit.co.jp/story/2012/07/20/3631
+    :date: 2012年7月20日
+  - :title: "『nanapi』CTO和田修一に聞く～月間PV4000万超をさばくシステムと、「事業を動かす肌感覚」の作り方"
+    :url: http://thinkit.co.jp/story/2012/09/20/3712
+    :date: 2012年9月20日
+  - :title: "『江南スタイル』のヒットから、グリーやDeNAが世界展開で越えるべき「壁」を考える"
+    :url: http://thinkit.co.jp/story/2012/11/13/3830
+    :date: 2012年11月13日
+  - :title: "いったん、水を差されたHTML5の現状と、将来について"
+    :url: http://thinkit.co.jp/story/2012/10/23/3744
+    :date: 2012年10月23日
+  - :title: "ひがやすを×『かわいい検索』橋口恭子さん「技術屋がサービス開発をする時に押さえておきたい2つの視点」"
+    :url: http://thinkit.co.jp/story/2012/07/24/3623
+    :date: 2012年7月24日
+  - :title: "シリコンバレーの教育ベンチャー業界に、あなたが注目すべき理由"
+    :url: http://thinkit.co.jp/story/2012/10/10/3746
+    :date: 2012年10月10日
+  - :title: "ソーシャルグルメ写真アプリ『miil』開発チームが目指す、“ニットのような”チーム作り"
+    :url: http://thinkit.co.jp/story/2012/07/10/3615
+    :date: 2012年7月10日
+  - :title: "ムチャ振りを断らない男が語る、「Android」のような技術屋哲学【対談:法林浩之×安生真】"
+    :url: http://thinkit.co.jp/story/2012/09/24/3713
+    :date: 2012年9月24日
+  - :title: "元・日本ユニシスの50代ベテラン技術者が「SI脳」と「Web脳」のハイブリッド開発で生み出した『Brappi!』"
+    :url: http://thinkit.co.jp/story/2012/08/07/3639
+    :date: 2012年8月7日
+  - :title: "和田卓人、倉貫義人、萩本順三「会社に頼れない時代」の技術屋が知るべき6つのこと"
+    :url: http://thinkit.co.jp/story/2012/06/26/3603
+    :date: 2012年6月26日
+  - :title: "夏休み明けの人も、まだの人も！今日から心機一転「開発」のやる気がわいてくる有名技術屋の名言まとめ"
+    :url: http://thinkit.co.jp/story/2012/09/04/3678
+    :date: 2012年9月4日
+  - :title: "平鍋健児氏&Niigata.pm主宰者に聞く「地方で開発」のリスク分散法－カギは情報発信にあり"
+    :url: http://thinkit.co.jp/story/2012/06/11/3586
+    :date: 2012年6月11日
+  - :title: "打算はアカン！エンジニアとして生きていくヒントは「Back to the Basic」にある【対談:法林浩之×宮本久仁男】"
+    :url: http://thinkit.co.jp/story/2012/08/28/3669
+    :date: 2012年8月28日
+  - :title: "新感覚のオンライン英会話『ベストティーチャー』は、お手本のようなリーン開発で生まれていた"
+    :url: http://thinkit.co.jp/story/2012/06/19/3591
+    :date: 2012年6月19日
+  - :title: "最大の気付きは岡本太郎から!? 「HTML5とか勉強会」主催者が若手エンジニアに贈る三位一体のメッセージ"
+    :url: http://thinkit.co.jp/story/2012/07/17/3617
+    :date: 2012年7月17日
+  - :title: "業務系チャットサービス『co-meeting』が「JavaとRailsの二層構造」を採用したワケ"
+    :url: http://thinkit.co.jp/story/2012/10/02/3729
+    :date: 2012年10月2日
+- :url: http://thinkit.co.jp/book/2012/03/15/3475
+  :title: Windows Phoneアプリ制作からマーケットプレイス公開までを完全ガイド！
+  :description: "これまでに紹介したサンプルプログラムなどから処理を組み合わせて1本のWindows Phoneアプリを作り上げ、マーケットプレイスで公開するまでの一連の流れを解説します。"
+  :tag: Windows Phone
+  :articles:
+  - :title: "第1回 アプリの申請や管理ができる「APP Hub」に登録しよう"
+    :url: http://thinkit.co.jp/story/2012/03/15/3476
+    :date: 2012年3月15日
+  - :title: "第2回 Windows Phoneアプリを申請する流れを確認しておこう"
+    :url: http://thinkit.co.jp/story/2012/03/16/3477
+    :date: 2012年3月16日
+  - :title: "第3回 必見！アプリ作りの発想法教えます"
+    :url: http://thinkit.co.jp/story/2012/03/26/3483
+    :date: 2012年3月26日
+  - :title: "第4回 ノンデザイナーにも出来る、タイルデザイン"
+    :url: http://thinkit.co.jp/story/2012/03/28/3496
+    :date: 2012年3月28日
+  - :title: "第5回 いよいよアプリ作り本番！どこからはじめる？"
+    :url: http://thinkit.co.jp/story/2012/04/04/3502
+    :date: 2012年4月4日
+  - :title: "第6回 データ保存・bing検索・簡易縦書き機能の実装"
+    :url: http://thinkit.co.jp/story/2012/04/10/3507
+    :date: 2012年4月10日
+  - :title: "第7回 ヘルプ作成・テスト・バージョンアップの準備"
+    :url: http://thinkit.co.jp/story/2012/04/11/3510
+    :date: 2012年4月11日
+  - :title: "第8回 バージョンアップでFacebook投稿機能などを追加する"
+    :url: http://thinkit.co.jp/story/2012/04/27/3521
+    :date: 2012年4月27日
+  - :title: "第9回 翻訳と、facebookへの投稿処理の実装"
+    :url: http://thinkit.co.jp/story/2012/05/01/3525
+    :date: 2012年5月1日
+  - :title: "第10回 「一日一句」完結編 〜リスト選択とソート表示の実装〜"
+    :url: http://thinkit.co.jp/story/2012/05/02/3526
+    :date: 2012年5月2日
+  - :title: "第11回 海外向け公開は難しい？センサーとサウンドを使った新しいアプリ"
+    :url: http://thinkit.co.jp/story/2012/05/07/3537
+    :date: 2012年5月7日
+  - :title: "第12回 センサーとサウンドの処理を組み込んでアプリを完成させる"
+    :url: http://thinkit.co.jp/story/2012/05/14/3538
+    :date: 2012年5月14日
+  - :title: "第13回 アプリ開発から公開までの疑問に答えるQ&A"
+    :url: http://thinkit.co.jp/story/2012/05/21/3543
+    :date: 2012年5月21日
+- :url: http://thinkit.co.jp/book/2012/02/28/3456
+  :title: Windows Azure Accelerator for Web Rolesで素早く簡単に作るWebアプリ
+  :description: "この連載では、これまでWindows Azureに触ったことがない方、クラウドサービスを使ってみたい、という方を対象に、利用するための申し込みから、環境の準備、Windows
+    Azure Accelerator for Web Roles（以下、Webロールアクセラレーター）を利用して、ASP.NET Webアプリケーションと、PHP
+    WebアプリケーションであるWordPressをインストールして、使い始めるまでを解説していきます。"
+  :tag: Windows Azure,Windows Azure Accelerator for Web Roles,Web,ASP.NET Web,PHP
+    Web,WordPress
+  :articles:
+  - :title: "第1回 Windows Azureの申し込みと環境構築"
+    :url: http://thinkit.co.jp/story/2012/02/28/3457
+    :date: 2012年2月28日
+  - :title: "第2回 はじめてのWindows Azure Accelerator for Web Roles"
+    :url: http://thinkit.co.jp/story/2012/02/29/3458
+    :date: 2012年2月29日
+  - :title: "第3回 WebMatrixを使ってWordPressを動かそう"
+    :url: http://thinkit.co.jp/story/2012/03/01/3459
+    :date: 2012年3月1日
+- :url: http://thinkit.co.jp/book/2012/02/04/3949
+  :title: "ミニ四駆×Arduino×Bluetoothで“夢のミニ四駆”を作ろう"
+  :description: "子供の頃に夢見た、漫画やアニメに出てくるような自在に走るミニ四駆。大人になった我々ならITの力で実現できるかもしれません。小型PCボードや通信ユニットを組み込んで、夢のミニ四駆を作ってみましょう。"
+  :tag: IT,PC
+  :articles:
+  - :title: "夢のミニ四駆を作る前に、これまでのミニ四駆について学ぼう"
+    :url: http://thinkit.co.jp/story/2013/02/04/3950
+    :date: 2013年2月4日
+  - :title: Arduinoを始めよう！（1）シリアル通信編
+    :url: http://thinkit.co.jp/story/2013/02/18/3968
+    :date: 2013年2月18日
+  - :title: Arduinoを始めよう！（2）モーター制御編
+    :url: http://thinkit.co.jp/story/2013/02/27/3981
+    :date: 2013年2月27日
+  - :title: Arduinoを始めよう！（3）Bluetooth編
+    :url: http://thinkit.co.jp/story/2013/03/06/3995
+    :date: 2013年3月6日
+  - :title: Arduinoを用意して簡単なプログラミングをはじめよう
+    :url: http://thinkit.co.jp/story/2013/02/12/3960
+    :date: 2013年2月12日
+  - :title: "ミニ四駆にArduino Pro Miniを搭載して走らせてみよう！"
+    :url: http://thinkit.co.jp/story/2013/04/09/4039
+    :date: 2013年4月9日
+  - :title: "ミニ四駆のボディを加工して夢のマシンを仕上げよう！"
+    :url: http://thinkit.co.jp/story/2013/04/16/4056
+    :date: 2013年4月16日
+  - :title: "ミニ四駆の遠隔操作を実現しよう！- Arduino Pro Mini組み立て編"
+    :url: http://thinkit.co.jp/story/2013/03/29/4028
+    :date: 2013年3月29日
+  - :title: "ミニ四駆の遠隔操作を実現しよう！- プロトタイプ編"
+    :url: http://thinkit.co.jp/story/2013/03/21/4012
+    :date: 2013年3月21日
+  - :title: "ミニ四駆の改良と基礎的なプログラミングに挑戦する"
+    :url: http://thinkit.co.jp/story/2013/05/15/4081
+    :date: 2013年5月15日
+- :url: http://thinkit.co.jp/book/2012/01/31/3147
+  :title: gaedirectによるHTML5連携とマッシュアップ
+  :description: "クラウドをWebサービス化するという事は、WebクライアントでのJavaScript記述のみによって、例えばGoogle App
+    EngineのBigtable（NoSQL）へのアクセスを可能にするという事を意味しています。これらの事によって、クラウドサービスとGoogle Mapsなどの他のWebサービスとのマッシュアップができたり、Webクライアントで最近最も注目されているHTML5とクラウドの連携なども、すべてJavaScriptの記述だけで行うことができるようになります。この連載の第1回では、このような組み合わせで実現されるサンプル画面とそのUI機能等を紹介します。また、後半の第2回では、このようなUIを実現しているサンプルのプログラムコードすべての紹介と、その解説を行う予定です。"
+  :tag: Web,JavaScript,Google App Engine,Bigtable,NoSQL,Google Maps,HTML5,UI
+  :articles:
+  - :title: "第1回 クラウドWebサービスの概要とサンプル画面操作"
+    :url: http://thinkit.co.jp/story/2012/01/31/3148
+    :date: 2012年1月31日
+  - :title: "第2回  サンプルのプログラムコード解説"
+    :url: http://thinkit.co.jp/story/2012/02/06/3175
+    :date: 2012年2月6日
+- :url: http://thinkit.co.jp/book/2012/01/16/2874
+  :title: Windows Phone Tips集　第3弾
+  :description: ''
+  :tag: Windows Phone Tips
+  :articles:
+  - :title: "第1回 動画を撮影して分離ストレージに保存し、再生する"
+    :url: http://thinkit.co.jp/story/2012/01/16/2875
+    :date: 2012年1月16日
+  - :title: "第2回  撮影した動画を専用サーバーに保存し、再生する"
+    :url: http://thinkit.co.jp/story/2012/01/20/2912
+    :date: 2012年1月20日
+  - :title: "第3回 画像にFilterをかけてPicturesHUBに保存する"
+    :url: http://thinkit.co.jp/story/2012/01/23/2947
+    :date: 2012年1月23日
+  - :title: "第4回 カメラで撮った写真に各種フィルタをかける"
+    :url: http://thinkit.co.jp/story/2012/01/25/3040
+    :date: 2012年1月25日
+  - :title: "第5回 お天気情報WebAPIを使ってGIF画像を表示する"
+    :url: http://thinkit.co.jp/story/2012/01/27/3102
+    :date: 2012年1月27日
+  - :title: "第6回 バーコードをスキャンする"
+    :url: http://thinkit.co.jp/story/2012/02/10/3210
+    :date: 2012年2月10日
+  - :title: "第7回 撮影した写真を分離ストレージとPicturesHUBに保存する"
+    :url: http://thinkit.co.jp/story/2012/02/13/3230
+    :date: 2012年2月13日
+  - :title: "第8回 Chartコントロールを使ってWindows Phoneに棒グラフを表示する"
+    :url: http://thinkit.co.jp/story/2012/02/20/3344
+    :date: 2012年2月20日
+  - :title: "第9回 写真から顔を自動認識して、簡単に目隠し加工する（前編）"
+    :url: http://thinkit.co.jp/story/2012/02/27/3454
+    :date: 2012年2月27日
+  - :title: "第10回 写真から顔を自動認識して、簡単に目隠し加工する（後編）"
+    :url: http://thinkit.co.jp/story/2012/03/02/3460
+    :date: 2012年3月2日
+- :url: http://thinkit.co.jp/book/2012/01/11/2741
+  :title: 2012年新春特別企画
+  :description: "例年に続き、今年もIT関連企業、出版、ゲーム関連企業の皆さまから頂いた年賀状を全2回にわたって紹介していきます。バラエティ豊かなデザインの年賀状をお楽しみ下さい。"
+  :tag: IT
+  :articles:
+  - :title: "あの企業の年賀状が見たい！2012（前編）"
+    :url: http://thinkit.co.jp/story/2012/01/11/2743
+    :date: 2012年1月11日
+  - :title: "あの企業の年賀状が見たい！2012（後編）"
+    :url: http://thinkit.co.jp/story/2012/01/17/2747
+    :date: 2012年1月17日
+- :url: http://thinkit.co.jp/book/2012/01/01/5350
+  :title: "イベント・セミナー2012"
+  :description: 2012年に開催されたイベントやセミナーの様子を紹介します。
+  :tag: ''
+  :articles:
+  - :title: Cloudforce Japan 2012 徹底特集
+    :url: http://thinkit.co.jp/story/2012/12/13/3885
+    :date: 2012年12月13日
+  - :title: HTML5 Conference 2012レポート―HTML5の過去・現在・未来
+    :url: http://thinkit.co.jp/story/2012/09/18/3699
+    :date: 2012年9月18日
+  - :title: "「Touch ♪ Downtown 六角橋」でNFC技術が古き良き商店街と融合！"
+    :url: http://thinkit.co.jp/story/2012/11/21/3842
+    :date: 2012年11月21日
+  - :title: "クラウドはコスト削減だけでなくビジネスのパワーになる―AWS SUMMIT TOKYO 2012レポート"
+    :url: http://thinkit.co.jp/story/2012/09/28/3731
+    :date: 2012年9月28日
+  - :title: "セールスフォース・ドットコムのイベントCloudforce Japanの見どころはココ！"
+    :url: http://thinkit.co.jp/story/2012/11/30/3857
+    :date: 2012年11月30日
+  - :title: "レッツゴーデベロッパー THE NEXT"
+    :url: http://thinkit.co.jp/story/2012/06/06/3581
+    :date: 2012年6月6日
+  - :title: "走る！噛む！測る！Kinect for Windowsコンテストで飛び出した奇想天外なアイデアたち"
+    :url: http://thinkit.co.jp/story/2012/10/16/3755
+    :date: 2012年10月16日
+- :url: http://thinkit.co.jp/book/2011/12/07/2336
+  :title: "データセンター探訪"
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: "さくらインターネット 石狩データセンター"
+    :url: http://thinkit.co.jp/story/2011/12/07/2337
+    :date: 2011年12月7日
+  - :title: "宜野座IDC（宜野座村ITオペレーションパーク内）"
+    :url: http://thinkit.co.jp/story/2012/01/19/2897
+    :date: 2012年1月19日
+  - :title: NTTコムウェア スマートクラウド データセンター
+    :url: http://thinkit.co.jp/story/2012/03/12/3455
+    :date: 2012年3月12日
+- :url: http://thinkit.co.jp/book/2011/12/02/2466
+  :title: Tablet Solution Award 2012
+  :description: "現在、タブレット端末のビジネス利用が急速に進み、一斉導入する企業が数多く登場しています。従業員の生産性や業務の効率を飛躍的に高める、この新たなデバイスの本格的な活躍を期待し、インプレスビジネスメディアでは、Androidタブレット向けのソリューションコンテスト「Tablet
+    Solution Award 2012」を開催しています。"
+  :tag: Android,Tablet Solution Award 2012
+  :articles:
+  - :title: "企業利用が活発化するタブレット向けコンテスト「Tablet Solution Award 2012」"
+    :url: http://thinkit.co.jp/story/2011/12/13/2467
+    :date: 2011年12月13日
+  - :title: "受賞製品を紹介！Tablet Solution Award 2012 表彰式"
+    :url: http://thinkit.co.jp/story/2012/03/06/3473
+    :date: 2012年3月6日
+  - :title: "受賞結果発表　グランプリは日本ユニシス株式会社「smartaxi（スマートタクシー）」"
+    :url: http://thinkit.co.jp/story/2012/03/02/3598
+    :date: 2012年3月2日
+  - :title: "「Tablet Solution Award 2012」受賞7ソリューションを一挙紹介！"
+    :url: http://thinkit.co.jp/story/2012/04/20/3600
+    :date: 2012年4月20日
+- :url: http://thinkit.co.jp/book/2011/12/01/2386
+  :title: OTRS入門 -クラウド時代の運用管理をITILで最適化する-
+  :description: "最近のシステム導入では、コスト削減を目的にパブリッククラウドやプライベートクラウドを選択するケースが増えていますが、ネットワークからアプリケーションまでの幅広い知識が必要だったり、ITサービスのライフサイクル管理が必要だったりと、簡単には行かないようです。本連載では、ITILv3に沿った運用管理を廉価に実現できる「OTRS」を取り上げ、インストールや設定、簡単な利用方法などを説明していきます。"
+  :tag: IT,ITILv3,OTRS
+  :articles:
+  - :title: "第1回 OTRSのインストール"
+    :url: http://thinkit.co.jp/story/2011/12/01/2387
+    :date: 2011年12月1日
+  - :title: "第2回 ITSMパッケージのインストールとOTRSの日本語化"
+    :url: http://thinkit.co.jp/story/2011/12/08/2472
+    :date: 2011年12月8日
+  - :title: "第3回 OTRSの基本設定"
+    :url: http://thinkit.co.jp/story/2011/12/22/2574
+    :date: 2011年12月22日
+  - :title: "第4回 OTRSのインシデント管理"
+    :url: http://thinkit.co.jp/story/2012/01/12/2863
+    :date: 2012年1月12日
+  - :title: "第5回 OTRSの問題管理とナレッジ管理"
+    :url: http://thinkit.co.jp/story/2012/01/26/3071
+    :date: 2012年1月26日
+  - :title: "第6回 OTRSのサービス資産・構成管理"
+    :url: http://thinkit.co.jp/story/2012/02/08/3153
+    :date: 2012年2月8日
+  - :title: "第7回 OTRSの変更管理（前編）"
+    :url: http://thinkit.co.jp/story/2012/02/17/3334
+    :date: 2012年2月17日
+  - :title: "第8回 OTRSの変更管理（後編）"
+    :url: http://thinkit.co.jp/story/2012/02/24/3453
+    :date: 2012年2月24日
+- :url: http://thinkit.co.jp/book/2011/11/25/2334
+  :title: Windows Phone Tips集　第2弾
+  :description: ''
+  :tag: Windows Phone Tips
+  :articles:
+  - :title: "第1回 カメラで写した写真を分離ストレージに保存し、写真の一覧を表示する"
+    :url: http://thinkit.co.jp/story/2011/11/22/2335
+    :date: 2011年11月22日
+  - :title: "第2回 読み込んだ画像に落書きをし、PictureHUBに保存する"
+    :url: http://thinkit.co.jp/story/2011/11/28/2346
+    :date: 2011年11月28日
+  - :title: "第3回 カメラで写した写真をカメラロールに保存する"
+    :url: http://thinkit.co.jp/story/2011/12/05/2382
+    :date: 2011年12月5日
+  - :title: "第4回 入力したデータを分離ストレージに保存し、一覧で表示する"
+    :url: http://thinkit.co.jp/story/2011/12/09/2419
+    :date: 2011年12月9日
+  - :title: "第5回 読み込んだ画像に装飾を施し、PictureHUBに保存する"
+    :url: http://thinkit.co.jp/story/2011/12/12/2471
+    :date: 2011年12月12日
+  - :title: "第6回 入力された住所の位置をBing Mapsに表示する"
+    :url: http://thinkit.co.jp/story/2011/12/16/2522
+    :date: 2011年12月16日
+  - :title: "第7回 「住所の位置をBing Mapsに表示する」と「位置に画像付きピンを表示する」のサンプル"
+    :url: http://thinkit.co.jp/story/2011/12/19/2553
+    :date: 2011年12月19日
+  - :title: "第8回 「英文Webの部分翻訳」と「QRコードの生成」のサンプル"
+    :url: http://thinkit.co.jp/story/2011/12/26/2622
+    :date: 2011年12月26日
+  - :title: "第9回 地震の震源地を表示する"
+    :url: http://thinkit.co.jp/story/2012/01/10/2820
+    :date: 2012年1月10日
+  - :title: "第10回 カメラの向きを取得し、縦横の位置を合わせて表示させる"
+    :url: http://thinkit.co.jp/story/2012/01/13/2828
+    :date: 2012年1月13日
+- :url: http://thinkit.co.jp/book/2011/11/24/2338
+  :title: Androidタブレットアプリ開発入門
+  :description: Androidアプリの開発初心者に対し、開発環境構築手順からAndroidアプリの基礎、Android3.0で導入されたFragment等の新機能の使い方など、Androidタブレットアプリを作る上で必要な知識・情報を提供し、Androidタブレットアプリの設計・開発を行えるよう解説していきます。
+  :tag: Android,Android3.0,Fragment
+  :articles:
+  - :title: Androidアプリの開発環境を作る
+    :url: http://thinkit.co.jp/story/2011/11/24/2339
+    :date: 2011年11月24日
+  - :title: Androidアプリのイベント処理とFragment
+    :url: http://thinkit.co.jp/story/2011/12/20/2629
+    :date: 2011年12月20日
+  - :title: AndroidにおけるFragment機能の応用
+    :url: http://thinkit.co.jp/story/2012/01/18/2873
+    :date: 2012年1月18日
+  - :title: FragmentTransaction機能とアプリをリリースする上での心構え
+    :url: http://thinkit.co.jp/story/2012/02/03/3157
+    :date: 2012年2月3日
+- :url: http://thinkit.co.jp/book/2011/10/17/2305
+  :title: Windows Phone Tips集
+  :description: ''
+  :tag: Windows Phone Tips
+  :articles:
+  - :title: "第1回 Bing APIを使ってWeb検索とImage検索を実装する"
+    :url: http://thinkit.co.jp/story/2011/10/17/2306
+    :date: 2011年10月17日
+  - :title: "第2回 駅マスタ検索APIとBingMaps"
+    :url: http://thinkit.co.jp/story/2011/10/21/2314
+    :date: 2011年10月21日
+  - :title: "第3回 楽天Webサービスを利用したジャンル別商品検索"
+    :url: http://thinkit.co.jp/story/2011/10/24/2315
+    :date: 2011年10月24日
+  - :title: "第4回 データを保存し表示した電話番号に電話する"
+    :url: http://thinkit.co.jp/story/2011/10/28/2320
+    :date: 2011年10月28日
+  - :title: "第5回 データを保存し氏名から詳細情報を表示する"
+    :url: http://thinkit.co.jp/story/2011/10/31/2322
+    :date: 2011年10月31日
+  - :title: "第6回 Windows Phoneによるメッセージの受信"
+    :url: http://thinkit.co.jp/story/2011/11/04/2326
+    :date: 2011年11月4日
+  - :title: "第7回 Chartコントロールでグラフを作成する"
+    :url: http://thinkit.co.jp/story/2011/11/07/2327
+    :date: 2011年11月7日
+  - :title: "第8回 GPSによる位置情報の取得と加速度センサー"
+    :url: http://thinkit.co.jp/story/2011/11/11/2329
+    :date: 2011年11月11日
+  - :title: "第9回 メールの送信と写真を撮る"
+    :url: http://thinkit.co.jp/story/2011/11/14/2330
+    :date: 2011年11月14日
+  - :title: "第10回 モーションセンサーとShareStatusTask、MediaPlayerLauncherを使う"
+    :url: http://thinkit.co.jp/story/2011/11/15/2331
+    :date: 2011年11月15日
+  - :title: "第11回 SaveRingtoneTaskで着メロ設定と電話をかける"
+    :url: http://thinkit.co.jp/story/2011/11/18/2332
+    :date: 2011年11月18日
+  - :title: "第12回 ShareLinkTaskを使ったSNSでのリンク共有とHubTileのサンプル"
+    :url: http://thinkit.co.jp/story/2011/11/21/2333
+    :date: 2011年11月21日
+- :url: http://thinkit.co.jp/book/2011/08/29/2250
+  :title: "はじめての開発プロセス"
+  :description: "ソフトウェア開発プロセスとは何でしょうか？何のためにあるのでしょうか？プロセスという言葉には、人の活動を型に押し込め人を交換可能な部品にする印象すらあります。しかし、私はプロセスというものはチームワークを引き出すためにあるものだと考えます。本連載では、プロセスを活用するためのポイントをお伝えします。"
+  :tag: ''
+  :articles:
+  - :title: "第1回 プロセスを正しく理解していますか？"
+    :url: http://thinkit.co.jp/story/2011/08/29/2251
+    :date: 2011年8月29日
+  - :title: "第2回 いろいろなプロセス　～V字モデルとスクラム～"
+    :url: http://thinkit.co.jp/story/2011/10/04/2255
+    :date: 2011年10月4日
+  - :title: "第3回 パターンに基づくプロセス設計"
+    :url: http://thinkit.co.jp/story/2011/10/13/2295
+    :date: 2011年10月13日
+  - :title: "第4回 プロセスの要（かなめ） - フィードバック"
+    :url: http://thinkit.co.jp/story/2011/11/08/2317
+    :date: 2011年11月8日
+  - :title: "第5回 判断するための情報を得る - 見える化"
+    :url: http://thinkit.co.jp/story/2011/11/30/2345
+    :date: 2011年11月30日
+  - :title: "第6回 プロセスを変える - ビジョン"
+    :url: http://thinkit.co.jp/story/2012/01/24/2778
+    :date: 2012年1月24日
+  - :title: "第7回 プロセスを駆動する - メンタルモデル"
+    :url: http://thinkit.co.jp/story/2012/03/14/3478
+    :date: 2012年3月14日
+- :url: http://thinkit.co.jp/book/2011/08/26/2256
+  :title: "これから始めるWindows Phone プログラミング（応用編）"
+  :description: ''
+  :tag: Windows Phone
+  :articles:
+  - :title: "第1回 バックグラウンドで音楽を再生する（前編）"
+    :url: http://thinkit.co.jp/story/2011/09/02/2257
+    :date: 2011年9月2日
+  - :title: "第2回 バックグラウンドで音楽を再生する（後編）"
+    :url: http://thinkit.co.jp/story/2011/09/05/2258
+    :date: 2011年9月5日
+  - :title: "第3回 バックグラウンドによるファイル転送（前編）"
+    :url: http://thinkit.co.jp/story/2011/09/09/2274
+    :date: 2011年9月9日
+  - :title: "第4回 バックグラウンドによるファイル転送（後編）"
+    :url: http://thinkit.co.jp/story/2011/09/12/2279
+    :date: 2011年9月12日
+  - :title: "第5回 Windows Phoneによるタイル通知の送受信"
+    :url: http://thinkit.co.jp/story/2011/09/16/2280
+    :date: 2011年9月16日
+  - :title: "第6回 Windows PhoneによるToastとRaw通知の送受信"
+    :url: http://thinkit.co.jp/story/2011/09/26/2287
+    :date: 2011年9月26日
+  - :title: "第7回 アプリケーションタイルとセカンダリタイルの更新と追加"
+    :url: http://thinkit.co.jp/story/2011/09/30/2291
+    :date: 2011年9月30日
+  - :title: "第8回 Windows Phone マイクからオーディオ入力を取得する"
+    :url: http://thinkit.co.jp/story/2011/10/03/2293
+    :date: 2011年10月3日
+  - :title: "第9回 ローカルデータベースの利用と郵便番号検索"
+    :url: http://thinkit.co.jp/story/2011/10/07/2299
+    :date: 2011年10月7日
+  - :title: "第10回 データ表示にアニメーションを使う"
+    :url: http://thinkit.co.jp/story/2011/10/14/2304
+    :date: 2011年10月14日
+- :url: http://thinkit.co.jp/book/2011/07/01/2182
+  :title: "これから始めるWindows Phone プログラミング（基本編）"
+  :description: "いよいよiPhoneやAndroidに対抗する、MicrosoftのスマートフォンであるWindows Phoneが、満を持して、2011年度内に日本上陸します。直感的で美しいUIを兼ね備えたWindows
+    Phoneは、これまでのスマートフォンの勢力図を書き換える可能性があります。日本語版の開発環境が提供されたことを受け、今回から14回にわたってWindows
+    Phone のプログラミングについて解説していきます。"
+  :tag: iPhone,Android,Microsoft,Windows Phone,UI,Windows Phone
+  :articles:
+  - :title: "第1回 Windows Phone 開発環境の構築と最初のプログラム"
+    :url: http://thinkit.co.jp/story/2011/07/01/2183
+    :date: 2011年7月1日
+  - :title: "第2回 Windows Phone Tips（3つのサンプル）"
+    :url: http://thinkit.co.jp/story/2011/07/04/2184
+    :date: 2011年7月4日
+  - :title: "第3回 ページ遷移時にTransition効果を適用する"
+    :url: http://thinkit.co.jp/story/2011/07/08/2194
+    :date: 2011年7月8日
+  - :title: "第4回 コントロールの視覚効果とパノラマページの背景画像を変える"
+    :url: http://thinkit.co.jp/story/2011/07/11/2195
+    :date: 2011年7月11日
+  - :title: "第5回 パノラマページを作成する（前編）"
+    :url: http://thinkit.co.jp/story/2011/07/15/2199
+    :date: 2011年7月15日
+  - :title: "第6回 パノラマページを作成する（後編）"
+    :url: http://thinkit.co.jp/story/2011/07/22/2208
+    :date: 2011年7月22日
+  - :title: "第7回 ピボットページを作成する（前編）"
+    :url: http://thinkit.co.jp/story/2011/07/25/2209
+    :date: 2011年7月25日
+  - :title: "第8回 ピボットページを作成する（後編）"
+    :url: http://thinkit.co.jp/story/2011/07/29/2212
+    :date: 2011年7月29日
+  - :title: "第9回 LaunchersとChoosersを使ってみる"
+    :url: http://thinkit.co.jp/story/2011/08/01/2214
+    :date: 2011年8月1日
+  - :title: "第10回 サーバー上の画像取得とRSSのデータを表示する"
+    :url: http://thinkit.co.jp/story/2011/08/05/2225
+    :date: 2011年8月5日
+  - :title: "第11回 ListPickerコントロールを使う"
+    :url: http://thinkit.co.jp/story/2011/08/08/2226
+    :date: 2011年8月8日
+  - :title: "第12回 ContextMenuコントロールを使う、加速度センサー、GPSでの位置情報取得"
+    :url: http://thinkit.co.jp/story/2011/08/19/2234
+    :date: 2011年8月19日
+  - :title: "第13回 AutoCompleteBoxとLongListSelectorコントロールを使う"
+    :url: http://thinkit.co.jp/story/2011/08/22/2237
+    :date: 2011年8月22日
+  - :title: "第14回 翻訳された英文の表示と読み上げ"
+    :url: http://thinkit.co.jp/story/2011/08/26/2242
+    :date: 2011年8月26日
+- :url: http://thinkit.co.jp/book/2011/06/06/2115
+  :title: "文系女子の「ETロボコンで組み込みデビュー」"
+  :description: "入社して2週間でいきなりETロボコンへの参加を命じられてしまった新入社員の吉田さんと舟元さん。ETロボコンって？組み込みって何？？そんな状況から次第に技術を身につけていく（であろう）様子を追いつつ、組み込み開発について、順を追って分かりやすく解説していく"
+  :tag: ET
+  :articles:
+  - :title: "第1回 組み込みも、はじめの一歩はHello world"
+    :url: http://thinkit.co.jp/story/2011/06/06/2116
+    :date: 2011年6月6日
+  - :title: "第2回 ロボットに黒い線の上を走らせてみよう"
+    :url: http://thinkit.co.jp/story/2011/06/13/2163
+    :date: 2011年6月13日
+  - :title: "第3回 ロボットをスムーズに走らせるシステム制御"
+    :url: http://thinkit.co.jp/story/2011/06/27/2178
+    :date: 2011年6月27日
+  - :title: "第4回 モデリングはどこから手をつけたらいいの？"
+    :url: http://thinkit.co.jp/story/2011/08/11/2230
+    :date: 2011年8月11日
+  - :title: "第5回 ライントレースのモデル図を書く"
+    :url: http://thinkit.co.jp/story/2011/08/31/2253
+    :date: 2011年8月31日
+  - :title: "第6回 設計と難所への挑戦"
+    :url: http://thinkit.co.jp/story/2011/10/11/2296
+    :date: 2011年10月11日
+  - :title: "第7回 ETロボコンの地区大会を振り返って"
+    :url: http://thinkit.co.jp/story/2011/12/14/2469
+    :date: 2011年12月14日
+  - :title: "第8回 ETロボコン　チャンピオンシップ大会レポート"
+    :url: http://thinkit.co.jp/story/2011/12/27/2674
+    :date: 2011年12月27日
+- :url: http://thinkit.co.jp/book/2011/06/01/2141
+  :title: "ここまでできる！CSS3"
+  :description: "最初に、CSS3とは何か、今どのような状況にあるのかを簡単に説明します。そのうえで、すでに実用段階にある注目の機能をピックアップして紹介。CSS3を使う上で必須となるベンダープレフィックスついても併せて説明します。"
+  :tag: CSS3
+  :articles:
+  - :title: "第1回 CSS3って何？注目機能をピックアップ"
+    :url: http://thinkit.co.jp/story/2011/06/01/2143
+    :date: 2011年6月1日
+  - :title: "第2回 IE8以前でCSS3の表現を使うには"
+    :url: http://thinkit.co.jp/story/2011/06/20/2168
+    :date: 2011年6月20日
+  - :title: "第3回 CSS3で視認性の高いテーブルを作る"
+    :url: http://thinkit.co.jp/story/2011/08/04/2224
+    :date: 2011年8月4日
+  - :title: "第4回 CSS3のWebフォントを使ってみよう"
+    :url: http://thinkit.co.jp/story/2011/08/18/2233
+    :date: 2011年8月18日
+  - :title: "第5回 CSS3で画像をおしゃれに演出"
+    :url: http://thinkit.co.jp/story/2011/09/14/2282
+    :date: 2011年9月14日
+  - :title: "第6回 CSS3で作るWebパーツ"
+    :url: http://thinkit.co.jp/story/2011/11/16/2298
+    :date: 2011年11月16日
+  - :title: "第7回 CSS3で作るナビゲーション"
+    :url: http://thinkit.co.jp/story/2011/11/17/2328
+    :date: 2011年11月17日
+  - :title: "第8回 CSS3で作るスマートフォン用ページ"
+    :url: http://thinkit.co.jp/story/2011/12/15/2515
+    :date: 2011年12月15日
+- :url: http://thinkit.co.jp/book/2011/05/20/2125
+  :title: "ゼロからはじめるWindows Azure・改"
+  :description: "この連載では、環境の準備から、Azureを利用するための申込み、アプリケーションのインストールまでを6回にわたって解説します。Windows
+    Azureはほぼ未経験の元同僚、小木ナツキとの掛け合いを楽しみながら、はじめの一歩を体験してください。"
+  :tag: Azure,Windows Azure
+  :articles:
+  - :title: "第1回 何を用意すればいいですか？"
+    :url: http://thinkit.co.jp/story/2011/05/20/2126
+    :date: 2011年5月20日
+  - :title: "第2回 AzureでPHPって動くんですか？"
+    :url: http://thinkit.co.jp/story/2011/05/23/2129
+    :date: 2011年5月23日
+  - :title: "第3回 Azureっていくらかかるんですか？"
+    :url: http://thinkit.co.jp/story/2011/05/24/2131
+    :date: 2011年5月24日
+  - :title: "第4回 Azureにソフトをインストールしてみよう"
+    :url: http://thinkit.co.jp/story/2011/05/25/2134
+    :date: 2011年5月25日
+  - :title: "第5回 Worker RoleでWebアプリケーションを動かしてみよう"
+    :url: http://thinkit.co.jp/story/2011/05/26/2135
+    :date: 2011年5月26日
+  - :title: "第6回 Windows Azure Companionでアプリを簡単インストール"
+    :url: http://thinkit.co.jp/story/2011/05/27/2137
+    :date: 2011年5月27日
+- :url: http://thinkit.co.jp/book/2011/05/17/2159
+  :title: INSTALL MANIAX 5 Azure作戦 make the team
+  :description: ''
+  :tag: INSTALL MANIAX 5 Azure,make the team
+  :articles:
+  - :title: "あの人も参加してる!? INSTALL MANIAX 5 中間セミナー"
+    :url: http://thinkit.co.jp/story/2011/06/04/2160
+    :date: 2011年6月4日
+  - :title: "インストールマニアックス5　決勝大会レポート（1）"
+    :url: http://thinkit.co.jp/story/2011/11/25/2404
+    :date: 2011年11月25日
+  - :title: "インストールマニアックス5　決勝大会レポート（2）"
+    :url: http://thinkit.co.jp/story/2011/12/21/2633
+    :date: 2011年12月21日
+  - :title: "優勝チームメンバーが語るINSTALL MANIAX 5決勝大会"
+    :url: http://thinkit.co.jp/story/2012/01/30/2481
+    :date: 2012年1月30日
+  - :title: Scott Guthrie氏自らデモする新しいWindows Azure（米マイクロソフト訪問記その1）
+    :url: http://thinkit.co.jp/story/2012/06/12/3588
+    :date: 2012年6月12日
+  - :title: "日本は本当にガラパゴス？アメリカで働く日本人からのメッセージ（米マイクロソフト訪問記その2）"
+    :url: http://thinkit.co.jp/story/2012/06/22/3596
+    :date: 2012年6月22日
+- :url: http://thinkit.co.jp/book/2011/05/09/2103
+  :title: Silverlight 4 いろいろTips集
+  :description: "今まで解説してきたSilverlight 4のサンプルで紹介しきれなかったものを、10回に亘ってTipsという形で紹介します。いろいろな表現方法を紹介していますので、きっと表現豊かなページ作成に役立つと思います。"
+  :tag: Silverlight 4,Tips
+  :articles:
+  - :title: "第1回 画像の裏を表示する"
+    :url: http://thinkit.co.jp/story/2011/05/09/2104
+    :date: 2011年5月9日
+  - :title: "第2回 マウスクリックによるRippleEffect特殊効果"
+    :url: http://thinkit.co.jp/story/2011/05/10/2105
+    :date: 2011年5月10日
+  - :title: "第3回 特殊効果（Radial Blur）を伴った画像の切り替え"
+    :url: http://thinkit.co.jp/story/2011/05/16/2114
+    :date: 2011年5月16日
+  - :title: "第4回 カードがめくられるように数値を表示する"
+    :url: http://thinkit.co.jp/story/2011/05/17/2117
+    :date: 2011年5月17日
+  - :title: "第5回 画像のドラッグ&ドロップによるRippleEffect特殊効果"
+    :url: http://thinkit.co.jp/story/2011/05/18/2118
+    :date: 2011年5月18日
+  - :title: "第6回 スライドによるページナビゲーション"
+    :url: http://thinkit.co.jp/story/2011/05/23/2124
+    :date: 2011年5月23日
+  - :title: "第7回 ListBoxのスタイル変更と選択された項目データの表示"
+    :url: http://thinkit.co.jp/story/2011/05/24/2128
+    :date: 2011年5月24日
+  - :title: "第8回 ボタンが開閉するアコーディオンメニュー"
+    :url: http://thinkit.co.jp/story/2011/05/25/2130
+    :date: 2011年5月25日
+  - :title: "第9回 アニメーションを伴ったページナビゲーション"
+    :url: http://thinkit.co.jp/story/2011/05/30/2138
+    :date: 2011年5月30日
+  - :title: "第10回 X軸を中心に画像が回転して入れ替わる"
+    :url: http://thinkit.co.jp/story/2011/05/31/2139
+    :date: 2011年5月31日
+- :url: http://thinkit.co.jp/book/2011/05/01/2122
+  :title: IT関連イベント 2011
+  :description: ''
+  :tag: IT
+  :articles:
+  - :title: "東日本大震災支援緊急企画「OSSチャリティーセミナー」レポート"
+    :url: http://thinkit.co.jp/story/2011/05/14/2121
+    :date: 2011年5月14日
+- :url: http://thinkit.co.jp/book/2011/04/14/2090
+  :title: "状態の追加とTransitionEffectによる特殊効果（Silverlight4+Expression Blend4）"
+  :description: "今回はExpression Blend 4（以下Blend4）に実装されているTransitionEffectを使って、画像に対して特殊効果を持たす処理を全5回に亘って解説していきます。開発環境はWindows
+    7 Professional 32ビット+ SP1、Visual Studio 2010 Ultimate + SP1を使用。各回でサンプルファイルのダウンロードもできます。"
+  :tag: Expression Blend 4,Blend4,TransitionEffect,Windows 7 Professional 32,SP1,Visual
+    Studio 2010 Ultimate + SP1
+  :articles:
+  - :title: "第1回 TransitionEffectによる特殊効果を伴った画像表示"
+    :url: http://thinkit.co.jp/story/2011/04/14/2091
+    :date: 2011年4月14日
+  - :title: "第2回  TransitionEffectを使う、特殊効果を伴ったコントロールの表示（前編）"
+    :url: http://thinkit.co.jp/story/2011/04/19/2092
+    :date: 2011年4月19日
+  - :title: "第3回 TransitionEffectを使う、特殊効果を伴ったコントロールの表示（後編）"
+    :url: http://thinkit.co.jp/story/2011/04/21/2096
+    :date: 2011年4月21日
+  - :title: "第4回 Blend 4での特殊効果を使った選択画像の表示方法"
+    :url: http://thinkit.co.jp/story/2011/04/26/2099
+    :date: 2011年4月26日
+  - :title: "第5回 画像を鏡に映したように表示する"
+    :url: http://thinkit.co.jp/story/2011/04/28/2101
+    :date: 2011年4月28日
+- :url: http://thinkit.co.jp/book/2011/03/01/2033
+  :title: "製品・サービス選択ガイド"
+  :description: "情報システムを構築・運用するためには、製品サービスの活用が欠かせない。市場には、サーバーやストレージなどのハードウエア製品から、ミドルウエアや開発ツールなどのソフトウエア製品、SIサービスまで、各種の製品サービスが提供されている。この解説記事では、これらの製品サービスをどう選べばよいのかを、個々の製品サービスのジャンルごとに解説する。"
+  :tag: SI
+  :articles:
+  - :title: "【プロジェクト管理ソフト】進ちょくと収支の管理が中心、用途に応じて選ぶ"
+    :url: http://thinkit.co.jp/story/2011/03/01/2034
+    :date: 2011年3月1日
+- :url: http://thinkit.co.jp/book/2011/01/17/1929
+  :title: "オープンソースERP「Adempiere」を使いこなす"
+  :description: OSSのERP（統合業務ソフト）であるAdempiereについて解説する。Adempiereプロジェクトとソフトの概要を示したのち、インストール方法と操作方法を具体的に解説。さらに、実際にAdempiereを用いてシステムを開発する際のポイントなどについて解説する。
+  :tag: OSS,ERP,Adempiere
+  :articles:
+  - :title: "第1回 オープンソースERP「Adempiere」の概要"
+    :url: http://thinkit.co.jp/story/2011/01/17/1928
+    :date: 2011年1月17日
+  - :title: "第2回 Adempiereのインストール"
+    :url: http://thinkit.co.jp/story/2011/01/24/1949
+    :date: 2011年1月24日
+  - :title: "第3回 Adempiereの基本操作"
+    :url: http://thinkit.co.jp/story/2011/01/31/1986
+    :date: 2011年1月31日
+  - :title: "第4回 Adempiereでデータ登録画面を作る"
+    :url: http://thinkit.co.jp/story/2011/02/14/2005
+    :date: 2011年2月14日
+  - :title: "第5回 Adempiereのソースコードの取得とビルド方法"
+    :url: http://thinkit.co.jp/story/2011/06/10/2162
+    :date: 2011年6月10日
+  - :title: "第6回 Eclipseを使ってデータ登録画面を確認する"
+    :url: http://thinkit.co.jp/story/2011/06/17/2170
+    :date: 2011年6月17日
+  - :title: "第7回 WebUIのデバッグ方法と新規追加"
+    :url: http://thinkit.co.jp/story/2011/06/24/2175
+    :date: 2011年6月24日
+  - :title: "第8回 Adempiereの「プロセス」を作成する"
+    :url: http://thinkit.co.jp/story/2011/06/27/2177
+    :date: 2011年6月27日
+- :url: http://thinkit.co.jp/book/2011/01/11/1950
+  :title: "ビヘイビアで動きのあるページを作ろう（Silverlight4+Expression Blend4）"
+  :description: "全5回にわたり、ビヘイビアを用いた動きのあるページの作り方を開設する。開発環境としてVisual Studio 2010とExpression
+    Blend 4を用い、ビヘイビアの1つであるFluidMoveBehaviorビヘイビア（要素の位置の変化をアニメーション化するもの）を使って動きのあるページを作っていく。手順に従って作成することで、誰でも動きのあるページを実現できるようになる。\n\t "
+  :tag: Visual Studio 2010,Expression Blend 4,FluidMoveBehavior
+  :articles:
+  - :title: "第1回 ブラウザ上で複数の画像を自動的に並び替える"
+    :url: http://thinkit.co.jp/story/2011/01/11/1951
+    :date: 2011年1月11日
+  - :title: "第2回 ListBoxの画像を飛び出すアニメーションで拡大表示する"
+    :url: http://thinkit.co.jp/story/2011/01/17/1952
+    :date: 2011年1月17日
+  - :title: "第3回 ListBox間を画像がアニメーションを伴って行き来する"
+    :url: http://thinkit.co.jp/story/2011/01/18/1953
+    :date: 2011年1月18日
+  - :title: "第4回 画像のドラッグ機能を追加するMouseDragElementBehavior"
+    :url: http://thinkit.co.jp/story/2011/01/24/1954
+    :date: 2011年1月24日
+  - :title: "第5回 GotoStateActionアクションを使ってトリガーを指定する"
+    :url: http://thinkit.co.jp/story/2011/01/25/1956
+    :date: 2011年1月25日
+- :url: http://thinkit.co.jp/book/2011/01/01/1945
+  :title: 2011新春特別企画
+  :description: Think IT年初めの恒例企画として、IT系ベンダー、ITサービス企業、ゲーム制作・開発会社、IT系出版社の年賀状を全3回にわたって紹介する。
+  :tag: Think IT,IT
+  :articles:
+  - :title: 2011あの会社の年賀状が見たい！（其の一）
+    :url: http://thinkit.co.jp/story/2011/01/05/1946
+    :date: 2011年1月5日
+  - :title: 2011あの会社の年賀状が見たい！（其の二）
+    :url: http://thinkit.co.jp/story/2011/01/06/1947
+    :date: 2011年1月6日
+  - :title: 2011あの会社の年賀状が見たい！（其の三）
+    :url: http://thinkit.co.jp/story/2011/01/07/1948
+    :date: 2011年1月7日
+- :url: http://thinkit.co.jp/book/2010/12/01/1909
+  :title: SAP基幹システムの高可用性を低コストで
+  :description: "本連載では、現在導入を検討中のSAPユーザーが、より安心してLinuxを採用する事を目的に、SAPジャパン、サイオステクノロジー、日本IBMの3社共同で、より高い信頼性を提供できるかどうかの検証を行った結果をお伝えする。\n\t検証にあたって利用したのは、業務アプリケーション用途として多くのユーザーに採用されているIBMブレードサーバーと、RedHat
+    Linux、Oracle、SAP NetWeaverの各最新バージョンソフトウエア、そしてHAクラスタソフトウエアであるLifeKeeper for Linuxの最新バージョンである。"
+  :tag: SAP,Linux,IBM,RedHat Linux,Oracle,SAP NetWeaver,HA,LifeKeeper for Linux
+  :articles:
+  - :title: "第1回 Linux上でSAPの堅牢性をより高める"
+    :url: http://thinkit.co.jp/story/2010/12/06/1910
+    :date: 2010年12月6日
+  - :title: "第2回 SAPリソース設定に向けてのポイント"
+    :url: http://thinkit.co.jp/story/2010/12/13/1915
+    :date: 2010年12月13日
+  - :title: "第3回 SAPリソース設定とフェイルオーバー"
+    :url: http://thinkit.co.jp/story/2010/12/20/1936
+    :date: 2010年12月20日
+- :url: http://thinkit.co.jp/book/2010/11/17/1865
+  :title: Silverlight 4でWCF RIA Servicesを使う
+  :description: "本連載では、WCF RIA Servicesの機能を使って、DataGridに表示されたSQL Serverデータベースの編集や、データの新規追加を解説していきます。WCF
+    RIA Servicesを使うとクライアントからサーバ上のデータにアクセスができ、検索、編集、保存が可能になるといったメリットがあります。クライアントとサーバ間の通信にWCF（Windows
+    Communication Foundation）が使用されます。ほとんどのコードが自動生成され、ユーザが記述するコードはごく僅かです。"
+  :tag: WCF RIA Services,DataGrid,SQL Server,WCF,Windows Communication Foundation
+  :articles:
+  - :title: "第1回 SQL Serverデータベースの作成とデータソースの作成"
+    :url: http://thinkit.co.jp/story/2010/11/17/1866
+    :date: 2010年11月17日
+  - :title: "第3回 DataGridコントロールへの新規データの追加"
+    :url: http://thinkit.co.jp/story/2010/11/19/1868
+    :date: 2010年11月19日
+  - :title: "第2回 DataGridコントロールの追加と、データの編集、更新"
+    :url: http://thinkit.co.jp/story/2010/11/18/1867
+    :date: 2010年11月18日
+- :url: http://thinkit.co.jp/book/2010/10/25/1817
+  :title: "ゼロからはじめるWindows Azure"
+  :description: "この連載では、「ゼロからはじめるWindows Azure」と題して、環境の準備から、Azureを利用するための申込み、アプリケーションのインストールまでを解説します。これから７回にわたって、同僚でWindows
+    Azureほぼ未経験の小木ナツキとWindows Azureに触れながら、その使い勝手や操作方法をレポートしていきます。"
+  :tag: Windows Azure,Azure
+  :articles:
+  - :title: "第1回 何を用意すればいいですか？"
+    :url: http://thinkit.co.jp/story/2010/10/25/1818
+    :date: 2010年10月25日
+  - :title: "第2回 AzureでPHPって動くんですか？"
+    :url: http://thinkit.co.jp/story/2010/11/02/1838
+    :date: 2010年11月2日
+  - :title: "第3回 Azureっていくらかかるんですか？"
+    :url: http://thinkit.co.jp/story/2010/11/08/1853
+    :date: 2010年11月8日
+  - :title: "第4回 Azureにソフトをインストールしてみよう"
+    :url: http://thinkit.co.jp/story/2010/11/16/1859
+    :date: 2010年11月16日
+  - :title: "第5回 Worker RoleでWebアプリケーションを動かしてみよう"
+    :url: http://thinkit.co.jp/story/2010/11/24/1876
+    :date: 2010年11月24日
+  - :title: "第6回 Windows Azure Companionでアプリを簡単インストール"
+    :url: http://thinkit.co.jp/story/2010/11/29/1885
+    :date: 2010年11月29日
+  - :title: "第7回 ゼロからはじめたWindows Azureのまとめ"
+    :url: http://thinkit.co.jp/story/2010/12/07/1912
+    :date: 2010年12月7日
+- :url: http://thinkit.co.jp/book/2010/10/21/1814
+  :title: Google App EngineのLow-Level APIを極める
+  :description: "Google App Engineの真髄に触れるためには、分散型キー・バリュー・ストアであるBigtableのデータ構造に直結したLow-Level
+    APIの使用が不可欠。本解説では、全5回にわたって、Low-Level APIを介したGoogle App Engineの実践的な使い方を、サンプル・ソース・コードを用いて解説する。Low-Level
+    APIでのデータ・ストアとJDOの違い、CAP定理の制約、Queryオブジェクト使用時の制限事項、などを解く。\n\t "
+  :tag: Google App Engine,Bigtable,Low-Level API,JDO,CAP,Query
+  :articles:
+  - :title: "第1回 JDO APIとLow-Level APIの違いと基本CRUD処理"
+    :url: http://thinkit.co.jp/story/2010/10/21/1816
+    :date: 2010年10月21日
+  - :title: "第2回 同一テーブルでプロパティ項目を変更して永続化"
+    :url: http://thinkit.co.jp/story/2010/11/12/1864
+    :date: 2010年11月12日
+  - :title: "第3回 リスト・プロパティを含むエンティティの永続化"
+    :url: http://thinkit.co.jp/story/2010/12/09/1904
+    :date: 2010年12月9日
+  - :title: "第4回 エンティティ所有／被所有関係とトランザクション処理"
+    :url: http://thinkit.co.jp/story/2011/01/19/1963
+    :date: 2011年1月19日
+  - :title: "第5回 Low-Level APIを使ってデータ・ストアを検索する"
+    :url: http://thinkit.co.jp/story/2011/02/22/2009
+    :date: 2011年2月22日
+- :url: http://thinkit.co.jp/book/2010/10/08/1794
+  :title: RIAにおける、外部入力データの処理
+  :description: "これまでの2本の連載、「これからはじめるSilverlight」「続・これからはじめるSilverlight」では、Silverlightアプリケーションの開発方法について情報を提供してきました。それらはパソコンの任意のフォルダに保存したファイル、データでしたが、パソコンの中だけで完結しない処理は増えていきます。この連載では、外部機器から得られる、ビデオ、オーディオ、センサ、タッチといった情報を取得して利用する処理について取り上げます。"
+  :tag: Silverlight
+  :articles:
+  - :title: "第1回 WebCamのキャプチャと、ビデオ・データの処理"
+    :url: http://thinkit.co.jp/story/2010/10/08/1795
+    :date: 2010年10月8日
+  - :title: "第2回 オーディオ・キャプチャと、PCM形式での保存"
+    :url: http://thinkit.co.jp/story/2010/10/15/1799
+    :date: 2010年10月15日
+  - :title: "第3回 センサーから取得したデータの利用"
+    :url: http://thinkit.co.jp/story/2010/10/22/1813
+    :date: 2010年10月22日
+  - :title: "第4回 マルチタッチ入力による図形の描画"
+    :url: http://thinkit.co.jp/story/2010/10/29/1830
+    :date: 2010年10月29日
+- :url: http://thinkit.co.jp/book/2010/09/27/1781
+  :title: Rational解体新書
+  :description: "本連載では、IBM Rational Softwareが提供するモデリングツールを使った最新のUMLモデリングについての解説、またプロジェクトメンバーやリーダー／マネージャーなどそれぞれの視点からRationalをどのような事に役立てることができるかを解説しながら、その魅力に迫っていく。"
+  :tag: IBM Rational Software,UML,Rational
+  :articles:
+  - :title: "第1回 RSA V8にみる最新UMLモデリング"
+    :url: http://thinkit.co.jp/story/2010/09/28/1770
+    :date: 2010年9月28日
+  - :title: 2つのパネルディスカッション―Innovate2010レポート
+    :url: http://thinkit.co.jp/story/2010/10/26/1826
+    :date: 2010年10月26日
+  - :title: Rational Team Concertのある生活～チーム・リーダーの1日
+    :url: http://thinkit.co.jp/story/2010/11/02/1839
+    :date: 2010年11月2日
+  - :title: Rational Team Concertのある生活～チーム・メンバーの1日
+    :url: http://thinkit.co.jp/story/2010/11/30/1884
+    :date: 2010年11月30日
+  - :title: Rational Team Concertのある生活～チームの1日
+    :url: http://thinkit.co.jp/story/2011/01/26/1975
+    :date: 2011年1月26日
+  - :title: "開発・テストへのクラウド導入で、素早い環境構築と運用コスト削減を実現"
+    :url: http://thinkit.co.jp/story/2011/02/28/2021
+    :date: 2011年2月28日
+- :url: http://thinkit.co.jp/book/2010/09/14/1765
+  :title: Windows Azure集中講座
+  :description: "コミュニティが発足し、ますます盛り上がりを見せているマイクロソフトのPaaS型クラウドサービスであるWindows Azureについて、最新のトピックスから基礎知識、また開発前の準備や.NETによる開発など、幅広く解説していく"
+  :tag: PaaS,Windows Azure,.NET
+  :articles:
+  - :title: "第1回 そもそもWindows Azureとは"
+    :url: http://thinkit.co.jp/story/2010/09/14/1760
+    :date: 2010年9月14日
+  - :title: "第2回 Windows Azureコンピューティングサービス"
+    :url: http://thinkit.co.jp/story/2010/11/11/1845
+    :date: 2010年11月11日
+  - :title: "第3回 Windows Azureストレージサービス"
+    :url: http://thinkit.co.jp/story/2011/04/08/2079
+    :date: 2011年4月8日
+  - :title: "第4回 Windows Azureを利用するための準備"
+    :url: http://thinkit.co.jp/story/2011/05/19/2123
+    :date: 2011年5月19日
+  - :title: "第5回 Windows Azureを開始する その2"
+    :url: http://thinkit.co.jp/story/2011/06/09/2156
+    :date: 2011年6月9日
+  - :title: "第6回 PowerShellを使用したAzureの管理"
+    :url: http://thinkit.co.jp/story/2011/07/27/2211
+    :date: 2011年7月27日
+  - :title: "第7回 PowerShellを使用したAzureの管理（2）"
+    :url: http://thinkit.co.jp/story/2011/08/30/2252
+    :date: 2011年8月30日
+  - :title: "第8回 Azureストレージマネジメントツール類の紹介"
+    :url: http://thinkit.co.jp/story/2011/10/05/2286
+    :date: 2011年10月5日
+  - :title: "第9回 これまでのWindows Azure記事のまとめ"
+    :url: http://thinkit.co.jp/story/2012/04/03/3501
+    :date: 2012年4月3日
+- :url: http://thinkit.co.jp/book/2010/09/01/1724
+  :title: "ミクシィ開発陣直伝！ 今日からはじめるmixiアプリ開発"
+  :description: mixiアプリの基本的な作り方や押さえておくべき点など、また、どうしたらmixiアプリで面白いアプリケーションを作れるか、負荷対策はどうしたらいいかといった、企画-開発-運用の一連の流れを、開発陣自ら全8回の連載で解説する。
+  :tag: mixi
+  :articles:
+  - :title: "第1回 なぜmixiの牧場アプリはヒットしたのか"
+    :url: http://thinkit.co.jp/story/2010/09/01/1725
+    :date: 2010年9月1日
+  - :title: "第2回 開発前におさえておくべきmixiアプリ企画のポイント"
+    :url: http://thinkit.co.jp/story/2010/09/08/1739
+    :date: 2010年9月8日
+  - :title: "第3回 mixiアプリを動かしてみよう（基本編）"
+    :url: http://thinkit.co.jp/story/2010/09/22/1758
+    :date: 2010年9月22日
+  - :title: "第4回 mixiアプリを動かしてみよう（応用編）"
+    :url: http://thinkit.co.jp/story/2010/09/29/1769
+    :date: 2010年9月29日
+  - :title: "第5回 Flashで作るmixiアプリ"
+    :url: http://thinkit.co.jp/story/2010/10/06/1748
+    :date: 2010年10月6日
+  - :title: "第6回 「ネギ振りカウンタ」から学ぶmixiアプリ運用"
+    :url: http://thinkit.co.jp/story/2010/10/13/1796
+    :date: 2010年10月13日
+  - :title: "第7回 DB、クラウド－実例から学ぶmixiアプリ運用ノウハウ"
+    :url: http://thinkit.co.jp/story/2010/10/20/1810
+    :date: 2010年10月20日
+  - :title: "番外編 mixi Pluginであなたのサイトをソーシャルに！"
+    :url: http://thinkit.co.jp/story/2010/10/27/1824
+    :date: 2010年10月27日
+- :url: http://thinkit.co.jp/book/2010/08/18/1721
+  :title: Innovate 2010（IBM米国カンファレンス）
+  :description: "米IBMのソフトウェア開発ツール・ブランドであるRationalの年次カンファレンス「Innovate2010」。2010年6月に4000人超の参加者を集め、米フロリダ州オーランドで開催された同カンファレンスの模様をレポートする。"
+  :tag: IBM,Rational,Innovate2010
+  :articles:
+  - :title: "ソフトウェアがもたらす価値と、それによるイノベーションをアピール"
+    :url: http://thinkit.co.jp/story/2010/08/19/1720
+    :date: 2010年8月19日
+- :url: http://thinkit.co.jp/book/2010/08/02/1673
+  :title: "続・これからはじめるSilverlight 4"
+  :description: "本連載は、連載「これからはじめるSilverlight 4」の続編です。前回は、基本的なサンプルを紹介しました。今回は、Silverlight
+    4の応用的なサンプルを全10回(前編5回と後編5回)にわたって紹介します。筆者の開発環境は、「Windows 7 Professional」、「Visual
+    Studio 2010 Ultimate」、「Expression Blend 4」、全て日本語版の環境です。\n\t "
+  :tag: Silverlight 4,Windows 7 Professional,Visual Studio 2010 Ultimate,Expression
+    Blend 4
+  :articles:
+  - :title: "第1回 Silverlight 4の印刷機能：画像編"
+    :url: http://thinkit.co.jp/story/2010/08/02/1672
+    :date: 2010年8月2日
+  - :title: "第2回 Silverlight 4の印刷機能：DataGrid編"
+    :url: http://thinkit.co.jp/story/2010/08/03/1674
+    :date: 2010年8月3日
+  - :title: "第3回 Silverlight 4の印刷機能：RichTextBox編"
+    :url: http://thinkit.co.jp/story/2010/08/04/1675
+    :date: 2010年8月4日
+  - :title: "第4回 指定したフォルダのファイル一覧と特殊フォルダへのアクセス"
+    :url: http://thinkit.co.jp/story/2010/08/05/1676
+    :date: 2010年8月5日
+  - :title: "第5回 DataGrid内のデータを編集保存する"
+    :url: http://thinkit.co.jp/story/2010/08/06/1677
+    :date: 2010年8月6日
+  - :title: "第6回 DataGridへのデータの追加と削除"
+    :url: http://thinkit.co.jp/story/2010/08/23/1699
+    :date: 2010年8月23日
+  - :title: "第7回 DataFormの編集と新規データの追加"
+    :url: http://thinkit.co.jp/story/2010/08/24/1700
+    :date: 2010年8月24日
+  - :title: "第8回 TabControlでの画像の切り替えとRichTextBoxの利用"
+    :url: http://thinkit.co.jp/story/2010/08/25/1702
+    :date: 2010年8月25日
+  - :title: "第9回 PanelとDataGridのドラッグ&ドロップ"
+    :url: http://thinkit.co.jp/story/2010/08/26/1704
+    :date: 2010年8月26日
+  - :title: "第10回 DataGridのデータをマルチ選択、カンマ区切りで保存する"
+    :url: http://thinkit.co.jp/story/2010/08/27/1705
+    :date: 2010年8月27日
+- :url: http://thinkit.co.jp/book/2010/06/07/1593
+  :title: "これからはじめるSilverlight 4"
+  :description: "本連載では、Visual Studio 2010正規版（英語）とSilverlight 4 Tools for Visual Studio
+    2010（英語）を用いて、サンプルの作り方を紹介しながら、Silverlight 4の新機能をお伝えします。"
+  :tag: Visual Studio 2010,Silverlight 4 Tools for Visual Studio 2010,Silverlight
+    4
+  :articles:
+  - :title: "第1回 Silverlight 4の概要と、開発環境の構築"
+    :url: http://thinkit.co.jp/story/2010/06/07/1591
+    :date: 2010年6月7日
+  - :title: "第2回 マウスの右クリックでメニューを表示する"
+    :url: http://thinkit.co.jp/story/2010/06/08/1587
+    :date: 2010年6月8日
+  - :title: "第3回 WebBrowserコントロールにWebサイトを表示する"
+    :url: http://thinkit.co.jp/story/2010/06/09/1592
+    :date: 2010年6月9日
+  - :title: "第4回 マウス・ホイールと、通知領域への表示"
+    :url: http://thinkit.co.jp/story/2010/06/10/1596
+    :date: 2010年6月10日
+  - :title: "第5回 ドラッグ＆ドロップと、コントロールの生成"
+    :url: http://thinkit.co.jp/story/2010/06/11/1597
+    :date: 2010年6月11日
+  - :title: "第6回 RichTextBox内の各オブジェクトを印刷する"
+    :url: http://thinkit.co.jp/story/2010/06/14/1599
+    :date: 2010年6月14日
+  - :title: "第7回 DataGridコントロールの新しい2つの機能を使う"
+    :url: http://thinkit.co.jp/story/2010/06/15/1600
+    :date: 2010年6月15日
+  - :title: "第8回 ローカル・ディスク上でのファイル操作"
+    :url: http://thinkit.co.jp/story/2010/06/16/1601
+    :date: 2010年6月16日
+  - :title: "第9回 Office 2010とSilverlight 4の連携"
+    :url: http://thinkit.co.jp/story/2010/06/17/1602
+    :date: 2010年6月17日
+  - :title: "第10回 PathListBoxを使った画像の移動"
+    :url: http://thinkit.co.jp/story/2010/06/18/1603
+    :date: 2010年6月18日
+- :url: http://thinkit.co.jp/book/2010/05/26/1581
+  :title: iPhone対応業務アプリケーション
+  :description: "携帯電話がビジネスの必需品となって久しい。昨今はPC並の機能を持つ「スマートフォン」と呼ばれる高性能端末も数多く登場。その中でも高い注目を集めるのが、米アップルの「iPhone」だ。iPhoneの性能を生かした専用アプリケーションも充実しつつある。"
+  :tag: PC,iPhone
+  :articles:
+  - :title: "第1回 業務システムでの利用進むiPhone　機動性と操作性を最大限に生かす"
+    :url: http://thinkit.co.jp/article/1573/1
+    :date: 2010年5月26日
+- :url: http://thinkit.co.jp/book/2010/05/06/1536
+  :title: "タオの新人研修 Androidプログラミング 初めの1歩"
+  :description: Androidで動作するアプリケーションを開発する具体的な方法を、実際にソース・コードを用いて解説する。Java開発環境（Eclipse、JDK、Android
+    SDK）の整備から、業務アプリケーションの実装まで、実践的な開発ノウハウを網羅する。
+  :tag: Android,Java,Eclipse,JDK,Android SDK
+  :articles:
+  - :title: "開発環境の構築"
+    :url: http://thinkit.co.jp/article/1193/1
+    :date: 2010年5月6日
+  - :title: "簡易ブラウザの作成（その1）"
+    :url: http://thinkit.co.jp/article/1207/1
+    :date: 2010年5月20日
+  - :title: "簡易ブラウザの作成（その2）"
+    :url: http://thinkit.co.jp/article/1209/1
+    :date: 2010年5月27日
+  - :title: "簡易ブラウザの作成（その3）"
+    :url: http://thinkit.co.jp/story/2010/06/03/1551
+    :date: 2010年6月3日
+  - :title: Eclipseで開発を始めよう！
+    :url: http://thinkit.co.jp/article/1205/1
+    :date: 2010年5月13日
+- :url: http://thinkit.co.jp/book/2010/03/05/635
+  :title: INSTALL MANIAX 3 決勝大会・表彰式
+  :description: 2009年から2010年にかけて実施されたコンテスト「インストールマニアックス3 Hyper-V祭り」の決勝大会（2010年2月27日開催）の模様を2回に分けて解説。
+  :tag: Hyper-V
+  :articles:
+  - :title: "第1回 決勝スタート！最初にインストールするのは誰？"
+    :url: http://thinkit.co.jp/article/1160/1
+    :date: 2010年3月5日
+  - :title: "第2回 優勝決定！怒濤のインストールの果てに"
+    :url: http://thinkit.co.jp/article/1171/1
+    :date: 2010年3月12日
+- :url: http://thinkit.co.jp/book/2010/01/12/621
+  :title: Windows/OSS徹底比較～それぞれの実力を紐解く～
+  :description: Windows（Windows Server 2008 R2、Windows 7）とオープンソース（OSS）をシステム開発で利用する際の違いを、全10回の連載で解説。価格、GUI/CUI、仮想化、運用管理、サポートなどに着目し両者を比較検証。
+  :tag: Windows,Windows Server 2008 R2,Windows 7,OSS,GUI/CUI
+  :articles:
+  - :title: "第1回 Windows Server 2008 R2の全貌"
+    :url: http://thinkit.co.jp/article/1110/1
+    :date: 2010年1月12日
+  - :title: "第2回 WindowsとLinuxの選択"
+    :url: http://thinkit.co.jp/article/1115/1
+    :date: 2010年1月18日
+  - :title: "第3回 グラフィカルユーザインタフェースとコマンドラインインタフェース"
+    :url: http://thinkit.co.jp/article/1120/1
+    :date: 2010年1月25日
+  - :title: "第4回 サーバーの仮想化"
+    :url: http://thinkit.co.jp/article/1128/1
+    :date: 2010年2月1日
+  - :title: "第5回 サーバーの運用・管理"
+    :url: http://thinkit.co.jp/article/1133/1
+    :date: 2010年2月8日
+  - :title: "第6回 ディレクトリサービスとユーザー認証、ファイル共有、ポリシー管理"
+    :url: http://thinkit.co.jp/article/1142/1
+    :date: 2010年2月15日
+  - :title: "第7回 セキュリティ"
+    :url: http://thinkit.co.jp/article/1149/1
+    :date: 2010年2月22日
+  - :title: "第8回 技術情報とサポート"
+    :url: http://thinkit.co.jp/article/1158/1
+    :date: 2010年3月1日
+  - :title: "第9回 ライセンスとコスト"
+    :url: http://thinkit.co.jp/article/1162/1
+    :date: 2010年3月8日
+  - :title: "第10回 まとめ"
+    :url: http://thinkit.co.jp/article/1170/1
+    :date: 2010年3月15日
+- :url: http://thinkit.co.jp/book/2010/01/05/620
+  :title: "あの企業の年賀状が見たい！2010"
+  :description: IT企業が2010年に配送した年賀状の画像を、全4回の記事で一挙掲載。各記事ごとに、IT系企業、ITサービス系企業、ゲーム会社、IT系出版社の4業種それぞれの年賀状を網羅。
+  :tag: IT
+  :articles:
+  - :title: "第1回 IT系企業の年賀状が見たい"
+    :url: http://thinkit.co.jp/article/1102/1
+    :date: 2010年1月5日
+  - :title: "第2回 ITサービス企業の年賀状が見たい"
+    :url: http://thinkit.co.jp/article/1106/1
+    :date: 2010年1月12日
+  - :title: "第3回 ゲーム会社の年賀状が見たい"
+    :url: http://thinkit.co.jp/article/1113/1
+    :date: 2010年1月18日
+  - :title: "第4回 IT系出版社の年賀状が見たい"
+    :url: http://thinkit.co.jp/article/1122/1
+    :date: 2010年1月25日
+- :url: http://thinkit.co.jp/book/2009/07/02/582
+  :title: "インストールマニアックス2009、決勝レポート"
+  :description: 2009年に開催したインストール・コンテスト「INSTALL MANIAX 2009 TETSUJIN64」（今回の参加者は500人）の決勝戦
+    （2009年6月14日開催）当日の模様を解説する。
+  :tag: INSTALL MANIAX 2009 TETSUJIN64
+  :articles:
+  - :title: "第1回 決勝大会・表彰式レポート"
+    :url: http://thinkit.co.jp/article/975/1
+    :date: 2009年7月2日
+- :url: http://thinkit.co.jp/book/2009/03/09/556
+  :title: "インストールマニアックス2008、現地レポート"
+  :description: 2007年から2008年にかけて実施されたコンテスト「インストールマニアックス2008」の優勝商品が、マイクロソフトUS本社見学ツアー。全工程の詳細を4回に分けて解説。
+  :tag: US
+  :articles:
+  - :title: "第1回 マイクロソフトUS本社見学ツアー：1日目"
+    :url: http://thinkit.co.jp/article/882/1
+    :date: 2008年3月9日
+  - :title: "第2回 マイクロソフトUS本社見学ツアー：2日目（1）"
+    :url: http://thinkit.co.jp/article/883/1
+    :date: 2009年3月10日
+  - :title: "第3回 マイクロソフトUS本社見学ツアー：2日目（2）"
+    :url: http://thinkit.co.jp/article/886/1
+    :date: 2009年3月11日
+  - :title: "第4回 マイクロソフトUS本社見学ツアー：3日目"
+    :url: http://thinkit.co.jp/article/887/1
+    :date: 2009年3月12日
+- :url: http://thinkit.co.jp/book/2009/01/01/232
+  :title: "あの会社の年賀状が見たい！2009"
+  :description: IT系企業が2009年に配信した年賀状を、全4回にわたって一挙公開。各回ごとそれぞれ、IT系出版社、IT系企業、Webサービス＆デザイン企業、ゲーム企業の年賀状を掲載。
+  :tag: IT,Web
+  :articles:
+  - :title: "第1回 IT系出版社の年賀状が見たい！"
+    :url: http://thinkit.co.jp/article/774/1
+    :date: 2009年1月5日
+  - :title: "第2回 IT系企業の年賀状が見たい！"
+    :url: http://thinkit.co.jp/article/775/1
+    :date: 2009年1月6日
+  - :title: "第3回 Webサービス＆デザイン会社の年賀状が見たい！"
+    :url: http://thinkit.co.jp/article/777/1
+    :date: 2009年1月7日
+  - :title: "第4回 ゲーム会社の年賀状が見たい！"
+    :url: http://thinkit.co.jp/article/778/1
+    :date: 2009年1月8日
+- :url: http://thinkit.co.jp/book/2008/12/26/231
+  :title: 2009年こそ、なりたい自分になる
+  :description: 2009年初頭の年始企画。情報システムによって業務を成功に導くなど、エンジニアがなりたい自分になるための方法として、目標の立て方や、目標を達成するためのTipsを紹介。
+  :tag: Tips
+  :articles:
+  - :title: "第1回 目標を立てて成長ある1年にしよう！"
+    :url: http://thinkit.co.jp/article/765/1
+    :date: 2008年12月26日
+- :url: http://thinkit.co.jp/book/2008/09/16/198
+  :title: "読んで試して！ActiveWidgets！"
+  :description: "本連載では、ActiveWidgetsの使い方を具体的に紹介していきます。"
+  :tag: ActiveWidgets
+  :articles:
+  - :title: "第1回 ActiveWidgetsでAjax！"
+    :url: http://thinkit.co.jp/article/136/1
+    :date: 2008年9月16日
+  - :title: "第2回 DWRでAjaxプログラムをかんたん作成！"
+    :url: http://thinkit.co.jp/article/136/2
+    :date: 2008年9月17日
+  - :title: "第3回 応用編！Ajaxで表計算機能"
+    :url: http://thinkit.co.jp/article/136/3
+    :date: 2008年9月18日
+  - :title: "第4回 Plotrでグリッドデータからグラフ表示"
+    :url: http://thinkit.co.jp/article/136/4
+    :date: 2008年9月19日
+- :url: http://thinkit.co.jp/book/2008/08/18/195
+  :title: "読んで試して！Vim！"
+  :description: "そもそもvi（そしてVim）とは何だろう。Vimは、いわゆるテキストエディターの1つだ。その昔、まだコンピュータが現在のように高速ではなかったころ、エディターはファイルの全体を読めるものではなかった。"
+  :tag: vi,Vim
+  :articles:
+  - :title: "第1回 今さらながらのVim！"
+    :url: http://thinkit.co.jp/article/123/1
+    :date: 2008年8月18日
+  - :title: "第2回 Vimの基本操作をマスターしよう"
+    :url: http://thinkit.co.jp/article/123/2
+    :date: 2008年8月19日
+  - :title: "第3回 プログラムを書くのに便利な機能！"
+    :url: http://thinkit.co.jp/article/123/3
+    :date: 2008年8月15日
+  - :title: "第4回 あちこちをViモードにしていこう"
+    :url: http://thinkit.co.jp/article/123/4
+    :date: 2008年8月21日
+- :url: http://thinkit.co.jp/book/2008/07/11/192
+  :title: "メンタルヘルス虎の巻！"
+  :description: "ソフトウエア開発者のためのメンタル・ヘルス・ガイドを、全6本の記事で解説。ストレスが引き起こす病気と症状、不調のサインなど、心を健康に保つための知識とノウハウを詳説。\n\t "
+  :tag: ''
+  :articles:
+  - :title: "第1回 上手にストレスとつきあう秘訣"
+    :url: http://thinkit.co.jp/article/108/1
+    :date: 2008年7月11日
+  - :title: "第2回 ストレスが引き起こす病気と症状"
+    :url: http://thinkit.co.jp/article/108/2
+    :date: 2008年7月25日
+  - :title: "第3回 気づいていますか？不調のサイン"
+    :url: http://thinkit.co.jp/article/108/3
+    :date: 2008年8月8日
+  - :title: "第4回 これってうつ病？それともなまけ？"
+    :url: http://thinkit.co.jp/article/108/4
+    :date: 2008年8月22日
+  - :title: "第5回 こころの健康のためのキャリアとは？"
+    :url: http://thinkit.co.jp/article/108/5
+    :date: 2008年9月5日
+  - :title: "第6回 コミュニケーションスキルを磨こう"
+    :url: http://thinkit.co.jp/article/108/6
+    :date: 2008年9月19日
+- :url: http://thinkit.co.jp/book/2008/05/21/188
+  :title: "たかはしもとのぶの「はじめてのオープンソース」"
+  :description: "上司と部下など3人の登場人物による対話形式の物語を通じてオープンソースの魅力と使い方を指南する解説記事。Linuxの展示会「LinuxWorld
+    Expo/Tokyo 2007」を題材にストーリは進行。"
+  :tag: Linux,LinuxWorld Expo/Tokyo 2007
+  :articles:
+  - :title: "第1回 特別編！LinuxWorldで森君と握手！"
+    :url: http://thinkit.co.jp/article/75/11
+    :date: 2008年5月21日
+- :url: http://thinkit.co.jp/book/2008/05/16/187
+  :title: Gaucheでプログラミング！
+  :description: 2008年5月現在、簡易Web開発の手段として注目されているプログラミング言語「Gauche」（Scheme）について全5本の連載で解説。
+    入門から簡単なアプリ開発までカバー。
+  :tag: Web,Gauche,Scheme
+  :articles:
+  - :title: "第1回 Gaucheをはじめてみませんか？"
+    :url: http://thinkit.co.jp/article/74/1
+    :date: 2008年5月16日
+  - :title: "第2回 超！Gauche入門"
+    :url: http://thinkit.co.jp/article/74/2
+    :date: 2008年5月23日
+  - :title: "第3回 簡単Webプログラミング！"
+    :url: http://thinkit.co.jp/article/74/3
+    :date: 2008年5月30日
+  - :title: "第4回 Gaucheで超高生産性Webアプリ！"
+    :url: http://thinkit.co.jp/article/74/4
+    :date: 2008年6月20日
+  - :title: "第5回 GaucheでCOOLなWebアプリ！"
+    :url: http://thinkit.co.jp/article/74/5
+    :date: 2008年6月27日
+- :url: http://thinkit.co.jp/book/2008/05/09/185
+  :title: SUSE Linux Enterprise Serverを楽しむ！
+  :description: 2008年5月現在、有力な選択肢となっているサーバーOS「SUSE Linux Enterprise Server」について、全4本の記事で解説。OSの紹介から簡単な運用方法までをカバー。
+  :tag: OS,SUSE Linux Enterprise Server
+  :articles:
+  - :title: "第1回 10のインストール！"
+    :url: http://thinkit.co.jp/article/63/1
+    :date: 2008年5月9日
+  - :title: "第2回 YaSTで簡単セッティング！"
+    :url: http://thinkit.co.jp/article/63/2
+    :date: 2008年5月16日
+  - :title: "第3回 NICの設定をしよう！"
+    :url: http://thinkit.co.jp/article/63/3
+    :date: 2008年5月23日
+  - :title: "第4回 複数のNICを設定しよう！"
+    :url: http://thinkit.co.jp/article/63/4
+    :date: 2008年5月30日
+- :url: http://thinkit.co.jp/book/2008/04/28/186
+  :title: "小さな日本代表が世界へ！－FLL実況レポート"
+  :description: "2008年4月17日～19日に米国ジョージア州アトランタで開催されたロボット・コンテスト「FLL World Festival」における、日本代表チーム「Eleven」の奮闘の様子を伝える解説。\n\t "
+  :tag: FLL World Festival,Eleven
+  :articles:
+  - :title: "第1回 日本の誇りをかけて、いざアトランタへ！"
+    :url: http://thinkit.co.jp/article/64/1
+    :date: 2008年4月28日
+  - :title: "第2回 チームワークで魅せた日本！"
+    :url: http://thinkit.co.jp/article/64/2
+    :date: 2008年5月9日
+- :url: http://thinkit.co.jp/book/2008/04/18/1507
+  :title: "最強ロボットを作れ！－FLL挑戦記"
+  :description: "コンピュータ・ソフトウエアで動作を制御するロボット・コンテスト「FLL」に挑戦し勝利するための方法を、複数の記事で解説。FLLとは何かから、実際の課題を解決する術までカバー。"
+  :tag: FLL
+  :articles:
+  - :title: "第1回 失敗は成功のもと、これが満点ロボットだ！"
+    :url: http://thinkit.co.jp/article/37/2
+    :date: 2008年4月18日
+  - :title: "第2回 世界に通用するロボットができるまで"
+    :url: http://thinkit.co.jp/article/37/3
+    :date: 2008年4月25日
+- :url: http://thinkit.co.jp/book/2008/04/14/183
+  :title: "進化するLifeKeeper"
+  :description: "本連載では2008年2月12日にUpdate2がリリースされたLifeKeeper for Linux v6に関して、計3回にわたって新機能や変更点を紹介していく。"
+  :tag: Update2,LifeKeeper for Linux v6
+  :articles:
+  - :title: "第2回 仮想マシンにクラスタ化は必要か？"
+    :url: http://thinkit.co.jp/article/51/2
+    :date: 2008年4月21日
+  - :title: "第3回 新レプリケーション機能とは？"
+    :url: http://thinkit.co.jp/article/51/3
+    :date: 2008年4月28日
+- :url: http://thinkit.co.jp/book/2007/08/01/3546
+  :title: "実践プロジェクト管理"
+  :description: ''
+  :tag: ''
+  :articles:
+  - :title: "第1回 プロジェクトマネージャとプロジェクトリーダの役割とは"
+    :url: http://thinkit.co.jp/free/article/0708/7/1/test
+    :date: 2007年8月1日
+- :url: http://thinkit.co.jp/book/2004/05/08/1518
+  :title: UMLがオフショア開発を変える！
+  :description: 2004年5月現在における、UMLを利用したオフショア開発の効率化ノウハウを、全4本の記事で解説。UMLのメリットからオフショア開発への適用ガイドラインまでをカバー。
+  :tag: UML
+  :articles:
+  - :title: "第1回 モデリングは世界語！"
+    :url: http://thinkit.co.jp/article/69/1
+    :date: 2008年5月8日
+  - :title: "第2回 UMLがオフショア開発のギャップを吸収する"
+    :url: http://thinkit.co.jp/article/69/2
+    :date: 2008年5月15日
+  - :title: "第3回 モデル利用で「腹割り」型委託を実現"
+    :url: http://thinkit.co.jp/article/69/3
+    :date: 2008年5月22日
+  - :title: "第4回 オフショア開発向けUML適用ガイドライン"
+    :url: http://thinkit.co.jp/article/69/4
+    :date: 2008年5月29日
