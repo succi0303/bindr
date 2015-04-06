@@ -16,7 +16,7 @@ deploy:
   api_key:
     secure: aV5VSBDOh0BY00rKb/iO4fgA/WKQyL+/rTlzwrsAnmwcfQtG8I/UzCab6ehoTKjWtGUQHqhwg8KNBUYfPvYXWHe8vGtTEsf6+DzNJ59GZoBDEiQ3S2rISS8hn3Ty3eu1EMs+t/sFkobtcvSV5x7rUY56iuu+Tr8pwyVjHco2PLw=
   app:
-    master: bindr-app
+    master: bindr-dot
   on:
     repo: succi0303/bindr
 notifications:
