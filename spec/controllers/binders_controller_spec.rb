@@ -98,7 +98,7 @@ RSpec.describe BindersController, type: :controller do
     end
 
     it "assigns the requested binder to @binder" do
-      form_binder = Form::Binder.find(binder)
+      form_binder = Form::Binder.find(binder.id)
       expect(assigns(:binder)).to eq(form_binder)
     end
 
